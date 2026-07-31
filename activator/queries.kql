@@ -1,0 +1,91 @@
+// Zapytania zrodlowe regul Data Activatora (activator/RULES.md).
+//
+// Kazde zapytanie zwraca wiersz WYLACZNIE wtedy, gdy regula ma sie odpalic.
+// Activator uruchamia je cyklicznie i tworzy zdarzenie dla kazdego wiersza,
+// dlatego cala logika progu siedzi w KQL, a nie w warunku reguly.
+//
+// Kolumna `alert` = 1 jest technicznym haczykiem dla warunku
+// `NumberValueCondition / IsGreaterThan 0` — Activator wymaga warunku
+// liczbowego, a filtrowanie zrobilismy juz w zapytaniu.
+//
+// Okno `_window` odpowiada tlumieniu opisanemu w RULES.md: zapytanie patrzy
+// tylko na swiezy wycinek, wiec ten sam obiekt nie wraca w kazdym cyklu.
+
+// --- REGULA R1: Kaskada wykryta
+.create-or-alter function ActivatorR1Cascade() {
+    DetectCascade(6h, 3)
+    | where systems_hit >= 2
+    | project alert = 1, node_id = source_node_id, node_name, node_type,
+              system_code, voivodeship_code, operator_name,
+              children, systems_hit, avg_delay_h, source_down_at
+    | order by children desc
+}
+
+// --- REGULA R2: Skutek trzeciego rzedu
+.create-or-alter function ActivatorR2ThirdOrder() {
+    DetectCascade(6h, 3)
+    | join kind=inner (
+        CascadeCentrality
+        | where cascade_max_wave >= 3
+        | project source_node_id = node_id, cascade_max_wave, cascade_systems, cascade_population
+      ) on source_node_id
+    | project alert = 1, node_id = source_node_id, node_name, node_type,
+              voivodeship_code, children, systems_hit,
+              cascade_max_wave, cascade_systems, cascade_population
+    | order by cascade_max_wave desc
+}
+
+// --- REGULA R3: Paliwo w agregacie na wyczerpaniu
+.create-or-alter function ActivatorR3Fuel(threshold_hours: real = 6.0, at: datetime = datetime(null)) {
+    let _at = iff(isnull(at), ScenarioNow(), at);
+    FuelRunout(threshold_hours, _at)
+    | where criticality_class in ("K1", "K2")
+    | project alert = 1, node_id, node_name, node_type, system_code,
+              criticality_class, voivodeship_code, powiat_code, operator_name,
+              backup_fuel_hours_left, population_served
+    | order by backup_fuel_hours_left asc
+}
+
+// --- REGULA R4: Woda przestanie plynac
+.create-or-alter function ActivatorR4Water(horizon_hours: real = 12.0, at: datetime = datetime(null)) {
+    let _at = iff(isnull(at), ScenarioNow(), at);
+    CascadeForecast(horizon_hours, _at)
+    | where any_target_system == "IK06"
+    | extend hours_left = round((earliest_impact - _at) / 1h, 1)
+    | project alert = 1, node_id = target_node_id, any_target_name, any_target_type,
+              any_criticality, any_population, sources_down,
+              impact_share_lost = round(impact_share_lost, 2), hours_left, earliest_impact
+    | order by hours_left asc
+}
+
+// --- REGULA R5: Obiekt krytyczny bez kontaktu operacyjnego (SPO-10)
+.create-or-alter function ActivatorR5NoSpo10(at: datetime = datetime(null)) {
+    let _at = iff(isnull(at), ScenarioNow(), at);
+    CiNodeAt(_at)
+    | where status == "down"
+    | join kind=inner (
+        CiNode
+        | where criticality_class == "K1" and spo10_agreement == false
+        | project node_id, node_name, node_type, operator_name, ownership
+      ) on node_id
+    | project alert = 1, node_id, node_name, node_type, system_code,
+              voivodeship_code, operator_name, ownership, population_served, event_time
+    | order by population_served desc
+}
+
+// --- REGULA R6: Wiele systemow IK naraz w jednym wojewodztwie
+.create-or-alter function ActivatorR6Footprint(min_systems: int = 4) {
+    CascadeFootprint()
+    | where systems_affected >= min_systems
+    | project alert = 1, voivodeship_code, nodes_affected, systems_affected,
+              k1_affected, population_served, operators, escalation_hint
+    | order by systems_affected desc
+}
+
+// --- REGULA R7: Anomalia liczby awarii
+.create-or-alter function ActivatorR7Anomaly(sensitivity: real = 2.0, at: datetime = datetime(null)) {
+    let _at = iff(isnull(at), ScenarioNow(), at);
+    OutageAnomaly(1h, sensitivity, 3d, _at, 3)
+    | project alert = 1, system_code, nodes_down, baseline, anomaly_score, event_time
+    | order by anomaly_score desc
+}

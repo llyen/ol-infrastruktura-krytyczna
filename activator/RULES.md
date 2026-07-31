@@ -26,9 +26,10 @@ tabela `CascadeCentrality` z wynikami notebooków.
 
 | Pole | Wartość |
 |---|---|
-| Warunek | w kaskadzie pojawia się obiekt fali ≥ 3 |
+| Obiekt | `DetectCascade(6h, 3)` × `CascadeCentrality` |
+| Warunek | w kaskadzie pojawia się obiekt fali ≥ 3 (`cascade_max_wave >= 3`) |
 | Odbiorca | dyżurny RCB, sekretarz RZZK |
-| Treść | „Zdarzenie przekroczyło trzeci rząd skutków. Rekomendacja: rozważyć SPO-1 (posiedzenie RZZK) i SPO-12 (obieg informacji)." |
+| Treść | „Kaskada od {node_name} sięga fali {cascade_max_wave} i obejmuje {cascade_systems} systemów IK ({cascade_population} osób). Rekomendacja: rozważyć SPO-1 (posiedzenie RZZK) i SPO-12 (obieg informacji)." |
 | Uzasadnienie | trzeci rząd skutków oznacza, że zdarzenie na pewno wyszło poza jeden resort |
 | Tłumienie | 1 alert na zdarzenie (identyfikowane po obiekcie źródłowym fali 0) |
 
@@ -47,10 +48,10 @@ tabela `CascadeCentrality` z wynikami notebooków.
 
 | Pole | Wartość |
 |---|---|
-| Obiekt | `CascadeForecast(12h)` ograniczone do `target_system = "IK06"` |
+| Obiekt | `CascadeForecast(12h)` ograniczone do `any_target_system = "IK06"` |
 | Warunek | prognozowana utrata funkcji stacji uzdatniania lub przepompowni w ciągu 12 h |
 | Odbiorca | wojewoda, gmina, służby OL, `ol-blackout-wrazliwi` (punkt styku ludność wrażliwa) |
-| Treść | „Prognoza: {any_target_name} straci zasilanie za {hours_left} h. Ludność w gminie: {any_population}. Uruchomić dystrybucję wody butelkowanej (SPO-2)." |
+| Treść | „Prognoza: {any_target_name} straci zasilanie za {hours_left} h. Ludność: {any_population}. Uruchomić dystrybucję wody butelkowanej (SPO-2)." |
 | Uzasadnienie | to jedyny alert, który wyprzedza zdarzenie o czas potrzebny na reakcję logistyczną |
 | Tłumienie | 1 alert na obiekt na 12 h |
 
@@ -80,11 +81,56 @@ tabela `CascadeCentrality` z wynikami notebooków.
 | Pole | Wartość |
 |---|---|
 | Obiekt | `OutageAnomaly(1h)` |
-| Warunek | wykryta anomalia (`series_decompose_anomalies`, próg 2.0) w liczbie awarii w systemie IK |
+| Warunek | wykryta anomalia (`series_decompose_anomalies`, próg 2.0) w liczbie **nowych** awarii w systemie IK, co najmniej 3 w oknie |
 | Odbiorca | analityk dyżurny |
-| Treść | „System {system_code}: {nodes_down} awarii wobec spodziewanych {baseline}. Sprawdzić, czy to zdarzenie naturalne, czy działanie celowe (Z04/Z16)." |
+| Treść | „System {system_code}: {nodes_down} nowych awarii wobec spodziewanych {baseline} (wskaźnik {anomaly_score}). Sprawdzić, czy to zdarzenie naturalne, czy działanie celowe (Z04/Z16)." |
 | Uzasadnienie | to jedyna reguła, która nie zakłada przyczyny naturalnej — łączy się ze scenariuszem zagrożeń hybrydowych |
 | Tłumienie | 1 alert na system na 6 h |
+
+> Reguła liczy **nowe** awarie na godzinę, a nie liczbę obiektów będących w awarii.
+> `CiNodeStatus` powtarza status `down` co godzinę, dopóki obiekt jest wyłączony,
+> więc liczba obiektów w awarii jest szeregiem monotonicznie rosnącym — `linefit`
+> dopasowuje go idealnie i anomalia nigdy by nie powstała.
+
+---
+
+## Wdrożenie
+
+Reguły są wdrażane skryptem, nie klikane w interfejsie:
+
+```powershell
+python deploy\14_activator.py            # kotwica: szczyt scenariusza
+python deploy\15_verify_activator.py     # kontrola spójności 7 reguł
+```
+
+Każda reguła ma w bazie KQL własną funkcję `ActivatorR*` (plik `activator\queries.kql`),
+która zwraca wiersz **wyłącznie wtedy, gdy alert ma się odpalić**. Activator uruchamia
+ją co 5 minut i tworzy zdarzenie dla każdego wiersza. Dzięki temu cała logika progu
+jest w KQL — wersjonowana, testowalna i czytelna — a warunek w samej regule sprawdza
+tylko techniczną kolumnę `alert > 0`.
+
+| Reguła | Funkcja KQL | Wierszy przy szczycie scenariusza |
+|---|---|---|
+| R1 | `ActivatorR1Cascade()` | 13 |
+| R2 | `ActivatorR2ThirdOrder()` | 2 |
+| R3 | `ActivatorR3Fuel(6.0, at)` | 123 |
+| R4 | `ActivatorR4Water(12.0, at)` | 29 |
+| R5 | `ActivatorR5NoSpo10(at)` | 11 |
+| R6 | `ActivatorR6Footprint(4)` | 2 |
+| R7 | `ActivatorR7Anomaly(2.0, at)` | 3 |
+
+**Kotwica czasowa.** Dane demo są datowane na wrzesień 2026 i kończą się po odbudowie
+sieci, więc przy kotwicy `ScenarioNow()` reguły R4, R5 i R7 milczą — sytuacja już wróciła
+do normy. Domyślnie skrypt kotwiczy reguły na `ScenarioPeak()`, dzięki czemu demo na
+danych statycznych pokazuje pełny obraz. Przy pracy z symulatorem na żywo należy użyć
+`--anchor now`.
+
+**Tłumienie** opisane w tabelach powyżej jest wymaganiem projektowym, którego Activator
+nie egzekwuje po stronie reguły — realizuje je okno w zapytaniu KQL. Przy strojeniu
+progów zmienia się funkcję, nie definicję reguły.
+
+**Odbiorca.** Domyślnie alerty idą do zalogowanego użytkownika; adres docelowy podaje się
+przez `--recipient`. Reguła bez przypisanej dyżurki jest regułą martwą — patrz punkt 1 poniżej.
 
 ---
 
@@ -96,6 +142,7 @@ tabela `CascadeCentrality` z wynikami notebooków.
 | Próg paliwa R3 | 6 h | podnieść do 12 h zimą i przy złej przejezdności dróg |
 | Horyzont prognozy R4 | 12 h | skrócić do 6 h, gdy logistyka działa w trybie zaostrzonym |
 | Liczba systemów w R6 | 4 | to jest próg, przy którym zdarzenie z definicji przestaje należeć do jednego ministra |
+| Minimalna liczba nowych awarii w R7 | 3 | obniżyć tylko razem z podniesieniem czułości — w systemie rzadko awaryjnym pojedyncza awaria daje wysoki wskaźnik wobec tła bliskiego zeru |
 
 ## Zasady, które trzeba uzgodnić przed uruchomieniem
 

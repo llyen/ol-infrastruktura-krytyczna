@@ -171,6 +171,9 @@ def main() -> None:
     print("== Skrypty sterujace")
     for name in ("01_create_tables.kql", "02_update_policies.kql", "04_cascade_detection.kql"):
         run_script(cluster, ROOT / "kql" / name)
+    # zapytania zrodlowe regul Data Activatora - musza istniec, zanim
+    # deploy/14_activator.py bedzie sie do nich odwolywac
+    run_script(cluster, ROOT / "activator" / "queries.kql")
 
     print("== Kontrola")
     res = kusto_mgmt(cluster, DB_NAME, ".show tables | project TableName | order by TableName asc")

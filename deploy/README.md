@@ -40,6 +40,8 @@ python deploy\10_report.py               # raport Power BI PBIR (6 stron, 72 wiz
 python deploy\11_verify_report.py        # kontrola odwolań raportu do modelu (77 pól)
 python deploy\12_eventstream.py          # Eventstream: endpoint -> 3 filtry -> 3 tabele KQL
 python deploy\13_verify_eventstream.py   # test dymny: 15 zdarzeń przez filtry do tabel
+python deploy\14_activator.py            # Data Activator: 7 reguł alertowych (R1–R7)
+python deploy\15_verify_activator.py     # kontrola spójności reguł i ich zapytań
 ```
 
 Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie telemetrii ok. 3 minuty.
@@ -61,6 +63,8 @@ Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie te
 | `11_verify_report.py` | Pobiera definicję raportu z Fabric, wyciąga wszystkie odwołania do modelu i sprawdza zapytaniem DAX, że każde z nich się rozwiązuje. |
 | `12_eventstream.py` | Tworzy Eventstream `es_ci_telemetry`: custom endpoint → strumień → trzy filtry po polu `stream` → trzy destynacje Eventhouse. `--keys` wypisuje connection string dla `simulate_realtime.py`, `--dry-run` drukuje topologię. |
 | `13_verify_eventstream.py` | Test dymny całej ścieżki: czeka na stan `Running`, wysyła po 5 zdarzeń z każdego strumienia, sprawdza, że trafiły do właściwej tabeli (i tylko do niej), po czym je usuwa. `--keep` zostawia dane. |
+| `14_activator.py` | Buduje Data Activator `act_efekt_domina` z 7 regułami wg `activator\RULES.md`. Każda reguła to zapytanie KQL (`ActivatorR*`) + zdarzenie źródłowe + reguła z akcją Teams. Przed wdrożeniem wykonuje każde zapytanie i sprawdza, że kolumny użyte w treści alertu istnieją. `--anchor now\|peak`, `--recipient`, `--dry-run`. |
+| `15_verify_activator.py` | Pobiera definicję Activatora z Fabric i sprawdza spójność grafu encji: reguła → zdarzenie → zapytanie, wykonalność zapytania, poprawność odwołań do kolumn w treści alertu, obecność odbiorcy i włączenie reguły. |
 
 ## Zegar scenariusza
 
@@ -78,10 +82,46 @@ Kafle dashboardu używają `CiNodeAt(_endTime)`, dzięki czemu suwak czasu przew
 ## Elementy wymagające konfiguracji ręcznej
 
 Fabric nie udostępnia jeszcze stabilnego API dla poniższych elementów — instrukcje w
-[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 8–10:
+[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 9–10:
 
-- Data Activator (7 reguł, `activator\RULES.md`)
 - Data Agent i Fabric App
+
+## Format definicji Data Activatora (Reflex)
+
+Definicja to `ReflexEntities.json` — **płaska lista encji** powiązanych przez
+`uniqueIdentifier`; hierarchię wyrażają pola `parentContainer.targetUniqueIdentifier`
+i `parentObject.targetUniqueIdentifier`. Typy encji użyte tutaj:
+
+| `type` | Rola |
+|---|---|
+| `container-v1` | kontener grupujący (`payload.type: "kqlQueries"`) |
+| `kqlSource-v1` | zapytanie KQL uruchamiane cyklicznie na bazie Eventhouse |
+| `timeSeriesView-v1` | zdarzenia, obiekty, atrybuty i reguły — rozróżniane przez `payload.definition.type` |
+
+Pułapki:
+
+- **`payload.definition.instance` jest podwójnie serializowany** — to *string* z JSON-em,
+  nie obiekt. Wewnątrz siedzi `{templateId, templateVersion, steps}`.
+- `templateId` rozróżnia rodzaj encji: `SourceEvent` (zdarzenie źródłowe),
+  `EventTrigger` (reguła na surowym zdarzeniu), `AttributeTrigger` (reguła na atrybucie
+  modelu obiektowego), `IdentityPartAttribute`, `SplitEvent`, `BasicEventAttribute`.
+- Ścieżka `EventTrigger` **nie wymaga modelu obiektowego** — wystarczy kontener,
+  źródło, zdarzenie i reguła. To najkrótsza droga do alertu z zapytania KQL.
+- Kroki reguły `EventTrigger`: `FieldsDefaultsStep` (wskazanie zdarzenia) →
+  `EventDetectStep` (warunek) → `ActStep` (akcja).
+- **Activator wymaga warunku liczbowego** i nie da się go pominąć. Dlatego każde
+  zapytanie zwraca sztuczną kolumnę `alert = 1`, a warunek brzmi `alert > 0` —
+  cała logika progu zostaje w KQL, gdzie jest wersjonowana i testowalna.
+- `eventhouseItem.itemId` to **ID bazy KQL** (`itemType: "KustoDatabase"`), tak samo
+  jak w destynacji Eventstreamu.
+- Odbiorcy: akcja e-mail używa pola `sentTo`, akcja Teams — `recipients`.
+- Tekst alertu to tablica fragmentów: zwykłe `{"type":"string","value":"…"}` przeplatane
+  odwołaniami `{"kind":"EventFieldReference","arguments":[{"name":"fieldName",…}]}`.
+- `definition.settings.shouldRun` włącza regułę po wdrożeniu.
+- `uniqueIdentifier` to dowolne UUID-y, wewnętrzne dla pliku. Skrypt generuje je
+  deterministycznie (`uuid5`), więc ponowne wdrożenie podmienia te same reguły
+  zamiast tworzyć duplikaty.
+- Endpointy: `POST /v1/workspaces/{ws}/reflexes` oraz `.../reflexes/{id}/updateDefinition`.
 
 ## Format definicji Eventstreamu
 

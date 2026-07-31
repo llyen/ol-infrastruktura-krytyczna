@@ -22,6 +22,7 @@ Referencyjne wdrożenie tego repozytorium:
 | Real-Time Dashboard | `Efekt domina — obraz operacyjny` (2 strony, 11 kafli) |
 | Raport Power BI | `rpt_efekt_domina` (6 stron, 72 wizualizacje) |
 | Eventstream | `es_ci_telemetry` (endpoint → 3 filtry → 3 tabele KQL) |
+| Data Activator | `act_efekt_domina` (7 reguł R1–R7, akcja Teams) |
 
 Identyfikatory zapisane są w `.fabric\deployment.json` po pierwszym uruchomieniu skryptów.
 
@@ -78,6 +79,7 @@ i 659 178 zdarzeń telemetrii.
 | `kql\02_update_policies.kql` | funkcje `ParseCiNodeStatus` / `ParseCiOperatorReport` / `ParseHydroReading`, update policies, widoki materializowane `CiNodeCurrent` i `CiOutageHourly`, zegar scenariusza (`ScenarioNow`, `ScenarioPeak`, `CiNodeAt`), funkcje `FuelRunout`, `CriticalNodesDown`, `CascadeForecast`, `FloodPressure` |
 | `kql\03_dashboard_queries.kql` | zapytania kafli Real-Time Dashboard |
 | `kql\04_cascade_detection.kql` | detekcja kaskady, korelacja czasowa między systemami, wejścia dla Activatora |
+| `activator\queries.kql` | funkcje `ActivatorR1Cascade`…`ActivatorR7Anomaly` — zapytania źródłowe 7 reguł alertowych |
 
 3. Załaduj tabele referencyjne do Eventhouse — najprościej przez OneLake shortcut do
    `lh_ci_graph`, alternatywnie import `dim_ci_node.csv`, `fact_ci_dependency.csv` oraz
@@ -183,8 +185,21 @@ ostatnie 24 godziny.
 
 ## Krok 8 — Data Activator
 
-Skonfiguruj 7 reguł z `activator\RULES.md`. Reguły opierają się na funkcjach z kroku 3
-(`CriticalNodesDown`, `FuelRunout`, `CascadeForecast`) oraz zapytaniach z `04_cascade_detection.kql`.
+Skonfiguruj 7 reguł z `activator\RULES.md`. Krok jest zautomatyzowany:
+
+```powershell
+python deploy\14_activator.py            # kotwica: szczyt scenariusza
+python deploy\15_verify_activator.py     # kontrola spójności 7 reguł
+```
+
+Powstaje Activator **`act_efekt_domina`**. Każda reguła ma własną funkcję KQL
+(`activator\queries.kql`, funkcje `ActivatorR1Cascade`…`ActivatorR7Anomaly`), która
+zwraca wiersz wyłącznie wtedy, gdy alert ma się odpalić. Activator uruchamia je co
+5 minut i wysyła wiadomość Teams do odbiorcy podanego przez `--recipient`
+(domyślnie: zalogowany użytkownik).
+
+Na danych statycznych używaj domyślnej kotwicy `--anchor peak`; przy symulatorze
+na żywo — `--anchor now`.
 
 Zasada nadrzędna: **alert dotyczy kaskady, nie pojedynczej awarii.** Zanim uruchomisz reguły
 produkcyjnie, przetestuj je na danych historycznych, żeby ocenić liczbę powiadomień.

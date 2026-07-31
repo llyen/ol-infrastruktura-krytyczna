@@ -62,21 +62,36 @@
 
 // ---------------------------------------------------------------------
 // 3. Anomalia: nagly przyrost awarii ponad normalny szum
+//
+//    Uwaga: CiNodeStatus powtarza status "down" co godzine, dopoki obiekt
+//    jest w awarii, wiec liczba obiektow w awarii jest szeregiem
+//    monotonicznie rosnacym - "linefit" dopasowuje go idealnie i zadna
+//    anomalia nigdy by nie powstala. Liczymy wiec NOWE awarie w oknie
+//    (pierwsze przejscie obiektu w stan "down"), co jest zgodne z trescia
+//    reguly R7 i daje szereg, w ktorym skok faktycznie odstaje od tla.
 // ---------------------------------------------------------------------
 .create-or-alter function OutageAnomaly(bin_size: timespan = 1h, sensitivity: real = 1.5,
-                                       lookback: timespan = 3d, at: datetime = datetime(null)) {
+                                       lookback: timespan = 3d, at: datetime = datetime(null),
+                                       min_outages: int = 3) {
     let _at = iff(isnull(at), ScenarioPeak() + 6h, at);
-    CiNodeStatus
-    | where status == "down"
-    | where event_time between ((_at - lookback) .. _at)
-    | summarize nodes_down = dcount(node_id) by bin(event_time, bin_size), system_code
-    | make-series series = sum(nodes_down) default = 0
-        on event_time from _at - lookback to _at step bin_size by system_code
+    let first_down =
+        CiNodeStatus
+        | where status == "down"
+        | summarize down_at = min(event_time) by node_id, system_code;
+    first_down
+    | where down_at between ((_at - lookback) .. _at)
+    | summarize new_outages = count() by bin(down_at, bin_size), system_code
+    | make-series series = sum(new_outages) default = 0
+        on down_at from _at - lookback to _at step bin_size by system_code
     | extend (anomalies, score, baseline) = series_decompose_anomalies(series, sensitivity, -1, "linefit")
-    | mv-expand event_time to typeof(datetime), series to typeof(long),
+    | mv-expand down_at to typeof(datetime), series to typeof(long),
                 anomalies to typeof(int), score to typeof(real), baseline to typeof(real)
-    | where anomalies != 0
-    | project event_time, system_code, nodes_down = series,
+    // tylko skoki w gore; anomalies == -1 to zapasc, ktora nie jest tematem alertu
+    | where anomalies > 0
+    // proba odsiania szumu: w systemie rzadko awaryjnym pojedyncza awaria
+    // daje wysoki score wobec baseline bliskiego zeru
+    | where series >= min_outages
+    | project event_time = down_at, system_code, nodes_down = series,
               baseline = round(baseline, 1), anomaly_score = round(score, 2)
     | order by event_time desc
 }
