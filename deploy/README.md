@@ -42,6 +42,7 @@ python deploy\12_eventstream.py          # Eventstream: endpoint -> 3 filtry -> 
 python deploy\13_verify_eventstream.py   # test dymny: 15 zdarzeń przez filtry do tabel
 python deploy\14_activator.py            # Data Activator: 7 reguł alertowych (R1–R7)
 python deploy\15_verify_activator.py     # kontrola spójności reguł i ich zapytań
+python deploy\16_data_agent.py           # Data Agent: 3 źródła danych + instrukcja systemowa
 ```
 
 Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie telemetrii ok. 3 minuty.
@@ -65,6 +66,7 @@ Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie te
 | `13_verify_eventstream.py` | Test dymny całej ścieżki: czeka na stan `Running`, wysyła po 5 zdarzeń z każdego strumienia, sprawdza, że trafiły do właściwej tabeli (i tylko do niej), po czym je usuwa. `--keep` zostawia dane. |
 | `14_activator.py` | Buduje Data Activator `act_efekt_domina` z 7 regułami wg `activator\RULES.md`. Każda reguła to zapytanie KQL (`ActivatorR*`) + zdarzenie źródłowe + reguła z akcją Teams. Przed wdrożeniem wykonuje każde zapytanie i sprawdza, że kolumny użyte w treści alertu istnieją. `--anchor now\|peak`, `--recipient`, `--dry-run`. |
 | `15_verify_activator.py` | Pobiera definicję Activatora z Fabric i sprawdza spójność grafu encji: reguła → zdarzenie → zapytanie, wykonalność zapytania, poprawność odwołań do kolumn w treści alertu, obecność odbiorcy i włączenie reguły. |
+| `16_data_agent.py` | Tworzy Data Agenta `agent_infrastruktura_krytyczna` wg `ai\DATA_AGENT.md`: instrukcja systemowa + trzy źródła danych (Lakehouse 14 tabel, Eventhouse 5 tabel, model semantyczny 19 tabel). Przed wysyłką sprawdza, że każda wskazana tabela i funkcja naprawdę istnieje, a po wdrożeniu wykonuje odczyt zwrotny definicji. `--dry-run` drukuje pliki definicji. |
 
 ## Zegar scenariusza
 
@@ -82,9 +84,36 @@ Kafle dashboardu używają `CiNodeAt(_endTime)`, dzięki czemu suwak czasu przew
 ## Elementy wymagające konfiguracji ręcznej
 
 Fabric nie udostępnia jeszcze stabilnego API dla poniższych elementów — instrukcje w
-[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 9–10:
+[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), krok 10:
 
-- Data Agent i Fabric App
+- Fabric App (typ elementu `FabricApp`/`App` nie istnieje w API — zawsze ręcznie)
+- publikacja Data Agenta z wersji roboczej do produkcyjnej (sama definicja wdraża się skryptem `16`)
+
+## Format definicji Data Agenta
+
+Definicja to zestaw plików pod `Files/Config`:
+
+| Ścieżka | Zawartość |
+| --- | --- |
+| `Files/Config/data_agent.json` | tylko `$schema` (wersja `dataAgent/2.1.0`) |
+| `Files/Config/draft/stage_config.json` | `aiInstructions` — instrukcja systemowa agenta |
+| `Files/Config/draft/{typ}-{nazwa}/datasource.json` | jedno źródło danych z listą `elements` |
+
+Pułapki ustalone doświadczalnie:
+
+- **Nazwa folderu źródła jest narzucona**: typ z myślnikami zamiast podkreśleń, dywiz i
+  `displayName` elementu, np. `lakehouse-tables-lh_ci_graph`, `kusto-CriticalInfrastructure`,
+  `semantic-model-sm_ci_cascade`. Plik pod inną ścieżką jest **po cichu odrzucany** —
+  `updateDefinition` zwraca 202 i kończy się sukcesem, ale przy odczycie zwrotnym źródła
+  po prostu nie ma. Dlatego skrypt zawsze weryfikuje, że wróciły trzy źródła.
+- `artifactId` dla Eventhouse to **ID bazy KQL**, nie samego Eventhouse'u.
+- Elementy typu **`kusto.functions` są odrzucane przez backend** (`updateDefinition` kończy
+  się `UnknownError`), mimo że schemat publiczny je dopuszcza — dotyczy to każdej nazwy,
+  także nieistniejącej. Funkcje KQL opisujemy więc w `dataSourceInstructions`, a skrypt
+  jedynie sprawdza, że istnieją w bazie.
+- Schematy publiczne: `https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/{dataAgent/2.1.0,stageConfiguration/1.0.0,dataSource/1.0.0}/schema.json`.
+- Instrukcja systemowa nie jest duplikowana w kodzie — skrypt wyciąga ją z cytatu blokowego
+  w sekcji „Instrukcja systemowa agenta" pliku `ai\DATA_AGENT.md`.
 
 ## Format definicji Data Activatora (Reflex)
 

@@ -23,6 +23,7 @@ Referencyjne wdrożenie tego repozytorium:
 | Raport Power BI | `rpt_efekt_domina` (6 stron, 72 wizualizacje) |
 | Eventstream | `es_ci_telemetry` (endpoint → 3 filtry → 3 tabele KQL) |
 | Data Activator | `act_efekt_domina` (7 reguł R1–R7, akcja Teams) |
+| Data Agent | `agent_infrastruktura_krytyczna` (3 źródła: Lakehouse, Eventhouse, model) |
 
 Identyfikatory zapisane są w `.fabric\deployment.json` po pierwszym uruchomieniu skryptów.
 
@@ -208,11 +209,34 @@ produkcyjnie, przetestuj je na danych historycznych, żeby ocenić liczbę powia
 
 ## Krok 9 — Data Agent
 
-Utwórz Data Agent nad `lh_ci_graph` i bazą `CriticalInfrastructure`. Wklej instrukcję
-z `ai\DATA_AGENT.md`, w tym **sekcję ograniczeń** — agent nie ujawnia dokładnych lokalizacji
-obiektów K1, nie przypisuje intencji sprawcy i nie formułuje decyzji.
+Krok jest zautomatyzowany:
 
-Przetestuj pytania kontrolne z tego pliku, w tym te, na które agent ma odmówić odpowiedzi.
+```powershell
+python deploy\16_data_agent.py
+```
+
+Powstaje Data Agent **`agent_infrastruktura_krytyczna`** z instrukcją systemową pobraną
+z `ai\DATA_AGENT.md` (sekcja „Instrukcja systemowa agenta") i trzema źródłami danych:
+
+| Źródło | Zakres |
+| --- | --- |
+| Lakehouse `lh_ci_graph` | 14 tabel: graf zależności, symulacja kaskady, warianty hardeningu |
+| Eventhouse `CriticalInfrastructure` | 5 tabel telemetrii stanu bieżącego |
+| Model semantyczny `sm_ci_cascade` | 19 tabel z miarami DAX |
+
+Skrypt sprawdza przed wysyłką, że każda wskazana tabela i funkcja istnieje, a po wdrożeniu
+wykonuje odczyt zwrotny definicji — Fabric po cichu odrzuca pliki o nieoczekiwanej ścieżce.
+
+Do zrobienia ręcznie w interfejsie:
+
+1. **Opublikuj agenta** (przejście z wersji roboczej do produkcyjnej) — API tego nie udostępnia.
+2. Przetestuj pytania kontrolne z `ai\DATA_AGENT.md`, w tym te, na które agent ma odmówić
+   odpowiedzi: nie ujawnia dokładnych lokalizacji obiektów K1, nie przypisuje intencji
+   sprawcy i nie formułuje decyzji.
+
+Funkcje KQL (`CascadePath`, `CiNodeAt`, `ScenarioPeak`…) nie są podpięte jako elementy
+źródła — backend Data Agenta odrzuca elementy typu `kusto.functions`. Ich sygnatury trafiają
+do instrukcji źródła, więc agent i tak wie, że ma je wywoływać.
 
 ---
 
