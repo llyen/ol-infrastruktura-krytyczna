@@ -21,8 +21,9 @@
     },
     "first_secondary_hour": 0.55,
     "k1_nodes_failed": 232,
-    "seed_nodes": 289,
-    "amplification_ratio": 2.69
+    "flooded_nodes": 289,
+    "seed_nodes": 232,
+    "amplification_ratio": 3.35
   },
   "single_node_scenario": {
     "nodes_failed_total": 105,

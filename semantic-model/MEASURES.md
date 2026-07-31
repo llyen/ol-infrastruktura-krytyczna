@@ -37,6 +37,7 @@ Skutki wtórne = CALCULATE(COUNTROWS(FactCascadeTimeline), FactCascadeTimeline[w
 Zdarzenia inicjujące = CALCULATE(COUNTROWS(FactCascadeTimeline), FactCascadeTimeline[wave] = 0)
 
 -- Ile razy zdarzenie się "rozmnożyło". Poniżej 1,5 to awaria; powyżej 2,5 to efekt domina.
+-- Mianownikiem są obiekty fali 0, czyli te, które faktycznie weszły do kaskady.
 Współczynnik wzmocnienia = DIVIDE([Obiekty w kaskadzie], [Zdarzenia inicjujące])
 
 Najgłębsza fala = MAX(FactCascadeTimeline[wave])
@@ -50,10 +51,24 @@ VAR Pierwszy = [Pierwszy skutek wtórny (h)]
 VAR TrzeciRzad = CALCULATE(MIN(FactCascadeTimeline[fail_hour]), FactCascadeTimeline[wave] >= 3)
 RETURN TrzeciRzad - Pierwszy
 
+-- Uwaga: filtr nałożony na tabelę faktów NIE propaguje na DimGmina (relacja biegnie
+-- w drugą stronę: DimNode -> DimGmina). Dlatego zbiór gmin budujemy z kolumny
+-- w tabeli faktów, a populację dociągamy przez LOOKUPVALUE.
 Ludność dotknięta =
+VAR Gminy =
+    CALCULATETABLE(
+        VALUES(FactCascadeTimeline[gmina_code]),
+        FactCascadeTimeline[system_group] IN {"energy", "water", "health"}
+    )
+RETURN
+SUMX(Gminy, LOOKUPVALUE(DimGmina[population], DimGmina[gmina_code], FactCascadeTimeline[gmina_code]))
+
+-- Gmina liczy się jako dotknięta tylko wtedy, gdy padła w niej usługa dla ludności.
+-- Awaria obiektu finansowego czy administracyjnego nie odcina mieszkańca od wody.
+Gminy dotknięte =
 CALCULATE(
-    SUMX(VALUES(DimGmina[gmina_code]), MAX(DimGmina[population])),
-    FILTER(FactCascadeTimeline, FactCascadeTimeline[system_group] IN {"energy", "water", "health"})
+    DISTINCTCOUNT(FactCascadeTimeline[gmina_code]),
+    FactCascadeTimeline[system_group] IN {"energy", "water", "health"}
 )
 
 Systemy IK dotknięte = DISTINCTCOUNT(FactCascadeTimeline[system_code])

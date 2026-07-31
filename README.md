@@ -53,7 +53,7 @@ starcza, tylko przesuwa awarię w czasie. Szczegóły: `cascade_engine.py`.
 **Kaskada „Powódź wrzesień"**
 
 - 232 obiekty wyłączone bezpośrednio przez wodę → **777 obiektów niedziałających łącznie**, w tym **545 wtórnie**.
-- Współczynnik wzmocnienia **2,69** — zdarzenie mnoży się prawie trzykrotnie.
+- Współczynnik wzmocnienia **3,35** — zdarzenie mnoży się ponad trzykrotnie. Wodą zalanych zostało 289 obiektów, ale skutki w horyzoncie analizy generują 232 z nich.
 - Pierwszy skutek wtórny po **33 minutach**, kaskada sięga **7. fali**.
 - 200 gmin, ok. **2,63 mln mieszkańców** bez co najmniej jednej usługi (energia, woda, zdrowie).
 
@@ -102,6 +102,7 @@ nie da się obronić na posiedzeniu bez modelu.
 | `fabric-app\` | specyfikacja aplikacji i prompt do generatora |
 | `activator\RULES.md` | 7 reguł alertowych Data Activator |
 | `ai\DATA_AGENT.md` | instrukcja Data Agent, pytania testowe i granice odpowiedzi |
+| `deploy\` | skrypty automatycznego wdrożenia na Fabric (REST API) i testy akceptacyjne — `deploy\README.md` |
 
 ## Jak uruchomić lokalnie
 

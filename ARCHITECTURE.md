@@ -28,6 +28,13 @@ wodociągowym pojawiły się po awariach energetycznych i w jakim odstępie". Wi
 `CiNodeCurrent` sprowadza 659 tysięcy zdarzeń do jednego wiersza na obiekt, dzięki czemu kafle
 dashboardu odpowiadają w sekundach niezależnie od długości historii.
 
+Warstwa Real-Time ma własny zegar. Widok `CiNodeCurrent` pokazuje stan na koniec okna danych, więc
+funkcja `CiNodeAt(at)` odtwarza stan każdego obiektu na dowolny moment, a `ScenarioNow()`
+i `ScenarioPeak()` wyznaczają kotwice czasu. Dzięki temu te same zapytania działają zarówno na
+danych wsadowych scenariusza wrześniowego, jak i na strumieniu na żywo — na żywo `ScenarioNow()`
+jest po prostu czasem bieżącym. Kafle dashboardu kotwiczą się do parametru `_endTime`, co zamienia
+suwak czasu w odtwarzacz przebiegu kaskady.
+
 Funkcja `CascadeForecast` jest tu świadomym kompromisem: to uproszczona propagacja jednego kroku
 wykonana w KQL, żeby dyżurny dostał odpowiedź „kto padnie następny" bez czekania na notatnik.
 Pełna propagacja wielofalowa pozostaje w warstwie analitycznej.

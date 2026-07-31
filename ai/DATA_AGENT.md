@@ -8,7 +8,7 @@ od pytania decydenta do liczby — a nie podejmowanie decyzji.
 | Źródło | Zawartość | Rola |
 |---|---|---|
 | Lakehouse `lh_ci_graph` | `graph_nodes`, `graph_edges`, `cascade_centrality`, `cascade_flood_timeline`, `cascade_effect_tree`, `whatif_variants`, `spo10_gaps`, `system_summary` | pytania analityczne i „co jeśli" |
-| KQL `CriticalInfrastructure` | `CiNodeCurrent`, `CiNodeStatus`, `CiOperatorReport`, funkcje `FuelRunout`, `CascadeForecast`, `CascadePath`, `CascadeFootprint` | pytania o stan bieżący |
+| KQL `CriticalInfrastructure` | `CiNodeCurrent`, `CiNodeStatus`, `CiOperatorReport`, funkcje `CiNodeAt`, `FuelRunout`, `CascadeForecast`, `CascadePath`, `CascadeFootprint` | pytania o stan bieżący |
 | Model semantyczny | miary z `MEASURES.md` | pytania o wskaźniki i porównania |
 
 ## Instrukcja systemowa agenta

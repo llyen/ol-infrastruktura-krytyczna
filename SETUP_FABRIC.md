@@ -4,6 +4,23 @@ Instrukcja krok po kroku. Cały przebieg zajmuje ok. 90 minut, z czego większo�
 przetworzenie notatników. Wymagana pojemność Fabric F2 lub wyższa (F4+ zalecane ze względu na
 symulację 2106 przebiegów w notatniku 03).
 
+> **Szybka ścieżka.** Kroki 0–6 są w całości zautomatyzowane skryptami w katalogu `deploy\`.
+> Jeśli nie chcesz klikać w portalu, przejdź od razu do [`deploy/README.md`](deploy/README.md)
+> i wróć tutaj do kroków 7–10 (Real-Time Dashboard, Data Activator, Data Agent, Fabric App),
+> których Fabric nie udostępnia jeszcze przez publiczne API.
+
+Referencyjne wdrożenie tego repozytorium:
+
+| Element | Wartość |
+| --- | --- |
+| Workspace | `OL-ZK-Demo-IK` |
+| Pojemność | `fcdemo` (F8) |
+| Lakehouse | `lh_ci_graph` (30 tabel Delta) |
+| Eventhouse / baza KQL | `eh_ci_realtime` / `CriticalInfrastructure` |
+| Model semantyczny | `sm_ci_cascade` (DirectLake, 19 tabel, 41 miar) |
+
+Identyfikatory zapisane są w `.fabric\deployment.json` po pierwszym uruchomieniu skryptów.
+
 ---
 
 ## Krok 0 — Przygotowanie danych lokalnie
@@ -54,7 +71,7 @@ i 659 178 zdarzeń telemetrii.
 | Plik | Co tworzy |
 |---|---|
 | `kql\01_create_tables.kql` | tabele `CiNodeStatus`, `CiOperatorReport`, `HydroReading` (+ bufory `*Raw`), tabele referencyjne `CiNode`, `CiDependency`, `CascadeCentrality`, mapowania JSON, retencja 90 dni |
-| `kql\02_update_policies.kql` | funkcje `ParseCiNodeStatus` / `ParseCiOperatorReport`, update policies, widoki materializowane `CiNodeCurrent` i `CiOutageHourly`, funkcje `FuelRunout`, `CriticalNodesDown`, `CascadeForecast` |
+| `kql\02_update_policies.kql` | funkcje `ParseCiNodeStatus` / `ParseCiOperatorReport`, update policies, widoki materializowane `CiNodeCurrent` i `CiOutageHourly`, zegar scenariusza (`ScenarioNow`, `ScenarioPeak`, `CiNodeAt`), funkcje `FuelRunout`, `CriticalNodesDown`, `CascadeForecast`, `FloodPressure` |
 | `kql\03_dashboard_queries.kql` | zapytania kafli Real-Time Dashboard |
 | `kql\04_cascade_detection.kql` | detekcja kaskady, korelacja czasowa między systemami, wejścia dla Activatora |
 
@@ -116,7 +133,7 @@ Wyniki zapisz jako tabele Delta w `lh_ci_graph`.
 
 Kontrola poprawności — porównaj z wartościami referencyjnymi:
 
-- `cascade_summary.json`: 777 obiektów łącznie, 545 wtórnych, wzmocnienie 2,69, max fala 7.
+- `cascade_summary.json`: 777 obiektów łącznie, 545 wtórnych, wzmocnienie 3,35, max fala 7.
 - `spof_summary.json`: 217 SPOF, 29 w kategorii „krytyczny".
 - `whatif_summary.json`: wariant A −24,0%, wariant B −4,4%, wariant C −27,3%.
 

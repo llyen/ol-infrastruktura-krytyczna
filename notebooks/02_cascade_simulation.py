@@ -51,8 +51,13 @@ flood_df["fail_time"] = (D0 + pd.to_timedelta(flood_df.fail_hour, unit="h")).dt.
 flood_df.sort_values("fail_hour").to_csv(OUT / "cascade_flood_timeline.csv", index=False)
 
 flood_summary = impact_summary(flood_events, GM_POP)
-flood_summary["seed_nodes"] = len(seeds_flood)
-flood_summary["amplification_ratio"] = round(len(flood_events) / max(len(seeds_flood), 1), 2)
+flood_summary["flooded_nodes"] = len(seeds_flood)
+# Wzmocnienie liczymy wzgledem obiektow, ktore faktycznie weszly do kaskady jako
+# fala 0. Czesc podtopionych obiektow nie generuje skutkow w horyzoncie analizy,
+# a dzielenie przez nie zawyzaloby mianownik i zanizalo wskaznik.
+primary = sum(1 for e in flood_events if e["wave"] == 0)
+flood_summary["seed_nodes"] = primary
+flood_summary["amplification_ratio"] = round(len(flood_events) / max(primary, 1), 2)
 
 # CELL — jak kaskada rozklada sie w czasie (fale skutkow)
 waves = (

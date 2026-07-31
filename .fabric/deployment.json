@@ -1,0 +1,11 @@
+{
+  "workspaceName": "OL-ZK-Demo-IK",
+  "workspaceId": "8eed174a-6298-4867-929c-bc12e129cff7",
+  "capacityId": "75d74dac-c3ee-4861-8a22-e7017940afbb",
+  "lakehouseId": "f4822651-4e59-4973-b5cb-0ecd389d473a",
+  "eventhouseId": "68f4bbd0-1297-425a-a49b-756051314f04",
+  "kqlDatabaseId": "609cd47b-33f1-4b12-9c56-57c801ef40df",
+  "kustoQueryUri": "https://trd-v4rjfp64fhh4r7bu9g.z3.kusto.fabric.microsoft.com",
+  "kustoIngestUri": "https://ingest-trd-v4rjfp64fhh4r7bu9g.z3.kusto.fabric.microsoft.com",
+  "semanticModelId": "7666aa21-0659-499b-ab05-d600080b218a"
+}

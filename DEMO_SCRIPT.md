@@ -94,12 +94,12 @@ Przełącz na stronę **„Kaskada powodziowa"**.
 > jednocześnie."
 
 - **232 obiekty wyłączone przez wodę → 777 niedziałających. 545 z nich nie zostało zalanych.**
-- Współczynnik wzmocnienia **2,69**.
+- Współczynnik wzmocnienia **3,35**.
 - Pierwszy skutek wtórny po **33 minutach**, kaskada sięga **siódmej fali**.
 - **200 gmin, ok. 2,63 mln mieszkańców** bez co najmniej jednej usługi.
 
 > „To jest liczba, którą chciałbym, żeby państwo zapamiętali: **na każdy obiekt, który zalała
-> woda, przypadają prawie dwa, które przestały działać z innego powodu.** Te dwa nie pojawią się
+> woda, przypadają ponad dwa, które przestały działać z innego powodu.** Te dwa nie pojawią się
 > w żadnym meldunku o powodzi. Pojawią się jako osobne awarie, w osobnych resortach, bez
 > informacji, że mają wspólną przyczynę."
 

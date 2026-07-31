@@ -79,9 +79,43 @@
 // Funkcje operacyjne
 // ---------------------------------------------------------------------
 
+// ---------------------------------------------------------------------
+// Zegar scenariusza
+// Dane demo sa datowane na wrzesien 2026, wiec ago()/now() nie zwracalyby
+// nic. Wszystkie funkcje operacyjne kotwicza sie do najnowszego zdarzenia
+// w strumieniu — dziala to zarowno na danych historycznych (wsad), jak i
+// na zywo (wtedy ScenarioNow() = biezacy czas).
+// ---------------------------------------------------------------------
+
+.create-or-alter function ScenarioNow() {
+    toscalar(CiNodeCurrent | summarize max_event_time = max(event_time))
+}
+
+// Szczyt kryzysu — domyslna kotwica dla dashboardu demo
+.create-or-alter function ScenarioPeak() {
+    toscalar(
+        CiNodeStatus
+        | where status == "down"
+        | summarize nodes_down = dcount(node_id) by hour = bin(event_time, 1h)
+        | top 1 by nodes_down desc
+        | project hour
+    )
+}
+
+// Stan kazdego wezla IK na zadany moment (CiNodeCurrent = stan na koniec okna)
+.create-or-alter function CiNodeAt(at: datetime) {
+    CiNodeStatus
+    | where event_time <= at
+    | summarize arg_max(event_time, status, load_pct, on_backup_power,
+                        backup_fuel_hours_left, water_level_margin_m,
+                        population_served, voivodeship_code, powiat_code,
+                        gmina_code, system_code)
+      by node_id
+}
+
 // Wezly, ktorym konczy sie paliwo w agregacie — kolejka dowozu paliwa
-.create-or-alter function FuelRunout(threshold_hours: real = 6.0) {
-    CiNodeCurrent
+.create-or-alter function FuelRunout(threshold_hours: real = 6.0, at: datetime = datetime(null)) {
+    CiNodeAt(iff(isnull(at), ScenarioPeak(), at))
     | where on_backup_power == true and backup_fuel_hours_left <= threshold_hours
     | join kind=leftouter CiNode on node_id
     | project node_id, node_name, node_type, system_code, criticality_class,
@@ -91,8 +125,8 @@
 }
 
 // Wezly krytyczne, ktore przestaly dzialac — wejscie do reguly Activatora
-.create-or-alter function CriticalNodesDown() {
-    CiNodeCurrent
+.create-or-alter function CriticalNodesDown(at: datetime = datetime(null)) {
+    CiNodeAt(iff(isnull(at), ScenarioPeak(), at))
     | where status == "down"
     | join kind=inner CiNode on node_id
     | where criticality_class == "K1"
@@ -102,8 +136,9 @@
 }
 
 // Prognoza kaskady: kto zalezy od wezlow, ktore wlasnie padly, i kiedy to odczuje
-.create-or-alter function CascadeForecast(horizon_hours: real = 24.0) {
-    let down_now = CiNodeCurrent | where status == "down" | project source_node_id = node_id, down_since = event_time;
+.create-or-alter function CascadeForecast(horizon_hours: real = 24.0, at: datetime = datetime(null)) {
+    let _at = iff(isnull(at), ScenarioPeak(), at);
+    let down_now = CiNodeAt(_at) | where status == "down" | project source_node_id = node_id, down_since = event_time;
     CiDependency
     | join kind=inner down_now on source_node_id
     | join kind=leftouter (CiNode | project target_node_id = node_id, target_name = node_name,
@@ -114,7 +149,7 @@
     | extend buffer_hours = iff(dependency_type in ("electricity", "generation"), autonomy_hours,
                            iff(dependency_type == "fuel", autonomy_hours, 0.0))
     | extend expected_impact_time = down_since + totimespan((lag_hours + buffer_hours) * 1h)
-    | extend hours_to_impact = (expected_impact_time - now()) / 1h
+    | extend hours_to_impact = (expected_impact_time - _at) / 1h
     | where hours_to_impact <= horizon_hours
     | summarize impact_share_lost = sum(impact_share),
                 earliest_impact = min(expected_impact_time),
@@ -130,8 +165,10 @@
 }
 
 // Stan zagrozenia powodziowego per wojewodztwo (zdarzenie inicjujace)
-.create-or-alter function FloodPressure() {
+.create-or-alter function FloodPressure(at: datetime = datetime(null)) {
+    let _at = iff(isnull(at), ScenarioPeak(), at);
     HydroReading
+    | where event_time <= _at
     | summarize arg_max(event_time, water_level_cm, alarm_level_cm, state) by gauge_id, voivodeship_code
     | summarize gauges = count(),
                 gauges_alarm = countif(state == "alarm"),
