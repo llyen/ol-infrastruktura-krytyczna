@@ -1,0 +1,12 @@
+system_code,system_name,responsible_department,system_group,spo_reference
+IK01,"Zaopatrzenie w energię, surowce energetyczne i paliwa",IV Energia,energy,SPO-10
+IK02,Łączność,XIII Łączność,telecom,SPO-10
+IK03,Sieci teleinformatyczne,X Informatyzacja,ict,SPO-10
+IK04,Systemy finansowe,V Finanse publiczne,finance,SPO-10
+IK05,Zaopatrzenie w żywność,XVII Rolnictwo,food,SPO-10
+IK06,Zaopatrzenie w wodę,VIII Gospodarka wodna,water,SPO-10
+IK07,Ochrona zdrowia,IX Zdrowie,health,SPO-10
+IK08,Systemy transportowe,XXII Transport,transport,SPO-10
+IK09,Systemy ratownicze,XIX Sprawy wewnętrzne,rescue,SPO-10
+IK10,Ciągłość działania administracji publicznej,I Administracja publiczna,admin,SPO-10
+IK11,"Produkcja, składowanie i stosowanie substancji chemicznych i promieniotwórczych",XXI Środowisko,chemical,SPO-10

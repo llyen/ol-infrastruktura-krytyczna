@@ -1,0 +1,1464 @@
+node_id,operator_name,contact_point_registered,protection_plan_status,protection_plan_age_days,data_sharing_agreement,responsiveness_score,last_contact_test
+IK-01-00001,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,497,1,74.7,2025-07-16
+IK-01-00002,OSD Południe (fikc.),1,zatwierdzony,1172,1,74.5,2025-09-12
+IK-01-00003,OSD Południe (fikc.),1,brak,388,1,90.3,2026-03-23
+IK-01-00005,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,592,1,70.9,2026-03-29
+IK-01-00006,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1181,1,100,2025-09-14
+IK-01-00007,OSD Zachód (fikc.),1,brak,515,1,60.4,2025-12-07
+IK-01-00008,OSD Zachód (fikc.),1,w aktualizacji,1143,1,74.7,2025-11-17
+IK-01-00009,OSD Zachód (fikc.),1,w aktualizacji,1273,1,70.8,2026-03-27
+IK-01-00011,Gazoprzesył S.A. (fikc.),1,zatwierdzony,711,1,50.8,2025-05-17
+IK-01-00013,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,375,1,70.4,2026-01-14
+IK-01-00014,Gazoprzesył S.A. (fikc.),0,brak,1116,1,88.8,2025-11-27
+IK-01-00016,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,341,1,91.2,2025-12-17
+IK-01-00017,OSD Południe (fikc.),1,zatwierdzony,583,1,62.4,2025-10-01
+IK-01-00018,Paliwa Krajowe S.A. (fikc.),0,w aktualizacji,1280,1,49.9,2025-07-24
+IK-01-00019,Gazoprzesył S.A. (fikc.),1,zatwierdzony,709,1,44.5,2026-06-12
+IK-01-00020,OSD Południe (fikc.),1,w aktualizacji,279,1,50.1,2025-06-23
+IK-01-00021,OSD Południe (fikc.),1,zatwierdzony,526,1,49.5,2026-05-04
+IK-01-00022,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,791,1,83.3,2025-06-02
+IK-01-00024,OSD Południe (fikc.),1,zatwierdzony,861,1,80.6,2026-07-09
+IK-01-00025,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,573,1,78.8,2026-02-26
+IK-01-00026,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1019,1,65.9,2025-11-28
+IK-01-00027,Operator Przesyłowy S.A. (fikc.),0,w aktualizacji,812,0,34.6,2025-06-25
+IK-01-00028,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1089,1,62.2,2026-07-20
+IK-01-00029,OSD Zachód (fikc.),1,zatwierdzony,656,1,18.5,2025-05-20
+IK-01-00030,OSD Południe (fikc.),1,brak,535,1,67.0,2026-04-12
+IK-01-00031,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1244,1,56.1,2026-06-27
+IK-01-00032,Operator Przesyłowy S.A. (fikc.),0,brak,561,0,43.2,2026-03-29
+IK-01-00033,OSD Zachód (fikc.),0,zatwierdzony,464,1,64.6,2026-01-09
+IK-01-00034,OSD Południe (fikc.),1,brak,839,1,57.2,2025-11-04
+IK-01-00035,Operator Przesyłowy S.A. (fikc.),0,brak,345,0,36.3,2025-10-15
+IK-01-00036,OSD Zachód (fikc.),1,w aktualizacji,625,1,82.4,2026-01-05
+IK-01-00037,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,521,1,50.9,2025-10-27
+IK-01-00038,OSD Zachód (fikc.),1,zatwierdzony,109,0,43.9,2026-04-02
+IK-01-00039,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,1480,1,64.2,2025-12-07
+IK-01-00040,Operator Przesyłowy S.A. (fikc.),0,w aktualizacji,1161,0,43.8,2026-05-31
+IK-01-00042,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,88,0,16.9,2026-07-26
+IK-01-00044,OSD Południe (fikc.),1,zatwierdzony,620,1,58.2,2026-06-06
+IK-01-00046,OSD Zachód (fikc.),1,brak,563,0,21.1,2025-12-13
+IK-01-00048,Paliwa Krajowe S.A. (fikc.),0,brak,1403,0,33.7,2025-09-22
+IK-01-00049,OSD Zachód (fikc.),0,brak,1032,0,14.1,2026-01-19
+IK-01-00050,OSD Zachód (fikc.),1,brak,1443,1,51.9,2026-07-12
+IK-01-00051,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,496,1,64.1,2026-01-08
+IK-01-00052,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,154,1,58.3,2026-08-06
+IK-01-00053,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,577,1,51.5,2025-06-17
+IK-01-00054,Gazoprzesył S.A. (fikc.),1,brak,434,0,7.0,2026-02-09
+IK-01-00055,OSD Zachód (fikc.),1,zatwierdzony,1062,1,73.5,2026-05-24
+IK-01-00056,Operator Przesyłowy S.A. (fikc.),1,brak,126,0,51.2,2026-03-05
+IK-01-00058,Operator Przesyłowy S.A. (fikc.),1,brak,253,1,39.2,2026-07-24
+IK-01-00059,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1311,1,57.9,2025-09-06
+IK-01-00060,OSD Południe (fikc.),1,zatwierdzony,434,1,66.0,2026-06-04
+IK-01-00061,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1174,0,43.8,2025-10-21
+IK-01-00062,OSD Zachód (fikc.),1,w aktualizacji,550,1,26.7,2026-01-10
+IK-01-00063,Paliwa Krajowe S.A. (fikc.),1,brak,99,1,56.1,2025-09-12
+IK-01-00064,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,719,1,78.6,2025-08-06
+IK-01-00065,OSD Zachód (fikc.),1,zatwierdzony,1267,1,72.6,2026-04-28
+IK-01-00066,Gazoprzesył S.A. (fikc.),1,w aktualizacji,983,1,65.3,2026-04-21
+IK-01-00067,OSD Zachód (fikc.),1,w aktualizacji,1016,1,69.7,2025-12-10
+IK-01-00068,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,829,0,48.5,2026-02-27
+IK-01-00070,OSD Południe (fikc.),1,zatwierdzony,912,1,78.3,2025-11-07
+IK-01-00071,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,76,1,33.7,2025-06-15
+IK-01-00072,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,483,0,36.4,2026-02-16
+IK-01-00073,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,216,1,83.7,2026-06-09
+IK-01-00074,Gazoprzesył S.A. (fikc.),0,w aktualizacji,284,0,51.4,2026-07-16
+IK-01-00076,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,235,1,66.3,2025-07-25
+IK-01-00077,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,1409,1,55.5,2026-02-22
+IK-01-00078,OSD Zachód (fikc.),1,zatwierdzony,476,1,35.0,2026-04-11
+IK-01-00079,OSD Południe (fikc.),1,zatwierdzony,100,1,43.9,2025-11-27
+IK-01-00080,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,1445,1,60.0,2026-08-09
+IK-01-00082,OSD Zachód (fikc.),1,w aktualizacji,906,0,10.3,2025-12-11
+IK-01-00083,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,323,1,7.4,2026-08-07
+IK-01-00085,OSD Zachód (fikc.),0,brak,883,0,44.2,2025-10-16
+IK-01-00086,OSD Zachód (fikc.),1,w aktualizacji,1355,1,71.8,2026-03-24
+IK-01-00087,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1471,1,71.6,2026-07-11
+IK-01-00088,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,24,1,54.4,2025-10-27
+IK-01-00089,OSD Południe (fikc.),1,zatwierdzony,1279,1,81.9,2026-05-16
+IK-01-00090,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1262,0,57.5,2026-03-11
+IK-01-00091,Gazoprzesył S.A. (fikc.),0,w aktualizacji,1396,0,34.0,2026-07-28
+IK-01-00092,Operator Przesyłowy S.A. (fikc.),1,brak,1201,0,40.2,2025-11-09
+IK-01-00096,OSD Zachód (fikc.),1,w aktualizacji,296,1,56.8,2026-08-06
+IK-01-00097,Paliwa Krajowe S.A. (fikc.),0,brak,199,0,38.0,2026-03-13
+IK-01-00098,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,363,1,65.5,2026-07-12
+IK-01-00100,Gazoprzesył S.A. (fikc.),1,brak,1311,0,3,2026-04-22
+IK-01-00101,OSD Zachód (fikc.),1,zatwierdzony,30,1,80.8,2025-10-01
+IK-01-00102,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,756,0,52.8,2025-10-20
+IK-01-00103,OSD Południe (fikc.),0,brak,1100,1,69.2,2025-06-19
+IK-01-00104,Gazoprzesył S.A. (fikc.),0,zatwierdzony,979,1,63.7,2026-03-30
+IK-01-00106,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,491,0,26.8,2026-04-07
+IK-01-00108,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,1348,1,54.2,2025-09-10
+IK-01-00110,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,765,0,43.9,2025-09-14
+IK-01-00111,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1341,1,63.0,2026-02-04
+IK-01-00113,OSD Południe (fikc.),1,zatwierdzony,813,1,62.0,2025-06-20
+IK-01-00114,OSD Południe (fikc.),1,zatwierdzony,815,1,17.7,2025-10-07
+IK-01-00115,OSD Zachód (fikc.),0,zatwierdzony,1436,1,59.4,2026-04-01
+IK-01-00116,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,750,1,48.6,2026-04-20
+IK-01-00117,OSD Zachód (fikc.),1,brak,1137,1,53.1,2026-03-21
+IK-01-00118,OSD Południe (fikc.),1,w aktualizacji,492,1,52.7,2026-05-22
+IK-01-00120,Gazoprzesył S.A. (fikc.),1,zatwierdzony,849,1,65.8,2025-12-15
+IK-01-00121,OSD Południe (fikc.),1,brak,109,1,86.2,2025-05-25
+IK-01-00122,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,479,1,51.4,2025-12-20
+IK-01-00123,Gazoprzesył S.A. (fikc.),1,brak,657,0,3,2026-01-06
+IK-01-00124,Operator Przesyłowy S.A. (fikc.),1,brak,1305,0,22.5,2026-02-12
+IK-01-00125,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,92,1,52.4,2025-05-10
+IK-01-00126,OSD Zachód (fikc.),1,brak,736,1,67.8,2025-05-09
+IK-01-00127,OSD Południe (fikc.),1,brak,246,1,83.6,2026-01-19
+IK-01-00130,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,929,1,55.5,2025-10-18
+IK-01-00132,OSD Południe (fikc.),1,brak,844,0,21.2,2026-04-05
+IK-01-00133,Gazoprzesył S.A. (fikc.),1,zatwierdzony,986,1,55.5,2025-10-10
+IK-01-00134,OSD Południe (fikc.),1,zatwierdzony,1059,1,52.5,2025-09-01
+IK-01-00136,OSD Zachód (fikc.),1,zatwierdzony,1136,1,39.5,2025-10-17
+IK-01-00138,OSD Zachód (fikc.),0,brak,683,0,29.6,2026-06-06
+IK-01-00140,Operator Przesyłowy S.A. (fikc.),0,w aktualizacji,631,0,52.2,2026-08-02
+IK-01-00141,OSD Zachód (fikc.),1,zatwierdzony,614,1,84.5,2026-06-06
+IK-01-00142,Gazoprzesył S.A. (fikc.),1,w aktualizacji,940,1,91.4,2025-11-12
+IK-01-00143,Operator Przesyłowy S.A. (fikc.),0,brak,356,0,52.7,2025-05-15
+IK-01-00144,OSD Południe (fikc.),0,w aktualizacji,1406,0,37.6,2026-03-03
+IK-01-00145,OSD Południe (fikc.),0,brak,566,0,32.5,2025-08-11
+IK-01-00146,OSD Zachód (fikc.),1,zatwierdzony,798,1,63.3,2026-05-30
+IK-01-00148,OSD Południe (fikc.),1,w aktualizacji,453,1,72.1,2025-05-19
+IK-01-00149,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,362,1,77.8,2026-08-08
+IK-01-00150,Paliwa Krajowe S.A. (fikc.),1,brak,1268,0,39.1,2026-07-08
+IK-01-00151,Gazoprzesył S.A. (fikc.),0,zatwierdzony,799,0,78.8,2026-07-25
+IK-01-00152,OSD Zachód (fikc.),1,zatwierdzony,75,1,36.2,2025-10-28
+IK-01-00154,OSD Zachód (fikc.),1,w aktualizacji,1464,1,57.1,2025-07-08
+IK-01-00155,OSD Zachód (fikc.),1,brak,348,0,30.0,2025-09-07
+IK-01-00156,OSD Południe (fikc.),1,zatwierdzony,958,1,43.5,2026-09-04
+IK-01-00158,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,803,1,67.8,2025-07-19
+IK-01-00159,OSD Zachód (fikc.),0,brak,1162,0,54.7,2026-08-11
+IK-01-00160,OSD Zachód (fikc.),1,brak,360,1,46.2,2025-08-17
+IK-01-00161,Operator Przesyłowy S.A. (fikc.),1,brak,528,1,59.2,2025-12-17
+IK-01-00163,OSD Zachód (fikc.),1,zatwierdzony,402,1,100,2026-01-28
+IK-01-00164,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1472,1,37.8,2026-05-18
+IK-01-00167,OSD Południe (fikc.),0,zatwierdzony,1200,0,32.6,2025-07-22
+IK-01-00169,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,1168,0,7.0,2026-08-02
+IK-01-00170,Paliwa Krajowe S.A. (fikc.),0,brak,987,0,40.5,2025-08-18
+IK-01-00171,OSD Południe (fikc.),1,w aktualizacji,931,1,76.2,2025-08-20
+IK-01-00172,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,555,0,33.4,2025-12-29
+IK-01-00173,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,809,0,38.2,2025-07-02
+IK-01-00174,Gazoprzesył S.A. (fikc.),1,zatwierdzony,741,1,77.6,2025-07-27
+IK-01-00175,OSD Zachód (fikc.),0,brak,1288,0,31.1,2025-11-19
+IK-01-00176,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,548,0,28.4,2026-08-10
+IK-01-00177,Gazoprzesył S.A. (fikc.),1,zatwierdzony,593,1,44.9,2026-04-15
+IK-01-00178,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1112,1,54.5,2025-12-16
+IK-01-00179,Gazoprzesył S.A. (fikc.),1,zatwierdzony,913,1,45.6,2026-01-13
+IK-01-00180,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,926,1,60.6,2025-07-15
+IK-01-00181,OSD Południe (fikc.),0,brak,494,0,11.4,2025-05-07
+IK-01-00182,OSD Południe (fikc.),1,zatwierdzony,860,1,66.5,2026-01-26
+IK-01-00183,OSD Południe (fikc.),0,w aktualizacji,1185,0,37.9,2025-12-06
+IK-01-00185,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,269,0,22.5,2025-09-19
+IK-01-00187,OSD Południe (fikc.),1,brak,827,1,75.6,2026-06-25
+IK-01-00191,OSD Południe (fikc.),1,w aktualizacji,1150,1,47.9,2025-11-19
+IK-01-00192,OSD Południe (fikc.),1,zatwierdzony,186,1,70.3,2025-11-10
+IK-01-00193,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,629,1,64.0,2026-06-02
+IK-01-00194,OSD Zachód (fikc.),1,zatwierdzony,1148,1,85.5,2026-08-04
+IK-01-00195,OSD Południe (fikc.),1,zatwierdzony,1414,1,100,2025-07-10
+IK-01-00196,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1288,1,44.3,2026-02-23
+IK-01-00197,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,492,1,49.9,2025-05-07
+IK-01-00199,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1412,1,93.8,2026-01-24
+IK-01-00200,OSD Południe (fikc.),1,w aktualizacji,547,1,47.2,2026-02-02
+IK-01-00201,OSD Południe (fikc.),1,w aktualizacji,29,1,55.2,2026-02-16
+IK-01-00203,OSD Południe (fikc.),1,zatwierdzony,662,1,62.3,2025-12-09
+IK-01-00204,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,616,1,54.0,2025-10-13
+IK-01-00207,OSD Południe (fikc.),0,zatwierdzony,1493,0,77.6,2025-08-23
+IK-01-00208,Operator Przesyłowy S.A. (fikc.),0,brak,498,0,35.2,2026-08-31
+IK-01-00209,OSD Południe (fikc.),0,zatwierdzony,412,1,75.8,2026-02-27
+IK-01-00210,Gazoprzesył S.A. (fikc.),1,zatwierdzony,767,1,27.2,2025-11-25
+IK-01-00212,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,148,1,70.7,2025-08-28
+IK-01-00213,OSD Południe (fikc.),1,zatwierdzony,442,1,91.7,2026-05-12
+IK-01-00214,OSD Zachód (fikc.),1,zatwierdzony,169,1,49.9,2025-09-10
+IK-01-00215,OSD Południe (fikc.),1,zatwierdzony,1238,1,67.2,2025-10-31
+IK-01-00216,Operator Przesyłowy S.A. (fikc.),1,brak,608,1,38.3,2026-07-13
+IK-01-00217,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,852,1,67.6,2026-06-26
+IK-01-00218,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,353,1,64.1,2025-10-16
+IK-01-00219,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1068,1,62.4,2025-10-31
+IK-01-00220,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,381,0,49.6,2026-03-29
+IK-01-00221,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1471,1,75.4,2026-07-09
+IK-01-00224,OSD Południe (fikc.),0,w aktualizacji,736,0,26.1,2026-05-15
+IK-01-00225,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1354,1,83.8,2026-02-14
+IK-01-00227,OSD Zachód (fikc.),1,w aktualizacji,1149,1,48.6,2025-08-28
+IK-01-00228,OSD Południe (fikc.),1,zatwierdzony,1088,1,90.6,2026-04-11
+IK-01-00229,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,938,1,54.0,2026-07-08
+IK-01-00230,Gazoprzesył S.A. (fikc.),1,brak,630,1,64.4,2025-11-24
+IK-01-00232,Gazoprzesył S.A. (fikc.),1,w aktualizacji,357,0,28.8,2025-06-03
+IK-01-00233,OSD Południe (fikc.),1,zatwierdzony,1273,1,80.3,2025-09-17
+IK-01-00234,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1077,1,67.9,2026-01-05
+IK-01-00236,Gazoprzesył S.A. (fikc.),0,brak,909,0,25.9,2026-07-05
+IK-01-00237,OSD Południe (fikc.),1,w aktualizacji,1331,1,74.2,2025-06-08
+IK-01-00238,OSD Południe (fikc.),1,zatwierdzony,1377,1,47.3,2025-09-26
+IK-01-00239,Operator Przesyłowy S.A. (fikc.),1,brak,856,1,69.7,2026-08-15
+IK-01-00240,OSD Południe (fikc.),1,w aktualizacji,575,1,60.8,2025-07-08
+IK-01-00241,OSD Zachód (fikc.),1,w aktualizacji,1154,0,36.6,2025-10-27
+IK-01-00242,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,582,1,55.5,2025-12-17
+IK-01-00243,Paliwa Krajowe S.A. (fikc.),1,w aktualizacji,783,1,39.7,2025-06-17
+IK-01-00244,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,578,1,88.9,2026-06-20
+IK-01-00245,OSD Zachód (fikc.),1,brak,89,0,62.0,2025-06-28
+IK-01-00246,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,83,1,60.9,2026-05-21
+IK-01-00247,OSD Zachód (fikc.),1,zatwierdzony,657,1,77.9,2026-03-19
+IK-01-00248,Gazoprzesył S.A. (fikc.),1,zatwierdzony,635,1,68.2,2026-06-09
+IK-01-00249,OSD Południe (fikc.),1,zatwierdzony,576,1,53.5,2025-06-16
+IK-01-00250,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1412,0,30.7,2026-02-09
+IK-01-00252,Operator Przesyłowy S.A. (fikc.),1,brak,32,0,21.7,2026-02-11
+IK-01-00254,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,961,1,70.1,2026-03-01
+IK-01-00255,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,374,1,62.7,2025-08-12
+IK-01-00256,OSD Zachód (fikc.),1,zatwierdzony,176,1,81.2,2025-06-10
+IK-01-00257,OSD Południe (fikc.),1,w aktualizacji,290,1,53.2,2026-05-21
+IK-01-00258,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1061,1,40.4,2025-07-16
+IK-01-00260,OSD Południe (fikc.),1,w aktualizacji,1452,1,95.3,2025-09-19
+IK-01-00261,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1244,1,63.7,2026-07-25
+IK-01-00262,OSD Zachód (fikc.),1,zatwierdzony,551,1,52.7,2026-03-14
+IK-01-00263,OSD Południe (fikc.),1,w aktualizacji,1107,1,76.9,2026-03-28
+IK-01-00264,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,344,1,89.8,2025-10-21
+IK-01-00265,Gazoprzesył S.A. (fikc.),1,zatwierdzony,372,0,29.6,2026-06-06
+IK-01-00266,OSD Południe (fikc.),0,zatwierdzony,145,1,46.3,2026-03-20
+IK-01-00267,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,301,1,82.3,2026-08-12
+IK-01-00268,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,847,1,43.7,2026-08-12
+IK-01-00270,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,572,1,45.5,2026-02-23
+IK-01-00271,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,1150,1,78.8,2025-06-02
+IK-01-00272,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,476,1,67.9,2025-06-14
+IK-01-00273,OSD Zachód (fikc.),0,w aktualizacji,902,0,55.4,2025-12-27
+IK-01-00276,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1495,1,25.8,2026-07-10
+IK-01-00277,OSD Zachód (fikc.),0,brak,1297,0,26.0,2026-07-27
+IK-01-00278,OSD Zachód (fikc.),0,w aktualizacji,745,0,45.1,2025-10-21
+IK-01-00279,Gazoprzesył S.A. (fikc.),1,w aktualizacji,446,1,52.9,2026-07-30
+IK-01-00280,OSD Zachód (fikc.),1,zatwierdzony,72,1,52.6,2025-08-18
+IK-01-00281,OSD Południe (fikc.),1,w aktualizacji,249,0,40.4,2025-07-20
+IK-01-00282,Operator Przesyłowy S.A. (fikc.),0,brak,280,0,32.8,2026-07-06
+IK-01-00283,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,147,1,57.3,2025-07-31
+IK-01-00285,Gazoprzesył S.A. (fikc.),1,zatwierdzony,773,1,46.7,2025-07-19
+IK-01-00286,Paliwa Krajowe S.A. (fikc.),0,w aktualizacji,187,1,58.9,2026-09-06
+IK-01-00287,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,727,1,76.5,2025-06-09
+IK-01-00288,Gazoprzesył S.A. (fikc.),1,brak,1185,0,4.4,2025-07-16
+IK-01-00290,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,815,1,80.1,2025-08-13
+IK-01-00292,Operator Przesyłowy S.A. (fikc.),0,w aktualizacji,222,0,27.8,2025-11-11
+IK-01-00294,OSD Południe (fikc.),1,brak,1139,1,27.6,2025-10-26
+IK-01-00296,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,1490,1,81.9,2026-02-04
+IK-01-00297,OSD Zachód (fikc.),1,brak,973,0,25.6,2026-07-22
+IK-01-00300,OSD Zachód (fikc.),0,brak,229,0,36.6,2025-05-09
+IK-01-00301,OSD Południe (fikc.),1,zatwierdzony,1070,1,60.4,2026-07-15
+IK-01-00302,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,1013,1,53.7,2026-01-04
+IK-01-00303,OSD Południe (fikc.),0,w aktualizacji,1469,1,43.1,2025-05-11
+IK-01-00304,Gazoprzesył S.A. (fikc.),1,zatwierdzony,995,0,37.7,2026-08-12
+IK-01-00305,OSD Zachód (fikc.),1,zatwierdzony,102,1,87.0,2025-11-25
+IK-01-00306,Gazoprzesył S.A. (fikc.),0,zatwierdzony,820,0,9.0,2026-05-03
+IK-01-00307,OSD Południe (fikc.),1,zatwierdzony,1190,1,19.2,2026-03-06
+IK-01-00308,Paliwa Krajowe S.A. (fikc.),1,brak,1170,1,24.4,2026-06-23
+IK-01-00309,Operator Przesyłowy S.A. (fikc.),1,brak,1450,1,86.6,2025-09-26
+IK-01-00310,OSD Zachód (fikc.),1,zatwierdzony,136,1,59.5,2025-07-02
+IK-01-00311,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1448,1,84.0,2025-10-21
+IK-01-00312,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,740,1,31.5,2026-09-04
+IK-01-00313,OSD Południe (fikc.),1,zatwierdzony,729,1,72.0,2025-05-12
+IK-01-00314,Paliwa Krajowe S.A. (fikc.),0,brak,1393,0,27.0,2025-06-29
+IK-01-00315,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,624,1,61.9,2025-08-30
+IK-01-00316,OSD Zachód (fikc.),1,zatwierdzony,961,1,78.0,2026-05-14
+IK-01-00318,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,928,1,54.9,2025-09-18
+IK-01-00319,OSD Zachód (fikc.),1,w aktualizacji,34,1,76.0,2025-12-30
+IK-01-00320,Gazoprzesył S.A. (fikc.),1,zatwierdzony,71,1,73.3,2025-11-10
+IK-01-00321,Gazoprzesył S.A. (fikc.),1,zatwierdzony,493,1,66.3,2025-10-13
+IK-01-00322,Operator Przesyłowy S.A. (fikc.),0,brak,214,0,9.2,2025-06-22
+IK-01-00323,Gazoprzesył S.A. (fikc.),1,brak,703,1,64.5,2025-09-17
+IK-01-00324,Gazoprzesył S.A. (fikc.),1,w aktualizacji,923,0,24.1,2025-08-26
+IK-01-00325,OSD Zachód (fikc.),0,brak,987,0,52.2,2025-05-21
+IK-01-00326,OSD Południe (fikc.),1,zatwierdzony,35,1,73.6,2026-08-04
+IK-01-00327,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,869,1,63.9,2025-05-28
+IK-01-00328,Paliwa Krajowe S.A. (fikc.),0,w aktualizacji,263,0,3,2025-11-21
+IK-01-00329,OSD Zachód (fikc.),1,zatwierdzony,928,1,90.2,2025-07-09
+IK-01-00331,OSD Zachód (fikc.),1,zatwierdzony,1469,1,63.9,2026-08-02
+IK-01-00332,Gazoprzesył S.A. (fikc.),0,zatwierdzony,957,0,41.5,2026-06-14
+IK-01-00334,OSD Zachód (fikc.),1,zatwierdzony,178,1,56.5,2025-11-21
+IK-01-00335,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,124,1,100,2026-04-20
+IK-01-00336,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,170,1,86.2,2026-09-01
+IK-01-00338,Gazoprzesył S.A. (fikc.),1,zatwierdzony,321,1,76.0,2025-12-29
+IK-01-00340,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1130,1,50.4,2025-09-05
+IK-01-00342,Gazoprzesył S.A. (fikc.),1,brak,549,0,31.4,2025-11-02
+IK-01-00343,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,617,1,72.9,2025-09-30
+IK-01-00344,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,707,1,84.5,2026-07-27
+IK-01-00345,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,985,1,57.1,2025-08-16
+IK-01-00346,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,804,1,59.6,2026-01-07
+IK-01-00347,OSD Południe (fikc.),0,brak,1079,0,55.1,2025-04-29
+IK-01-00348,OSD Południe (fikc.),1,zatwierdzony,661,1,76.7,2026-09-05
+IK-01-00349,OSD Zachód (fikc.),1,zatwierdzony,1338,1,75.5,2026-03-31
+IK-01-00350,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,40,1,41.9,2026-01-22
+IK-01-00351,OSD Zachód (fikc.),0,zatwierdzony,792,0,14.7,2025-08-07
+IK-01-00352,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1098,0,44.7,2025-11-13
+IK-01-00354,OSD Południe (fikc.),1,w aktualizacji,993,1,78.8,2026-01-17
+IK-01-00355,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1478,1,48.2,2025-11-16
+IK-01-00356,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,488,1,55.5,2026-04-04
+IK-01-00357,OSD Zachód (fikc.),1,zatwierdzony,126,1,87.7,2025-05-05
+IK-01-00359,OSD Południe (fikc.),1,w aktualizacji,1109,1,49.8,2026-04-21
+IK-01-00360,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,636,0,40.9,2026-08-01
+IK-01-00361,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,1362,0,27.9,2026-07-29
+IK-01-00363,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,88,1,100,2025-11-11
+IK-01-00365,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,1104,1,56.2,2025-11-05
+IK-01-00366,OSD Zachód (fikc.),1,zatwierdzony,845,1,48.2,2026-02-05
+IK-01-00367,OSD Południe (fikc.),1,zatwierdzony,50,1,13.3,2025-07-27
+IK-01-00368,Paliwa Krajowe S.A. (fikc.),0,zatwierdzony,563,0,27.2,2025-12-23
+IK-01-00369,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,251,1,48.8,2026-01-26
+IK-01-00370,Operator Przesyłowy S.A. (fikc.),1,brak,1449,0,38.7,2025-09-18
+IK-01-00373,OSD Południe (fikc.),1,zatwierdzony,1191,1,52.3,2025-12-20
+IK-01-00374,Operator Przesyłowy S.A. (fikc.),1,brak,1362,1,91.4,2026-03-12
+IK-01-00375,OSD Zachód (fikc.),0,brak,156,0,41.9,2026-05-10
+IK-01-00377,OSD Południe (fikc.),1,w aktualizacji,1025,0,45.5,2026-05-30
+IK-01-00378,OSD Zachód (fikc.),0,brak,696,0,31.0,2025-11-30
+IK-01-00380,OSD Południe (fikc.),1,brak,783,1,49.5,2025-07-19
+IK-01-00381,Operator Przesyłowy S.A. (fikc.),0,zatwierdzony,1414,1,91.7,2026-07-19
+IK-01-00382,Gazoprzesył S.A. (fikc.),1,zatwierdzony,1051,1,81.7,2025-11-20
+IK-01-00383,OSD Zachód (fikc.),0,w aktualizacji,1088,0,39.8,2025-06-11
+IK-01-00385,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,1166,1,74.6,2026-05-20
+IK-01-00386,Gazoprzesył S.A. (fikc.),1,zatwierdzony,133,1,98.2,2025-09-20
+IK-01-00387,Gazoprzesył S.A. (fikc.),0,zatwierdzony,1307,0,23.3,2025-09-29
+IK-01-00388,Gazoprzesył S.A. (fikc.),1,w aktualizacji,243,0,46.0,2025-09-19
+IK-01-00389,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,113,1,69.6,2026-01-21
+IK-01-00390,Operator Przesyłowy S.A. (fikc.),1,w aktualizacji,1117,1,43.8,2026-02-15
+IK-01-00391,Paliwa Krajowe S.A. (fikc.),1,brak,909,0,40.6,2025-05-21
+IK-01-00392,Operator Przesyłowy S.A. (fikc.),0,w aktualizacji,555,0,13.2,2026-06-21
+IK-01-00393,OSD Południe (fikc.),1,brak,219,0,27.2,2025-06-19
+IK-01-00394,Operator Przesyłowy S.A. (fikc.),1,zatwierdzony,754,1,94.1,2026-02-12
+IK-01-00397,OSD Południe (fikc.),0,w aktualizacji,872,0,23.5,2026-02-05
+IK-01-00401,Gazoprzesył S.A. (fikc.),1,zatwierdzony,410,0,31.0,2025-12-09
+IK-01-00404,OSD Zachód (fikc.),0,w aktualizacji,273,0,34.9,2025-07-30
+IK-01-00405,Paliwa Krajowe S.A. (fikc.),1,zatwierdzony,806,1,69.3,2025-11-08
+IK-01-00410,Operator Przesyłowy S.A. (fikc.),1,brak,440,0,3,2026-06-23
+IK-01-00412,Gazoprzesył S.A. (fikc.),1,w aktualizacji,1230,1,58.6,2026-05-16
+IK-01-00415,OSD Południe (fikc.),0,brak,274,0,55.6,2026-08-01
+IK-01-00418,Operator Przesyłowy S.A. (fikc.),1,brak,1365,0,16.9,2025-05-15
+IK-01-00420,Gazoprzesył S.A. (fikc.),1,zatwierdzony,843,0,21.7,2026-06-28
+IK-02-00421,Telko Beta S.A. (fikc.),1,w aktualizacji,670,1,41.4,2026-09-03
+IK-02-00422,Telko Gamma S.A. (fikc.),1,brak,356,1,68.9,2026-06-03
+IK-02-00423,Telko Alfa S.A. (fikc.),1,brak,531,0,25.0,2025-06-21
+IK-02-00424,Telko Gamma S.A. (fikc.),1,w aktualizacji,872,1,76.9,2025-05-17
+IK-02-00425,Telko Alfa S.A. (fikc.),1,w aktualizacji,1165,1,53.6,2025-08-06
+IK-02-00427,Telko Alfa S.A. (fikc.),1,w aktualizacji,1496,0,3,2026-04-24
+IK-02-00428,Telko Gamma S.A. (fikc.),1,zatwierdzony,911,0,25.1,2025-12-31
+IK-02-00429,Telko Alfa S.A. (fikc.),1,zatwierdzony,99,1,73.1,2025-07-03
+IK-02-00430,Telko Beta S.A. (fikc.),1,zatwierdzony,826,1,75.8,2026-04-21
+IK-02-00431,Telko Alfa S.A. (fikc.),1,zatwierdzony,985,1,73.3,2025-07-15
+IK-02-00432,Telko Beta S.A. (fikc.),1,zatwierdzony,775,1,65.6,2026-03-23
+IK-02-00433,Telko Alfa S.A. (fikc.),1,w aktualizacji,1294,1,65.2,2026-07-25
+IK-02-00434,Telko Beta S.A. (fikc.),1,zatwierdzony,35,1,71.3,2025-09-06
+IK-02-00436,Telko Beta S.A. (fikc.),1,zatwierdzony,937,1,70.5,2026-03-30
+IK-02-00437,Telko Alfa S.A. (fikc.),1,zatwierdzony,327,1,23.8,2025-10-24
+IK-02-00439,Telko Alfa S.A. (fikc.),1,zatwierdzony,872,1,61.4,2025-12-25
+IK-02-00440,Telko Beta S.A. (fikc.),1,zatwierdzony,1340,1,76.4,2025-10-14
+IK-02-00441,Telko Beta S.A. (fikc.),1,brak,642,1,74.5,2025-06-23
+IK-02-00442,Telko Alfa S.A. (fikc.),1,w aktualizacji,428,1,56.0,2026-07-28
+IK-02-00443,Telko Beta S.A. (fikc.),0,zatwierdzony,364,1,41.5,2025-05-05
+IK-02-00444,Telko Beta S.A. (fikc.),1,zatwierdzony,507,1,47.1,2026-03-21
+IK-02-00446,Telko Gamma S.A. (fikc.),1,zatwierdzony,433,1,80.8,2025-08-04
+IK-02-00448,Telko Alfa S.A. (fikc.),1,zatwierdzony,24,1,61.8,2025-11-11
+IK-02-00449,Telko Gamma S.A. (fikc.),1,zatwierdzony,1325,1,39.4,2026-07-15
+IK-02-00451,Telko Gamma S.A. (fikc.),1,zatwierdzony,1206,1,86.2,2025-11-04
+IK-02-00452,Telko Gamma S.A. (fikc.),0,brak,739,0,45.5,2026-03-06
+IK-02-00453,Telko Gamma S.A. (fikc.),1,zatwierdzony,1139,0,18.3,2025-12-28
+IK-02-00454,Telko Beta S.A. (fikc.),1,brak,482,0,43.1,2025-12-22
+IK-02-00455,Telko Beta S.A. (fikc.),1,zatwierdzony,72,1,57.9,2026-08-11
+IK-02-00456,Telko Alfa S.A. (fikc.),1,zatwierdzony,378,1,64.8,2025-06-07
+IK-02-00457,Telko Alfa S.A. (fikc.),1,brak,1214,0,7.6,2025-12-10
+IK-02-00458,Telko Gamma S.A. (fikc.),1,zatwierdzony,506,1,83.1,2026-07-26
+IK-02-00460,Telko Beta S.A. (fikc.),1,w aktualizacji,720,1,63.7,2026-02-02
+IK-02-00461,Telko Gamma S.A. (fikc.),0,zatwierdzony,68,1,96.2,2025-06-18
+IK-02-00462,Telko Alfa S.A. (fikc.),1,w aktualizacji,956,1,70.5,2025-05-30
+IK-02-00463,Telko Alfa S.A. (fikc.),1,w aktualizacji,172,1,21.6,2026-05-04
+IK-02-00465,Telko Alfa S.A. (fikc.),1,w aktualizacji,89,1,86.3,2026-05-04
+IK-02-00466,Telko Beta S.A. (fikc.),0,w aktualizacji,92,0,35.6,2025-09-22
+IK-02-00467,Telko Beta S.A. (fikc.),0,zatwierdzony,1409,1,47.2,2025-08-25
+IK-02-00468,Telko Gamma S.A. (fikc.),1,w aktualizacji,1290,1,79.1,2026-05-10
+IK-02-00469,Telko Gamma S.A. (fikc.),1,brak,620,0,49.5,2025-06-09
+IK-02-00470,Telko Alfa S.A. (fikc.),1,zatwierdzony,687,1,74.3,2025-08-19
+IK-02-00472,Telko Gamma S.A. (fikc.),0,zatwierdzony,732,0,60.5,2026-03-30
+IK-02-00473,Telko Alfa S.A. (fikc.),1,w aktualizacji,1423,0,3,2026-05-16
+IK-02-00474,Telko Beta S.A. (fikc.),1,zatwierdzony,446,1,49.5,2025-11-22
+IK-02-00475,Telko Gamma S.A. (fikc.),0,zatwierdzony,1242,0,3,2025-12-16
+IK-02-00476,Telko Beta S.A. (fikc.),0,brak,998,0,31.7,2026-04-07
+IK-02-00477,Telko Gamma S.A. (fikc.),1,w aktualizacji,729,1,80.9,2026-04-25
+IK-02-00478,Telko Alfa S.A. (fikc.),1,zatwierdzony,607,1,55.8,2025-10-12
+IK-02-00480,Telko Gamma S.A. (fikc.),1,w aktualizacji,469,0,19.0,2026-02-05
+IK-02-00482,Telko Alfa S.A. (fikc.),0,brak,663,0,34.0,2025-12-18
+IK-02-00484,Telko Gamma S.A. (fikc.),1,brak,998,0,31.3,2025-11-21
+IK-02-00486,Telko Gamma S.A. (fikc.),1,w aktualizacji,1488,0,46.9,2026-08-31
+IK-02-00488,Telko Gamma S.A. (fikc.),1,zatwierdzony,1021,1,66.6,2025-09-01
+IK-02-00489,Telko Gamma S.A. (fikc.),1,zatwierdzony,704,1,42.2,2026-06-12
+IK-02-00493,Telko Alfa S.A. (fikc.),1,zatwierdzony,350,1,57.1,2026-01-30
+IK-02-00496,Telko Beta S.A. (fikc.),0,w aktualizacji,800,0,62.0,2025-05-23
+IK-02-00497,Telko Alfa S.A. (fikc.),1,zatwierdzony,730,1,75.2,2025-08-02
+IK-02-00499,Telko Gamma S.A. (fikc.),1,zatwierdzony,756,1,86.8,2025-12-29
+IK-02-00500,Telko Alfa S.A. (fikc.),1,zatwierdzony,1319,1,84.8,2026-05-06
+IK-02-00501,Telko Beta S.A. (fikc.),1,brak,967,0,48.6,2026-04-26
+IK-02-00503,Telko Alfa S.A. (fikc.),0,brak,848,0,8.9,2025-05-30
+IK-02-00504,Telko Beta S.A. (fikc.),1,zatwierdzony,1464,0,52.0,2025-12-13
+IK-02-00505,Telko Beta S.A. (fikc.),1,brak,167,1,85.0,2025-09-05
+IK-02-00510,Telko Gamma S.A. (fikc.),0,brak,1337,0,56.8,2025-11-24
+IK-02-00512,Telko Gamma S.A. (fikc.),1,zatwierdzony,1323,0,37.9,2025-12-09
+IK-02-00513,Telko Alfa S.A. (fikc.),1,w aktualizacji,1012,0,42.2,2026-07-03
+IK-02-00514,Telko Beta S.A. (fikc.),0,brak,1350,1,50.2,2026-04-02
+IK-02-00516,Telko Gamma S.A. (fikc.),1,zatwierdzony,548,1,50.5,2025-12-28
+IK-02-00518,Telko Beta S.A. (fikc.),0,w aktualizacji,613,0,28.4,2026-04-22
+IK-02-00519,Telko Beta S.A. (fikc.),1,w aktualizacji,550,0,64.1,2025-06-01
+IK-02-00523,Telko Alfa S.A. (fikc.),0,brak,473,0,49.4,2025-07-21
+IK-02-00526,Telko Alfa S.A. (fikc.),1,w aktualizacji,1239,1,63.8,2025-12-25
+IK-02-00528,Telko Beta S.A. (fikc.),1,w aktualizacji,688,0,10.9,2026-06-12
+IK-02-00532,Telko Gamma S.A. (fikc.),0,zatwierdzony,1135,0,25.7,2025-05-31
+IK-02-00534,Telko Beta S.A. (fikc.),1,w aktualizacji,181,1,62.8,2025-12-27
+IK-02-00535,Telko Gamma S.A. (fikc.),1,zatwierdzony,1407,1,46.5,2026-06-16
+IK-02-00537,Telko Gamma S.A. (fikc.),1,brak,243,0,56.7,2026-02-16
+IK-02-00539,Telko Gamma S.A. (fikc.),0,w aktualizacji,586,0,44.7,2025-05-10
+IK-02-00540,Telko Gamma S.A. (fikc.),0,w aktualizacji,941,0,37.8,2025-10-17
+IK-02-00541,Telko Gamma S.A. (fikc.),0,zatwierdzony,383,1,51.7,2026-06-26
+IK-02-00543,Telko Gamma S.A. (fikc.),1,brak,589,0,14.3,2026-09-04
+IK-02-00548,Telko Beta S.A. (fikc.),0,brak,1044,0,46.8,2025-08-05
+IK-02-00549,Telko Gamma S.A. (fikc.),1,zatwierdzony,473,1,64.7,2025-10-22
+IK-02-00551,Telko Beta S.A. (fikc.),1,brak,733,0,41.6,2026-01-19
+IK-02-00553,Telko Gamma S.A. (fikc.),1,w aktualizacji,381,0,46.0,2025-09-07
+IK-02-00554,Telko Gamma S.A. (fikc.),1,brak,557,0,16.5,2026-01-01
+IK-02-00556,Telko Gamma S.A. (fikc.),0,brak,764,0,31.4,2026-01-26
+IK-02-00557,Telko Gamma S.A. (fikc.),1,brak,247,1,63.4,2026-04-29
+IK-02-00559,Telko Beta S.A. (fikc.),1,zatwierdzony,1239,0,53.5,2026-07-04
+IK-02-00561,Telko Beta S.A. (fikc.),0,zatwierdzony,112,1,82.3,2026-08-08
+IK-02-00562,Telko Alfa S.A. (fikc.),0,zatwierdzony,585,1,65.8,2026-04-26
+IK-02-00567,Telko Gamma S.A. (fikc.),0,w aktualizacji,644,0,15.7,2025-08-01
+IK-02-00569,Telko Beta S.A. (fikc.),0,brak,1165,0,43.6,2026-03-20
+IK-02-00575,Telko Alfa S.A. (fikc.),1,brak,39,0,16.1,2026-08-19
+IK-02-00577,Telko Gamma S.A. (fikc.),1,zatwierdzony,561,1,68.5,2026-07-23
+IK-02-00579,Telko Alfa S.A. (fikc.),0,w aktualizacji,209,0,23.0,2025-10-27
+IK-02-00582,Telko Beta S.A. (fikc.),1,brak,1112,0,9.6,2026-04-05
+IK-02-00583,Telko Alfa S.A. (fikc.),1,brak,1136,0,47.6,2025-07-06
+IK-02-00584,Telko Alfa S.A. (fikc.),1,w aktualizacji,212,1,91.8,2026-02-09
+IK-02-00586,Telko Alfa S.A. (fikc.),1,w aktualizacji,170,1,58.1,2025-11-14
+IK-02-00588,Telko Gamma S.A. (fikc.),1,w aktualizacji,519,1,50.1,2026-04-06
+IK-02-00589,Telko Beta S.A. (fikc.),1,zatwierdzony,427,1,86.3,2026-08-19
+IK-02-00591,Telko Gamma S.A. (fikc.),1,w aktualizacji,1384,1,82.2,2025-10-08
+IK-02-00593,Telko Alfa S.A. (fikc.),1,brak,1237,1,66.7,2026-04-15
+IK-02-00594,Telko Alfa S.A. (fikc.),1,zatwierdzony,1073,1,59.6,2026-04-06
+IK-02-00596,Telko Gamma S.A. (fikc.),1,brak,621,1,68.8,2025-07-06
+IK-02-00599,Telko Gamma S.A. (fikc.),1,zatwierdzony,1305,1,63.0,2026-05-04
+IK-02-00600,Telko Alfa S.A. (fikc.),1,w aktualizacji,663,0,38.4,2025-06-29
+IK-02-00601,Telko Gamma S.A. (fikc.),1,w aktualizacji,346,1,45.3,2025-08-25
+IK-02-00602,Telko Beta S.A. (fikc.),1,brak,153,0,33.3,2025-09-05
+IK-02-00603,Telko Gamma S.A. (fikc.),0,w aktualizacji,1483,0,24.9,2025-07-08
+IK-02-00604,Telko Gamma S.A. (fikc.),0,w aktualizacji,413,0,25.2,2025-12-24
+IK-02-00605,Telko Beta S.A. (fikc.),0,brak,1063,1,94.0,2025-11-13
+IK-02-00606,Telko Gamma S.A. (fikc.),0,brak,1096,0,47.4,2025-05-25
+IK-02-00608,Telko Gamma S.A. (fikc.),0,brak,692,0,53.4,2025-07-20
+IK-02-00609,Telko Gamma S.A. (fikc.),0,brak,253,0,48.4,2025-08-30
+IK-02-00611,Telko Alfa S.A. (fikc.),0,zatwierdzony,975,0,42.0,2025-09-16
+IK-02-00612,Telko Gamma S.A. (fikc.),1,zatwierdzony,188,1,47.0,2026-06-10
+IK-02-00615,Telko Beta S.A. (fikc.),1,zatwierdzony,408,1,82.2,2025-06-07
+IK-02-00616,Telko Alfa S.A. (fikc.),0,brak,1409,0,51.5,2025-05-10
+IK-02-00617,Telko Beta S.A. (fikc.),1,w aktualizacji,1212,0,23.5,2026-03-05
+IK-02-00618,Telko Gamma S.A. (fikc.),0,zatwierdzony,697,1,80.1,2025-10-03
+IK-02-00620,Telko Gamma S.A. (fikc.),0,w aktualizacji,820,0,24.8,2025-12-30
+IK-02-00621,Telko Beta S.A. (fikc.),1,brak,66,0,45.2,2025-07-28
+IK-02-00622,Telko Alfa S.A. (fikc.),0,zatwierdzony,1278,0,18.9,2026-04-20
+IK-02-00623,Telko Beta S.A. (fikc.),0,brak,739,0,22.3,2026-06-21
+IK-02-00624,Telko Beta S.A. (fikc.),1,zatwierdzony,204,0,11.0,2026-05-26
+IK-02-00626,Telko Gamma S.A. (fikc.),1,w aktualizacji,1029,0,13.0,2025-11-26
+IK-02-00627,Telko Gamma S.A. (fikc.),1,w aktualizacji,782,0,43.3,2025-08-24
+IK-02-00629,Telko Alfa S.A. (fikc.),1,zatwierdzony,632,1,61.3,2025-10-02
+IK-02-00631,Telko Gamma S.A. (fikc.),0,w aktualizacji,616,0,43.6,2026-09-05
+IK-02-00632,Telko Beta S.A. (fikc.),1,zatwierdzony,1239,0,12.8,2026-04-08
+IK-02-00634,Telko Beta S.A. (fikc.),1,zatwierdzony,1256,1,55.0,2025-11-15
+IK-02-00636,Telko Beta S.A. (fikc.),0,brak,30,0,38.2,2026-04-25
+IK-02-00638,Telko Beta S.A. (fikc.),1,brak,538,0,48.5,2025-06-18
+IK-02-00643,Telko Beta S.A. (fikc.),1,w aktualizacji,672,0,28.9,2025-05-08
+IK-02-00645,Telko Gamma S.A. (fikc.),1,w aktualizacji,807,1,66.9,2025-09-01
+IK-02-00648,Telko Beta S.A. (fikc.),1,zatwierdzony,200,0,28.7,2026-02-18
+IK-02-00649,Telko Beta S.A. (fikc.),1,brak,1148,1,82.0,2026-07-19
+IK-02-00651,Telko Gamma S.A. (fikc.),0,brak,687,0,5.9,2025-11-26
+IK-02-00654,Telko Alfa S.A. (fikc.),0,w aktualizacji,836,0,30.3,2025-05-27
+IK-02-00659,Telko Beta S.A. (fikc.),0,brak,951,0,19.6,2026-04-08
+IK-02-00660,Telko Beta S.A. (fikc.),1,zatwierdzony,1130,1,83.6,2025-06-21
+IK-02-00661,Telko Alfa S.A. (fikc.),0,zatwierdzony,806,0,37.2,2025-08-11
+IK-02-00663,Telko Gamma S.A. (fikc.),1,zatwierdzony,487,1,52.8,2026-08-17
+IK-02-00664,Telko Gamma S.A. (fikc.),1,zatwierdzony,825,1,47.6,2026-01-02
+IK-02-00666,Telko Beta S.A. (fikc.),1,zatwierdzony,288,1,56.1,2025-05-27
+IK-02-00667,Telko Gamma S.A. (fikc.),0,w aktualizacji,335,0,20.3,2025-09-19
+IK-02-00668,Telko Beta S.A. (fikc.),1,w aktualizacji,708,1,42.8,2026-05-21
+IK-02-00670,Telko Beta S.A. (fikc.),1,brak,411,0,24.7,2026-03-16
+IK-02-00673,Telko Alfa S.A. (fikc.),1,zatwierdzony,198,0,16.7,2025-08-27
+IK-02-00674,Telko Alfa S.A. (fikc.),1,zatwierdzony,1108,1,57.7,2026-07-27
+IK-02-00676,Telko Alfa S.A. (fikc.),0,w aktualizacji,478,0,34.1,2025-07-06
+IK-02-00678,Telko Alfa S.A. (fikc.),0,w aktualizacji,462,0,45.6,2025-06-04
+IK-02-00679,Telko Beta S.A. (fikc.),1,w aktualizacji,500,0,5.5,2025-09-10
+IK-02-00680,Telko Gamma S.A. (fikc.),1,brak,599,0,43.0,2025-05-29
+IK-03-00682,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,1463,1,60.5,2026-02-19
+IK-03-00683,Centrum Informatyki Państwowej (fikc.),1,brak,1233,1,66.9,2026-03-17
+IK-03-00684,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1048,1,89.8,2025-12-24
+IK-03-00685,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,360,1,69.1,2026-01-12
+IK-03-00686,Centrum Informatyki Państwowej (fikc.),1,brak,165,0,50.0,2025-08-05
+IK-03-00687,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,334,1,44.3,2026-07-09
+IK-03-00688,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,601,1,53.4,2025-11-20
+IK-03-00689,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,1181,1,56.9,2026-05-25
+IK-03-00690,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,327,1,60.9,2026-03-17
+IK-03-00691,Centrum Informatyki Państwowej (fikc.),0,w aktualizacji,1341,0,3,2026-07-16
+IK-03-00692,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,119,1,44.0,2025-08-06
+IK-03-00695,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,955,1,62.8,2025-05-15
+IK-03-00696,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,271,1,69.4,2025-08-04
+IK-03-00697,Centrum Informatyki Państwowej (fikc.),1,brak,345,1,88.0,2026-04-03
+IK-03-00698,Centrum Informatyki Państwowej (fikc.),1,brak,139,1,66.1,2026-05-21
+IK-03-00699,Chmura Krajowa Sp. z o.o. (fikc.),0,w aktualizacji,360,0,31.2,2026-05-19
+IK-03-00700,Centrum Informatyki Państwowej (fikc.),0,brak,811,0,3,2026-01-18
+IK-03-00701,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,406,1,75.0,2025-05-30
+IK-03-00702,Chmura Krajowa Sp. z o.o. (fikc.),0,brak,239,0,69.5,2026-03-24
+IK-03-00703,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,866,1,36.4,2026-05-27
+IK-03-00704,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1278,1,71.9,2025-12-28
+IK-03-00705,Centrum Informatyki Państwowej (fikc.),1,brak,1319,1,61.2,2025-08-18
+IK-03-00706,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1023,1,68.4,2026-03-25
+IK-03-00707,Centrum Informatyki Państwowej (fikc.),1,brak,1306,0,30.0,2025-12-06
+IK-03-00708,Centrum Informatyki Państwowej (fikc.),0,zatwierdzony,1292,1,57.1,2025-05-15
+IK-03-00710,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,231,1,45.7,2025-09-08
+IK-03-00711,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,872,1,58.7,2026-07-05
+IK-03-00712,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,219,1,90.4,2025-08-14
+IK-03-00713,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,753,1,52.7,2026-01-14
+IK-03-00714,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,949,1,61.8,2026-02-22
+IK-03-00717,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,1305,1,19.5,2025-10-01
+IK-03-00718,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,506,0,27.5,2025-08-26
+IK-03-00719,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,594,1,47.1,2025-10-12
+IK-03-00720,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,224,0,39.6,2025-05-20
+IK-03-00721,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,48,1,41.9,2026-07-22
+IK-03-00722,Chmura Krajowa Sp. z o.o. (fikc.),0,w aktualizacji,1020,0,21.9,2026-03-26
+IK-03-00723,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,812,1,57.5,2025-06-23
+IK-03-00724,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1397,1,52.7,2026-03-02
+IK-03-00725,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,548,1,57.6,2026-07-23
+IK-03-00726,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,1156,1,62.5,2026-07-30
+IK-03-00727,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,78,1,51.0,2025-08-27
+IK-03-00728,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1051,1,66.3,2026-08-27
+IK-03-00729,Centrum Informatyki Państwowej (fikc.),0,w aktualizacji,151,0,3,2025-07-09
+IK-03-00730,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,355,1,81.1,2026-04-23
+IK-03-00731,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,595,1,73.0,2026-07-31
+IK-03-00733,Centrum Informatyki Państwowej (fikc.),0,w aktualizacji,1345,0,75.1,2026-02-07
+IK-03-00734,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,378,1,35.6,2026-02-19
+IK-03-00735,Centrum Informatyki Państwowej (fikc.),0,brak,1289,0,13.4,2026-08-11
+IK-03-00736,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,496,0,34.2,2025-08-29
+IK-03-00737,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1109,1,98.2,2026-07-18
+IK-03-00738,Centrum Informatyki Państwowej (fikc.),0,brak,1352,0,27.3,2025-11-02
+IK-03-00739,Centrum Informatyki Państwowej (fikc.),1,brak,786,1,72.3,2025-09-09
+IK-03-00740,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,412,1,79.8,2025-11-04
+IK-03-00741,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,48,1,37.0,2025-08-05
+IK-03-00742,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1200,1,66.3,2026-05-12
+IK-03-00743,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,663,1,74.5,2026-06-01
+IK-03-00745,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,600,0,11.3,2026-08-25
+IK-03-00748,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,113,1,71.0,2025-06-28
+IK-03-00749,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1139,1,48.9,2026-08-28
+IK-03-00750,Centrum Informatyki Państwowej (fikc.),0,w aktualizacji,1228,0,51.4,2025-09-01
+IK-03-00752,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,530,0,33.0,2026-06-29
+IK-03-00753,Centrum Informatyki Państwowej (fikc.),0,brak,1069,0,25.2,2026-01-08
+IK-03-00755,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,351,1,41.8,2026-01-28
+IK-03-00756,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,463,1,58.6,2026-01-29
+IK-03-00757,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,112,1,85.3,2026-06-05
+IK-03-00758,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,845,1,64.8,2025-12-13
+IK-03-00759,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,634,1,73.4,2026-04-10
+IK-03-00760,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1320,1,67.6,2026-02-02
+IK-03-00761,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,1246,1,50.2,2025-08-17
+IK-03-00762,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,1028,1,41.7,2025-05-13
+IK-03-00763,Chmura Krajowa Sp. z o.o. (fikc.),0,brak,85,0,23.5,2025-05-29
+IK-03-00765,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,852,1,47.9,2026-04-15
+IK-03-00766,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,916,1,42.0,2025-07-11
+IK-03-00767,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,905,1,34.6,2026-08-31
+IK-03-00768,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,697,1,100,2025-12-31
+IK-03-00769,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,185,1,65.3,2026-01-11
+IK-03-00770,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1021,1,55.0,2026-01-27
+IK-03-00771,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,232,1,61.2,2026-09-05
+IK-03-00772,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,813,1,63.8,2025-10-21
+IK-03-00773,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,851,0,60.0,2025-10-29
+IK-03-00776,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,404,1,47.3,2025-05-30
+IK-03-00777,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1039,1,78.9,2026-05-12
+IK-03-00778,Chmura Krajowa Sp. z o.o. (fikc.),0,brak,594,0,60.1,2025-06-27
+IK-03-00779,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1347,1,77.8,2026-01-16
+IK-03-00780,Chmura Krajowa Sp. z o.o. (fikc.),0,zatwierdzony,876,0,26.2,2025-12-02
+IK-03-00781,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,1084,1,49.5,2026-04-07
+IK-03-00782,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,854,1,100,2026-07-29
+IK-03-00783,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1442,1,62.6,2026-01-03
+IK-03-00785,Centrum Informatyki Państwowej (fikc.),1,brak,1027,1,69.1,2025-08-01
+IK-03-00786,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,764,0,89.9,2025-07-10
+IK-03-00787,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,24,1,90.1,2026-04-22
+IK-03-00788,Chmura Krajowa Sp. z o.o. (fikc.),0,brak,1151,0,46.9,2025-09-11
+IK-03-00789,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,513,1,45.6,2026-02-02
+IK-03-00790,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,1172,1,54.7,2025-12-07
+IK-03-00791,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,883,1,49.4,2026-05-13
+IK-03-00792,Chmura Krajowa Sp. z o.o. (fikc.),0,brak,1397,0,43.5,2026-06-05
+IK-03-00793,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,624,1,59.2,2026-01-10
+IK-03-00794,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,246,1,83.3,2026-06-05
+IK-03-00795,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,30,1,51.8,2025-12-13
+IK-03-00796,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,847,0,3,2026-06-08
+IK-03-00797,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,1120,1,100,2026-03-02
+IK-03-00798,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1499,1,73.0,2025-06-10
+IK-03-00799,Chmura Krajowa Sp. z o.o. (fikc.),0,w aktualizacji,66,0,9.5,2026-01-14
+IK-03-00800,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,27,1,86.5,2025-10-11
+IK-03-00801,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,1462,0,20.7,2026-08-31
+IK-03-00802,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,110,1,46.0,2025-09-16
+IK-03-00804,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,805,1,62.7,2026-05-20
+IK-03-00805,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,668,1,86.3,2026-08-17
+IK-03-00806,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,356,0,5.2,2025-11-27
+IK-03-00807,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,129,1,43.9,2026-06-13
+IK-03-00808,Centrum Informatyki Państwowej (fikc.),0,brak,1376,0,13.3,2025-08-13
+IK-03-00810,Chmura Krajowa Sp. z o.o. (fikc.),0,brak,233,0,31.2,2026-07-01
+IK-03-00811,Chmura Krajowa Sp. z o.o. (fikc.),1,brak,628,1,52.1,2026-03-28
+IK-03-00812,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,982,1,33.4,2026-08-20
+IK-03-00814,Centrum Informatyki Państwowej (fikc.),1,brak,708,0,30.5,2026-04-16
+IK-03-00815,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,248,1,92.8,2026-05-02
+IK-03-00816,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,320,1,82.4,2025-06-10
+IK-03-00817,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,597,1,82.4,2025-10-30
+IK-03-00819,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,188,1,82.9,2025-11-29
+IK-03-00820,Centrum Informatyki Państwowej (fikc.),1,zatwierdzony,61,1,73.9,2025-07-21
+IK-03-00822,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,1489,1,69.5,2026-01-30
+IK-03-00823,Centrum Informatyki Państwowej (fikc.),0,brak,991,0,50.8,2025-08-23
+IK-03-00824,Centrum Informatyki Państwowej (fikc.),1,brak,1042,0,47.1,2026-06-15
+IK-03-00825,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,390,1,72.6,2025-07-26
+IK-03-00826,Chmura Krajowa Sp. z o.o. (fikc.),1,w aktualizacji,871,1,81.4,2026-03-24
+IK-03-00827,Chmura Krajowa Sp. z o.o. (fikc.),1,zatwierdzony,458,1,70.0,2026-01-28
+IK-03-00829,Centrum Informatyki Państwowej (fikc.),1,w aktualizacji,270,1,69.2,2025-07-08
+IK-03-00830,Centrum Informatyki Państwowej (fikc.),0,w aktualizacji,566,0,41.1,2025-09-29
+IK-04-00832,Izba Rozliczeniowa (fikc.),1,w aktualizacji,396,1,79.1,2026-01-08
+IK-04-00834,Izba Rozliczeniowa (fikc.),1,brak,584,1,82.4,2026-03-19
+IK-04-00836,Bank Krajowy S.A. (fikc.),1,brak,1063,1,52.7,2026-06-11
+IK-04-00839,Izba Rozliczeniowa (fikc.),1,zatwierdzony,1350,1,42.3,2025-08-08
+IK-04-00840,Bank Regionalny S.A. (fikc.),1,zatwierdzony,659,1,84.4,2025-05-21
+IK-04-00842,Izba Rozliczeniowa (fikc.),1,w aktualizacji,713,1,65.0,2026-07-04
+IK-04-00845,Bank Krajowy S.A. (fikc.),1,zatwierdzony,566,1,67.6,2025-05-07
+IK-04-00846,Bank Krajowy S.A. (fikc.),1,zatwierdzony,76,1,93.8,2026-03-19
+IK-04-00847,Bank Regionalny S.A. (fikc.),1,zatwierdzony,122,1,51.5,2025-06-19
+IK-04-00848,Bank Krajowy S.A. (fikc.),1,zatwierdzony,639,0,40.6,2026-04-23
+IK-04-00849,Bank Regionalny S.A. (fikc.),0,w aktualizacji,179,0,3,2025-09-12
+IK-04-00850,Bank Regionalny S.A. (fikc.),1,brak,569,1,76.6,2026-05-04
+IK-04-00851,Bank Regionalny S.A. (fikc.),1,zatwierdzony,1076,1,85.9,2026-08-18
+IK-04-00852,Bank Regionalny S.A. (fikc.),1,zatwierdzony,836,1,81.0,2025-12-03
+IK-04-00853,Bank Regionalny S.A. (fikc.),1,brak,1078,0,33.8,2026-07-10
+IK-04-00854,Bank Krajowy S.A. (fikc.),0,zatwierdzony,738,0,66.4,2026-08-30
+IK-04-00855,Bank Regionalny S.A. (fikc.),1,zatwierdzony,1353,1,68.1,2025-12-29
+IK-04-00856,Izba Rozliczeniowa (fikc.),1,zatwierdzony,1415,1,86.1,2026-04-08
+IK-04-00857,Bank Krajowy S.A. (fikc.),1,w aktualizacji,243,0,50.8,2026-05-28
+IK-04-00860,Izba Rozliczeniowa (fikc.),0,brak,795,0,36.0,2025-12-02
+IK-04-00861,Bank Krajowy S.A. (fikc.),0,zatwierdzony,1180,0,59.1,2026-02-06
+IK-04-00862,Izba Rozliczeniowa (fikc.),0,zatwierdzony,565,0,45.9,2026-01-01
+IK-04-00863,Bank Krajowy S.A. (fikc.),1,w aktualizacji,964,0,47.3,2026-02-28
+IK-04-00864,Bank Krajowy S.A. (fikc.),1,zatwierdzony,1128,1,72.0,2026-07-26
+IK-04-00866,Bank Krajowy S.A. (fikc.),0,w aktualizacji,1359,0,17.9,2025-11-05
+IK-04-00867,Bank Regionalny S.A. (fikc.),1,zatwierdzony,1464,1,50.0,2026-01-02
+IK-04-00868,Bank Krajowy S.A. (fikc.),0,w aktualizacji,1390,0,33.3,2026-01-16
+IK-04-00869,Bank Regionalny S.A. (fikc.),0,w aktualizacji,659,0,31.5,2026-08-25
+IK-04-00870,Bank Regionalny S.A. (fikc.),1,w aktualizacji,794,1,86.9,2026-01-11
+IK-04-00871,Izba Rozliczeniowa (fikc.),0,brak,958,0,73.5,2025-12-17
+IK-04-00872,Bank Krajowy S.A. (fikc.),0,brak,274,1,59.6,2026-05-07
+IK-04-00873,Bank Regionalny S.A. (fikc.),1,w aktualizacji,168,1,76.0,2026-06-18
+IK-04-00875,Bank Regionalny S.A. (fikc.),1,zatwierdzony,1134,1,53.7,2026-04-01
+IK-04-00877,Izba Rozliczeniowa (fikc.),0,brak,1000,0,8.9,2026-01-28
+IK-04-00879,Bank Krajowy S.A. (fikc.),1,zatwierdzony,902,1,58.9,2025-10-20
+IK-04-00880,Izba Rozliczeniowa (fikc.),0,w aktualizacji,98,0,35.2,2025-04-29
+IK-04-00881,Izba Rozliczeniowa (fikc.),1,w aktualizacji,999,0,49.8,2025-07-31
+IK-04-00883,Izba Rozliczeniowa (fikc.),1,w aktualizacji,633,0,3,2026-03-27
+IK-04-00884,Bank Krajowy S.A. (fikc.),1,w aktualizacji,521,1,55.8,2026-05-24
+IK-04-00885,Bank Regionalny S.A. (fikc.),1,w aktualizacji,1278,1,72.0,2026-03-16
+IK-04-00886,Izba Rozliczeniowa (fikc.),1,zatwierdzony,1014,1,66.0,2026-09-06
+IK-04-00887,Bank Krajowy S.A. (fikc.),1,zatwierdzony,1320,1,85.5,2025-10-06
+IK-04-00892,Izba Rozliczeniowa (fikc.),1,brak,1434,0,25.2,2026-07-17
+IK-04-00893,Bank Krajowy S.A. (fikc.),0,brak,964,0,64.0,2025-12-13
+IK-04-00896,Izba Rozliczeniowa (fikc.),1,zatwierdzony,1213,0,8.4,2025-05-21
+IK-04-00903,Bank Regionalny S.A. (fikc.),1,zatwierdzony,1162,1,76.8,2026-07-22
+IK-04-00904,Bank Krajowy S.A. (fikc.),0,zatwierdzony,1443,0,44.5,2025-06-02
+IK-04-00906,Izba Rozliczeniowa (fikc.),0,brak,951,0,28.0,2025-12-17
+IK-04-00909,Izba Rozliczeniowa (fikc.),1,zatwierdzony,1284,1,69.3,2025-06-17
+IK-04-00912,Izba Rozliczeniowa (fikc.),1,w aktualizacji,114,1,67.3,2026-06-02
+IK-04-00914,Izba Rozliczeniowa (fikc.),0,brak,970,0,42.8,2025-10-04
+IK-05-00923,Agencja Rezerw (fikc.),1,brak,1349,1,68.1,2026-02-10
+IK-05-00924,Sieć Chłodni Polska (fikc.),0,w aktualizacji,1014,0,26.8,2026-06-01
+IK-05-00925,Spółdzielnia Spożywcza (fikc.),1,brak,1414,0,16.5,2025-12-18
+IK-05-00926,Sieć Chłodni Polska (fikc.),0,brak,1344,0,46.7,2026-01-12
+IK-05-00927,Spółdzielnia Spożywcza (fikc.),1,zatwierdzony,507,1,47.9,2026-01-08
+IK-05-00928,Sieć Chłodni Polska (fikc.),0,zatwierdzony,1233,1,72.7,2026-07-24
+IK-05-00929,Spółdzielnia Spożywcza (fikc.),1,zatwierdzony,340,1,42.5,2025-09-10
+IK-05-00930,Agencja Rezerw (fikc.),1,zatwierdzony,1473,1,68.1,2025-10-07
+IK-05-00931,Sieć Chłodni Polska (fikc.),1,w aktualizacji,653,1,52.0,2026-06-07
+IK-05-00932,Spółdzielnia Spożywcza (fikc.),1,zatwierdzony,49,1,74.0,2026-03-22
+IK-05-00933,Sieć Chłodni Polska (fikc.),1,zatwierdzony,1244,1,48.3,2025-12-19
+IK-05-00935,Sieć Chłodni Polska (fikc.),0,w aktualizacji,1439,1,62.9,2026-01-20
+IK-05-00936,Sieć Chłodni Polska (fikc.),0,w aktualizacji,955,0,30.4,2026-08-07
+IK-05-00937,Spółdzielnia Spożywcza (fikc.),0,zatwierdzony,699,1,73.0,2026-01-29
+IK-05-00938,Agencja Rezerw (fikc.),1,zatwierdzony,138,1,65.8,2025-08-24
+IK-05-00940,Spółdzielnia Spożywcza (fikc.),1,zatwierdzony,74,1,75.6,2025-11-20
+IK-05-00941,Sieć Chłodni Polska (fikc.),1,brak,526,1,35.6,2026-09-04
+IK-05-00942,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,928,1,65.2,2025-10-01
+IK-05-00943,Spółdzielnia Spożywcza (fikc.),1,zatwierdzony,1404,1,56.0,2026-03-19
+IK-05-00944,Sieć Chłodni Polska (fikc.),1,zatwierdzony,150,1,70.9,2026-05-27
+IK-05-00945,Spółdzielnia Spożywcza (fikc.),0,w aktualizacji,152,0,12.2,2026-07-07
+IK-05-00946,Agencja Rezerw (fikc.),1,zatwierdzony,1136,1,78.9,2026-01-07
+IK-05-00947,Agencja Rezerw (fikc.),1,zatwierdzony,334,1,44.5,2025-07-21
+IK-05-00950,Agencja Rezerw (fikc.),1,zatwierdzony,869,1,29.0,2025-05-17
+IK-05-00951,Spółdzielnia Spożywcza (fikc.),0,zatwierdzony,1425,0,20.5,2025-05-12
+IK-05-00954,Agencja Rezerw (fikc.),0,w aktualizacji,314,1,47.7,2026-06-24
+IK-05-00955,Sieć Chłodni Polska (fikc.),1,zatwierdzony,1494,1,74.0,2025-06-24
+IK-05-00957,Sieć Chłodni Polska (fikc.),1,w aktualizacji,135,1,87.4,2026-08-29
+IK-05-00960,Spółdzielnia Spożywcza (fikc.),0,w aktualizacji,1377,0,30.3,2025-10-05
+IK-05-00963,Agencja Rezerw (fikc.),1,brak,968,1,62.8,2025-05-22
+IK-05-00965,Agencja Rezerw (fikc.),1,w aktualizacji,262,0,26.2,2026-04-12
+IK-05-00966,Sieć Chłodni Polska (fikc.),0,zatwierdzony,113,0,10.7,2025-09-18
+IK-05-00968,Spółdzielnia Spożywcza (fikc.),0,brak,434,0,39.7,2025-09-12
+IK-05-00977,Sieć Chłodni Polska (fikc.),1,brak,826,1,61.1,2026-05-10
+IK-05-00978,Sieć Chłodni Polska (fikc.),0,brak,711,0,41.6,2025-06-19
+IK-05-00979,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,932,0,55.9,2025-12-29
+IK-05-00983,Spółdzielnia Spożywcza (fikc.),0,brak,58,0,35.5,2025-07-20
+IK-05-00987,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,916,1,79.0,2025-07-29
+IK-05-00989,Agencja Rezerw (fikc.),1,brak,1049,0,41.5,2026-03-16
+IK-05-00993,Agencja Rezerw (fikc.),0,w aktualizacji,1406,0,19.7,2025-09-26
+IK-05-00996,Sieć Chłodni Polska (fikc.),1,w aktualizacji,95,0,29.3,2026-05-14
+IK-05-00997,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,1065,0,26.4,2025-11-02
+IK-05-00998,Agencja Rezerw (fikc.),1,w aktualizacji,394,0,11.8,2026-03-22
+IK-05-01003,Spółdzielnia Spożywcza (fikc.),0,zatwierdzony,1274,0,17.2,2025-11-02
+IK-05-01007,Agencja Rezerw (fikc.),0,brak,1044,0,31.6,2025-11-22
+IK-05-01009,Spółdzielnia Spożywcza (fikc.),1,brak,1031,0,48.5,2025-08-18
+IK-05-01011,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,1066,0,13.2,2025-05-30
+IK-05-01012,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,1341,1,75.8,2025-09-28
+IK-05-01014,Agencja Rezerw (fikc.),0,w aktualizacji,540,0,23.4,2026-01-02
+IK-05-01015,Sieć Chłodni Polska (fikc.),1,zatwierdzony,151,1,50.9,2025-05-08
+IK-05-01016,Spółdzielnia Spożywcza (fikc.),1,w aktualizacji,777,0,63.1,2025-06-17
+IK-05-01020,Agencja Rezerw (fikc.),0,zatwierdzony,933,0,44.4,2026-04-28
+IK-05-01021,Sieć Chłodni Polska (fikc.),1,w aktualizacji,1323,0,31.4,2026-04-18
+IK-05-01024,Spółdzielnia Spożywcza (fikc.),0,brak,693,0,59.7,2026-07-14
+IK-05-01025,Agencja Rezerw (fikc.),0,w aktualizacji,735,1,68.5,2026-04-06
+IK-05-01028,Spółdzielnia Spożywcza (fikc.),1,brak,1125,1,59.5,2026-03-19
+IK-05-01032,Sieć Chłodni Polska (fikc.),1,zatwierdzony,296,0,22.2,2026-01-07
+IK-05-01033,Sieć Chłodni Polska (fikc.),1,w aktualizacji,32,0,47.5,2025-12-19
+IK-05-01034,Sieć Chłodni Polska (fikc.),1,zatwierdzony,233,1,96.3,2025-08-03
+IK-05-01035,Sieć Chłodni Polska (fikc.),0,w aktualizacji,216,0,38.6,2025-11-26
+IK-05-01036,Spółdzielnia Spożywcza (fikc.),0,w aktualizacji,812,0,39.6,2026-07-16
+IK-05-01038,Agencja Rezerw (fikc.),0,brak,718,0,19.4,2025-09-15
+IK-05-01041,Spółdzielnia Spożywcza (fikc.),1,zatwierdzony,153,1,49.2,2025-06-08
+IK-05-01044,Spółdzielnia Spożywcza (fikc.),0,w aktualizacji,604,0,52.6,2025-09-14
+IK-05-01046,Agencja Rezerw (fikc.),0,w aktualizacji,1151,0,35.7,2025-06-17
+IK-05-01048,Spółdzielnia Spożywcza (fikc.),0,zatwierdzony,916,0,58.3,2025-05-17
+IK-05-01051,Sieć Chłodni Polska (fikc.),1,w aktualizacji,194,1,65.5,2026-07-05
+IK-05-01054,Spółdzielnia Spożywcza (fikc.),1,brak,1401,0,7.5,2025-12-18
+IK-05-01058,Spółdzielnia Spożywcza (fikc.),0,zatwierdzony,425,1,58.3,2025-07-17
+IK-06-01061,Wodociągi Miejskie (fikc.),0,zatwierdzony,826,1,100,2025-09-14
+IK-06-01063,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,985,0,11.3,2026-03-17
+IK-06-01064,Wodociągi Miejskie (fikc.),0,brak,875,0,10.2,2025-10-26
+IK-06-01065,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,245,1,54.3,2025-11-26
+IK-06-01066,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,1280,1,87.0,2026-05-26
+IK-06-01067,Zakład Wodociągowy Gminny (fikc.),0,brak,30,0,9.6,2025-10-08
+IK-06-01068,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1186,1,54.7,2025-08-24
+IK-06-01070,Zakład Wodociągowy Gminny (fikc.),0,brak,760,0,36.2,2026-06-08
+IK-06-01071,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,833,1,46.8,2025-08-24
+IK-06-01072,Zakład Wodociągowy Gminny (fikc.),0,brak,1365,0,41.5,2025-12-28
+IK-06-01073,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,233,0,37.2,2026-02-20
+IK-06-01074,Wodociągi Miejskie (fikc.),1,zatwierdzony,527,1,72.8,2025-10-17
+IK-06-01077,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,617,0,11.1,2025-04-29
+IK-06-01078,Wodociągi Miejskie (fikc.),1,w aktualizacji,705,1,35.9,2025-07-28
+IK-06-01079,Wodociągi Miejskie (fikc.),1,zatwierdzony,1167,1,33.2,2025-07-08
+IK-06-01080,Wodociągi Miejskie (fikc.),1,brak,874,1,34.3,2025-09-05
+IK-06-01081,Wodociągi Miejskie (fikc.),1,zatwierdzony,545,1,37.7,2026-03-03
+IK-06-01082,Wodociągi Miejskie (fikc.),1,w aktualizacji,336,1,74.0,2026-04-29
+IK-06-01083,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,462,0,44.3,2025-10-27
+IK-06-01084,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,407,1,74.1,2026-02-07
+IK-06-01086,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,756,1,90.9,2025-10-06
+IK-06-01087,Wodociągi Miejskie (fikc.),1,zatwierdzony,213,1,69.2,2025-10-16
+IK-06-01088,Wodociągi Miejskie (fikc.),1,zatwierdzony,682,1,56.7,2025-08-09
+IK-06-01089,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,109,1,49.3,2026-06-21
+IK-06-01090,Wodociągi Miejskie (fikc.),1,zatwierdzony,339,1,66.1,2025-06-12
+IK-06-01091,Wodociągi Miejskie (fikc.),0,brak,143,0,80.2,2025-09-05
+IK-06-01092,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,963,1,69.5,2026-01-08
+IK-06-01096,Wodociągi Miejskie (fikc.),1,brak,1277,0,40.1,2025-12-18
+IK-06-01097,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,300,1,51.0,2026-08-13
+IK-06-01099,Wodociągi Miejskie (fikc.),1,w aktualizacji,67,1,48.5,2025-10-12
+IK-06-01100,Wodociągi Miejskie (fikc.),0,w aktualizacji,1045,0,28.1,2025-05-15
+IK-06-01101,Zakład Wodociągowy Gminny (fikc.),0,brak,632,0,3,2025-04-29
+IK-06-01102,Zakład Wodociągowy Gminny (fikc.),1,brak,762,0,29.6,2025-09-22
+IK-06-01103,Zakład Wodociągowy Gminny (fikc.),1,brak,1216,1,60.3,2025-09-08
+IK-06-01104,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,825,1,70.1,2026-06-03
+IK-06-01105,Zakład Wodociągowy Gminny (fikc.),1,brak,497,1,60.3,2026-07-07
+IK-06-01106,Wodociągi Miejskie (fikc.),1,zatwierdzony,873,1,99.7,2026-07-30
+IK-06-01107,Wodociągi Miejskie (fikc.),0,zatwierdzony,944,0,41.7,2025-08-07
+IK-06-01108,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,51,1,57.5,2025-11-17
+IK-06-01111,Wodociągi Miejskie (fikc.),1,brak,1145,0,6.6,2026-01-12
+IK-06-01115,Wodociągi Miejskie (fikc.),0,zatwierdzony,476,1,71.3,2026-04-22
+IK-06-01117,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,984,1,86.1,2026-01-12
+IK-06-01118,Wodociągi Miejskie (fikc.),1,zatwierdzony,721,1,88.7,2026-05-14
+IK-06-01120,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,714,1,45.7,2026-08-21
+IK-06-01121,Wodociągi Miejskie (fikc.),1,zatwierdzony,1315,1,66.4,2025-10-24
+IK-06-01124,Wodociągi Miejskie (fikc.),0,w aktualizacji,364,0,48.4,2025-11-28
+IK-06-01125,Wodociągi Miejskie (fikc.),1,w aktualizacji,231,1,92.3,2026-08-19
+IK-06-01126,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,378,1,63.5,2026-02-01
+IK-06-01129,Zakład Wodociągowy Gminny (fikc.),1,brak,256,0,29.4,2025-05-07
+IK-06-01130,Zakład Wodociągowy Gminny (fikc.),0,brak,1461,0,32.3,2025-06-29
+IK-06-01131,Wodociągi Miejskie (fikc.),1,brak,43,1,22.1,2025-07-25
+IK-06-01133,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,869,1,32.4,2026-01-17
+IK-06-01134,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,519,0,30.2,2025-09-26
+IK-06-01135,Wodociągi Miejskie (fikc.),1,w aktualizacji,1106,1,78.6,2025-05-17
+IK-06-01137,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,371,1,65.7,2026-06-11
+IK-06-01138,Zakład Wodociągowy Gminny (fikc.),0,brak,786,0,11.2,2025-12-20
+IK-06-01140,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,367,1,60.3,2026-05-01
+IK-06-01142,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,679,0,30.4,2025-08-28
+IK-06-01143,Wodociągi Miejskie (fikc.),1,zatwierdzony,1144,1,47.5,2025-12-17
+IK-06-01144,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,508,0,51.8,2025-05-07
+IK-06-01145,Wodociągi Miejskie (fikc.),1,zatwierdzony,638,1,44.8,2026-08-08
+IK-06-01146,Wodociągi Miejskie (fikc.),1,zatwierdzony,1261,0,44.7,2025-11-22
+IK-06-01147,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1038,0,7.1,2025-04-28
+IK-06-01148,Wodociągi Miejskie (fikc.),1,w aktualizacji,790,1,75.9,2025-07-31
+IK-06-01149,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,285,1,81.5,2025-09-03
+IK-06-01150,Wodociągi Miejskie (fikc.),1,zatwierdzony,149,1,66.3,2025-12-31
+IK-06-01151,Wodociągi Miejskie (fikc.),1,zatwierdzony,897,1,58.0,2026-08-12
+IK-06-01152,Wodociągi Miejskie (fikc.),0,brak,204,0,25.4,2025-06-01
+IK-06-01153,Wodociągi Miejskie (fikc.),1,w aktualizacji,180,1,54.6,2026-06-08
+IK-06-01154,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,760,1,94.0,2026-06-02
+IK-06-01155,Wodociągi Miejskie (fikc.),1,zatwierdzony,1207,1,48.4,2025-11-08
+IK-06-01158,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,366,1,67.8,2026-06-22
+IK-06-01159,Wodociągi Miejskie (fikc.),1,w aktualizacji,273,0,38.2,2025-12-07
+IK-06-01160,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,507,1,45.0,2026-03-17
+IK-06-01161,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,430,1,86.3,2026-06-10
+IK-06-01163,Wodociągi Miejskie (fikc.),1,brak,303,1,50.7,2025-12-28
+IK-06-01165,Zakład Wodociągowy Gminny (fikc.),0,brak,101,0,61.8,2026-07-27
+IK-06-01166,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,540,1,51.7,2025-05-07
+IK-06-01168,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,329,1,99.6,2025-09-29
+IK-06-01169,Wodociągi Miejskie (fikc.),0,brak,1025,0,38.6,2025-08-14
+IK-06-01170,Wodociągi Miejskie (fikc.),1,w aktualizacji,1062,1,34.9,2025-10-24
+IK-06-01171,Wodociągi Miejskie (fikc.),1,zatwierdzony,548,1,79.8,2025-12-10
+IK-06-01174,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,485,0,52.3,2026-03-09
+IK-06-01175,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1200,1,40.9,2025-11-16
+IK-06-01176,Wodociągi Miejskie (fikc.),1,w aktualizacji,299,1,68.2,2025-12-15
+IK-06-01177,Wodociągi Miejskie (fikc.),1,brak,390,1,46.6,2026-04-11
+IK-06-01179,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,353,1,73.7,2026-05-19
+IK-06-01180,Wodociągi Miejskie (fikc.),1,zatwierdzony,1440,0,64.6,2026-04-06
+IK-06-01181,Zakład Wodociągowy Gminny (fikc.),1,brak,456,0,38.2,2025-04-29
+IK-06-01182,Wodociągi Miejskie (fikc.),1,zatwierdzony,180,1,66.0,2025-12-16
+IK-06-01183,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,559,1,61.9,2025-07-17
+IK-06-01184,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,617,1,64.3,2025-12-15
+IK-06-01185,Wodociągi Miejskie (fikc.),1,w aktualizacji,831,0,49.0,2026-08-30
+IK-06-01186,Wodociągi Miejskie (fikc.),1,w aktualizacji,935,1,22.7,2025-08-04
+IK-06-01187,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1017,1,56.5,2025-09-06
+IK-06-01188,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,873,1,67.5,2026-03-27
+IK-06-01190,Wodociągi Miejskie (fikc.),1,zatwierdzony,186,1,74.8,2026-02-07
+IK-06-01191,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,894,0,42.9,2025-12-16
+IK-06-01192,Wodociągi Miejskie (fikc.),1,zatwierdzony,22,1,68.9,2025-06-19
+IK-06-01193,Zakład Wodociągowy Gminny (fikc.),1,brak,467,1,74.4,2026-02-05
+IK-06-01194,Wodociągi Miejskie (fikc.),1,brak,939,1,100,2025-12-12
+IK-06-01196,Wodociągi Miejskie (fikc.),1,zatwierdzony,381,1,64.8,2026-03-08
+IK-06-01198,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,871,1,42.7,2026-04-15
+IK-06-01199,Wodociągi Miejskie (fikc.),1,brak,428,0,3,2026-05-20
+IK-06-01200,Zakład Wodociągowy Gminny (fikc.),1,brak,763,0,48.6,2025-11-21
+IK-06-01203,Wodociągi Miejskie (fikc.),1,zatwierdzony,180,1,12.1,2026-09-06
+IK-06-01204,Wodociągi Miejskie (fikc.),1,brak,1467,1,86.7,2025-08-22
+IK-06-01205,Wodociągi Miejskie (fikc.),1,w aktualizacji,46,1,55.2,2026-08-26
+IK-06-01207,Zakład Wodociągowy Gminny (fikc.),1,brak,386,1,56.7,2026-08-03
+IK-06-01208,Wodociągi Miejskie (fikc.),1,zatwierdzony,185,1,68.9,2025-11-02
+IK-06-01210,Wodociągi Miejskie (fikc.),1,brak,1330,1,61.1,2026-04-11
+IK-06-01211,Wodociągi Miejskie (fikc.),1,w aktualizacji,1191,0,49.3,2025-06-21
+IK-06-01214,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,1259,0,43.3,2025-05-23
+IK-06-01216,Wodociągi Miejskie (fikc.),1,brak,844,0,3,2025-10-28
+IK-06-01217,Wodociągi Miejskie (fikc.),1,w aktualizacji,1453,1,77.8,2025-12-05
+IK-06-01219,Wodociągi Miejskie (fikc.),1,w aktualizacji,162,1,79.7,2025-06-24
+IK-06-01220,Wodociągi Miejskie (fikc.),0,zatwierdzony,1164,0,55.0,2026-05-15
+IK-06-01221,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,611,0,19.0,2026-02-05
+IK-06-01222,Wodociągi Miejskie (fikc.),1,zatwierdzony,98,1,87.5,2025-07-12
+IK-06-01223,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,603,1,64.9,2026-03-15
+IK-06-01226,Wodociągi Miejskie (fikc.),1,zatwierdzony,1071,1,82.5,2026-03-08
+IK-06-01227,Zakład Wodociągowy Gminny (fikc.),1,brak,168,0,9.3,2025-05-09
+IK-06-01228,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1398,1,59.3,2026-06-16
+IK-06-01229,Wodociągi Miejskie (fikc.),0,brak,189,0,34.0,2026-01-01
+IK-06-01230,Wodociągi Miejskie (fikc.),0,zatwierdzony,737,1,85.4,2025-06-04
+IK-06-01231,Wodociągi Miejskie (fikc.),1,zatwierdzony,209,1,65.9,2025-11-07
+IK-06-01232,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1008,1,21.2,2025-05-02
+IK-06-01233,Zakład Wodociągowy Gminny (fikc.),0,brak,71,0,32.3,2026-09-06
+IK-06-01235,Wodociągi Miejskie (fikc.),0,zatwierdzony,605,0,3,2025-05-26
+IK-06-01236,Wodociągi Miejskie (fikc.),1,w aktualizacji,780,1,87.5,2025-06-27
+IK-06-01237,Wodociągi Miejskie (fikc.),1,brak,858,1,73.1,2025-06-29
+IK-06-01238,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,888,1,37.8,2025-12-11
+IK-06-01239,Wodociągi Miejskie (fikc.),1,zatwierdzony,647,1,43.7,2025-05-16
+IK-06-01241,Zakład Wodociągowy Gminny (fikc.),0,w aktualizacji,106,1,46.2,2025-07-05
+IK-06-01242,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,430,1,74.8,2026-07-25
+IK-06-01245,Wodociągi Miejskie (fikc.),1,zatwierdzony,1259,1,74.1,2026-04-11
+IK-06-01249,Wodociągi Miejskie (fikc.),0,brak,1278,0,39.1,2025-05-02
+IK-06-01250,Wodociągi Miejskie (fikc.),1,brak,1247,1,56.1,2026-05-24
+IK-06-01251,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1420,0,42.7,2025-08-21
+IK-06-01255,Wodociągi Miejskie (fikc.),1,zatwierdzony,1244,1,15.3,2025-05-21
+IK-06-01256,Wodociągi Miejskie (fikc.),1,w aktualizacji,1093,1,33.4,2025-06-27
+IK-06-01258,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1188,1,79.4,2025-05-11
+IK-06-01259,Wodociągi Miejskie (fikc.),1,brak,1041,0,40.4,2026-04-30
+IK-06-01260,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,767,0,15.7,2025-12-07
+IK-06-01267,Wodociągi Miejskie (fikc.),1,zatwierdzony,86,1,42.9,2026-07-08
+IK-06-01268,Wodociągi Miejskie (fikc.),1,w aktualizacji,1265,0,29.4,2026-06-20
+IK-06-01271,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1463,0,13.2,2026-05-31
+IK-06-01272,Zakład Wodociągowy Gminny (fikc.),1,brak,653,1,66.7,2025-12-10
+IK-06-01273,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,462,1,84.6,2025-07-10
+IK-06-01275,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,598,1,89.5,2026-05-27
+IK-06-01276,Wodociągi Miejskie (fikc.),1,zatwierdzony,840,1,79.1,2025-12-16
+IK-06-01277,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,649,0,56.3,2026-08-29
+IK-06-01280,Zakład Wodociągowy Gminny (fikc.),0,brak,197,0,71.8,2025-05-24
+IK-06-01281,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1307,0,42.5,2025-12-22
+IK-06-01283,Wodociągi Miejskie (fikc.),1,zatwierdzony,754,1,62.6,2026-01-14
+IK-06-01285,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1015,1,77.2,2026-02-26
+IK-06-01290,Wodociągi Miejskie (fikc.),0,zatwierdzony,446,0,14.2,2025-12-16
+IK-06-01293,Zakład Wodociągowy Gminny (fikc.),0,w aktualizacji,77,0,3,2026-05-26
+IK-06-01297,Zakład Wodociągowy Gminny (fikc.),1,brak,923,1,45.9,2026-02-24
+IK-06-01300,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,591,1,88.2,2026-01-05
+IK-06-01303,Wodociągi Miejskie (fikc.),1,zatwierdzony,1457,1,62.8,2026-05-15
+IK-06-01306,Wodociągi Miejskie (fikc.),1,w aktualizacji,409,1,63.3,2026-02-09
+IK-06-01307,Wodociągi Miejskie (fikc.),0,w aktualizacji,404,0,25.5,2026-01-17
+IK-06-01308,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1151,0,12.8,2026-07-08
+IK-06-01313,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,768,0,24.4,2026-07-21
+IK-06-01315,Wodociągi Miejskie (fikc.),0,w aktualizacji,339,0,75.7,2026-01-15
+IK-06-01317,Wodociągi Miejskie (fikc.),0,brak,290,0,43.8,2026-06-08
+IK-06-01318,Wodociągi Miejskie (fikc.),1,w aktualizacji,857,1,44.2,2025-09-05
+IK-06-01320,Wodociągi Miejskie (fikc.),1,w aktualizacji,1475,1,56.9,2026-02-08
+IK-06-01324,Wodociągi Miejskie (fikc.),0,w aktualizacji,919,0,31.7,2026-02-01
+IK-06-01326,Wodociągi Miejskie (fikc.),1,zatwierdzony,1442,1,100,2025-08-15
+IK-06-01329,Wodociągi Miejskie (fikc.),1,w aktualizacji,379,0,36.6,2026-06-09
+IK-06-01330,Wodociągi Miejskie (fikc.),1,w aktualizacji,99,1,65.0,2026-04-04
+IK-06-01331,Wodociągi Miejskie (fikc.),1,zatwierdzony,1123,0,47.1,2025-08-04
+IK-06-01334,Wodociągi Miejskie (fikc.),1,w aktualizacji,379,1,68.2,2026-01-25
+IK-06-01335,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,1345,1,36.8,2026-05-31
+IK-06-01336,Zakład Wodociągowy Gminny (fikc.),1,brak,379,1,86.6,2025-08-23
+IK-06-01339,Zakład Wodociągowy Gminny (fikc.),1,brak,882,0,22.1,2025-11-01
+IK-06-01340,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,724,1,62.0,2025-08-28
+IK-06-01344,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,732,1,52.3,2025-12-26
+IK-06-01345,Wodociągi Miejskie (fikc.),1,zatwierdzony,482,1,32.0,2026-06-05
+IK-06-01348,Zakład Wodociągowy Gminny (fikc.),1,zatwierdzony,1361,1,81.1,2025-05-16
+IK-06-01352,Wodociągi Miejskie (fikc.),1,brak,428,0,53.6,2025-05-31
+IK-06-01354,Wodociągi Miejskie (fikc.),1,w aktualizacji,761,0,18.9,2025-10-10
+IK-06-01356,Zakład Wodociągowy Gminny (fikc.),0,w aktualizacji,1295,0,27.9,2025-11-19
+IK-06-01357,Wodociągi Miejskie (fikc.),0,w aktualizacji,380,0,19.2,2026-01-23
+IK-06-01358,Zakład Wodociągowy Gminny (fikc.),0,zatwierdzony,411,1,90.4,2025-06-05
+IK-06-01360,Wodociągi Miejskie (fikc.),0,brak,147,0,72.5,2025-10-31
+IK-06-01361,Wodociągi Miejskie (fikc.),0,w aktualizacji,125,0,59.4,2026-08-20
+IK-06-01363,Zakład Wodociągowy Gminny (fikc.),1,brak,1163,1,52.9,2025-09-09
+IK-06-01364,Zakład Wodociągowy Gminny (fikc.),1,w aktualizacji,555,0,30.1,2026-05-07
+IK-07-01365,Samodzielny Publiczny ZOZ (fikc.),0,w aktualizacji,355,1,55.2,2026-01-31
+IK-07-01366,Samodzielny Publiczny ZOZ (fikc.),1,brak,1121,0,20.7,2025-10-19
+IK-07-01367,Szpital Wojewódzki (fikc.),1,w aktualizacji,1216,1,63.2,2026-02-05
+IK-07-01368,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,971,1,49.8,2025-08-14
+IK-07-01369,Sieć Medyczna Vita (fikc.),1,zatwierdzony,524,1,64.1,2025-11-07
+IK-07-01371,Samodzielny Publiczny ZOZ (fikc.),1,brak,1236,1,54.1,2025-09-19
+IK-07-01372,Sieć Medyczna Vita (fikc.),1,zatwierdzony,630,1,81.7,2025-05-17
+IK-07-01373,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1468,1,62.1,2025-12-20
+IK-07-01375,Sieć Medyczna Vita (fikc.),1,w aktualizacji,613,1,58.3,2025-06-04
+IK-07-01376,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,659,1,82.2,2025-07-08
+IK-07-01377,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1367,1,92.7,2026-07-28
+IK-07-01379,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1117,1,66.6,2026-02-06
+IK-07-01380,Szpital Wojewódzki (fikc.),1,zatwierdzony,228,1,58.2,2026-03-12
+IK-07-01381,Samodzielny Publiczny ZOZ (fikc.),0,zatwierdzony,21,1,61.3,2026-06-04
+IK-07-01382,Szpital Wojewódzki (fikc.),1,w aktualizacji,1465,1,65.2,2026-03-04
+IK-07-01383,Sieć Medyczna Vita (fikc.),1,w aktualizacji,319,1,95.8,2025-09-14
+IK-07-01384,Szpital Wojewódzki (fikc.),1,brak,182,1,52.0,2026-04-28
+IK-07-01385,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,874,1,65.0,2026-06-19
+IK-07-01386,Sieć Medyczna Vita (fikc.),1,brak,997,1,31.1,2025-05-06
+IK-07-01388,Szpital Wojewódzki (fikc.),1,w aktualizacji,1247,1,37.5,2025-06-13
+IK-07-01389,Szpital Wojewódzki (fikc.),0,zatwierdzony,162,0,15.0,2026-08-18
+IK-07-01390,Szpital Wojewódzki (fikc.),1,zatwierdzony,802,1,81.0,2025-05-14
+IK-07-01391,Sieć Medyczna Vita (fikc.),0,zatwierdzony,1290,0,51.6,2026-05-27
+IK-07-01392,Szpital Wojewódzki (fikc.),1,zatwierdzony,952,1,59.8,2026-07-06
+IK-07-01393,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,85,1,84.6,2025-06-01
+IK-07-01395,Sieć Medyczna Vita (fikc.),1,zatwierdzony,481,1,70.2,2025-08-24
+IK-07-01396,Szpital Wojewódzki (fikc.),0,zatwierdzony,1372,1,84.0,2026-08-02
+IK-07-01397,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1053,1,65.4,2026-02-03
+IK-07-01398,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,839,1,99.1,2025-08-21
+IK-07-01399,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1074,0,62.4,2025-07-31
+IK-07-01400,Sieć Medyczna Vita (fikc.),1,zatwierdzony,989,1,60.0,2025-11-15
+IK-07-01401,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1253,1,63.9,2025-06-01
+IK-07-01402,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,362,1,73.5,2026-02-22
+IK-07-01403,Sieć Medyczna Vita (fikc.),0,zatwierdzony,518,0,31.4,2026-03-25
+IK-07-01404,Samodzielny Publiczny ZOZ (fikc.),1,brak,1189,1,67.2,2025-08-07
+IK-07-01405,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,297,1,69.3,2026-03-29
+IK-07-01406,Sieć Medyczna Vita (fikc.),1,w aktualizacji,855,1,55.4,2025-09-25
+IK-07-01408,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1393,1,38.2,2026-02-10
+IK-07-01409,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1031,1,69.8,2026-05-26
+IK-07-01410,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,440,1,66.0,2026-01-12
+IK-07-01411,Sieć Medyczna Vita (fikc.),1,brak,522,1,73.3,2025-05-02
+IK-07-01412,Sieć Medyczna Vita (fikc.),1,w aktualizacji,1088,1,49.1,2025-09-24
+IK-07-01413,Sieć Medyczna Vita (fikc.),0,w aktualizacji,594,0,21.1,2025-11-12
+IK-07-01414,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1149,1,68.9,2025-12-27
+IK-07-01415,Sieć Medyczna Vita (fikc.),1,zatwierdzony,695,1,44.8,2025-05-18
+IK-07-01416,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,860,1,76.7,2026-05-08
+IK-07-01417,Szpital Wojewódzki (fikc.),1,zatwierdzony,1283,1,76.0,2025-10-04
+IK-07-01418,Szpital Wojewódzki (fikc.),1,zatwierdzony,964,0,49.7,2025-05-18
+IK-07-01419,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,39,1,70.8,2025-09-12
+IK-07-01420,Szpital Wojewódzki (fikc.),0,zatwierdzony,1483,0,36.8,2025-12-13
+IK-07-01421,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,435,1,54.4,2025-12-27
+IK-07-01422,Szpital Wojewódzki (fikc.),1,w aktualizacji,888,0,15.3,2025-08-10
+IK-07-01423,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,974,1,58.3,2026-09-03
+IK-07-01424,Sieć Medyczna Vita (fikc.),1,zatwierdzony,125,1,74.4,2025-12-12
+IK-07-01425,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1302,1,95.4,2026-04-15
+IK-07-01427,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,314,1,66.9,2025-08-24
+IK-07-01428,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,582,1,89.1,2026-03-17
+IK-07-01429,Szpital Wojewódzki (fikc.),0,zatwierdzony,911,1,71.6,2025-10-04
+IK-07-01431,Samodzielny Publiczny ZOZ (fikc.),0,brak,1149,0,25.2,2026-07-24
+IK-07-01432,Samodzielny Publiczny ZOZ (fikc.),0,brak,1338,0,37.9,2026-04-21
+IK-07-01433,Samodzielny Publiczny ZOZ (fikc.),1,brak,22,0,20.2,2025-10-12
+IK-07-01434,Samodzielny Publiczny ZOZ (fikc.),0,brak,1125,0,20.8,2026-01-14
+IK-07-01435,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,365,0,38.6,2025-09-27
+IK-07-01437,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,241,1,81.1,2026-08-23
+IK-07-01438,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1090,1,69.7,2025-12-08
+IK-07-01441,Sieć Medyczna Vita (fikc.),1,zatwierdzony,619,0,18.4,2026-08-13
+IK-07-01443,Szpital Wojewódzki (fikc.),1,zatwierdzony,174,1,49.6,2025-08-14
+IK-07-01444,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1330,0,37.0,2025-08-05
+IK-07-01445,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,65,1,32.6,2026-07-05
+IK-07-01446,Szpital Wojewódzki (fikc.),0,brak,550,0,36.9,2026-01-17
+IK-07-01447,Sieć Medyczna Vita (fikc.),1,brak,1014,1,82.2,2025-11-25
+IK-07-01448,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,405,1,64.2,2026-04-28
+IK-07-01449,Samodzielny Publiczny ZOZ (fikc.),0,w aktualizacji,342,0,21.3,2025-07-07
+IK-07-01450,Szpital Wojewódzki (fikc.),0,w aktualizacji,1119,0,31.5,2026-05-19
+IK-07-01451,Samodzielny Publiczny ZOZ (fikc.),1,brak,1158,1,43.3,2025-06-13
+IK-07-01452,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,283,1,34.1,2026-03-20
+IK-07-01453,Szpital Wojewódzki (fikc.),0,w aktualizacji,872,1,56.8,2025-11-11
+IK-07-01455,Sieć Medyczna Vita (fikc.),0,brak,492,0,3,2026-04-29
+IK-07-01456,Szpital Wojewódzki (fikc.),1,zatwierdzony,1423,1,80.1,2026-01-31
+IK-07-01457,Samodzielny Publiczny ZOZ (fikc.),0,brak,699,0,32.7,2026-01-18
+IK-07-01458,Sieć Medyczna Vita (fikc.),1,brak,828,0,3,2025-07-17
+IK-07-01459,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1373,0,4.4,2026-02-09
+IK-07-01460,Sieć Medyczna Vita (fikc.),0,zatwierdzony,1083,0,45.1,2025-06-23
+IK-07-01461,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,328,1,57.2,2026-06-28
+IK-07-01462,Sieć Medyczna Vita (fikc.),1,zatwierdzony,242,1,67.5,2025-06-18
+IK-07-01463,Szpital Wojewódzki (fikc.),1,brak,1377,1,100,2025-10-19
+IK-07-01464,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,132,1,56.9,2025-04-28
+IK-07-01465,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,102,1,81.4,2026-01-28
+IK-07-01467,Szpital Wojewódzki (fikc.),1,zatwierdzony,1007,1,33.8,2026-07-27
+IK-07-01468,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,419,1,41.1,2026-04-25
+IK-07-01470,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,245,1,89.0,2026-01-13
+IK-07-01472,Szpital Wojewódzki (fikc.),0,brak,1102,0,25.6,2026-07-31
+IK-07-01473,Szpital Wojewódzki (fikc.),1,zatwierdzony,900,1,72.2,2026-03-19
+IK-07-01474,Sieć Medyczna Vita (fikc.),1,w aktualizacji,747,1,52.1,2026-04-28
+IK-07-01477,Samodzielny Publiczny ZOZ (fikc.),0,brak,1244,1,47.0,2025-10-02
+IK-07-01479,Szpital Wojewódzki (fikc.),1,zatwierdzony,755,1,71.9,2025-11-15
+IK-07-01480,Szpital Wojewódzki (fikc.),1,w aktualizacji,460,1,33.4,2026-07-22
+IK-07-01481,Szpital Wojewódzki (fikc.),1,zatwierdzony,1257,1,23.7,2026-03-24
+IK-07-01483,Szpital Wojewódzki (fikc.),1,zatwierdzony,1352,1,49.6,2026-03-24
+IK-07-01486,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,195,1,72.1,2025-07-31
+IK-07-01487,Samodzielny Publiczny ZOZ (fikc.),0,zatwierdzony,1015,1,37.6,2026-08-17
+IK-07-01489,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,416,1,72.8,2025-11-09
+IK-07-01490,Samodzielny Publiczny ZOZ (fikc.),0,w aktualizacji,835,0,27.0,2026-07-12
+IK-07-01491,Samodzielny Publiczny ZOZ (fikc.),0,brak,1327,0,24.8,2025-06-11
+IK-07-01494,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1148,0,77.0,2026-05-06
+IK-07-01497,Sieć Medyczna Vita (fikc.),1,zatwierdzony,130,1,54.8,2026-02-23
+IK-07-01498,Samodzielny Publiczny ZOZ (fikc.),1,brak,208,1,90.5,2026-05-27
+IK-07-01499,Szpital Wojewódzki (fikc.),1,zatwierdzony,282,1,36.8,2025-09-10
+IK-07-01500,Sieć Medyczna Vita (fikc.),1,zatwierdzony,452,1,85.6,2026-07-26
+IK-07-01502,Sieć Medyczna Vita (fikc.),0,zatwierdzony,117,0,31.2,2026-06-26
+IK-07-01503,Sieć Medyczna Vita (fikc.),1,brak,1223,0,45.8,2025-12-08
+IK-07-01504,Szpital Wojewódzki (fikc.),1,zatwierdzony,211,1,91.4,2025-12-30
+IK-07-01505,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1429,1,27.9,2025-12-07
+IK-07-01506,Szpital Wojewódzki (fikc.),0,brak,580,0,33.1,2025-06-02
+IK-07-01508,Sieć Medyczna Vita (fikc.),1,w aktualizacji,303,1,76.6,2025-06-08
+IK-07-01512,Szpital Wojewódzki (fikc.),1,w aktualizacji,287,1,94.3,2025-09-23
+IK-07-01515,Samodzielny Publiczny ZOZ (fikc.),1,brak,690,0,3,2026-01-21
+IK-07-01516,Szpital Wojewódzki (fikc.),1,brak,395,1,41.1,2026-04-01
+IK-07-01517,Samodzielny Publiczny ZOZ (fikc.),1,brak,375,1,70.3,2025-07-27
+IK-07-01518,Szpital Wojewódzki (fikc.),1,zatwierdzony,1320,1,94.4,2026-05-29
+IK-07-01519,Sieć Medyczna Vita (fikc.),1,zatwierdzony,135,1,66.9,2025-08-16
+IK-07-01520,Sieć Medyczna Vita (fikc.),1,zatwierdzony,826,1,30.6,2026-01-19
+IK-07-01521,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,275,0,24.9,2025-09-28
+IK-07-01522,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,621,1,45.2,2026-04-08
+IK-07-01523,Szpital Wojewódzki (fikc.),0,brak,1176,0,22.3,2026-06-18
+IK-07-01524,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1424,1,81.6,2026-05-14
+IK-07-01528,Szpital Wojewódzki (fikc.),1,brak,1093,0,73.9,2026-08-22
+IK-07-01529,Szpital Wojewódzki (fikc.),1,zatwierdzony,265,1,63.4,2026-03-28
+IK-07-01531,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1058,1,30.3,2025-06-10
+IK-07-01532,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1203,1,69.6,2025-12-12
+IK-07-01533,Sieć Medyczna Vita (fikc.),0,w aktualizacji,477,0,3.6,2025-05-17
+IK-07-01534,Szpital Wojewódzki (fikc.),0,zatwierdzony,1345,0,31.2,2025-12-05
+IK-07-01536,Samodzielny Publiczny ZOZ (fikc.),0,w aktualizacji,1048,0,18.8,2026-03-17
+IK-07-01537,Szpital Wojewódzki (fikc.),1,zatwierdzony,517,1,74.7,2025-06-05
+IK-07-01538,Samodzielny Publiczny ZOZ (fikc.),0,w aktualizacji,708,0,15.6,2026-08-29
+IK-07-01540,Sieć Medyczna Vita (fikc.),1,zatwierdzony,532,1,53.3,2025-07-20
+IK-07-01541,Szpital Wojewódzki (fikc.),0,brak,1024,0,33.2,2025-11-19
+IK-07-01542,Sieć Medyczna Vita (fikc.),0,zatwierdzony,1244,1,76.2,2025-10-28
+IK-07-01543,Szpital Wojewódzki (fikc.),0,w aktualizacji,555,0,35.3,2025-10-25
+IK-07-01544,Sieć Medyczna Vita (fikc.),1,w aktualizacji,414,0,24.5,2026-08-28
+IK-07-01545,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,509,1,94.1,2025-09-30
+IK-07-01547,Sieć Medyczna Vita (fikc.),1,zatwierdzony,710,1,33.4,2026-02-02
+IK-07-01549,Szpital Wojewódzki (fikc.),0,zatwierdzony,729,0,12.4,2026-04-06
+IK-07-01550,Sieć Medyczna Vita (fikc.),1,w aktualizacji,1041,0,33.7,2026-08-14
+IK-07-01551,Sieć Medyczna Vita (fikc.),1,zatwierdzony,225,1,88.1,2026-06-15
+IK-07-01556,Szpital Wojewódzki (fikc.),0,brak,945,0,49.1,2025-11-15
+IK-07-01557,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1222,1,75.7,2026-03-02
+IK-07-01560,Sieć Medyczna Vita (fikc.),0,w aktualizacji,1100,0,24.1,2025-12-19
+IK-07-01561,Samodzielny Publiczny ZOZ (fikc.),1,brak,1148,0,67.6,2026-07-05
+IK-07-01562,Samodzielny Publiczny ZOZ (fikc.),0,brak,313,0,9.8,2025-09-28
+IK-07-01563,Sieć Medyczna Vita (fikc.),1,w aktualizacji,436,0,31.2,2026-08-10
+IK-07-01565,Samodzielny Publiczny ZOZ (fikc.),0,brak,1161,0,31.6,2025-08-01
+IK-07-01566,Szpital Wojewódzki (fikc.),1,zatwierdzony,363,1,44.8,2026-05-01
+IK-07-01567,Szpital Wojewódzki (fikc.),1,w aktualizacji,708,0,15.3,2026-02-15
+IK-07-01568,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,25,1,58.5,2026-06-04
+IK-07-01570,Samodzielny Publiczny ZOZ (fikc.),0,zatwierdzony,1499,0,48.2,2025-10-24
+IK-07-01571,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,327,0,21.0,2026-01-15
+IK-07-01572,Samodzielny Publiczny ZOZ (fikc.),0,zatwierdzony,151,0,50.3,2026-04-10
+IK-07-01575,Szpital Wojewódzki (fikc.),1,zatwierdzony,1183,1,89.6,2026-08-23
+IK-07-01577,Sieć Medyczna Vita (fikc.),0,zatwierdzony,519,1,78.4,2026-03-04
+IK-07-01580,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,1110,1,83.6,2025-07-17
+IK-07-01584,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1386,1,87.9,2025-09-11
+IK-07-01585,Samodzielny Publiczny ZOZ (fikc.),0,zatwierdzony,909,0,91.4,2025-07-19
+IK-07-01587,Sieć Medyczna Vita (fikc.),1,zatwierdzony,435,0,14.9,2026-05-31
+IK-07-01588,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1062,1,47.1,2025-09-01
+IK-07-01589,Sieć Medyczna Vita (fikc.),0,brak,74,0,34.1,2025-08-06
+IK-07-01590,Szpital Wojewódzki (fikc.),0,brak,362,0,19.0,2025-08-06
+IK-07-01591,Sieć Medyczna Vita (fikc.),1,zatwierdzony,203,1,100,2025-05-27
+IK-07-01592,Sieć Medyczna Vita (fikc.),1,brak,1174,1,61.9,2025-10-07
+IK-07-01594,Samodzielny Publiczny ZOZ (fikc.),0,w aktualizacji,902,0,33.9,2026-05-05
+IK-07-01595,Szpital Wojewódzki (fikc.),1,w aktualizacji,1491,0,24.0,2025-09-17
+IK-07-01596,Samodzielny Publiczny ZOZ (fikc.),1,w aktualizacji,755,1,75.4,2025-09-23
+IK-07-01598,Szpital Wojewódzki (fikc.),1,w aktualizacji,1243,0,9.7,2025-08-24
+IK-07-01599,Sieć Medyczna Vita (fikc.),1,zatwierdzony,1036,1,72.0,2026-08-19
+IK-07-01601,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,39,1,100,2026-08-11
+IK-07-01602,Szpital Wojewódzki (fikc.),0,brak,1428,0,27.2,2025-12-20
+IK-07-01603,Sieć Medyczna Vita (fikc.),0,brak,226,0,51.2,2025-10-21
+IK-07-01604,Samodzielny Publiczny ZOZ (fikc.),0,brak,1022,1,39.1,2026-01-04
+IK-07-01605,Szpital Wojewódzki (fikc.),1,w aktualizacji,829,0,47.5,2026-01-26
+IK-07-01606,Sieć Medyczna Vita (fikc.),0,brak,772,0,57.1,2026-05-14
+IK-07-01607,Samodzielny Publiczny ZOZ (fikc.),1,brak,885,1,100,2026-08-14
+IK-07-01611,Samodzielny Publiczny ZOZ (fikc.),0,brak,1067,0,9.7,2025-10-25
+IK-07-01613,Samodzielny Publiczny ZOZ (fikc.),1,zatwierdzony,1296,1,58.2,2025-08-13
+IK-07-01614,Sieć Medyczna Vita (fikc.),1,zatwierdzony,598,1,34.3,2025-11-26
+IK-08-01615,Porty Lotnicze (fikc.),0,brak,72,0,46.8,2025-12-12
+IK-08-01616,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,76,1,89.1,2026-06-04
+IK-08-01617,Zarząd Dróg (fikc.),1,zatwierdzony,1087,1,86.6,2026-04-02
+IK-08-01618,Porty Lotnicze (fikc.),1,zatwierdzony,486,1,23.0,2025-11-16
+IK-08-01619,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,150,1,81.1,2025-10-10
+IK-08-01620,Kolej Krajowa S.A. (fikc.),0,brak,376,0,26.9,2025-09-11
+IK-08-01621,Porty Lotnicze (fikc.),1,w aktualizacji,1445,0,27.1,2025-09-01
+IK-08-01622,Kolej Krajowa S.A. (fikc.),0,zatwierdzony,257,1,74.2,2025-10-18
+IK-08-01623,Zarząd Dróg (fikc.),0,zatwierdzony,134,0,3,2025-10-24
+IK-08-01624,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1247,1,54.0,2026-03-12
+IK-08-01625,Porty Lotnicze (fikc.),0,w aktualizacji,426,0,9.0,2026-01-29
+IK-08-01626,Porty Lotnicze (fikc.),1,w aktualizacji,1214,1,10.3,2026-02-27
+IK-08-01627,Zarząd Dróg (fikc.),1,brak,1491,0,41.4,2025-05-15
+IK-08-01628,Porty Lotnicze (fikc.),0,zatwierdzony,786,0,66.1,2026-03-25
+IK-08-01630,Kolej Krajowa S.A. (fikc.),0,zatwierdzony,1374,1,71.0,2025-06-29
+IK-08-01631,Zarząd Dróg (fikc.),1,w aktualizacji,832,1,95.4,2026-06-23
+IK-08-01632,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1095,1,77.0,2025-07-31
+IK-08-01633,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,754,1,78.3,2025-12-02
+IK-08-01635,Zarząd Dróg (fikc.),0,w aktualizacji,220,0,23.0,2025-12-08
+IK-08-01636,Zarząd Dróg (fikc.),1,zatwierdzony,780,1,39.4,2025-06-27
+IK-08-01637,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,779,1,71.0,2026-04-06
+IK-08-01639,Zarząd Dróg (fikc.),0,w aktualizacji,331,0,40.8,2026-02-12
+IK-08-01640,Porty Lotnicze (fikc.),0,zatwierdzony,780,1,100,2025-12-14
+IK-08-01641,Zarząd Dróg (fikc.),1,zatwierdzony,1349,1,75.6,2026-03-14
+IK-08-01643,Zarząd Dróg (fikc.),1,zatwierdzony,1109,1,48.6,2025-12-28
+IK-08-01644,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,1144,1,54.9,2026-02-07
+IK-08-01645,Zarząd Dróg (fikc.),1,brak,55,1,89.6,2025-08-28
+IK-08-01646,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,415,1,51.5,2025-07-31
+IK-08-01647,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,221,1,63.2,2026-02-08
+IK-08-01648,Porty Lotnicze (fikc.),1,zatwierdzony,1047,1,45.2,2025-09-24
+IK-08-01649,Zarząd Dróg (fikc.),1,brak,545,1,59.1,2025-12-25
+IK-08-01650,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,752,1,76.2,2025-12-14
+IK-08-01651,Zarząd Dróg (fikc.),1,zatwierdzony,1180,1,52.6,2026-03-13
+IK-08-01653,Zarząd Dróg (fikc.),1,brak,110,0,40.8,2025-05-22
+IK-08-01654,Porty Lotnicze (fikc.),1,zatwierdzony,721,1,85.7,2025-10-14
+IK-08-01655,Porty Lotnicze (fikc.),1,w aktualizacji,1386,1,65.1,2026-08-24
+IK-08-01656,Kolej Krajowa S.A. (fikc.),0,zatwierdzony,683,0,25.1,2025-05-08
+IK-08-01657,Porty Lotnicze (fikc.),1,zatwierdzony,1325,1,48.7,2026-08-02
+IK-08-01658,Zarząd Dróg (fikc.),1,zatwierdzony,925,1,68.3,2026-06-03
+IK-08-01659,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1350,0,12.0,2026-08-26
+IK-08-01660,Porty Lotnicze (fikc.),0,w aktualizacji,1268,0,34.6,2025-11-08
+IK-08-01661,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1091,1,55.9,2026-06-07
+IK-08-01662,Zarząd Dróg (fikc.),1,w aktualizacji,726,1,83.4,2026-08-26
+IK-08-01663,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,647,1,44.0,2026-02-26
+IK-08-01664,Porty Lotnicze (fikc.),1,zatwierdzony,1311,0,22.1,2026-04-13
+IK-08-01665,Porty Lotnicze (fikc.),0,zatwierdzony,1371,1,55.6,2025-12-05
+IK-08-01666,Kolej Krajowa S.A. (fikc.),1,brak,1023,1,66.3,2025-06-02
+IK-08-01667,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,898,1,78.2,2026-02-18
+IK-08-01668,Kolej Krajowa S.A. (fikc.),1,brak,432,0,3,2026-06-24
+IK-08-01670,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,447,1,76.4,2025-09-25
+IK-08-01671,Zarząd Dróg (fikc.),1,w aktualizacji,1174,1,85.9,2025-08-30
+IK-08-01672,Kolej Krajowa S.A. (fikc.),0,w aktualizacji,117,0,9.2,2025-08-19
+IK-08-01673,Zarząd Dróg (fikc.),1,zatwierdzony,641,1,73.7,2026-07-10
+IK-08-01674,Zarząd Dróg (fikc.),1,zatwierdzony,294,0,65.7,2026-03-25
+IK-08-01675,Porty Lotnicze (fikc.),1,zatwierdzony,218,0,40.4,2026-05-24
+IK-08-01676,Porty Lotnicze (fikc.),1,w aktualizacji,1282,1,36.6,2025-12-28
+IK-08-01677,Porty Lotnicze (fikc.),1,zatwierdzony,769,1,61.2,2025-08-14
+IK-08-01678,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,584,1,43.8,2026-01-01
+IK-08-01679,Kolej Krajowa S.A. (fikc.),1,brak,1229,1,80.7,2025-08-27
+IK-08-01680,Porty Lotnicze (fikc.),1,zatwierdzony,1409,1,51.0,2026-03-09
+IK-08-01681,Kolej Krajowa S.A. (fikc.),1,brak,748,1,62.5,2025-11-18
+IK-08-01688,Kolej Krajowa S.A. (fikc.),1,brak,1439,0,28.9,2026-02-23
+IK-08-01691,Zarząd Dróg (fikc.),1,brak,446,0,4.6,2025-12-17
+IK-08-01692,Porty Lotnicze (fikc.),1,w aktualizacji,1035,1,57.1,2026-06-09
+IK-08-01693,Zarząd Dróg (fikc.),1,w aktualizacji,638,0,38.9,2025-05-27
+IK-08-01695,Zarząd Dróg (fikc.),1,zatwierdzony,1195,0,61.3,2026-09-05
+IK-08-01697,Zarząd Dróg (fikc.),1,zatwierdzony,588,1,64.1,2026-02-16
+IK-08-01700,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,1339,1,45.4,2026-03-09
+IK-08-01701,Zarząd Dróg (fikc.),0,brak,529,0,26.6,2026-03-28
+IK-08-01702,Zarząd Dróg (fikc.),1,zatwierdzony,865,1,73.3,2025-06-11
+IK-08-01703,Porty Lotnicze (fikc.),1,zatwierdzony,1211,1,45.9,2026-06-12
+IK-08-01706,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,847,1,50.5,2025-08-02
+IK-08-01708,Porty Lotnicze (fikc.),1,zatwierdzony,1357,1,49.0,2026-06-07
+IK-08-01709,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1198,1,74.2,2025-05-23
+IK-08-01711,Porty Lotnicze (fikc.),1,brak,307,1,35.8,2026-07-28
+IK-08-01714,Porty Lotnicze (fikc.),1,zatwierdzony,1165,1,52.9,2026-04-14
+IK-08-01715,Porty Lotnicze (fikc.),1,brak,878,0,28.2,2025-06-23
+IK-08-01716,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,1094,0,27.5,2026-02-18
+IK-08-01719,Porty Lotnicze (fikc.),1,brak,216,1,74.3,2025-10-11
+IK-08-01720,Kolej Krajowa S.A. (fikc.),1,brak,1366,0,27.7,2025-09-03
+IK-08-01721,Kolej Krajowa S.A. (fikc.),0,zatwierdzony,1181,0,12.6,2025-06-05
+IK-08-01722,Porty Lotnicze (fikc.),1,zatwierdzony,248,1,52.1,2025-05-03
+IK-08-01723,Zarząd Dróg (fikc.),1,w aktualizacji,880,1,54.3,2026-06-25
+IK-08-01724,Zarząd Dróg (fikc.),0,brak,320,0,29.3,2026-02-26
+IK-08-01725,Porty Lotnicze (fikc.),1,w aktualizacji,294,1,90.9,2025-08-16
+IK-08-01727,Zarząd Dróg (fikc.),1,brak,187,0,27.7,2026-02-07
+IK-08-01729,Zarząd Dróg (fikc.),1,zatwierdzony,930,1,60.3,2026-01-17
+IK-08-01730,Zarząd Dróg (fikc.),1,zatwierdzony,865,1,71.0,2026-05-19
+IK-08-01731,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1057,1,57.8,2026-06-02
+IK-08-01732,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,403,1,95.7,2026-03-27
+IK-08-01734,Zarząd Dróg (fikc.),1,zatwierdzony,1154,0,39.7,2025-08-18
+IK-08-01735,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,694,1,62.4,2025-07-26
+IK-08-01736,Kolej Krajowa S.A. (fikc.),0,brak,90,0,29.1,2025-08-04
+IK-08-01737,Kolej Krajowa S.A. (fikc.),1,brak,651,0,47.2,2025-09-07
+IK-08-01738,Zarząd Dróg (fikc.),1,w aktualizacji,1363,1,71.1,2025-09-20
+IK-08-01739,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,1081,0,75.8,2025-08-14
+IK-08-01740,Porty Lotnicze (fikc.),0,zatwierdzony,1235,1,80.3,2026-08-24
+IK-08-01742,Kolej Krajowa S.A. (fikc.),1,brak,653,0,79.0,2026-07-29
+IK-08-01743,Zarząd Dróg (fikc.),1,zatwierdzony,796,1,49.8,2025-10-16
+IK-08-01744,Zarząd Dróg (fikc.),1,zatwierdzony,1421,1,88.3,2025-07-11
+IK-08-01745,Zarząd Dróg (fikc.),1,brak,336,1,71.4,2025-05-27
+IK-08-01746,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,157,1,50.5,2026-06-23
+IK-08-01747,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,451,1,78.0,2025-12-26
+IK-08-01748,Zarząd Dróg (fikc.),1,w aktualizacji,318,1,4.0,2026-07-23
+IK-08-01750,Porty Lotnicze (fikc.),1,zatwierdzony,399,1,74.9,2025-11-03
+IK-08-01751,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,1070,1,75.2,2025-08-27
+IK-08-01752,Zarząd Dróg (fikc.),0,w aktualizacji,703,0,42.3,2026-01-03
+IK-08-01754,Kolej Krajowa S.A. (fikc.),0,brak,168,0,50.4,2026-08-30
+IK-08-01755,Kolej Krajowa S.A. (fikc.),1,zatwierdzony,405,1,61.1,2026-07-14
+IK-08-01757,Porty Lotnicze (fikc.),1,brak,276,0,63.1,2025-06-05
+IK-08-01759,Zarząd Dróg (fikc.),0,zatwierdzony,1328,0,17.7,2025-05-10
+IK-08-01760,Porty Lotnicze (fikc.),1,w aktualizacji,1008,0,37.7,2025-07-18
+IK-08-01762,Porty Lotnicze (fikc.),0,brak,64,1,28.0,2026-05-25
+IK-08-01765,Kolej Krajowa S.A. (fikc.),1,brak,357,0,43.6,2026-01-31
+IK-08-01767,Porty Lotnicze (fikc.),1,w aktualizacji,474,1,99.0,2026-05-30
+IK-08-01768,Zarząd Dróg (fikc.),1,w aktualizacji,1463,1,82.9,2026-06-09
+IK-08-01770,Zarząd Dróg (fikc.),1,zatwierdzony,740,1,65.5,2025-10-03
+IK-08-01773,Porty Lotnicze (fikc.),0,w aktualizacji,62,0,46.5,2026-07-18
+IK-08-01774,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,835,1,54.5,2026-02-12
+IK-08-01775,Zarząd Dróg (fikc.),0,brak,863,0,49.7,2026-05-24
+IK-08-01777,Porty Lotnicze (fikc.),1,zatwierdzony,76,1,58.3,2026-09-02
+IK-08-01779,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,568,1,78.9,2025-12-27
+IK-08-01780,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,649,1,93.7,2026-03-16
+IK-08-01781,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,436,0,29.0,2026-01-18
+IK-08-01783,Porty Lotnicze (fikc.),1,zatwierdzony,799,1,32.9,2026-01-10
+IK-08-01784,Zarząd Dróg (fikc.),1,zatwierdzony,504,1,100,2025-09-07
+IK-08-01785,Zarząd Dróg (fikc.),1,zatwierdzony,1301,1,82.4,2026-05-28
+IK-08-01786,Porty Lotnicze (fikc.),1,brak,1147,0,52.0,2026-07-07
+IK-08-01790,Porty Lotnicze (fikc.),1,zatwierdzony,1004,1,68.1,2026-03-02
+IK-08-01791,Porty Lotnicze (fikc.),1,zatwierdzony,382,1,85.7,2025-09-20
+IK-08-01793,Porty Lotnicze (fikc.),1,w aktualizacji,1328,0,30.1,2025-06-15
+IK-08-01796,Kolej Krajowa S.A. (fikc.),0,w aktualizacji,1183,0,33.7,2025-10-12
+IK-08-01798,Zarząd Dróg (fikc.),1,zatwierdzony,606,0,57.2,2026-02-10
+IK-08-01799,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,1217,1,58.7,2025-05-06
+IK-08-01800,Zarząd Dróg (fikc.),1,zatwierdzony,782,1,64.2,2026-07-31
+IK-08-01801,Porty Lotnicze (fikc.),0,brak,1201,0,61.0,2025-05-14
+IK-08-01803,Kolej Krajowa S.A. (fikc.),0,brak,1411,0,19.9,2026-05-10
+IK-08-01804,Kolej Krajowa S.A. (fikc.),0,brak,620,1,3.1,2025-10-18
+IK-08-01810,Kolej Krajowa S.A. (fikc.),1,brak,1188,1,69.8,2026-01-09
+IK-08-01811,Zarząd Dróg (fikc.),0,zatwierdzony,174,0,26.9,2025-11-27
+IK-08-01812,Porty Lotnicze (fikc.),1,w aktualizacji,783,0,5.7,2026-08-24
+IK-08-01813,Kolej Krajowa S.A. (fikc.),1,w aktualizacji,1380,0,37.7,2026-05-05
+IK-09-01818,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,504,0,24.0,2025-07-15
+IK-09-01819,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,113,1,63.5,2025-12-02
+IK-09-01820,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,856,1,68.5,2026-06-27
+IK-09-01821,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,830,0,27.3,2025-10-25
+IK-09-01822,Urząd Wojewódzki (fikc.),1,zatwierdzony,654,1,73.7,2026-05-13
+IK-09-01824,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,413,0,22.7,2026-02-26
+IK-09-01825,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,180,1,69.5,2025-08-20
+IK-09-01826,Urząd Wojewódzki (fikc.),0,brak,166,0,17.5,2025-12-08
+IK-09-01827,Urząd Wojewódzki (fikc.),1,zatwierdzony,1405,1,100,2025-06-20
+IK-09-01828,Komenda Wojewódzka PSP (fikc.),1,brak,34,0,67.7,2026-05-17
+IK-09-01829,Urząd Wojewódzki (fikc.),1,zatwierdzony,24,1,71.3,2025-05-29
+IK-09-01830,Urząd Wojewódzki (fikc.),1,brak,1342,1,68.5,2025-06-29
+IK-09-01832,Urząd Wojewódzki (fikc.),1,zatwierdzony,1453,1,71.0,2026-06-25
+IK-09-01833,Urząd Wojewódzki (fikc.),0,brak,92,0,51.5,2026-04-19
+IK-09-01834,Komenda Wojewódzka PSP (fikc.),1,brak,600,0,55.6,2026-06-05
+IK-09-01835,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,1088,1,71.3,2025-06-21
+IK-09-01836,Urząd Wojewódzki (fikc.),0,w aktualizacji,1096,0,40.6,2025-11-07
+IK-09-01837,Urząd Wojewódzki (fikc.),1,brak,601,0,56.8,2025-07-01
+IK-09-01838,Komenda Wojewódzka PSP (fikc.),0,w aktualizacji,433,1,73.1,2025-07-20
+IK-09-01839,Urząd Wojewódzki (fikc.),1,w aktualizacji,1177,0,63.1,2026-02-13
+IK-09-01841,Komenda Wojewódzka PSP (fikc.),1,brak,1066,0,53.1,2025-04-29
+IK-09-01843,Urząd Wojewódzki (fikc.),1,zatwierdzony,1332,1,67.4,2026-04-15
+IK-09-01844,Urząd Wojewódzki (fikc.),1,zatwierdzony,869,1,49.0,2026-06-15
+IK-09-01845,Komenda Wojewódzka PSP (fikc.),1,brak,267,0,28.4,2026-06-24
+IK-09-01846,Urząd Wojewódzki (fikc.),1,brak,477,1,73.9,2026-07-28
+IK-09-01847,Urząd Wojewódzki (fikc.),1,zatwierdzony,228,1,54.4,2026-05-31
+IK-09-01848,Urząd Wojewódzki (fikc.),1,brak,707,0,20.5,2026-06-08
+IK-09-01850,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,1447,1,45.1,2026-02-14
+IK-09-01851,Urząd Wojewódzki (fikc.),1,zatwierdzony,1169,1,98.2,2026-05-29
+IK-09-01853,Urząd Wojewódzki (fikc.),1,zatwierdzony,746,1,59.7,2025-08-05
+IK-09-01857,Urząd Wojewódzki (fikc.),1,w aktualizacji,768,1,65.8,2026-05-05
+IK-09-01858,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,1226,1,68.3,2026-02-10
+IK-09-01859,Urząd Wojewódzki (fikc.),0,w aktualizacji,550,0,3,2026-03-15
+IK-09-01861,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,1080,1,23.3,2025-11-20
+IK-09-01864,Urząd Wojewódzki (fikc.),1,zatwierdzony,1016,1,82.5,2025-10-05
+IK-09-01867,Urząd Wojewódzki (fikc.),0,w aktualizacji,1161,0,58.7,2025-11-19
+IK-09-01868,Urząd Wojewódzki (fikc.),1,zatwierdzony,509,1,60.5,2025-10-08
+IK-09-01869,Komenda Wojewódzka PSP (fikc.),1,brak,1273,0,47.9,2025-08-21
+IK-09-01870,Urząd Wojewódzki (fikc.),1,zatwierdzony,102,1,42.5,2026-04-28
+IK-09-01872,Komenda Wojewódzka PSP (fikc.),0,brak,1432,0,60.2,2025-07-27
+IK-09-01873,Urząd Wojewódzki (fikc.),0,brak,170,0,22.3,2026-05-04
+IK-09-01874,Urząd Wojewódzki (fikc.),1,brak,812,1,60.1,2025-12-02
+IK-09-01875,Urząd Wojewódzki (fikc.),1,w aktualizacji,116,0,32.7,2026-05-11
+IK-09-01876,Urząd Wojewódzki (fikc.),1,brak,1116,1,70.8,2025-08-24
+IK-09-01878,Urząd Wojewódzki (fikc.),1,zatwierdzony,1488,1,69.9,2025-09-24
+IK-09-01879,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,1451,1,54.6,2025-09-22
+IK-09-01881,Urząd Wojewódzki (fikc.),1,zatwierdzony,422,0,21.8,2025-10-05
+IK-09-01882,Urząd Wojewódzki (fikc.),1,brak,443,0,11.1,2026-04-12
+IK-09-01883,Komenda Wojewódzka PSP (fikc.),1,brak,1030,0,32.6,2026-07-26
+IK-09-01884,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,1124,1,100,2026-05-21
+IK-09-01885,Urząd Wojewódzki (fikc.),1,zatwierdzony,884,1,79.4,2025-12-31
+IK-09-01886,Urząd Wojewódzki (fikc.),0,w aktualizacji,512,0,21.2,2025-12-21
+IK-09-01887,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,1296,1,52.6,2025-12-17
+IK-09-01888,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,903,1,100,2025-08-27
+IK-09-01889,Komenda Wojewódzka PSP (fikc.),0,brak,1201,0,88.6,2025-10-11
+IK-09-01890,Urząd Wojewódzki (fikc.),1,zatwierdzony,303,1,98.0,2026-04-23
+IK-09-01891,Urząd Wojewódzki (fikc.),1,zatwierdzony,1297,1,53.7,2025-10-05
+IK-09-01892,Urząd Wojewódzki (fikc.),1,w aktualizacji,286,1,33.2,2026-05-04
+IK-09-01893,Urząd Wojewódzki (fikc.),1,zatwierdzony,1096,1,33.4,2026-06-05
+IK-09-01895,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,765,1,38.6,2026-07-05
+IK-09-01896,Urząd Wojewódzki (fikc.),0,brak,1431,0,30.1,2025-06-01
+IK-09-01897,Urząd Wojewódzki (fikc.),1,brak,191,1,56.4,2025-08-31
+IK-09-01898,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,326,1,53.9,2025-11-25
+IK-09-01899,Urząd Wojewódzki (fikc.),0,zatwierdzony,1466,0,47.5,2026-08-01
+IK-09-01900,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,747,1,70.2,2025-05-05
+IK-09-01901,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,248,1,49.1,2025-09-26
+IK-09-01902,Urząd Wojewódzki (fikc.),1,zatwierdzony,509,1,32.4,2025-07-19
+IK-09-01903,Urząd Wojewódzki (fikc.),0,brak,1446,0,43.0,2026-07-19
+IK-09-01904,Urząd Wojewódzki (fikc.),1,zatwierdzony,545,1,55.5,2025-12-23
+IK-09-01905,Urząd Wojewódzki (fikc.),1,zatwierdzony,978,1,46.2,2025-08-02
+IK-09-01907,Urząd Wojewódzki (fikc.),1,brak,466,1,52.9,2026-05-12
+IK-09-01908,Urząd Wojewódzki (fikc.),1,brak,1373,1,70.9,2026-08-28
+IK-09-01909,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,1120,0,17.3,2026-08-12
+IK-09-01910,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,1022,1,70.2,2025-06-25
+IK-09-01911,Komenda Wojewódzka PSP (fikc.),0,zatwierdzony,618,1,41.1,2026-08-28
+IK-09-01913,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,1056,1,77.7,2026-06-05
+IK-09-01914,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,333,1,85.0,2025-11-01
+IK-09-01917,Urząd Wojewódzki (fikc.),1,zatwierdzony,118,1,88.8,2026-01-26
+IK-09-01918,Urząd Wojewódzki (fikc.),1,w aktualizacji,1048,1,56.2,2025-10-17
+IK-09-01919,Urząd Wojewódzki (fikc.),1,w aktualizacji,970,1,34.2,2026-01-25
+IK-09-01920,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,543,0,32.5,2025-10-03
+IK-09-01921,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,329,1,93.1,2025-08-20
+IK-09-01922,Komenda Wojewódzka PSP (fikc.),1,w aktualizacji,511,1,78.4,2025-12-30
+IK-09-01923,Urząd Wojewódzki (fikc.),1,zatwierdzony,152,0,57.4,2026-07-09
+IK-09-01924,Urząd Wojewódzki (fikc.),1,w aktualizacji,933,1,63.4,2025-05-17
+IK-09-01926,Komenda Wojewódzka PSP (fikc.),1,zatwierdzony,624,1,44.7,2026-06-05
+IK-10-01928,Urząd Gminy (fikc.),1,w aktualizacji,271,1,86.3,2026-06-14
+IK-10-01929,Urząd Gminy (fikc.),1,brak,361,1,49.5,2026-08-14
+IK-10-01930,Urząd Wojewódzki (fikc.),0,zatwierdzony,739,1,66.0,2025-12-12
+IK-10-01931,Urząd Gminy (fikc.),1,brak,931,1,49.2,2025-06-15
+IK-10-01932,Urząd Wojewódzki (fikc.),0,w aktualizacji,1151,0,11.0,2026-02-07
+IK-10-01933,Urząd Wojewódzki (fikc.),0,brak,214,0,64.5,2026-02-04
+IK-10-01934,Urząd Gminy (fikc.),1,w aktualizacji,936,1,64.6,2025-05-20
+IK-10-01935,Starostwo Powiatowe (fikc.),1,brak,598,1,46.8,2026-05-17
+IK-10-01936,Urząd Wojewódzki (fikc.),1,brak,533,1,44.9,2026-06-14
+IK-10-01937,Urząd Wojewódzki (fikc.),1,w aktualizacji,260,1,37.0,2026-04-15
+IK-10-01938,Urząd Wojewódzki (fikc.),1,zatwierdzony,1459,1,91.2,2026-01-03
+IK-10-01941,Urząd Gminy (fikc.),1,brak,1178,1,75.4,2026-01-31
+IK-10-01942,Starostwo Powiatowe (fikc.),1,w aktualizacji,117,1,73.0,2025-06-20
+IK-10-01943,Starostwo Powiatowe (fikc.),1,brak,78,1,100,2025-07-12
+IK-10-01944,Urząd Gminy (fikc.),1,zatwierdzony,93,1,81.5,2025-07-17
+IK-10-01945,Urząd Gminy (fikc.),1,brak,25,1,75.5,2025-05-29
+IK-10-01946,Urząd Gminy (fikc.),1,zatwierdzony,1137,1,60.8,2026-07-17
+IK-10-01947,Starostwo Powiatowe (fikc.),0,brak,544,0,35.1,2025-12-27
+IK-10-01948,Starostwo Powiatowe (fikc.),1,w aktualizacji,920,1,73.6,2025-07-19
+IK-10-01949,Starostwo Powiatowe (fikc.),1,w aktualizacji,381,1,52.9,2025-10-25
+IK-10-01950,Urząd Wojewódzki (fikc.),1,zatwierdzony,386,1,54.0,2025-06-22
+IK-10-01951,Starostwo Powiatowe (fikc.),1,w aktualizacji,57,0,38.7,2025-11-11
+IK-10-01952,Urząd Gminy (fikc.),1,zatwierdzony,282,1,87.4,2026-07-29
+IK-10-01953,Starostwo Powiatowe (fikc.),1,w aktualizacji,1321,1,44.6,2026-08-24
+IK-10-01954,Urząd Gminy (fikc.),1,brak,955,1,39.4,2026-03-10
+IK-10-01955,Urząd Gminy (fikc.),1,brak,205,1,66.9,2025-07-06
+IK-10-01956,Starostwo Powiatowe (fikc.),1,zatwierdzony,896,1,48.0,2026-08-23
+IK-10-01957,Starostwo Powiatowe (fikc.),1,w aktualizacji,545,1,81.8,2025-08-30
+IK-10-01958,Urząd Wojewódzki (fikc.),1,w aktualizacji,1041,1,68.7,2025-05-25
+IK-10-01960,Urząd Gminy (fikc.),0,zatwierdzony,821,1,38.6,2026-07-02
+IK-10-01961,Starostwo Powiatowe (fikc.),1,zatwierdzony,1062,1,75.0,2025-05-27
+IK-10-01962,Urząd Wojewódzki (fikc.),1,brak,683,1,79.9,2026-07-03
+IK-10-01963,Urząd Wojewódzki (fikc.),1,zatwierdzony,227,1,54.2,2026-04-21
+IK-10-01964,Urząd Wojewódzki (fikc.),1,zatwierdzony,425,1,70.2,2025-08-01
+IK-10-01965,Urząd Gminy (fikc.),1,zatwierdzony,622,0,39.8,2025-12-19
+IK-10-01966,Starostwo Powiatowe (fikc.),1,brak,320,0,29.4,2026-04-17
+IK-10-01967,Urząd Wojewódzki (fikc.),1,zatwierdzony,895,1,82.4,2026-01-03
+IK-10-01968,Urząd Gminy (fikc.),1,zatwierdzony,278,1,73.6,2026-04-10
+IK-10-01969,Urząd Wojewódzki (fikc.),0,zatwierdzony,305,0,12.2,2025-09-11
+IK-10-01970,Urząd Wojewódzki (fikc.),0,zatwierdzony,612,0,25.8,2025-05-24
+IK-10-01971,Starostwo Powiatowe (fikc.),1,zatwierdzony,820,1,36.4,2026-01-21
+IK-10-01972,Starostwo Powiatowe (fikc.),1,zatwierdzony,1249,1,31.3,2026-07-05
+IK-10-01973,Urząd Gminy (fikc.),1,zatwierdzony,1255,1,43.4,2025-09-15
+IK-10-01974,Urząd Gminy (fikc.),1,w aktualizacji,597,1,58.2,2026-06-20
+IK-10-01975,Starostwo Powiatowe (fikc.),0,brak,1337,0,19.7,2026-08-05
+IK-10-01976,Urząd Wojewódzki (fikc.),1,w aktualizacji,566,1,65.9,2026-07-03
+IK-10-01977,Urząd Wojewódzki (fikc.),1,brak,180,1,62.7,2026-01-27
+IK-10-01978,Starostwo Powiatowe (fikc.),1,w aktualizacji,544,1,72.0,2026-03-10
+IK-10-01979,Starostwo Powiatowe (fikc.),1,w aktualizacji,299,1,76.0,2026-07-26
+IK-10-01980,Urząd Wojewódzki (fikc.),1,zatwierdzony,1337,1,84.9,2025-12-01
+IK-10-01981,Urząd Wojewódzki (fikc.),1,brak,1195,1,53.0,2026-01-06
+IK-10-01982,Urząd Gminy (fikc.),1,zatwierdzony,1219,1,75.4,2026-03-27
+IK-10-01983,Urząd Gminy (fikc.),1,w aktualizacji,771,1,64.7,2025-11-27
+IK-10-01984,Urząd Gminy (fikc.),1,zatwierdzony,473,1,59.1,2025-11-17
+IK-10-01985,Urząd Gminy (fikc.),1,zatwierdzony,40,1,49.1,2026-09-03
+IK-10-01986,Urząd Gminy (fikc.),1,w aktualizacji,347,1,61.5,2026-03-26
+IK-10-01988,Urząd Wojewódzki (fikc.),1,zatwierdzony,425,1,42.6,2025-08-19
+IK-10-01989,Urząd Wojewódzki (fikc.),1,brak,1084,1,55.4,2026-03-01
+IK-10-01990,Urząd Wojewódzki (fikc.),1,zatwierdzony,703,1,53.9,2025-11-03
+IK-10-01993,Urząd Gminy (fikc.),0,zatwierdzony,1473,1,68.1,2025-07-16
+IK-10-01995,Urząd Gminy (fikc.),1,zatwierdzony,782,1,68.1,2025-12-10
+IK-10-01996,Starostwo Powiatowe (fikc.),1,zatwierdzony,236,0,17.6,2026-01-22
+IK-10-01997,Starostwo Powiatowe (fikc.),1,zatwierdzony,336,1,48.0,2025-12-04
+IK-10-02000,Starostwo Powiatowe (fikc.),1,zatwierdzony,710,1,48.3,2026-01-05
+IK-10-02001,Urząd Gminy (fikc.),1,zatwierdzony,46,1,47.9,2026-06-20
+IK-10-02004,Urząd Wojewódzki (fikc.),1,brak,750,1,65.0,2026-08-18
+IK-10-02007,Starostwo Powiatowe (fikc.),1,w aktualizacji,485,0,16.9,2025-06-27
+IK-10-02008,Starostwo Powiatowe (fikc.),1,zatwierdzony,789,1,90.0,2026-01-31
+IK-10-02010,Urząd Gminy (fikc.),0,w aktualizacji,703,0,54.4,2026-04-12
+IK-10-02012,Starostwo Powiatowe (fikc.),1,zatwierdzony,925,1,70.9,2026-05-11
+IK-10-02014,Urząd Gminy (fikc.),1,zatwierdzony,592,0,25.6,2026-07-05
+IK-10-02015,Starostwo Powiatowe (fikc.),1,zatwierdzony,1482,1,65.4,2025-12-04
+IK-10-02017,Starostwo Powiatowe (fikc.),1,brak,812,0,26.9,2026-07-12
+IK-10-02018,Urząd Gminy (fikc.),0,brak,771,0,27.2,2025-11-05
+IK-10-02019,Urząd Wojewódzki (fikc.),1,brak,166,0,42.0,2025-12-17
+IK-10-02021,Starostwo Powiatowe (fikc.),1,zatwierdzony,1127,1,52.9,2025-05-21
+IK-10-02022,Urząd Wojewódzki (fikc.),1,zatwierdzony,144,1,59.0,2025-05-06
+IK-10-02023,Urząd Gminy (fikc.),1,zatwierdzony,806,1,52.9,2026-03-12
+IK-10-02025,Urząd Gminy (fikc.),0,brak,1064,0,41.0,2025-05-30
+IK-10-02030,Urząd Gminy (fikc.),1,brak,1293,1,55.6,2025-11-10
+IK-10-02031,Starostwo Powiatowe (fikc.),0,brak,855,0,60.1,2026-09-05
+IK-10-02032,Urząd Wojewódzki (fikc.),0,w aktualizacji,732,0,7.8,2025-07-15
+IK-10-02034,Starostwo Powiatowe (fikc.),1,zatwierdzony,877,1,48.2,2025-10-16
+IK-10-02035,Starostwo Powiatowe (fikc.),1,zatwierdzony,880,1,59.2,2026-06-09
+IK-10-02037,Urząd Wojewódzki (fikc.),1,zatwierdzony,1485,1,86.1,2025-12-01
+IK-10-02041,Starostwo Powiatowe (fikc.),0,w aktualizacji,656,0,13.8,2026-06-15
+IK-10-02042,Starostwo Powiatowe (fikc.),1,zatwierdzony,619,1,74.0,2026-01-13
+IK-10-02044,Urząd Gminy (fikc.),0,brak,921,0,53.4,2025-05-06
+IK-10-02046,Starostwo Powiatowe (fikc.),1,zatwierdzony,1227,0,40.4,2025-06-11
+IK-11-02047,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,237,1,53.1,2026-01-26
+IK-11-02048,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,55,1,56.7,2026-03-29
+IK-11-02049,Zakłady Chemiczne Wisła (fikc.),1,brak,597,0,16.1,2026-01-01
+IK-11-02051,Agencja Materiałów Prom. (fikc.),0,brak,528,1,65.1,2026-07-11
+IK-11-02052,Zakłady Chemiczne Wisła (fikc.),1,w aktualizacji,1300,0,33.6,2025-12-23
+IK-11-02054,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,1115,1,82.0,2025-07-28
+IK-11-02055,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,157,1,61.7,2025-06-05
+IK-11-02056,Zakłady Chemiczne Wisła (fikc.),1,w aktualizacji,1211,0,40.6,2026-05-30
+IK-11-02057,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,1067,1,93.0,2026-03-29
+IK-11-02058,Zakłady Chemiczne Wisła (fikc.),0,w aktualizacji,1493,1,90.6,2025-05-26
+IK-11-02060,Agencja Materiałów Prom. (fikc.),1,brak,429,1,49.6,2026-02-27
+IK-11-02061,Zakłady Chemiczne Wisła (fikc.),1,brak,527,1,100,2026-05-08
+IK-11-02062,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,945,1,57.7,2025-11-27
+IK-11-02063,Agencja Materiałów Prom. (fikc.),1,brak,888,0,36.1,2025-06-16
+IK-11-02064,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,1123,1,42.3,2025-08-19
+IK-11-02065,Agencja Materiałów Prom. (fikc.),1,w aktualizacji,1373,1,88.4,2026-06-30
+IK-11-02066,Zakłady Chemiczne Wisła (fikc.),0,zatwierdzony,1314,0,80.9,2026-06-13
+IK-11-02067,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,754,1,49.0,2025-06-08
+IK-11-02068,Agencja Materiałów Prom. (fikc.),1,brak,1156,0,21.7,2026-09-03
+IK-11-02069,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,221,1,51.7,2026-04-15
+IK-11-02071,Zakłady Chemiczne Wisła (fikc.),1,w aktualizacji,1250,1,60.6,2025-11-21
+IK-11-02072,Zakłady Chemiczne Wisła (fikc.),0,brak,1448,0,38.8,2026-08-25
+IK-11-02073,Agencja Materiałów Prom. (fikc.),1,w aktualizacji,746,1,100,2025-10-18
+IK-11-02074,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,1145,0,12.1,2026-03-20
+IK-11-02084,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,798,1,66.2,2026-06-18
+IK-11-02085,Agencja Materiałów Prom. (fikc.),0,w aktualizacji,971,0,10.6,2026-04-25
+IK-11-02086,Agencja Materiałów Prom. (fikc.),1,brak,706,0,56.3,2025-05-11
+IK-11-02087,Zakłady Chemiczne Wisła (fikc.),0,brak,742,0,15.5,2026-08-13
+IK-11-02091,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,590,1,31.3,2025-06-25
+IK-11-02092,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,1459,0,17.9,2026-09-04
+IK-11-02093,Agencja Materiałów Prom. (fikc.),0,zatwierdzony,211,0,57.9,2026-05-01
+IK-11-02095,Zakłady Chemiczne Wisła (fikc.),0,zatwierdzony,450,1,72.8,2026-03-06
+IK-11-02097,Agencja Materiałów Prom. (fikc.),0,zatwierdzony,1018,0,8.6,2025-09-03
+IK-11-02098,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,370,1,53.7,2026-02-10
+IK-11-02099,Zakłady Chemiczne Wisła (fikc.),1,brak,610,1,72.5,2026-07-05
+IK-11-02100,Agencja Materiałów Prom. (fikc.),0,w aktualizacji,1072,0,16.0,2025-11-01
+IK-11-02101,Zakłady Chemiczne Wisła (fikc.),1,zatwierdzony,1066,1,71.5,2025-12-04
+IK-11-02102,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,1471,1,49.3,2025-06-09
+IK-11-02103,Agencja Materiałów Prom. (fikc.),0,zatwierdzony,1438,1,46.5,2025-08-17
+IK-11-02104,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,894,1,53.9,2025-08-03
+IK-11-02105,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,641,1,59.7,2026-02-01
+IK-11-02106,Agencja Materiałów Prom. (fikc.),1,zatwierdzony,352,1,79.8,2025-05-04

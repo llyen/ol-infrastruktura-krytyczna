@@ -1,0 +1,828 @@
+node_id,node_name,system_code,voivodeship_code,criticality_class,operator_name,protection_plan_status,responsiveness_score,population_served
+IK-09-01911,baza lotniczego pogotowia opolskie-centralny-04-03-01911,IK09,16,K2,Komenda Wojewódzka PSP (fikc.),zatwierdzony,41.1,3200000
+IK-09-01901,centrum powiadamiania ratunkowego pomorskie-południowy-01-06-01901,IK09,22,K1,Komenda Wojewódzka PSP (fikc.),zatwierdzony,49.1,3200000
+IK-03-00683,centrum przetwarzania danych warmińsko-mazurskie-południowy-01-03-00683,IK03,28,K1,Centrum Informatyki Państwowej (fikc.),brak,66.9,3200000
+IK-03-00715,centrum przetwarzania danych pomorskie-zachodni-09-05-00715,IK03,22,K2,Chmura Krajowa Sp. z o.o. (fikc.),,,3200000
+IK-03-00693,centrum przetwarzania danych dolnośląskie-północny-30-01-00693,IK03,02,K1,Centrum Informatyki Państwowej (fikc.),,,3192501
+IK-03-00720,centrum przetwarzania danych podkarpackie-centralny-16-06-00720,IK03,18,K1,Centrum Informatyki Państwowej (fikc.),zatwierdzony,39.6,3132177
+IK-04-00841,centrum rozliczeniowe podlaskie-centralny-10-03-00841,IK04,20,K1,Bank Regionalny S.A. (fikc.),,,2591228
+IK-03-00702,centrum przetwarzania danych lubuskie-wschodni-02-05-00702,IK03,08,K2,Chmura Krajowa Sp. z o.o. (fikc.),brak,69.5,2387752
+IK-01-00251,elektrownia systemowa kujawsko-pomorskie-zachodni-15-03-00251,IK01,04,K2,Paliwa Krajowe S.A. (fikc.),,,2305869
+IK-04-00835,centrum rozliczeniowe dolnośląskie-miejski-29-02-00835,IK04,02,K2,Bank Krajowy S.A. (fikc.),,,2261246
+IK-01-00007,stacja NN 400/220 kV kujawsko-pomorskie-miejski-11-01-00007,IK01,04,K1,OSD Zachód (fikc.),brak,60.4,1877945
+IK-04-00843,centrum rozliczeniowe dolnośląskie-wschodni-20-02-00843,IK04,02,K2,Izba Rozliczeniowa (fikc.),,,1841060
+IK-02-00472,węzeł szkieletowy telekom dolnośląskie-miejski-17-02-00472,IK02,02,K2,Telko Gamma S.A. (fikc.),zatwierdzony,60.5,1833172
+IK-01-00035,stacja NN 400/220 kV opolskie-wschodni-08-06-00035,IK01,16,K1,Operator Przesyłowy S.A. (fikc.),brak,36.3,1705209
+IK-09-01899,centrum powiadamiania ratunkowego dolnośląskie-północny-12-05-01899,IK09,02,K1,Urząd Wojewódzki (fikc.),zatwierdzony,47.5,1667688
+IK-03-00804,system rejestrów państwowych dolnośląskie-miejski-05-07-00804,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,62.7,1657347
+IK-03-00700,centrum przetwarzania danych dolnośląskie-północny-06-04-00700,IK03,02,K1,Centrum Informatyki Państwowej (fikc.),brak,3.0,1587876
+IK-04-00834,centrum rozliczeniowe zachodniopomorskie-północny-12-05-00834,IK04,32,K1,Izba Rozliczeniowa (fikc.),brak,82.4,1545639
+IK-03-00803,system rejestrów państwowych małopolskie-centralny-16-03-00803,IK03,12,K1,Chmura Krajowa Sp. z o.o. (fikc.),,,1516502
+IK-09-01896,centrum powiadamiania ratunkowego podkarpackie-południowy-07-02-01896,IK09,18,K1,Urząd Wojewódzki (fikc.),brak,30.1,1494764
+IK-03-00705,centrum przetwarzania danych warmińsko-mazurskie-wschodni-08-06-00705,IK03,28,K1,Centrum Informatyki Państwowej (fikc.),brak,61.2,1472922
+IK-01-00015,stacja NN 400/220 kV zachodniopomorskie-południowy-07-06-00015,IK01,32,K1,Paliwa Krajowe S.A. (fikc.),,,1455144
+IK-02-00427,węzeł szkieletowy telekom opolskie-południowy-01-01-00427,IK02,16,K2,Telko Alfa S.A. (fikc.),w aktualizacji,3.0,1431113
+IK-09-01903,centrum powiadamiania ratunkowego dolnośląskie-centralny-28-03-01903,IK09,02,K1,Urząd Wojewódzki (fikc.),brak,43.0,1389490
+IK-03-00809,system rejestrów państwowych podkarpackie-wschodni-20-02-00809,IK03,18,K2,Centrum Informatyki Państwowej (fikc.),,,1386199
+IK-04-00838,centrum rozliczeniowe dolnośląskie-centralny-04-01-00838,IK04,02,K2,Bank Regionalny S.A. (fikc.),,,1382703
+IK-03-00691,centrum przetwarzania danych zachodniopomorskie-centralny-04-04-00691,IK03,32,K1,Centrum Informatyki Państwowej (fikc.),w aktualizacji,3.0,1367534
+IK-09-01894,centrum powiadamiania ratunkowego łódzkie-zachodni-21-04-01894,IK09,10,K2,Komenda Wojewódzka PSP (fikc.),,,1363201
+IK-03-00792,system rejestrów państwowych warmińsko-mazurskie-miejski-05-03-00792,IK03,28,K2,Chmura Krajowa Sp. z o.o. (fikc.),brak,43.5,1360203
+IK-03-00788,system rejestrów państwowych dolnośląskie-południowy-07-06-00788,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,46.9,1304623
+IK-03-00707,centrum przetwarzania danych świętokrzyskie-wschodni-08-03-00707,IK03,26,K1,Centrum Informatyki Państwowej (fikc.),brak,30.0,1293709
+IK-09-01906,centrum powiadamiania ratunkowego warmińsko-mazurskie-wschodni-20-01-01906,IK09,28,K2,Komenda Wojewódzka PSP (fikc.),,,1291654
+IK-03-00818,system rejestrów państwowych opolskie-zachodni-09-02-00818,IK03,16,K2,Centrum Informatyki Państwowej (fikc.),,,1288600
+IK-04-00878,centrum przetwarzania banku dolnośląskie-miejski-11-05-00878,IK04,02,K2,Izba Rozliczeniowa (fikc.),,,1286880
+IK-03-00821,system rejestrów państwowych małopolskie-południowy-13-03-00821,IK03,12,K1,Chmura Krajowa Sp. z o.o. (fikc.),,,1268222
+IK-02-00476,węzeł szkieletowy telekom dolnośląskie-centralny-04-06-00476,IK02,02,K2,Telko Beta S.A. (fikc.),brak,31.7,1252150
+IK-04-00837,centrum rozliczeniowe dolnośląskie-miejski-23-05-00837,IK04,02,K2,Izba Rozliczeniowa (fikc.),,,1245366
+IK-09-01889,centrum powiadamiania ratunkowego kujawsko-pomorskie-południowy-13-02-01889,IK09,04,K1,Komenda Wojewódzka PSP (fikc.),brak,88.6,1235184
+IK-03-00709,centrum przetwarzania danych podkarpackie-wschodni-20-03-00709,IK03,18,K1,Centrum Informatyki Państwowej (fikc.),,,1217658
+IK-03-00681,centrum przetwarzania danych zachodniopomorskie-miejski-11-02-00681,IK03,32,K1,Centrum Informatyki Państwowej (fikc.),,,1205382
+IK-09-01920,baza lotniczego pogotowia mazowieckie-południowy-01-03-01920,IK09,14,K2,Komenda Wojewódzka PSP (fikc.),w aktualizacji,32.5,1184365
+IK-03-00699,centrum przetwarzania danych dolnośląskie-wschodni-20-01-00699,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),w aktualizacji,31.2,1179198
+IK-03-00810,system rejestrów państwowych dolnośląskie-miejski-17-04-00810,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,31.2,1176423
+IK-02-00454,węzeł szkieletowy telekom łódzkie-północny-18-05-00454,IK02,10,K2,Telko Beta S.A. (fikc.),brak,43.1,1158639
+IK-03-00694,centrum przetwarzania danych podkarpackie-południowy-07-01-00694,IK03,18,K1,Chmura Krajowa Sp. z o.o. (fikc.),,,1141089
+IK-08-01758,port lotniczy lubelskie-zachodni-03-03-01758,IK08,06,K2,Zarząd Dróg (fikc.),,,1139948
+IK-02-00428,węzeł szkieletowy telekom lubelskie-miejski-05-01-00428,IK02,06,K1,Telko Gamma S.A. (fikc.),zatwierdzony,25.1,1135618
+IK-02-00450,węzeł szkieletowy telekom zachodniopomorskie-północny-18-01-00450,IK02,32,K2,Telko Gamma S.A. (fikc.),,,1133707
+IK-03-00824,system rejestrów państwowych dolnośląskie-południowy-13-04-00824,IK03,02,K2,Centrum Informatyki Państwowej (fikc.),brak,47.1,1116256
+IK-03-00785,system rejestrów państwowych dolnośląskie-południowy-01-04-00785,IK03,02,K1,Centrum Informatyki Państwowej (fikc.),brak,69.1,1099968
+IK-03-00716,centrum przetwarzania danych lubuskie-zachodni-03-06-00716,IK03,08,K2,Chmura Krajowa Sp. z o.o. (fikc.),,,1088506
+IK-03-00697,centrum przetwarzania danych świętokrzyskie-zachodni-03-05-00697,IK03,26,K1,Centrum Informatyki Państwowej (fikc.),brak,88.0,1087840
+IK-01-00360,magazyn/terminal paliw dolnośląskie-południowy-07-02-00360,IK01,02,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,40.9,1087642
+IK-03-00722,centrum przetwarzania danych małopolskie-wschodni-14-04-00722,IK03,12,K1,Chmura Krajowa Sp. z o.o. (fikc.),w aktualizacji,21.9,1085804
+IK-03-00708,centrum przetwarzania danych opolskie-wschodni-08-06-00708,IK03,16,K1,Centrum Informatyki Państwowej (fikc.),zatwierdzony,57.1,1076264
+IK-02-00464,węzeł szkieletowy telekom dolnośląskie-południowy-19-04-00464,IK02,02,K1,Telko Beta S.A. (fikc.),,,1074360
+IK-01-00010,stacja NN 400/220 kV świętokrzyskie-miejski-11-03-00010,IK01,26,K1,OSD Zachód (fikc.),,,1070008
+IK-03-00686,centrum przetwarzania danych łódzkie-zachodni-03-01-00686,IK03,10,K1,Centrum Informatyki Państwowej (fikc.),brak,50.0,1047787
+IK-04-00836,centrum rozliczeniowe lubelskie-centralny-04-06-00836,IK04,06,K1,Bank Krajowy S.A. (fikc.),brak,52.7,1042761
+IK-03-00806,system rejestrów państwowych dolnośląskie-zachodni-21-04-00806,IK03,02,K2,Centrum Informatyki Państwowej (fikc.),w aktualizacji,5.2,1026218
+IK-07-01607,bank krwi / magazyn farmaceutyczny świętokrzyskie-wschodni-02-06-01607,IK07,26,K1,Samodzielny Publiczny ZOZ (fikc.),brak,100.0,1020606
+IK-09-01897,centrum powiadamiania ratunkowego opolskie-południowy-07-02-01897,IK09,16,K1,Urząd Wojewódzki (fikc.),brak,56.4,1019978
+IK-01-00368,magazyn/terminal paliw śląskie-północny-12-01-00368,IK01,24,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,27.2,1018987
+IK-03-00718,centrum przetwarzania danych dolnośląskie-centralny-10-04-00718,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,27.5,1014833
+IK-03-00808,system rejestrów państwowych małopolskie-zachodni-03-02-00808,IK03,12,K1,Centrum Informatyki Państwowej (fikc.),brak,13.3,1008120
+IK-01-00250,elektrownia systemowa dolnośląskie-zachodni-09-05-00250,IK01,02,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,30.7,993739
+IK-07-01600,bank krwi / magazyn farmaceutyczny wielkopolskie-wschodni-32-04-01600,IK07,30,K2,Szpital Wojewódzki (fikc.),,,981758
+IK-01-00004,stacja NN 400/220 kV opolskie-północny-06-03-00004,IK01,16,K1,Paliwa Krajowe S.A. (fikc.),,,953433
+IK-02-00461,węzeł szkieletowy telekom świętokrzyskie-centralny-04-02-00461,IK02,26,K1,Telko Gamma S.A. (fikc.),zatwierdzony,96.2,923459
+IK-04-00860,centrum przetwarzania banku dolnośląskie-wschodni-20-01-00860,IK04,02,K2,Izba Rozliczeniowa (fikc.),brak,36.0,916446
+IK-03-00801,system rejestrów państwowych łódzkie-północny-06-04-00801,IK03,10,K2,Chmura Krajowa Sp. z o.o. (fikc.),zatwierdzony,20.7,914289
+IK-08-01752,port lotniczy opolskie-wschodni-08-06-01752,IK08,16,K2,Zarząd Dróg (fikc.),w aktualizacji,42.3,910170
+IK-04-00871,centrum przetwarzania banku świętokrzyskie-zachodni-09-01-00871,IK04,26,K2,Izba Rozliczeniowa (fikc.),brak,73.5,909163
+IK-04-00833,centrum rozliczeniowe opolskie-wschodni-02-06-00833,IK04,16,K2,Izba Rozliczeniowa (fikc.),,,897581
+IK-04-00854,centrum przetwarzania banku opolskie-północny-06-05-00854,IK04,16,K2,Bank Krajowy S.A. (fikc.),zatwierdzony,66.4,896654
+IK-10-01981,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-04-01981,IK10,02,K1,Urząd Wojewódzki (fikc.),brak,53.0,882029
+IK-01-00027,stacja NN 400/220 kV opolskie-południowy-01-03-00027,IK01,16,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,34.6,881713
+IK-10-01943,centrum zarządzania kryzysowego zachodniopomorskie-północny-18-01-01943,IK10,32,K1,Starostwo Powiatowe (fikc.),brak,100.0,869496
+IK-04-00858,centrum przetwarzania banku warmińsko-mazurskie-północny-06-04-00858,IK04,28,K2,Izba Rozliczeniowa (fikc.),,,861361
+IK-04-00831,centrum rozliczeniowe podkarpackie-zachodni-03-07-00831,IK04,18,K1,Izba Rozliczeniowa (fikc.),,,851934
+IK-09-01916,baza lotniczego pogotowia wielkopolskie-centralny-22-01-01916,IK09,30,K1,Komenda Wojewódzka PSP (fikc.),,,828546
+IK-03-00778,węzeł sieci rządowej zachodniopomorskie-centralny-04-06-00778,IK03,32,K2,Chmura Krajowa Sp. z o.o. (fikc.),brak,60.1,828294
+IK-03-00828,system rejestrów państwowych wielkopolskie-północny-18-04-00828,IK03,30,K1,Centrum Informatyki Państwowej (fikc.),,,827127
+IK-03-00811,system rejestrów państwowych opolskie-miejski-05-06-00811,IK03,16,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,52.1,825598
+IK-09-01915,baza lotniczego pogotowia wielkopolskie-centralny-16-02-01915,IK09,30,K2,Urząd Wojewódzki (fikc.),,,820053
+IK-01-00034,stacja NN 400/220 kV kujawsko-pomorskie-zachodni-15-04-00034,IK01,04,K1,OSD Południe (fikc.),brak,57.2,804997
+IK-01-00012,stacja NN 400/220 kV wielkopolskie-centralny-04-02-00012,IK01,30,K1,Operator Przesyłowy S.A. (fikc.),,,797956
+IK-01-00241,elektrownia systemowa małopolskie-wschodni-14-06-00241,IK01,12,K1,OSD Zachód (fikc.),w aktualizacji,36.6,794555
+IK-01-00264,elektrownia systemowa małopolskie-miejski-17-03-00264,IK01,12,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,89.8,792474
+IK-03-00830,system rejestrów państwowych dolnośląskie-miejski-05-05-00830,IK03,02,K1,Centrum Informatyki Państwowej (fikc.),w aktualizacji,41.1,780738
+IK-03-00813,system rejestrów państwowych śląskie-południowy-01-06-00813,IK03,24,K2,Chmura Krajowa Sp. z o.o. (fikc.),,,778722
+IK-03-00796,system rejestrów państwowych dolnośląskie-zachodni-21-07-00796,IK03,02,K2,Centrum Informatyki Państwowej (fikc.),w aktualizacji,3.0,778164
+IK-04-00880,centrum przetwarzania banku podkarpackie-wschodni-20-06-00880,IK04,18,K2,Izba Rozliczeniowa (fikc.),w aktualizacji,35.2,777041
+IK-02-00479,węzeł szkieletowy telekom dolnośląskie-centralny-04-03-00479,IK02,02,K1,Telko Gamma S.A. (fikc.),,,772966
+IK-07-01585,bank krwi / magazyn farmaceutyczny mazowieckie-zachodni-39-04-01585,IK07,14,K2,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,91.4,770039
+IK-03-00823,system rejestrów państwowych lubelskie-zachodni-03-07-00823,IK03,06,K2,Centrum Informatyki Państwowej (fikc.),brak,50.8,764174
+IK-05-00945,magazyn rezerw strategicznych pomorskie-zachodni-09-05-00945,IK05,22,K2,Spółdzielnia Spożywcza (fikc.),w aktualizacji,12.2,763913
+IK-01-00014,stacja NN 400/220 kV podkarpackie-zachodni-15-05-00014,IK01,18,K1,Gazoprzesył S.A. (fikc.),brak,88.8,749049
+IK-01-00266,elektrownia systemowa podkarpackie-zachodni-09-04-00266,IK01,18,K1,OSD Południe (fikc.),zatwierdzony,46.3,747810
+IK-01-00245,elektrownia systemowa warmińsko-mazurskie-zachodni-21-01-00245,IK01,28,K2,OSD Zachód (fikc.),brak,62.0,740838
+IK-01-00374,magazyn/terminal paliw opolskie-wschodni-08-04-00374,IK01,16,K2,Operator Przesyłowy S.A. (fikc.),brak,91.4,740691
+IK-02-00466,węzeł szkieletowy telekom lubelskie-północny-18-07-00466,IK02,06,K1,Telko Beta S.A. (fikc.),w aktualizacji,35.6,734157
+IK-01-00253,elektrownia systemowa śląskie-południowy-01-01-00253,IK01,24,K2,Gazoprzesył S.A. (fikc.),,,724787
+IK-04-00869,centrum przetwarzania banku opolskie-zachodni-03-07-00869,IK04,16,K2,Bank Regionalny S.A. (fikc.),w aktualizacji,31.5,719272
+IK-10-01940,centrum zarządzania kryzysowego dolnośląskie-miejski-11-03-01940,IK10,02,K2,Urząd Gminy (fikc.),,,710425
+IK-04-00848,centrum rozliczeniowe podkarpackie-miejski-23-03-00848,IK04,18,K1,Bank Krajowy S.A. (fikc.),zatwierdzony,40.6,709871
+IK-08-01620,węzeł kolejowy podlaskie-zachodni-09-06-01620,IK08,20,K2,Kolej Krajowa S.A. (fikc.),brak,26.9,704818
+IK-08-01659,węzeł kolejowy łódzkie-wschodni-08-05-01659,IK08,10,K2,Kolej Krajowa S.A. (fikc.),zatwierdzony,12.0,695663
+IK-09-01908,baza lotniczego pogotowia łódzkie-zachodni-21-03-01908,IK09,10,K1,Urząd Wojewódzki (fikc.),brak,70.9,692781
+IK-01-00018,stacja NN 400/220 kV opolskie-wschodni-02-02-00018,IK01,16,K1,Paliwa Krajowe S.A. (fikc.),w aktualizacji,49.9,691808
+IK-01-00265,elektrownia systemowa podkarpackie-północny-18-05-00265,IK01,18,K1,Gazoprzesył S.A. (fikc.),zatwierdzony,29.6,671208
+IK-10-01962,centrum zarządzania kryzysowego kujawsko-pomorskie-zachodni-21-02-01962,IK10,04,K1,Urząd Wojewódzki (fikc.),brak,79.9,665432
+IK-02-00475,węzeł szkieletowy telekom lubuskie-centralny-10-01-00475,IK02,08,K2,Telko Gamma S.A. (fikc.),zatwierdzony,3.0,661608
+IK-01-00038,stacja NN 400/220 kV łódzkie-centralny-22-05-00038,IK01,10,K1,OSD Zachód (fikc.),zatwierdzony,43.9,652820
+IK-10-01947,centrum zarządzania kryzysowego mazowieckie-północny-36-06-01947,IK10,14,K2,Starostwo Powiatowe (fikc.),brak,35.1,647109
+IK-10-01927,centrum zarządzania kryzysowego wielkopolskie-południowy-31-02-01927,IK10,30,K2,Urząd Gminy (fikc.),,,646610
+IK-02-00459,węzeł szkieletowy telekom lubuskie-wschodni-08-07-00459,IK02,08,K2,Telko Gamma S.A. (fikc.),,,644867
+IK-09-01912,baza lotniczego pogotowia zachodniopomorskie-północny-06-04-01912,IK09,32,K2,Komenda Wojewódzka PSP (fikc.),,,643570
+IK-03-00751,węzeł sieci rządowej warmińsko-mazurskie-miejski-11-05-00751,IK03,28,K2,Centrum Informatyki Państwowej (fikc.),,,638441
+IK-01-00353,magazyn/terminal paliw dolnośląskie-północny-24-07-00353,IK01,02,K2,Gazoprzesył S.A. (fikc.),,,619537
+IK-08-01749,port lotniczy dolnośląskie-południowy-13-06-01749,IK08,02,K2,Porty Lotnicze (fikc.),,,617774
+IK-05-00926,magazyn rezerw strategicznych dolnośląskie-miejski-05-07-00926,IK05,02,K2,Sieć Chłodni Polska (fikc.),brak,46.7,613329
+IK-03-00753,węzeł sieci rządowej podlaskie-wschodni-08-02-00753,IK03,20,K1,Centrum Informatyki Państwowej (fikc.),brak,25.2,612143
+IK-05-00921,magazyn rezerw strategicznych pomorskie-północny-12-06-00921,IK05,22,K2,Spółdzielnia Spożywcza (fikc.),,,610604
+IK-10-01936,centrum zarządzania kryzysowego opolskie-miejski-05-05-01936,IK10,16,K1,Urząd Wojewódzki (fikc.),brak,44.9,596847
+IK-02-00441,węzeł szkieletowy telekom podkarpackie-centralny-04-03-00441,IK02,18,K1,Telko Beta S.A. (fikc.),brak,74.5,595236
+IK-02-00438,węzeł szkieletowy telekom dolnośląskie-północny-06-01-00438,IK02,02,K1,Telko Gamma S.A. (fikc.),,,592036
+IK-01-00030,stacja NN 400/220 kV łódzkie-północny-24-06-00030,IK01,10,K1,OSD Południe (fikc.),brak,67.0,588995
+IK-01-00259,elektrownia systemowa opolskie-północny-06-05-00259,IK01,16,K1,Gazoprzesył S.A. (fikc.),,,581376
+IK-09-01925,baza lotniczego pogotowia lubuskie-północny-06-07-01925,IK09,08,K2,Komenda Wojewódzka PSP (fikc.),,,566865
+IK-03-00787,system rejestrów państwowych pomorskie-wschodni-08-05-00787,IK03,22,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,90.1,566300
+IK-03-00738,węzeł sieci rządowej podlaskie-miejski-05-01-00738,IK03,20,K2,Centrum Informatyki Państwowej (fikc.),brak,27.3,557253
+IK-02-00469,węzeł szkieletowy telekom dolnośląskie-zachodni-09-02-00469,IK02,02,K2,Telko Gamma S.A. (fikc.),brak,49.5,557082
+IK-09-01923,baza lotniczego pogotowia pomorskie-południowy-01-04-01923,IK09,22,K2,Urząd Wojewódzki (fikc.),zatwierdzony,57.4,555438
+IK-10-01960,centrum zarządzania kryzysowego podlaskie-północny-06-02-01960,IK10,20,K2,Urząd Gminy (fikc.),zatwierdzony,38.6,555299
+IK-07-01583,bank krwi / magazyn farmaceutyczny wielkopolskie-centralny-16-02-01583,IK07,30,K2,Samodzielny Publiczny ZOZ (fikc.),,,553865
+IK-07-01426,szpital wielospecjalistyczny kujawsko-pomorskie-centralny-22-05-01426,IK07,04,K1,Samodzielny Publiczny ZOZ (fikc.),,,553160
+IK-03-00745,węzeł sieci rządowej dolnośląskie-zachodni-27-07-00745,IK03,02,K2,Centrum Informatyki Państwowej (fikc.),w aktualizacji,11.3,550843
+IK-01-00032,stacja NN 400/220 kV śląskie-miejski-11-05-00032,IK01,24,K1,Operator Przesyłowy S.A. (fikc.),brak,43.2,528801
+IK-08-01666,węzeł kolejowy kujawsko-pomorskie-północny-18-02-01666,IK08,04,K2,Kolej Krajowa S.A. (fikc.),brak,66.3,525060
+IK-08-01745,port lotniczy śląskie-zachodni-33-05-01745,IK08,24,K1,Zarząd Dróg (fikc.),brak,71.4,520474
+IK-04-00861,centrum przetwarzania banku śląskie-południowy-13-02-00861,IK04,24,K2,Bank Krajowy S.A. (fikc.),zatwierdzony,59.1,513872
+IK-10-01970,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-03-01970,IK10,02,K1,Urząd Wojewódzki (fikc.),zatwierdzony,25.8,512671
+IK-08-01625,węzeł kolejowy opolskie-miejski-11-07-01625,IK08,16,K2,Porty Lotnicze (fikc.),w aktualizacji,9.0,508063
+IK-09-01909,baza lotniczego pogotowia opolskie-południowy-01-07-01909,IK09,16,K2,Komenda Wojewódzka PSP (fikc.),w aktualizacji,17.3,505793
+IK-08-01753,port lotniczy dolnośląskie-wschodni-14-01-01753,IK08,02,K1,Zarząd Dróg (fikc.),,,501104
+IK-04-00866,centrum przetwarzania banku dolnośląskie-zachodni-21-01-00866,IK04,02,K2,Bank Krajowy S.A. (fikc.),w aktualizacji,17.9,499209
+IK-02-00447,węzeł szkieletowy telekom małopolskie-miejski-05-01-00447,IK02,12,K1,Telko Alfa S.A. (fikc.),,,495230
+IK-01-00003,stacja NN 400/220 kV małopolskie-północny-12-06-00003,IK01,12,K1,OSD Południe (fikc.),brak,90.3,491556
+IK-05-00922,magazyn rezerw strategicznych opolskie-południowy-07-03-00922,IK05,16,K1,Sieć Chłodni Polska (fikc.),,,491193
+IK-10-01977,centrum zarządzania kryzysowego dolnośląskie-wschodni-08-06-01977,IK10,02,K1,Urząd Wojewódzki (fikc.),brak,62.7,490821
+IK-10-01939,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-02-01939,IK10,02,K2,Starostwo Powiatowe (fikc.),,,489465
+IK-01-00023,stacja NN 400/220 kV opolskie-zachodni-03-03-00023,IK01,16,K1,Paliwa Krajowe S.A. (fikc.),,,487132
+IK-08-01623,węzeł kolejowy dolnośląskie-centralny-28-07-01623,IK08,02,K1,Zarząd Dróg (fikc.),zatwierdzony,3.0,484225
+IK-10-01954,centrum zarządzania kryzysowego opolskie-północny-12-06-01954,IK10,16,K1,Urząd Gminy (fikc.),brak,39.4,477520
+IK-03-00732,węzeł sieci rządowej podkarpackie-zachodni-09-03-00732,IK03,18,K2,Chmura Krajowa Sp. z o.o. (fikc.),,,470428
+IK-10-01951,centrum zarządzania kryzysowego warmińsko-mazurskie-wschodni-14-03-01951,IK10,28,K1,Starostwo Powiatowe (fikc.),w aktualizacji,38.7,469502
+IK-10-01975,centrum zarządzania kryzysowego wielkopolskie-zachodni-27-04-01975,IK10,30,K1,Starostwo Powiatowe (fikc.),brak,19.7,467006
+IK-05-00949,magazyn rezerw strategicznych lubuskie-zachodni-09-07-00949,IK05,08,K2,Agencja Rezerw (fikc.),,,461898
+IK-03-00784,system rejestrów państwowych opolskie-północny-06-06-00784,IK03,16,K1,Centrum Informatyki Państwowej (fikc.),,,459543
+IK-07-01581,bank krwi / magazyn farmaceutyczny opolskie-północny-06-05-01581,IK07,16,K2,Samodzielny Publiczny ZOZ (fikc.),,,457869
+IK-01-00039,stacja NN 400/220 kV wielkopolskie-południowy-01-03-00039,IK01,30,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,64.2,456128
+IK-03-00764,węzeł sieci rządowej dolnośląskie-centralny-10-01-00764,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),,,456053
+IK-08-01696,most/przeprawa krytyczna podlaskie-zachodni-15-04-01696,IK08,20,K2,Zarząd Dróg (fikc.),,,455411
+IK-08-01754,port lotniczy dolnośląskie-południowy-13-06-01754,IK08,02,K2,Kolej Krajowa S.A. (fikc.),brak,50.4,453374
+IK-03-00736,węzeł sieci rządowej małopolskie-południowy-19-01-00736,IK03,12,K2,Chmura Krajowa Sp. z o.o. (fikc.),w aktualizacji,34.2,451170
+IK-07-01407,szpital wielospecjalistyczny kujawsko-pomorskie-zachodni-15-06-01407,IK07,04,K1,Samodzielny Publiczny ZOZ (fikc.),,,445974
+IK-03-00761,węzeł sieci rządowej opolskie-miejski-05-02-00761,IK03,16,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,50.2,444599
+IK-10-02003,węzeł teleinformatyczny urzędu świętokrzyskie-wschodni-02-01-02003,IK10,26,K2,Starostwo Powiatowe (fikc.),,,443563
+IK-07-01420,szpital wielospecjalistyczny lubuskie-zachodni-03-01-01420,IK07,08,K1,Szpital Wojewódzki (fikc.),zatwierdzony,36.8,442031
+IK-08-01628,węzeł kolejowy podkarpackie-wschodni-20-02-01628,IK08,18,K1,Porty Lotnicze (fikc.),zatwierdzony,66.1,439978
+IK-02-00471,węzeł szkieletowy telekom opolskie-wschodni-02-04-00471,IK02,16,K1,Telko Beta S.A. (fikc.),,,433732
+IK-04-00877,centrum przetwarzania banku lubelskie-południowy-07-05-00877,IK04,06,K2,Izba Rozliczeniowa (fikc.),brak,8.9,432993
+IK-05-00934,magazyn rezerw strategicznych małopolskie-zachodni-03-04-00934,IK05,12,K1,Spółdzielnia Spożywcza (fikc.),,,421860
+IK-02-00453,węzeł szkieletowy telekom dolnośląskie-wschodni-26-01-00453,IK02,02,K1,Telko Gamma S.A. (fikc.),zatwierdzony,18.3,420614
+IK-02-00467,węzeł szkieletowy telekom opolskie-miejski-05-03-00467,IK02,16,K2,Telko Beta S.A. (fikc.),zatwierdzony,47.2,420037
+IK-01-00352,magazyn/terminal paliw dolnośląskie-zachodni-27-03-00352,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),zatwierdzony,44.7,415999
+IK-03-00799,system rejestrów państwowych opolskie-miejski-11-02-00799,IK03,16,K2,Chmura Krajowa Sp. z o.o. (fikc.),w aktualizacji,9.5,415720
+IK-07-01603,bank krwi / magazyn farmaceutyczny łódzkie-centralny-22-04-01603,IK07,10,K2,Sieć Medyczna Vita (fikc.),brak,51.2,413951
+IK-08-01757,port lotniczy dolnośląskie-północny-12-03-01757,IK08,02,K2,Porty Lotnicze (fikc.),brak,63.1,413170
+IK-05-00928,magazyn rezerw strategicznych wielkopolskie-północny-24-06-00928,IK05,30,K1,Sieć Chłodni Polska (fikc.),zatwierdzony,72.7,409440
+IK-01-00252,elektrownia systemowa zachodniopomorskie-centralny-04-02-00252,IK01,32,K1,Operator Przesyłowy S.A. (fikc.),brak,21.7,404778
+IK-05-00936,magazyn rezerw strategicznych podkarpackie-miejski-23-01-00936,IK05,18,K2,Sieć Chłodni Polska (fikc.),w aktualizacji,30.4,401686
+IK-09-01907,baza lotniczego pogotowia pomorskie-centralny-16-05-01907,IK09,22,K2,Urząd Wojewódzki (fikc.),brak,52.9,400994
+IK-07-01611,bank krwi / magazyn farmaceutyczny łódzkie-wschodni-08-03-01611,IK07,10,K1,Samodzielny Publiczny ZOZ (fikc.),brak,9.7,400993
+IK-03-00750,węzeł sieci rządowej dolnośląskie-centralny-10-04-00750,IK03,02,K2,Centrum Informatyki Państwowej (fikc.),w aktualizacji,51.4,390697
+IK-03-00786,system rejestrów państwowych świętokrzyskie-południowy-13-03-00786,IK03,26,K2,Centrum Informatyki Państwowej (fikc.),zatwierdzony,89.9,381893
+IK-02-00457,węzeł szkieletowy telekom podkarpackie-południowy-13-03-00457,IK02,18,K1,Telko Alfa S.A. (fikc.),brak,7.6,380896
+IK-01-00343,magazyn/terminal paliw lubuskie-południowy-01-01-00343,IK01,08,K1,Paliwa Krajowe S.A. (fikc.),zatwierdzony,72.9,379069
+IK-04-00881,centrum przetwarzania banku opolskie-północny-06-07-00881,IK04,16,K2,Izba Rozliczeniowa (fikc.),w aktualizacji,49.8,375729
+IK-02-00422,węzeł szkieletowy telekom mazowieckie-zachodni-27-02-00422,IK02,14,K1,Telko Gamma S.A. (fikc.),brak,68.9,373480
+IK-07-01411,szpital wielospecjalistyczny lubelskie-wschodni-02-03-01411,IK07,06,K1,Sieć Medyczna Vita (fikc.),brak,73.3,367956
+IK-02-00473,węzeł szkieletowy telekom opolskie-zachodni-09-02-00473,IK02,16,K1,Telko Alfa S.A. (fikc.),w aktualizacji,3.0,366293
+IK-02-00435,węzeł szkieletowy telekom śląskie-miejski-35-02-00435,IK02,24,K2,Telko Gamma S.A. (fikc.),,,364682
+IK-04-00863,centrum przetwarzania banku zachodniopomorskie-zachodni-21-02-00863,IK04,32,K2,Bank Krajowy S.A. (fikc.),w aktualizacji,47.3,364160
+IK-07-01403,szpital wielospecjalistyczny podlaskie-miejski-11-04-01403,IK07,20,K1,Sieć Medyczna Vita (fikc.),zatwierdzony,31.4,361846
+IK-10-01959,centrum zarządzania kryzysowego dolnośląskie-miejski-05-05-01959,IK10,02,K1,Urząd Gminy (fikc.),,,355463
+IK-10-01929,centrum zarządzania kryzysowego dolnośląskie-centralny-10-06-01929,IK10,02,K1,Urząd Gminy (fikc.),brak,49.5,355113
+IK-07-01413,szpital wielospecjalistyczny dolnośląskie-północny-18-02-01413,IK07,02,K1,Sieć Medyczna Vita (fikc.),w aktualizacji,21.1,354495
+IK-03-00814,system rejestrów państwowych lubuskie-południowy-07-03-00814,IK03,08,K2,Centrum Informatyki Państwowej (fikc.),brak,30.5,354313
+IK-05-00937,magazyn rezerw strategicznych wielkopolskie-południowy-01-01-00937,IK05,30,K1,Spółdzielnia Spożywcza (fikc.),zatwierdzony,73.0,351602
+IK-04-00876,centrum przetwarzania banku podkarpackie-miejski-17-04-00876,IK04,18,K2,Izba Rozliczeniowa (fikc.),,,349190
+IK-04-00862,centrum przetwarzania banku opolskie-centralny-10-06-00862,IK04,16,K1,Izba Rozliczeniowa (fikc.),zatwierdzony,45.9,346092
+IK-02-00480,węzeł szkieletowy telekom podlaskie-miejski-11-06-00480,IK02,20,K2,Telko Gamma S.A. (fikc.),w aktualizacji,19.0,342189
+IK-04-00874,centrum przetwarzania banku podkarpackie-północny-12-01-00874,IK04,18,K2,Bank Regionalny S.A. (fikc.),,,342165
+IK-07-01366,szpital wielospecjalistyczny zachodniopomorskie-zachodni-21-06-01366,IK07,32,K1,Samodzielny Publiczny ZOZ (fikc.),brak,20.7,341968
+IK-03-00771,węzeł sieci rządowej opolskie-miejski-05-03-00771,IK03,16,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,61.2,340362
+IK-10-01935,centrum zarządzania kryzysowego świętokrzyskie-wschodni-02-06-01935,IK10,26,K2,Starostwo Powiatowe (fikc.),brak,46.8,336758
+IK-03-00746,węzeł sieci rządowej lubelskie-zachodni-21-01-00746,IK03,06,K1,Chmura Krajowa Sp. z o.o. (fikc.),,,335956
+IK-08-01669,węzeł kolejowy lubuskie-zachodni-03-02-01669,IK08,08,K2,Porty Lotnicze (fikc.),,,335906
+IK-08-01760,port morski/rzeczny małopolskie-południowy-01-06-01760,IK08,12,K2,Porty Lotnicze (fikc.),w aktualizacji,37.7,334534
+IK-01-00033,stacja NN 400/220 kV opolskie-południowy-07-06-00033,IK01,16,K1,OSD Zachód (fikc.),zatwierdzony,64.6,333334
+IK-07-01577,bank krwi / magazyn farmaceutyczny wielkopolskie-zachodni-15-03-01577,IK07,30,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,78.4,330871
+IK-02-00423,węzeł szkieletowy telekom warmińsko-mazurskie-południowy-07-02-00423,IK02,28,K1,Telko Alfa S.A. (fikc.),brak,25.0,326647
+IK-10-01932,centrum zarządzania kryzysowego łódzkie-wschodni-08-06-01932,IK10,10,K1,Urząd Wojewódzki (fikc.),w aktualizacji,11.0,325455
+IK-10-01987,centrum zarządzania kryzysowego śląskie-północny-30-03-01987,IK10,24,K2,Urząd Gminy (fikc.),,,321017
+IK-08-01794,centrum sterowania ruchem kujawsko-pomorskie-wschodni-20-01-01794,IK08,04,K2,Kolej Krajowa S.A. (fikc.),,,313449
+IK-03-00735,węzeł sieci rządowej dolnośląskie-zachodni-27-01-00735,IK03,02,K1,Centrum Informatyki Państwowej (fikc.),brak,13.4,312668
+IK-03-00739,węzeł sieci rządowej opolskie-północny-12-02-00739,IK03,16,K1,Centrum Informatyki Państwowej (fikc.),brak,72.3,310208
+IK-05-00935,magazyn rezerw strategicznych łódzkie-miejski-17-04-00935,IK05,10,K1,Sieć Chłodni Polska (fikc.),w aktualizacji,62.9,309431
+IK-03-00698,centrum przetwarzania danych opolskie-południowy-01-03-00698,IK03,16,K1,Centrum Informatyki Państwowej (fikc.),brak,66.1,309356
+IK-07-01374,szpital wielospecjalistyczny dolnośląskie-zachodni-03-05-01374,IK07,02,K1,Samodzielny Publiczny ZOZ (fikc.),,,306936
+IK-01-00371,magazyn/terminal paliw lubelskie-północny-18-02-00371,IK01,06,K2,OSD Zachód (fikc.),,,302117
+IK-07-01579,bank krwi / magazyn farmaceutyczny kujawsko-pomorskie-północny-06-01-01579,IK07,04,K2,Sieć Medyczna Vita (fikc.),,,298753
+IK-05-00924,magazyn rezerw strategicznych dolnośląskie-wschodni-26-02-00924,IK05,02,K2,Sieć Chłodni Polska (fikc.),w aktualizacji,26.8,298469
+IK-03-00780,węzeł sieci rządowej kujawsko-pomorskie-wschodni-20-02-00780,IK03,04,K2,Chmura Krajowa Sp. z o.o. (fikc.),zatwierdzony,26.2,295185
+IK-03-00763,węzeł sieci rządowej dolnośląskie-wschodni-26-05-00763,IK03,02,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,23.5,294527
+IK-07-01572,bank krwi / magazyn farmaceutyczny wielkopolskie-wschodni-14-04-01572,IK07,30,K2,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,50.3,294188
+IK-03-00733,węzeł sieci rządowej lubelskie-miejski-23-02-00733,IK03,06,K2,Centrum Informatyki Państwowej (fikc.),w aktualizacji,75.1,290858
+IK-02-00426,węzeł szkieletowy telekom opolskie-zachodni-09-06-00426,IK02,16,K1,Telko Beta S.A. (fikc.),,,290271
+IK-08-01621,węzeł kolejowy dolnośląskie-północny-18-07-01621,IK08,02,K2,Porty Lotnicze (fikc.),w aktualizacji,27.1,288934
+IK-08-01771,port morski/rzeczny pomorskie-centralny-04-04-01771,IK08,22,K2,Porty Lotnicze (fikc.),,,288227
+IK-01-00328,tłocznia gazu opolskie-zachodni-03-07-00328,IK01,16,K2,Paliwa Krajowe S.A. (fikc.),w aktualizacji,3.0,280958
+IK-01-00325,tłocznia gazu śląskie-zachodni-15-05-00325,IK01,24,K2,OSD Zachód (fikc.),brak,52.2,280207
+IK-04-00888,centrum przetwarzania banku dolnośląskie-wschodni-08-07-00888,IK04,02,K2,Bank Krajowy S.A. (fikc.),,,278937
+IK-01-00332,magazyn/terminal paliw dolnośląskie-centralny-10-06-00332,IK01,02,K2,Gazoprzesył S.A. (fikc.),zatwierdzony,41.5,277808
+IK-03-00762,węzeł sieci rządowej dolnośląskie-centralny-16-01-00762,IK03,02,K2,Chmura Krajowa Sp. z o.o. (fikc.),brak,41.7,277373
+IK-07-01571,bank krwi / magazyn farmaceutyczny świętokrzyskie-miejski-11-04-01571,IK07,26,K2,Samodzielny Publiczny ZOZ (fikc.),w aktualizacji,21.0,276198
+IK-08-01649,węzeł kolejowy lubuskie-wschodni-08-05-01649,IK08,08,K2,Zarząd Dróg (fikc.),brak,59.1,275619
+IK-03-00744,węzeł sieci rządowej świętokrzyskie-zachodni-09-04-00744,IK03,26,K2,Centrum Informatyki Państwowej (fikc.),,,275408
+IK-08-01814,centrum sterowania ruchem opolskie-wschodni-02-01-01814,IK08,16,K2,Kolej Krajowa S.A. (fikc.),,,275039
+IK-02-00445,węzeł szkieletowy telekom dolnośląskie-wschodni-26-02-00445,IK02,02,K2,Telko Beta S.A. (fikc.),,,275013
+IK-07-01365,szpital wielospecjalistyczny małopolskie-miejski-17-01-01365,IK07,12,K1,Samodzielny Publiczny ZOZ (fikc.),w aktualizacji,55.2,274711
+IK-04-00857,centrum przetwarzania banku wielkopolskie-wschodni-14-01-00857,IK04,30,K2,Bank Krajowy S.A. (fikc.),w aktualizacji,50.8,273246
+IK-08-01660,węzeł kolejowy lubelskie-centralny-16-04-01660,IK08,06,K2,Porty Lotnicze (fikc.),w aktualizacji,34.6,270379
+IK-08-01707,most/przeprawa krytyczna lubelskie-wschodni-14-03-01707,IK08,06,K2,Kolej Krajowa S.A. (fikc.),,,270214
+IK-05-00969,chłodnia składowa małopolskie-zachodni-21-03-00969,IK05,12,K2,Spółdzielnia Spożywcza (fikc.),,,269495
+IK-07-01384,szpital wielospecjalistyczny opolskie-południowy-01-01-01384,IK07,16,K1,Szpital Wojewódzki (fikc.),brak,52.0,267567
+IK-01-00361,magazyn/terminal paliw małopolskie-miejski-11-06-00361,IK01,12,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,27.9,263995
+IK-08-01811,centrum sterowania ruchem dolnośląskie-centralny-10-04-01811,IK08,02,K2,Zarząd Dróg (fikc.),zatwierdzony,26.9,263703
+IK-08-01653,węzeł kolejowy śląskie-północny-06-06-01653,IK08,24,K2,Zarząd Dróg (fikc.),brak,40.8,263650
+IK-04-00849,centrum przetwarzania banku dolnośląskie-miejski-05-07-00849,IK04,02,K2,Bank Regionalny S.A. (fikc.),w aktualizacji,3.0,260105
+IK-06-01163,stacja uzdatniania wody lubuskie-miejski-11-04-01163,IK06,08,K2,Wodociągi Miejskie (fikc.),brak,50.7,259015
+IK-02-00452,węzeł szkieletowy telekom świętokrzyskie-wschodni-08-04-00452,IK02,26,K2,Telko Gamma S.A. (fikc.),brak,45.5,258255
+IK-01-00308,tłocznia gazu podkarpackie-miejski-17-05-00308,IK01,18,K1,Paliwa Krajowe S.A. (fikc.),brak,24.4,257315
+IK-02-00443,węzeł szkieletowy telekom dolnośląskie-zachodni-15-05-00443,IK02,02,K2,Telko Beta S.A. (fikc.),zatwierdzony,41.5,256925
+IK-01-00364,magazyn/terminal paliw dolnośląskie-centralny-28-07-00364,IK01,02,K1,OSD Zachód (fikc.),,,254911
+IK-08-01789,centrum sterowania ruchem mazowieckie-miejski-35-02-01789,IK08,14,K2,Zarząd Dróg (fikc.),,,254447
+IK-07-01595,bank krwi / magazyn farmaceutyczny warmińsko-mazurskie-wschodni-08-06-01595,IK07,28,K2,Szpital Wojewódzki (fikc.),w aktualizacji,24.0,252860
+IK-08-01756,port lotniczy opolskie-miejski-05-03-01756,IK08,16,K2,Porty Lotnicze (fikc.),,,252277
+IK-03-00775,węzeł sieci rządowej lubelskie-południowy-19-01-00775,IK03,06,K1,Centrum Informatyki Państwowej (fikc.),,,250462
+IK-01-00324,tłocznia gazu wielkopolskie-wschodni-08-04-00324,IK01,30,K2,Gazoprzesył S.A. (fikc.),w aktualizacji,24.1,249474
+IK-04-00850,centrum przetwarzania banku małopolskie-centralny-22-05-00850,IK04,12,K2,Bank Regionalny S.A. (fikc.),brak,76.6,249068
+IK-03-00773,węzeł sieci rządowej opolskie-północny-12-03-00773,IK03,16,K2,Chmura Krajowa Sp. z o.o. (fikc.),zatwierdzony,60.0,248652
+IK-08-01615,węzeł kolejowy podlaskie-miejski-11-04-01615,IK08,20,K2,Porty Lotnicze (fikc.),brak,46.8,247155
+IK-05-00948,magazyn rezerw strategicznych małopolskie-wschodni-02-02-00948,IK05,12,K2,Agencja Rezerw (fikc.),,,245989
+IK-10-01933,centrum zarządzania kryzysowego podlaskie-południowy-07-06-01933,IK10,20,K1,Urząd Wojewódzki (fikc.),brak,64.5,245858
+IK-07-01593,bank krwi / magazyn farmaceutyczny opolskie-wschodni-02-01-01593,IK07,16,K2,Sieć Medyczna Vita (fikc.),,,245141
+IK-07-01418,szpital wielospecjalistyczny opolskie-wschodni-02-06-01418,IK07,16,K1,Szpital Wojewódzki (fikc.),zatwierdzony,49.7,244690
+IK-04-00900,hurtownia wartości/gotówki wielkopolskie-wschodni-32-03-00900,IK04,30,K2,Izba Rozliczeniowa (fikc.),,,244207
+IK-10-01966,centrum zarządzania kryzysowego podkarpackie-zachodni-15-01-01966,IK10,18,K1,Starostwo Powiatowe (fikc.),brak,29.4,242206
+IK-08-01797,centrum sterowania ruchem dolnośląskie-północny-06-04-01797,IK08,02,K2,Porty Lotnicze (fikc.),,,239586
+IK-10-01965,centrum zarządzania kryzysowego dolnośląskie-miejski-17-07-01965,IK10,02,K1,Urząd Gminy (fikc.),zatwierdzony,39.8,238265
+IK-01-00342,magazyn/terminal paliw dolnośląskie-miejski-23-06-00342,IK01,02,K2,Gazoprzesył S.A. (fikc.),brak,31.4,235806
+IK-10-01930,centrum zarządzania kryzysowego dolnośląskie-południowy-13-01-01930,IK10,02,K1,Urząd Wojewódzki (fikc.),zatwierdzony,66.0,230577
+IK-05-00925,magazyn rezerw strategicznych dolnośląskie-wschodni-14-01-00925,IK05,02,K2,Spółdzielnia Spożywcza (fikc.),brak,16.5,229928
+IK-01-00372,magazyn/terminal paliw opolskie-centralny-10-02-00372,IK01,16,K2,Operator Przesyłowy S.A. (fikc.),,,229920
+IK-07-01387,szpital wielospecjalistyczny dolnośląskie-północny-12-01-01387,IK07,02,K1,Szpital Wojewódzki (fikc.),,,229537
+IK-08-01802,centrum sterowania ruchem małopolskie-centralny-10-03-01802,IK08,12,K2,Porty Lotnicze (fikc.),,,228650
+IK-10-02018,węzeł teleinformatyczny urzędu dolnośląskie-miejski-17-03-02018,IK10,02,K2,Urząd Gminy (fikc.),brak,27.2,224251
+IK-08-01693,most/przeprawa krytyczna kujawsko-pomorskie-centralny-04-01-01693,IK08,04,K2,Zarząd Dróg (fikc.),w aktualizacji,38.9,222489
+IK-07-01587,bank krwi / magazyn farmaceutyczny dolnośląskie-centralny-04-01-01587,IK07,02,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,14.9,222229
+IK-01-00370,magazyn/terminal paliw dolnośląskie-północny-18-02-00370,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),brak,38.7,218663
+IK-10-01955,centrum zarządzania kryzysowego łódzkie-południowy-19-01-01955,IK10,10,K1,Urząd Gminy (fikc.),brak,66.9,218552
+IK-01-00362,magazyn/terminal paliw zachodniopomorskie-zachodni-03-05-00362,IK01,32,K2,OSD Południe (fikc.),,,216835
+IK-03-00774,węzeł sieci rządowej łódzkie-centralny-04-07-00774,IK03,10,K2,Centrum Informatyki Państwowej (fikc.),,,216592
+IK-01-00351,magazyn/terminal paliw świętokrzyskie-południowy-07-05-00351,IK01,26,K2,OSD Zachód (fikc.),zatwierdzony,14.7,216077
+IK-08-01772,centrum sterowania ruchem podlaskie-wschodni-08-05-01772,IK08,20,K2,Zarząd Dróg (fikc.),,,215494
+IK-01-00040,stacja NN 400/220 kV pomorskie-północny-18-03-00040,IK01,22,K1,Operator Przesyłowy S.A. (fikc.),w aktualizacji,43.8,214693
+IK-04-00883,centrum przetwarzania banku dolnośląskie-południowy-07-06-00883,IK04,02,K2,Izba Rozliczeniowa (fikc.),w aktualizacji,3.0,213296
+IK-01-00365,magazyn/terminal paliw opolskie-południowy-07-01-00365,IK01,16,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,56.2,212704
+IK-10-01989,węzeł teleinformatyczny urzędu łódzkie-miejski-05-07-01989,IK10,10,K2,Urząd Wojewódzki (fikc.),brak,55.4,211167
+IK-01-00333,magazyn/terminal paliw dolnośląskie-miejski-29-04-00333,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),,,209380
+IK-08-01640,węzeł kolejowy opolskie-północny-06-06-01640,IK08,16,K2,Porty Lotnicze (fikc.),zatwierdzony,100.0,209331
+IK-07-01422,szpital wielospecjalistyczny opolskie-wschodni-08-06-01422,IK07,16,K2,Szpital Wojewódzki (fikc.),w aktualizacji,15.3,209315
+IK-05-00923,magazyn rezerw strategicznych dolnośląskie-zachodni-27-06-00923,IK05,02,K1,Agencja Rezerw (fikc.),brak,68.1,208480
+IK-01-00286,elektrociepłownia dolnośląskie-miejski-29-06-00286,IK01,02,K1,Paliwa Krajowe S.A. (fikc.),w aktualizacji,58.9,206025
+IK-08-01665,węzeł kolejowy dolnośląskie-południowy-19-06-01665,IK08,02,K1,Porty Lotnicze (fikc.),zatwierdzony,55.6,205728
+IK-01-00323,tłocznia gazu opolskie-południowy-07-06-00323,IK01,16,K1,Gazoprzesył S.A. (fikc.),brak,64.5,204870
+IK-10-01945,centrum zarządzania kryzysowego łódzkie-wschodni-14-01-01945,IK10,10,K1,Urząd Gminy (fikc.),brak,75.5,203634
+IK-04-00868,centrum przetwarzania banku opolskie-wschodni-08-07-00868,IK04,16,K2,Bank Krajowy S.A. (fikc.),w aktualizacji,33.3,203522
+IK-01-00306,tłocznia gazu podlaskie-centralny-16-06-00306,IK01,20,K1,Gazoprzesył S.A. (fikc.),zatwierdzony,9.0,200596
+IK-06-01235,stacja uzdatniania wody podlaskie-wschodni-08-01-01235,IK06,20,K2,Wodociągi Miejskie (fikc.),zatwierdzony,3.0,199226
+IK-04-00898,hurtownia wartości/gotówki opolskie-wschodni-08-01-00898,IK04,16,K2,Bank Krajowy S.A. (fikc.),,,197546
+IK-03-00791,system rejestrów państwowych śląskie-wschodni-08-06-00791,IK03,24,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,49.4,192586
+IK-08-01627,węzeł kolejowy zachodniopomorskie-południowy-13-01-01627,IK08,32,K2,Zarząd Dróg (fikc.),brak,41.4,191290
+IK-10-01969,centrum zarządzania kryzysowego wielkopolskie-wschodni-08-04-01969,IK10,30,K1,Urząd Wojewódzki (fikc.),zatwierdzony,12.2,189786
+IK-07-01590,bank krwi / magazyn farmaceutyczny świętokrzyskie-miejski-05-01-01590,IK07,26,K2,Szpital Wojewódzki (fikc.),brak,19.0,189228
+IK-01-00347,magazyn/terminal paliw pomorskie-północny-06-06-00347,IK01,22,K2,OSD Południe (fikc.),brak,55.1,188000
+IK-10-02005,węzeł teleinformatyczny urzędu warmińsko-mazurskie-zachodni-21-06-02005,IK10,28,K2,Starostwo Powiatowe (fikc.),,,186317
+IK-07-01381,szpital wielospecjalistyczny dolnośląskie-centralny-22-01-01381,IK07,02,K1,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,61.3,183294
+IK-01-00358,magazyn/terminal paliw zachodniopomorskie-wschodni-20-03-00358,IK01,32,K2,OSD Południe (fikc.),,,183276
+IK-04-00916,hurtownia wartości/gotówki dolnośląskie-centralny-04-03-00916,IK04,02,K2,Bank Regionalny S.A. (fikc.),,,183145
+IK-01-00231,GPZ 110/SN opolskie-zachodni-09-01-00231,IK01,16,K2,Gazoprzesył S.A. (fikc.),,,180474
+IK-08-01691,most/przeprawa krytyczna łódzkie-południowy-19-01-01691,IK08,10,K2,Zarząd Dróg (fikc.),brak,4.6,177753
+IK-08-01622,węzeł kolejowy opolskie-południowy-01-04-01622,IK08,16,K1,Kolej Krajowa S.A. (fikc.),zatwierdzony,74.2,177597
+IK-05-00978,chłodnia składowa dolnośląskie-zachodni-21-01-00978,IK05,02,K2,Sieć Chłodni Polska (fikc.),brak,41.6,177077
+IK-08-01664,węzeł kolejowy lubuskie-południowy-01-05-01664,IK08,08,K1,Porty Lotnicze (fikc.),zatwierdzony,22.1,176726
+IK-10-02007,węzeł teleinformatyczny urzędu podlaskie-południowy-01-05-02007,IK10,20,K2,Starostwo Powiatowe (fikc.),w aktualizacji,16.9,176273
+IK-07-01439,szpital powiatowy podkarpackie-centralny-22-02-01439,IK07,18,K2,Szpital Wojewódzki (fikc.),,,176026
+IK-10-01931,centrum zarządzania kryzysowego wielkopolskie-wschodni-14-06-01931,IK10,30,K1,Urząd Gminy (fikc.),brak,49.2,175607
+IK-10-02044,węzeł teleinformatyczny urzędu dolnośląskie-północny-06-04-02044,IK10,02,K2,Urząd Gminy (fikc.),brak,53.4,174201
+IK-01-00172,GPZ 110/SN zachodniopomorskie-zachodni-09-05-00172,IK01,32,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,33.4,171393
+IK-08-01765,port morski/rzeczny zachodniopomorskie-południowy-13-04-01765,IK08,32,K2,Kolej Krajowa S.A. (fikc.),brak,43.6,170894
+IK-08-01645,węzeł kolejowy podlaskie-wschodni-08-06-01645,IK08,20,K2,Zarząd Dróg (fikc.),brak,89.6,169226
+IK-08-01642,węzeł kolejowy śląskie-miejski-05-01-01642,IK08,24,K2,Porty Lotnicze (fikc.),,,166825
+IK-08-01688,most/przeprawa krytyczna mazowieckie-wschodni-38-05-01688,IK08,14,K2,Kolej Krajowa S.A. (fikc.),brak,28.9,166063
+IK-05-00964,chłodnia składowa mazowieckie-wschodni-38-07-00964,IK05,14,K2,Agencja Rezerw (fikc.),,,165887
+IK-06-01061,ujęcie wody opolskie-południowy-07-07-01061,IK06,16,K2,Wodociągi Miejskie (fikc.),zatwierdzony,100.0,165491
+IK-09-01879,jednostka ratowniczo-gaśnicza PSP dolnośląskie-miejski-29-07-01879,IK09,02,K2,Komenda Wojewódzka PSP (fikc.),zatwierdzony,54.6,165372
+IK-07-01574,bank krwi / magazyn farmaceutyczny pomorskie-wschodni-14-05-01574,IK07,22,K2,Sieć Medyczna Vita (fikc.),,,164854
+IK-03-00754,węzeł sieci rządowej dolnośląskie-północny-30-03-00754,IK03,02,K2,Chmura Krajowa Sp. z o.o. (fikc.),,,164746
+IK-06-01364,oczyszczalnia ścieków dolnośląskie-północny-30-06-01364,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,30.1,164725
+IK-01-00330,tłocznia gazu opolskie-północny-12-06-00330,IK01,16,K1,OSD Zachód (fikc.),,,164365
+IK-10-01941,centrum zarządzania kryzysowego dolnośląskie-centralny-28-04-01941,IK10,02,K1,Urząd Gminy (fikc.),brak,75.4,163415
+IK-01-00314,tłocznia gazu świętokrzyskie-zachodni-03-06-00314,IK01,26,K1,Paliwa Krajowe S.A. (fikc.),brak,27.0,163018
+IK-08-01704,most/przeprawa krytyczna lubelskie-miejski-05-03-01704,IK08,06,K2,Kolej Krajowa S.A. (fikc.),,,162649
+IK-07-01391,szpital wielospecjalistyczny mazowieckie-południowy-13-07-01391,IK07,14,K1,Sieć Medyczna Vita (fikc.),zatwierdzony,51.6,160126
+IK-08-01712,most/przeprawa krytyczna opolskie-miejski-05-07-01712,IK08,16,K2,Porty Lotnicze (fikc.),,,160041
+IK-08-01634,węzeł kolejowy kujawsko-pomorskie-centralny-10-07-01634,IK08,04,K2,Zarząd Dróg (fikc.),,,159568
+IK-05-00979,chłodnia składowa śląskie-północny-18-04-00979,IK05,24,K2,Spółdzielnia Spożywcza (fikc.),w aktualizacji,55.9,158963
+IK-06-01101,ujęcie wody lubelskie-południowy-07-04-01101,IK06,06,K2,Zakład Wodociągowy Gminny (fikc.),brak,3.0,158863
+IK-01-00271,elektrociepłownia opolskie-wschodni-08-01-00271,IK01,16,K1,Paliwa Krajowe S.A. (fikc.),zatwierdzony,78.8,156803
+IK-07-01431,szpital powiatowy małopolskie-miejski-17-01-01431,IK07,12,K2,Samodzielny Publiczny ZOZ (fikc.),brak,25.2,155946
+IK-08-01759,port lotniczy dolnośląskie-miejski-05-02-01759,IK08,02,K2,Zarząd Dróg (fikc.),zatwierdzony,17.7,155680
+IK-07-01394,szpital wielospecjalistyczny opolskie-północny-06-04-01394,IK07,16,K1,Sieć Medyczna Vita (fikc.),,,151591
+IK-09-01858,jednostka ratowniczo-gaśnicza PSP łódzkie-centralny-10-04-01858,IK09,10,K2,Komenda Wojewódzka PSP (fikc.),zatwierdzony,68.3,151590
+IK-01-00304,tłocznia gazu podlaskie-północny-06-06-00304,IK01,20,K2,Gazoprzesył S.A. (fikc.),zatwierdzony,37.7,148670
+IK-08-01652,węzeł kolejowy opolskie-południowy-07-03-01652,IK08,16,K2,Zarząd Dróg (fikc.),,,147514
+IK-08-01762,port morski/rzeczny warmińsko-mazurskie-południowy-13-01-01762,IK08,28,K2,Porty Lotnicze (fikc.),brak,28.0,147211
+IK-01-00224,GPZ 110/SN opolskie-południowy-07-03-00224,IK01,16,K2,OSD Południe (fikc.),w aktualizacji,26.1,145910
+IK-07-01371,szpital wielospecjalistyczny dolnośląskie-północny-24-04-01371,IK07,02,K2,Samodzielny Publiczny ZOZ (fikc.),brak,54.1,145053
+IK-07-01389,szpital wielospecjalistyczny opolskie-centralny-10-06-01389,IK07,16,K1,Szpital Wojewódzki (fikc.),zatwierdzony,15.0,144945
+IK-08-01635,węzeł kolejowy warmińsko-mazurskie-wschodni-14-04-01635,IK08,28,K2,Zarząd Dróg (fikc.),w aktualizacji,23.0,144746
+IK-01-00399,stacja redukcyjna gazu dolnośląskie-centralny-22-06-00399,IK01,02,K2,Paliwa Krajowe S.A. (fikc.),,,144633
+IK-11-02051,zakład dużego ryzyka (ZDR) małopolskie-miejski-11-05-02051,IK11,12,K1,Agencja Materiałów Prom. (fikc.),brak,65.1,141468
+IK-01-00317,tłocznia gazu opolskie-wschodni-02-01-00317,IK01,16,K2,OSD Zachód (fikc.),,,139378
+IK-02-00649,węzeł agregacyjny/RAN hub lubelskie-zachodni-15-04-00649,IK02,06,K2,Telko Beta S.A. (fikc.),brak,82.0,138520
+IK-07-01589,bank krwi / magazyn farmaceutyczny dolnośląskie-centralny-04-02-01589,IK07,02,K2,Sieć Medyczna Vita (fikc.),brak,34.1,138105
+IK-06-01356,oczyszczalnia ścieków dolnośląskie-centralny-10-02-01356,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,27.9,137740
+IK-06-01142,ujęcie wody zachodniopomorskie-centralny-10-05-01142,IK06,32,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,30.4,136674
+IK-01-00090,GPZ 110/SN łódzkie-centralny-10-06-00090,IK01,10,K2,Operator Przesyłowy S.A. (fikc.),zatwierdzony,57.5,135109
+IK-08-01763,port morski/rzeczny dolnośląskie-centralny-16-03-01763,IK08,02,K2,Zarząd Dróg (fikc.),,,134407
+IK-01-00048,GPZ 110/SN lubelskie-wschodni-20-03-00048,IK01,06,K2,Paliwa Krajowe S.A. (fikc.),brak,33.7,134397
+IK-06-01210,stacja uzdatniania wody wielkopolskie-miejski-17-04-01210,IK06,30,K2,Wodociągi Miejskie (fikc.),brak,61.1,133449
+IK-04-00893,hurtownia wartości/gotówki kujawsko-pomorskie-centralny-10-06-00893,IK04,04,K2,Bank Krajowy S.A. (fikc.),brak,64.0,133408
+IK-06-01098,ujęcie wody opolskie-południowy-01-02-01098,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,133265
+IK-07-01399,szpital wielospecjalistyczny dolnośląskie-północny-06-01-01399,IK07,02,K1,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,62.4,132474
+IK-07-01370,szpital wielospecjalistyczny warmińsko-mazurskie-miejski-05-04-01370,IK07,28,K1,Sieć Medyczna Vita (fikc.),,,132081
+IK-06-01164,stacja uzdatniania wody zachodniopomorskie-centralny-16-03-01164,IK06,32,K2,Zakład Wodociągowy Gminny (fikc.),,,131538
+IK-07-01378,szpital wielospecjalistyczny dolnośląskie-wschodni-02-03-01378,IK07,02,K2,Sieć Medyczna Vita (fikc.),,,131294
+IK-08-01742,most/przeprawa krytyczna małopolskie-południowy-19-04-01742,IK08,12,K2,Kolej Krajowa S.A. (fikc.),brak,79.0,131102
+IK-01-00275,elektrociepłownia świętokrzyskie-południowy-01-05-00275,IK01,26,K1,Paliwa Krajowe S.A. (fikc.),,,130702
+IK-01-00117,GPZ 110/SN warmińsko-mazurskie-południowy-01-04-00117,IK01,28,K2,OSD Zachód (fikc.),brak,53.1,129208
+IK-01-00045,GPZ 110/SN opolskie-południowy-07-06-00045,IK01,16,K2,OSD Południe (fikc.),,,127504
+IK-01-00185,GPZ 110/SN opolskie-południowy-07-04-00185,IK01,16,K2,Paliwa Krajowe S.A. (fikc.),w aktualizacji,22.5,127416
+IK-06-01152,stacja uzdatniania wody warmińsko-mazurskie-centralny-04-05-01152,IK06,28,K2,Wodociągi Miejskie (fikc.),brak,25.4,127123
+IK-07-01592,bank krwi / magazyn farmaceutyczny opolskie-północny-12-01-01592,IK07,16,K2,Sieć Medyczna Vita (fikc.),brak,61.9,126950
+IK-08-01710,most/przeprawa krytyczna warmińsko-mazurskie-centralny-16-03-01710,IK08,28,K2,Zarząd Dróg (fikc.),,,126524
+IK-03-00747,węzeł sieci rządowej śląskie-zachodni-15-05-00747,IK03,24,K1,Chmura Krajowa Sp. z o.o. (fikc.),,,126405
+IK-08-01733,most/przeprawa krytyczna świętokrzyskie-centralny-10-04-01733,IK08,26,K2,Zarząd Dróg (fikc.),,,126373
+IK-08-01639,węzeł kolejowy małopolskie-wschodni-20-07-01639,IK08,12,K2,Zarząd Dróg (fikc.),w aktualizacji,40.8,124884
+IK-06-01362,oczyszczalnia ścieków świętokrzyskie-zachodni-09-02-01362,IK06,26,K2,Zakład Wodociągowy Gminny (fikc.),,,123466
+IK-08-01721,most/przeprawa krytyczna dolnośląskie-zachodni-27-07-01721,IK08,02,K2,Kolej Krajowa S.A. (fikc.),zatwierdzony,12.6,122937
+IK-06-01350,oczyszczalnia ścieków mazowieckie-zachodni-03-04-01350,IK06,14,K2,Wodociągi Miejskie (fikc.),,,122930
+IK-10-01993,węzeł teleinformatyczny urzędu dolnośląskie-północny-18-05-01993,IK10,02,K2,Urząd Gminy (fikc.),zatwierdzony,68.1,122776
+IK-01-00292,elektrociepłownia lubuskie-miejski-11-03-00292,IK01,08,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,27.8,121082
+IK-06-01072,ujęcie wody świętokrzyskie-południowy-01-04-01072,IK06,26,K2,Zakład Wodociągowy Gminny (fikc.),brak,41.5,119959
+IK-07-01503,szpital powiatowy wielkopolskie-południowy-25-03-01503,IK07,30,K2,Sieć Medyczna Vita (fikc.),brak,45.8,119779
+IK-07-01493,szpital powiatowy kujawsko-pomorskie-centralny-16-04-01493,IK07,04,K2,Sieć Medyczna Vita (fikc.),,,119688
+IK-08-01716,most/przeprawa krytyczna dolnośląskie-miejski-11-02-01716,IK08,02,K1,Kolej Krajowa S.A. (fikc.),w aktualizacji,27.5,119114
+IK-08-01679,most/przeprawa krytyczna mazowieckie-zachodni-21-05-01679,IK08,14,K2,Kolej Krajowa S.A. (fikc.),brak,80.7,118156
+IK-01-00235,GPZ 110/SN dolnośląskie-miejski-29-06-00235,IK01,02,K1,Paliwa Krajowe S.A. (fikc.),,,118111
+IK-10-02025,węzeł teleinformatyczny urzędu świętokrzyskie-zachodni-09-06-02025,IK10,26,K2,Urząd Gminy (fikc.),brak,41.0,117548
+IK-08-01782,centrum sterowania ruchem opolskie-północny-12-07-01782,IK08,16,K2,Zarząd Dróg (fikc.),,,117372
+IK-03-00776,węzeł sieci rządowej kujawsko-pomorskie-północny-18-05-00776,IK03,04,K1,Chmura Krajowa Sp. z o.o. (fikc.),brak,47.3,117291
+IK-08-01668,węzeł kolejowy podlaskie-zachodni-15-02-01668,IK08,20,K1,Kolej Krajowa S.A. (fikc.),brak,3.0,117272
+IK-05-00939,magazyn rezerw strategicznych śląskie-centralny-34-01-00939,IK05,24,K2,Spółdzielnia Spożywcza (fikc.),,,116695
+IK-05-00954,chłodnia składowa lubelskie-południowy-01-04-00954,IK05,06,K2,Agencja Rezerw (fikc.),w aktualizacji,47.7,116151
+IK-01-00303,tłocznia gazu pomorskie-północny-18-03-00303,IK01,22,K1,OSD Południe (fikc.),w aktualizacji,43.1,115670
+IK-01-00082,GPZ 110/SN dolnośląskie-zachodni-27-05-00082,IK01,02,K2,OSD Zachód (fikc.),w aktualizacji,10.3,115602
+IK-09-01826,jednostka ratowniczo-gaśnicza PSP małopolskie-wschodni-08-06-01826,IK09,12,K2,Urząd Wojewódzki (fikc.),brak,17.5,115209
+IK-09-01838,jednostka ratowniczo-gaśnicza PSP dolnośląskie-północny-30-05-01838,IK09,02,K2,Komenda Wojewódzka PSP (fikc.),w aktualizacji,73.1,114503
+IK-08-01766,port morski/rzeczny pomorskie-zachodni-09-01-01766,IK08,22,K2,Porty Lotnicze (fikc.),,,114396
+IK-06-01112,ujęcie wody mazowieckie-centralny-22-03-01112,IK06,14,K2,Zakład Wodociągowy Gminny (fikc.),,,113996
+IK-05-00941,magazyn rezerw strategicznych lubelskie-wschodni-20-05-00941,IK05,06,K1,Sieć Chłodni Polska (fikc.),brak,35.6,112712
+IK-03-00752,węzeł sieci rządowej dolnośląskie-zachodni-21-04-00752,IK03,02,K1,Centrum Informatyki Państwowej (fikc.),zatwierdzony,33.0,112665
+IK-01-00239,GPZ 110/SN opolskie-miejski-05-06-00239,IK01,16,K1,Operator Przesyłowy S.A. (fikc.),brak,69.7,111483
+IK-01-00093,GPZ 110/SN podkarpackie-północny-24-04-00093,IK01,18,K2,Operator Przesyłowy S.A. (fikc.),,,110395
+IK-09-01841,jednostka ratowniczo-gaśnicza PSP podlaskie-wschodni-02-06-01841,IK09,20,K2,Komenda Wojewódzka PSP (fikc.),brak,53.1,109968
+IK-01-00132,GPZ 110/SN opolskie-północny-06-03-00132,IK01,16,K2,OSD Południe (fikc.),brak,21.2,109370
+IK-01-00181,GPZ 110/SN pomorskie-zachodni-09-02-00181,IK01,22,K2,OSD Południe (fikc.),brak,11.4,109113
+IK-08-01698,most/przeprawa krytyczna podlaskie-centralny-10-01-01698,IK08,20,K2,Kolej Krajowa S.A. (fikc.),,,108667
+IK-06-01225,stacja uzdatniania wody opolskie-północny-06-02-01225,IK06,16,K2,Wodociągi Miejskie (fikc.),,,108374
+IK-09-01831,jednostka ratowniczo-gaśnicza PSP warmińsko-mazurskie-miejski-11-01-01831,IK09,28,K2,Komenda Wojewódzka PSP (fikc.),,,107004
+IK-01-00119,GPZ 110/SN dolnośląskie-południowy-13-02-00119,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),,,104882
+IK-01-00064,GPZ 110/SN lubelskie-wschodni-20-03-00064,IK01,06,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,78.6,104789
+IK-08-01798,centrum sterowania ruchem podlaskie-centralny-10-02-01798,IK08,20,K2,Zarząd Dróg (fikc.),zatwierdzony,57.2,104567
+IK-07-01457,szpital powiatowy opolskie-południowy-01-06-01457,IK07,16,K1,Samodzielny Publiczny ZOZ (fikc.),brak,32.7,104205
+IK-01-00056,GPZ 110/SN opolskie-północny-06-01-00056,IK01,16,K2,Operator Przesyłowy S.A. (fikc.),brak,51.2,104119
+IK-06-01178,stacja uzdatniania wody opolskie-północny-06-02-01178,IK06,16,K1,Zakład Wodociągowy Gminny (fikc.),,,103901
+IK-08-01761,port morski/rzeczny pomorskie-południowy-01-05-01761,IK08,22,K2,Zarząd Dróg (fikc.),,,103888
+IK-01-00291,elektrociepłownia dolnośląskie-centralny-22-03-00291,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),,,102829
+IK-02-00547,węzeł agregacyjny/RAN hub podkarpackie-miejski-05-06-00547,IK02,18,K2,Telko Alfa S.A. (fikc.),,,102549
+IK-02-00671,węzeł agregacyjny/RAN hub opolskie-południowy-07-03-00671,IK02,16,K2,Telko Beta S.A. (fikc.),,,102332
+IK-08-01687,most/przeprawa krytyczna dolnośląskie-wschodni-14-07-01687,IK08,02,K2,Zarząd Dróg (fikc.),,,100963
+IK-06-01144,ujęcie wody opolskie-miejski-11-01-01144,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,51.8,99969
+IK-06-01353,oczyszczalnia ścieków lubuskie-wschodni-02-05-01353,IK06,08,K2,Wodociągi Miejskie (fikc.),,,99493
+IK-01-00072,GPZ 110/SN kujawsko-pomorskie-zachodni-15-04-00072,IK01,04,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,36.4,99171
+IK-01-00289,elektrociepłownia opolskie-zachodni-03-06-00289,IK01,16,K1,OSD Zachód (fikc.),,,98793
+IK-07-01396,szpital wielospecjalistyczny dolnośląskie-wschodni-26-02-01396,IK07,02,K1,Szpital Wojewódzki (fikc.),zatwierdzony,84.0,98504
+IK-06-01234,stacja uzdatniania wody dolnośląskie-miejski-23-04-01234,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),,,98233
+IK-01-00161,GPZ 110/SN lubelskie-południowy-13-01-00161,IK01,06,K2,Operator Przesyłowy S.A. (fikc.),brak,59.2,97550
+IK-09-01859,jednostka ratowniczo-gaśnicza PSP pomorskie-północny-18-01-01859,IK09,22,K2,Urząd Wojewódzki (fikc.),w aktualizacji,3.0,96638
+IK-01-00277,elektrociepłownia dolnośląskie-południowy-07-03-00277,IK01,02,K2,OSD Zachód (fikc.),brak,26.0,95968
+IK-06-01114,ujęcie wody wielkopolskie-wschodni-08-01-01114,IK06,30,K2,Zakład Wodociągowy Gminny (fikc.),,,95599
+IK-08-01813,centrum sterowania ruchem zachodniopomorskie-miejski-17-05-01813,IK08,32,K2,Kolej Krajowa S.A. (fikc.),w aktualizacji,37.7,95097
+IK-08-01719,most/przeprawa krytyczna opolskie-miejski-05-02-01719,IK08,16,K2,Porty Lotnicze (fikc.),brak,74.3,94812
+IK-08-01741,most/przeprawa krytyczna zachodniopomorskie-miejski-11-01-01741,IK08,32,K2,Porty Lotnicze (fikc.),,,94785
+IK-01-00139,GPZ 110/SN wielkopolskie-wschodni-20-06-00139,IK01,30,K2,OSD Południe (fikc.),,,93508
+IK-01-00121,GPZ 110/SN dolnośląskie-zachodni-27-07-00121,IK01,02,K1,OSD Południe (fikc.),brak,86.2,92731
+IK-01-00193,GPZ 110/SN dolnośląskie-zachodni-21-06-00193,IK01,02,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,64.0,92353
+IK-01-00151,GPZ 110/SN opolskie-wschodni-02-06-00151,IK01,16,K2,Gazoprzesył S.A. (fikc.),zatwierdzony,78.8,92326
+IK-06-01200,stacja uzdatniania wody śląskie-wschodni-20-02-01200,IK06,24,K1,Zakład Wodociągowy Gminny (fikc.),brak,48.6,92094
+IK-09-01846,jednostka ratowniczo-gaśnicza PSP zachodniopomorskie-miejski-11-01-01846,IK09,32,K1,Urząd Wojewódzki (fikc.),brak,73.9,92020
+IK-06-01109,ujęcie wody kujawsko-pomorskie-zachodni-09-07-01109,IK06,04,K2,Zakład Wodociągowy Gminny (fikc.),,,91661
+IK-01-00404,stacja redukcyjna gazu opolskie-miejski-05-01-00404,IK01,16,K1,OSD Zachód (fikc.),w aktualizacji,34.9,91580
+IK-01-00123,GPZ 110/SN opolskie-miejski-05-03-00123,IK01,16,K1,Gazoprzesył S.A. (fikc.),brak,3.0,91558
+IK-06-01193,stacja uzdatniania wody podkarpackie-wschodni-02-01-01193,IK06,18,K2,Zakład Wodociągowy Gminny (fikc.),brak,74.4,91289
+IK-08-01812,centrum sterowania ruchem małopolskie-wschodni-02-04-01812,IK08,12,K2,Porty Lotnicze (fikc.),w aktualizacji,5.7,91236
+IK-01-00105,GPZ 110/SN pomorskie-północny-06-05-00105,IK01,22,K2,Operator Przesyłowy S.A. (fikc.),,,90893
+IK-08-01726,most/przeprawa krytyczna dolnośląskie-centralny-04-04-01726,IK08,02,K2,Kolej Krajowa S.A. (fikc.),,,90766
+IK-07-01521,szpital powiatowy opolskie-centralny-04-06-01521,IK07,16,K2,Samodzielny Publiczny ZOZ (fikc.),w aktualizacji,24.9,90619
+IK-01-00162,GPZ 110/SN dolnośląskie-wschodni-02-04-00162,IK01,02,K2,Gazoprzesył S.A. (fikc.),,,90265
+IK-01-00298,elektrociepłownia podkarpackie-miejski-17-02-00298,IK01,18,K2,OSD Zachód (fikc.),,,89468
+IK-08-01792,centrum sterowania ruchem warmińsko-mazurskie-wschodni-20-06-01792,IK08,28,K2,Porty Lotnicze (fikc.),,,89199
+IK-08-01807,centrum sterowania ruchem zachodniopomorskie-północny-12-06-01807,IK08,32,K2,Zarząd Dróg (fikc.),,,88987
+IK-01-00128,GPZ 110/SN wielkopolskie-wschodni-32-06-00128,IK01,30,K2,Operator Przesyłowy S.A. (fikc.),,,88549
+IK-06-01194,stacja uzdatniania wody świętokrzyskie-wschodni-14-03-01194,IK06,26,K1,Wodociągi Miejskie (fikc.),brak,100.0,88511
+IK-07-01495,szpital powiatowy lubuskie-zachodni-09-02-01495,IK07,08,K2,Szpital Wojewódzki (fikc.),,,87393
+IK-06-01169,stacja uzdatniania wody zachodniopomorskie-północny-18-02-01169,IK06,32,K2,Wodociągi Miejskie (fikc.),brak,38.6,87100
+IK-01-00143,GPZ 110/SN dolnośląskie-centralny-10-05-00143,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),brak,52.7,86617
+IK-01-00107,GPZ 110/SN kujawsko-pomorskie-południowy-07-04-00107,IK01,04,K2,OSD Zachód (fikc.),,,86135
+IK-01-00127,GPZ 110/SN warmińsko-mazurskie-zachodni-15-06-00127,IK01,28,K1,OSD Południe (fikc.),brak,83.6,85915
+IK-01-00042,GPZ 110/SN dolnośląskie-północny-18-04-00042,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),zatwierdzony,16.9,85867
+IK-01-00115,GPZ 110/SN zachodniopomorskie-miejski-17-03-00115,IK01,32,K2,OSD Zachód (fikc.),zatwierdzony,59.4,85699
+IK-01-00236,GPZ 110/SN opolskie-zachodni-03-07-00236,IK01,16,K2,Gazoprzesył S.A. (fikc.),brak,25.9,85379
+IK-01-00126,GPZ 110/SN opolskie-południowy-01-06-00126,IK01,16,K1,OSD Zachód (fikc.),brak,67.8,85254
+IK-01-00061,GPZ 110/SN kujawsko-pomorskie-zachodni-09-06-00061,IK01,04,K2,Gazoprzesył S.A. (fikc.),zatwierdzony,43.8,84836
+IK-06-01341,oczyszczalnia ścieków opolskie-południowy-07-01-01341,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,84782
+IK-08-01781,centrum sterowania ruchem śląskie-centralny-34-06-01781,IK08,24,K2,Kolej Krajowa S.A. (fikc.),w aktualizacji,29.0,84429
+IK-06-01241,stacja uzdatniania wody dolnośląskie-miejski-23-04-01241,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,46.2,84390
+IK-06-01084,ujęcie wody łódzkie-wschodni-02-01-01084,IK06,10,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,74.1,84323
+IK-07-01458,szpital powiatowy opolskie-południowy-01-07-01458,IK07,16,K2,Sieć Medyczna Vita (fikc.),brak,3.0,84124
+IK-01-00392,stacja redukcyjna gazu mazowieckie-wschodni-02-03-00392,IK01,14,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,13.2,84071
+IK-01-00046,GPZ 110/SN łódzkie-wschodni-14-07-00046,IK01,10,K2,OSD Zachód (fikc.),brak,21.1,84064
+IK-06-01185,stacja uzdatniania wody zachodniopomorskie-północny-18-01-01185,IK06,32,K1,Wodociągi Miejskie (fikc.),w aktualizacji,49.0,83354
+IK-01-00184,GPZ 110/SN kujawsko-pomorskie-północny-18-02-00184,IK01,04,K2,Paliwa Krajowe S.A. (fikc.),,,83304
+IK-01-00269,elektrociepłownia warmińsko-mazurskie-zachodni-21-05-00269,IK01,28,K1,Paliwa Krajowe S.A. (fikc.),,,83118
+IK-07-01447,szpital powiatowy opolskie-zachodni-09-04-01447,IK07,16,K2,Sieć Medyczna Vita (fikc.),brak,82.2,83086
+IK-08-01715,most/przeprawa krytyczna świętokrzyskie-miejski-11-03-01715,IK08,26,K2,Porty Lotnicze (fikc.),brak,28.2,82961
+IK-06-01158,stacja uzdatniania wody lubelskie-miejski-11-05-01158,IK06,06,K1,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,67.8,82913
+IK-02-00633,węzeł agregacyjny/RAN hub opolskie-zachodni-03-04-00633,IK02,16,K2,Telko Gamma S.A. (fikc.),,,82777
+IK-02-00614,węzeł agregacyjny/RAN hub opolskie-zachodni-03-07-00614,IK02,16,K2,Telko Alfa S.A. (fikc.),,,82705
+IK-02-00667,węzeł agregacyjny/RAN hub opolskie-miejski-11-06-00667,IK02,16,K2,Telko Gamma S.A. (fikc.),w aktualizacji,20.3,82461
+IK-07-01475,szpital powiatowy dolnośląskie-wschodni-08-01-01475,IK07,02,K2,Sieć Medyczna Vita (fikc.),,,82383
+IK-07-01513,szpital powiatowy mazowieckie-północny-06-07-01513,IK07,14,K2,Sieć Medyczna Vita (fikc.),,,82212
+IK-01-00202,GPZ 110/SN dolnośląskie-zachodni-27-02-00202,IK01,02,K2,OSD Zachód (fikc.),,,81890
+IK-01-00155,GPZ 110/SN opolskie-zachodni-03-03-00155,IK01,16,K1,OSD Zachód (fikc.),brak,30.0,81818
+IK-01-00175,GPZ 110/SN łódzkie-centralny-16-03-00175,IK01,10,K1,OSD Zachód (fikc.),brak,31.1,81365
+IK-02-00486,węzeł agregacyjny/RAN hub lubuskie-wschodni-02-06-00486,IK02,08,K2,Telko Gamma S.A. (fikc.),w aktualizacji,46.9,81286
+IK-07-01514,szpital powiatowy pomorskie-centralny-16-05-01514,IK07,22,K2,Samodzielny Publiczny ZOZ (fikc.),,,80945
+IK-06-01091,ujęcie wody dolnośląskie-zachodni-09-04-01091,IK06,02,K2,Wodociągi Miejskie (fikc.),brak,80.2,80430
+IK-01-00081,GPZ 110/SN opolskie-północny-06-05-00081,IK01,16,K2,Gazoprzesył S.A. (fikc.),,,80326
+IK-11-02056,zakład dużego ryzyka (ZDR) dolnośląskie-centralny-16-02-02056,IK11,02,K1,Zakłady Chemiczne Wisła (fikc.),w aktualizacji,40.6,79909
+IK-08-01736,most/przeprawa krytyczna podlaskie-centralny-16-01-01736,IK08,20,K2,Kolej Krajowa S.A. (fikc.),brak,29.1,79848
+IK-09-01818,jednostka ratowniczo-gaśnicza PSP świętokrzyskie-zachodni-03-06-01818,IK09,26,K1,Komenda Wojewódzka PSP (fikc.),zatwierdzony,24.0,79743
+IK-09-01855,jednostka ratowniczo-gaśnicza PSP lubuskie-zachodni-03-07-01855,IK09,08,K1,Komenda Wojewódzka PSP (fikc.),,,79669
+IK-01-00402,stacja redukcyjna gazu dolnośląskie-wschodni-14-01-00402,IK01,02,K2,OSD Zachód (fikc.),,,79129
+IK-07-01463,szpital powiatowy dolnośląskie-północny-12-07-01463,IK07,02,K2,Szpital Wojewódzki (fikc.),brak,100.0,79107
+IK-01-00207,GPZ 110/SN śląskie-centralny-04-01-00207,IK01,24,K2,OSD Południe (fikc.),zatwierdzony,77.6,78930
+IK-01-00091,GPZ 110/SN dolnośląskie-południowy-13-02-00091,IK01,02,K2,Gazoprzesył S.A. (fikc.),w aktualizacji,34.0,78656
+IK-06-01165,stacja uzdatniania wody warmińsko-mazurskie-południowy-13-06-01165,IK06,28,K2,Zakład Wodociągowy Gminny (fikc.),brak,61.8,77724
+IK-06-01174,stacja uzdatniania wody mazowieckie-południowy-31-03-01174,IK06,14,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,52.3,77583
+IK-06-01229,stacja uzdatniania wody kujawsko-pomorskie-miejski-05-06-01229,IK06,04,K2,Wodociągi Miejskie (fikc.),brak,34.0,76770
+IK-06-01216,stacja uzdatniania wody opolskie-północny-12-05-01216,IK06,16,K2,Wodociągi Miejskie (fikc.),brak,3.0,76555
+IK-10-02026,węzeł teleinformatyczny urzędu śląskie-centralny-34-06-02026,IK10,24,K2,Starostwo Powiatowe (fikc.),,,76321
+IK-07-01386,szpital wielospecjalistyczny śląskie-zachodni-15-02-01386,IK07,24,K1,Sieć Medyczna Vita (fikc.),brak,31.1,75750
+IK-01-00274,elektrociepłownia zachodniopomorskie-południowy-07-03-00274,IK01,32,K2,Operator Przesyłowy S.A. (fikc.),,,75744
+IK-01-00169,GPZ 110/SN dolnośląskie-północny-06-04-00169,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),zatwierdzony,7.0,75692
+IK-06-01191,stacja uzdatniania wody mazowieckie-południowy-25-02-01191,IK06,14,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,42.9,75501
+IK-06-01096,ujęcie wody małopolskie-wschodni-08-01-01096,IK06,12,K2,Wodociągi Miejskie (fikc.),brak,40.1,75227
+IK-08-01795,centrum sterowania ruchem dolnośląskie-wschodni-14-03-01795,IK08,02,K2,Zarząd Dróg (fikc.),,,74609
+IK-02-00627,węzeł agregacyjny/RAN hub łódzkie-zachodni-21-05-00627,IK02,10,K2,Telko Gamma S.A. (fikc.),w aktualizacji,43.3,74580
+IK-06-01237,stacja uzdatniania wody lubelskie-północny-18-01-01237,IK06,06,K2,Wodociągi Miejskie (fikc.),brak,73.1,74350
+IK-08-01675,most/przeprawa krytyczna śląskie-południowy-07-06-01675,IK08,24,K2,Porty Lotnicze (fikc.),zatwierdzony,40.4,74177
+IK-07-01404,szpital wielospecjalistyczny wielkopolskie-południowy-01-05-01404,IK07,30,K1,Samodzielny Publiczny ZOZ (fikc.),brak,67.2,73690
+IK-11-02082,zakład zwiększonego ryzyka (ZZR) świętokrzyskie-zachodni-03-05-02082,IK11,26,K2,Agencja Materiałów Prom. (fikc.),,,73485
+IK-08-01701,most/przeprawa krytyczna dolnośląskie-południowy-25-05-01701,IK08,02,K2,Zarząd Dróg (fikc.),brak,26.6,72010
+IK-06-01180,stacja uzdatniania wody pomorskie-miejski-17-03-01180,IK06,22,K2,Wodociągi Miejskie (fikc.),zatwierdzony,64.6,71550
+IK-06-01083,ujęcie wody lubuskie-centralny-04-03-01083,IK06,08,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,44.3,71363
+IK-01-00100,GPZ 110/SN opolskie-południowy-01-06-00100,IK01,16,K1,Gazoprzesył S.A. (fikc.),brak,3.0,71186
+IK-01-00204,GPZ 110/SN opolskie-wschodni-02-01-00204,IK01,16,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,54.0,71067
+IK-01-00218,GPZ 110/SN dolnośląskie-zachodni-15-03-00218,IK01,02,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,64.1,70744
+IK-06-01230,stacja uzdatniania wody zachodniopomorskie-wschodni-20-02-01230,IK06,32,K2,Wodociągi Miejskie (fikc.),zatwierdzony,85.4,70149
+IK-02-00673,węzeł agregacyjny/RAN hub dolnośląskie-południowy-19-03-00673,IK02,02,K2,Telko Alfa S.A. (fikc.),zatwierdzony,16.7,69995
+IK-01-00159,GPZ 110/SN dolnośląskie-zachodni-03-03-00159,IK01,02,K2,OSD Zachód (fikc.),brak,54.7,69489
+IK-09-01824,jednostka ratowniczo-gaśnicza PSP opolskie-wschodni-08-06-01824,IK09,16,K1,Komenda Wojewódzka PSP (fikc.),zatwierdzony,22.7,69489
+IK-08-01672,most/przeprawa krytyczna dolnośląskie-centralny-04-03-01672,IK08,02,K2,Kolej Krajowa S.A. (fikc.),w aktualizacji,9.2,68902
+IK-08-01804,centrum sterowania ruchem lubuskie-zachodni-03-06-01804,IK08,08,K2,Kolej Krajowa S.A. (fikc.),brak,3.1,68862
+IK-01-00273,elektrociepłownia zachodniopomorskie-południowy-13-02-00273,IK01,32,K2,OSD Zachód (fikc.),w aktualizacji,55.4,68467
+IK-01-00288,elektrociepłownia warmińsko-mazurskie-zachodni-03-03-00288,IK01,28,K2,Gazoprzesył S.A. (fikc.),brak,4.4,68438
+IK-09-01817,jednostka ratowniczo-gaśnicza PSP dolnośląskie-wschodni-14-03-01817,IK09,02,K2,Komenda Wojewódzka PSP (fikc.),,,68076
+IK-06-01124,ujęcie wody pomorskie-zachodni-15-05-01124,IK06,22,K2,Wodociągi Miejskie (fikc.),w aktualizacji,48.4,68017
+IK-01-00415,stacja redukcyjna gazu mazowieckie-południowy-01-05-00415,IK01,14,K2,OSD Południe (fikc.),brak,55.6,67979
+IK-06-01224,stacja uzdatniania wody pomorskie-północny-06-05-01224,IK06,22,K2,Wodociągi Miejskie (fikc.),,,67668
+IK-01-00157,GPZ 110/SN lubelskie-centralny-22-03-00157,IK01,06,K2,Paliwa Krajowe S.A. (fikc.),,,67449
+IK-01-00309,tłocznia gazu opolskie-północny-12-06-00309,IK01,16,K1,Operator Przesyłowy S.A. (fikc.),brak,86.6,67381
+IK-06-01103,ujęcie wody wielkopolskie-miejski-11-04-01103,IK06,30,K2,Zakład Wodociągowy Gminny (fikc.),brak,60.3,67275
+IK-08-01740,most/przeprawa krytyczna zachodniopomorskie-zachodni-15-01-01740,IK08,32,K2,Porty Lotnicze (fikc.),zatwierdzony,80.3,66841
+IK-08-01718,most/przeprawa krytyczna podkarpackie-wschodni-20-06-01718,IK08,18,K2,Zarząd Dróg (fikc.),,,66750
+IK-06-01360,oczyszczalnia ścieków pomorskie-północny-06-03-01360,IK06,22,K2,Wodociągi Miejskie (fikc.),brak,72.5,66637
+IK-09-01837,jednostka ratowniczo-gaśnicza PSP podlaskie-wschodni-14-04-01837,IK09,20,K2,Urząd Wojewódzki (fikc.),brak,56.8,66520
+IK-09-01876,jednostka ratowniczo-gaśnicza PSP mazowieckie-centralny-16-06-01876,IK09,14,K2,Urząd Wojewódzki (fikc.),brak,70.8,66131
+IK-11-02075,zakład dużego ryzyka (ZDR) opolskie-południowy-07-03-02075,IK11,16,K2,Zakłady Chemiczne Wisła (fikc.),,,65964
+IK-06-01156,stacja uzdatniania wody podlaskie-południowy-07-06-01156,IK06,20,K1,Zakład Wodociągowy Gminny (fikc.),,,65779
+IK-07-01432,szpital powiatowy kujawsko-pomorskie-miejski-05-07-01432,IK07,04,K2,Samodzielny Publiczny ZOZ (fikc.),brak,37.9,65685
+IK-06-01181,stacja uzdatniania wody dolnośląskie-miejski-05-02-01181,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),brak,38.2,65607
+IK-06-01157,stacja uzdatniania wody świętokrzyskie-wschodni-02-03-01157,IK06,26,K2,Zakład Wodociągowy Gminny (fikc.),,,65400
+IK-06-01357,oczyszczalnia ścieków wielkopolskie-miejski-29-02-01357,IK06,30,K2,Wodociągi Miejskie (fikc.),w aktualizacji,19.2,65195
+IK-01-00322,tłocznia gazu lubuskie-południowy-13-04-00322,IK01,08,K2,Operator Przesyłowy S.A. (fikc.),brak,9.2,64830
+IK-11-02060,zakład dużego ryzyka (ZDR) śląskie-południowy-31-04-02060,IK11,24,K2,Agencja Materiałów Prom. (fikc.),brak,49.6,64691
+IK-06-01227,stacja uzdatniania wody podlaskie-wschodni-14-01-01227,IK06,20,K1,Zakład Wodociągowy Gminny (fikc.),brak,9.3,64605
+IK-01-00226,GPZ 110/SN pomorskie-centralny-10-04-00226,IK01,22,K1,Operator Przesyłowy S.A. (fikc.),,,64535
+IK-07-01450,szpital powiatowy opolskie-zachodni-09-05-01450,IK07,16,K2,Szpital Wojewódzki (fikc.),w aktualizacji,31.5,64296
+IK-09-01850,jednostka ratowniczo-gaśnicza PSP pomorskie-centralny-10-05-01850,IK09,22,K2,Komenda Wojewódzka PSP (fikc.),zatwierdzony,45.1,63772
+IK-01-00230,GPZ 110/SN dolnośląskie-wschodni-02-06-00230,IK01,02,K1,Gazoprzesył S.A. (fikc.),brak,64.4,63563
+IK-06-01066,ujęcie wody pomorskie-miejski-11-03-01066,IK06,22,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,87.0,63527
+IK-01-00135,GPZ 110/SN wielkopolskie-północny-12-04-00135,IK01,30,K2,OSD Zachód (fikc.),,,62686
+IK-07-01441,szpital powiatowy małopolskie-wschodni-02-03-01441,IK07,12,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,18.4,62621
+IK-06-01076,ujęcie wody opolskie-wschodni-08-05-01076,IK06,16,K2,Wodociągi Miejskie (fikc.),,,62284
+IK-01-00187,GPZ 110/SN opolskie-miejski-05-03-00187,IK01,16,K1,OSD Południe (fikc.),brak,75.6,62026
+IK-01-00131,GPZ 110/SN kujawsko-pomorskie-centralny-16-07-00131,IK01,04,K2,OSD Zachód (fikc.),,,61890
+IK-07-01478,szpital powiatowy kujawsko-pomorskie-miejski-11-02-01478,IK07,04,K2,Samodzielny Publiczny ZOZ (fikc.),,,61808
+IK-01-00293,elektrociepłownia podlaskie-północny-12-03-00293,IK01,20,K2,OSD Południe (fikc.),,,61688
+IK-11-02059,zakład dużego ryzyka (ZDR) opolskie-wschodni-02-04-02059,IK11,16,K2,Agencja Materiałów Prom. (fikc.),,,61525
+IK-06-01107,ujęcie wody dolnośląskie-wschodni-20-01-01107,IK06,02,K2,Wodociągi Miejskie (fikc.),zatwierdzony,41.7,61503
+IK-07-01444,szpital powiatowy śląskie-północny-18-06-01444,IK07,24,K2,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,37.0,60808
+IK-06-01167,stacja uzdatniania wody dolnośląskie-miejski-05-06-01167,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),,,60737
+IK-01-00092,GPZ 110/SN podkarpackie-centralny-22-03-00092,IK01,18,K2,Operator Przesyłowy S.A. (fikc.),brak,40.2,60522
+IK-06-01209,stacja uzdatniania wody łódzkie-wschodni-08-04-01209,IK06,10,K1,Wodociągi Miejskie (fikc.),,,60433
+IK-09-01823,jednostka ratowniczo-gaśnicza PSP dolnośląskie-południowy-13-01-01823,IK09,02,K2,Urząd Wojewódzki (fikc.),,,60385
+IK-06-01094,ujęcie wody śląskie-wschodni-08-06-01094,IK06,24,K2,Zakład Wodociągowy Gminny (fikc.),,,60383
+IK-11-02074,zakład dużego ryzyka (ZDR) podlaskie-centralny-16-03-02074,IK11,20,K2,Agencja Materiałów Prom. (fikc.),zatwierdzony,12.1,60357
+IK-06-01349,oczyszczalnia ścieków opolskie-północny-06-02-01349,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,59468
+IK-07-01494,szpital powiatowy świętokrzyskie-miejski-11-02-01494,IK07,26,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,77.0,59165
+IK-01-00190,GPZ 110/SN dolnośląskie-południowy-07-04-00190,IK01,02,K2,OSD Zachód (fikc.),,,58711
+IK-08-01699,most/przeprawa krytyczna lubelskie-północny-18-03-01699,IK08,06,K2,Porty Lotnicze (fikc.),,,58141
+IK-06-01134,ujęcie wody podlaskie-centralny-16-04-01134,IK06,20,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,30.2,57942
+IK-02-00648,węzeł agregacyjny/RAN hub podlaskie-zachodni-03-06-00648,IK02,20,K2,Telko Beta S.A. (fikc.),zatwierdzony,28.7,57717
+IK-10-02041,węzeł teleinformatyczny urzędu opolskie-zachodni-09-07-02041,IK10,16,K2,Starostwo Powiatowe (fikc.),w aktualizacji,13.8,57690
+IK-07-01449,szpital powiatowy mazowieckie-zachodni-09-02-01449,IK07,14,K2,Samodzielny Publiczny ZOZ (fikc.),w aktualizacji,21.3,56795
+IK-09-01833,jednostka ratowniczo-gaśnicza PSP zachodniopomorskie-centralny-16-02-01833,IK09,32,K2,Urząd Wojewódzki (fikc.),brak,51.5,56666
+IK-07-01446,szpital powiatowy lubuskie-północny-12-03-01446,IK07,08,K1,Szpital Wojewódzki (fikc.),brak,36.9,56353
+IK-02-00562,węzeł agregacyjny/RAN hub opolskie-północny-06-03-00562,IK02,16,K2,Telko Alfa S.A. (fikc.),zatwierdzony,65.8,56272
+IK-06-01095,ujęcie wody zachodniopomorskie-miejski-11-01-01095,IK06,32,K2,Wodociągi Miejskie (fikc.),,,56243
+IK-02-00590,węzeł agregacyjny/RAN hub dolnośląskie-południowy-01-05-00590,IK02,02,K2,Telko Beta S.A. (fikc.),,,56188
+IK-01-00232,GPZ 110/SN małopolskie-centralny-16-01-00232,IK01,12,K2,Gazoprzesył S.A. (fikc.),w aktualizacji,28.8,56130
+IK-02-00596,węzeł agregacyjny/RAN hub podlaskie-miejski-17-05-00596,IK02,20,K2,Telko Gamma S.A. (fikc.),brak,68.8,55538
+IK-09-01880,jednostka ratowniczo-gaśnicza PSP dolnośląskie-wschodni-02-01-01880,IK09,02,K1,Urząd Wojewódzki (fikc.),,,55332
+IK-06-01240,stacja uzdatniania wody dolnośląskie-zachodni-09-02-01240,IK06,02,K2,Wodociągi Miejskie (fikc.),,,55234
+IK-01-00278,elektrociepłownia mazowieckie-zachodni-15-01-00278,IK01,14,K2,OSD Zachód (fikc.),w aktualizacji,45.1,55205
+IK-08-01705,most/przeprawa krytyczna świętokrzyskie-zachodni-09-04-01705,IK08,26,K2,Porty Lotnicze (fikc.),,,54979
+IK-01-00176,GPZ 110/SN opolskie-północny-12-04-00176,IK01,16,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,28.4,54302
+IK-02-00598,węzeł agregacyjny/RAN hub podlaskie-miejski-17-02-00598,IK02,20,K2,Telko Beta S.A. (fikc.),,,54254
+IK-07-01487,szpital powiatowy warmińsko-mazurskie-centralny-16-05-01487,IK07,28,K2,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,37.6,54168
+IK-09-01839,jednostka ratowniczo-gaśnicza PSP opolskie-zachodni-09-01-01839,IK09,16,K2,Urząd Wojewódzki (fikc.),w aktualizacji,63.1,54132
+IK-08-01711,most/przeprawa krytyczna podkarpackie-północny-24-05-01711,IK08,18,K2,Porty Lotnicze (fikc.),brak,35.8,53839
+IK-01-00205,GPZ 110/SN dolnośląskie-północny-06-03-00205,IK01,02,K2,Paliwa Krajowe S.A. (fikc.),,,53696
+IK-06-01202,stacja uzdatniania wody małopolskie-miejski-05-01-01202,IK06,12,K2,Zakład Wodociągowy Gminny (fikc.),,,53539
+IK-11-02103,obiekt jądrowy/składowisko odpadów prom. świętokrzyskie-południowy-13-04-02103,IK11,26,K1,Agencja Materiałów Prom. (fikc.),zatwierdzony,46.5,53388
+IK-06-01189,stacja uzdatniania wody kujawsko-pomorskie-wschodni-20-01-01189,IK06,04,K2,Zakład Wodociągowy Gminny (fikc.),,,53229
+IK-09-01882,jednostka ratowniczo-gaśnicza PSP opolskie-miejski-05-04-01882,IK09,16,K2,Urząd Wojewódzki (fikc.),brak,11.1,52928
+IK-09-01828,jednostka ratowniczo-gaśnicza PSP dolnośląskie-centralny-22-04-01828,IK09,02,K2,Komenda Wojewódzka PSP (fikc.),brak,67.7,52810
+IK-06-01211,stacja uzdatniania wody dolnośląskie-północny-12-03-01211,IK06,02,K2,Wodociągi Miejskie (fikc.),w aktualizacji,49.3,52492
+IK-06-01290,przepompownia wody łódzkie-centralny-04-01-01290,IK06,10,K2,Wodociągi Miejskie (fikc.),zatwierdzony,14.2,52461
+IK-08-01695,most/przeprawa krytyczna świętokrzyskie-południowy-07-01-01695,IK08,26,K2,Zarząd Dróg (fikc.),zatwierdzony,61.3,51955
+IK-11-02052,zakład dużego ryzyka (ZDR) zachodniopomorskie-centralny-16-04-02052,IK11,32,K2,Zakłady Chemiczne Wisła (fikc.),w aktualizacji,33.6,51718
+IK-06-01221,stacja uzdatniania wody dolnośląskie-północny-06-06-01221,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,19.0,51392
+IK-01-00376,stacja redukcyjna gazu pomorskie-zachodni-09-05-00376,IK01,22,K2,Paliwa Krajowe S.A. (fikc.),,,51128
+IK-02-00514,węzeł agregacyjny/RAN hub podlaskie-zachodni-15-04-00514,IK02,20,K2,Telko Beta S.A. (fikc.),brak,50.2,50725
+IK-02-00541,węzeł agregacyjny/RAN hub dolnośląskie-wschodni-20-07-00541,IK02,02,K2,Telko Gamma S.A. (fikc.),zatwierdzony,51.7,50510
+IK-09-01836,jednostka ratowniczo-gaśnicza PSP podkarpackie-miejski-23-04-01836,IK09,18,K2,Urząd Wojewódzki (fikc.),w aktualizacji,40.6,50186
+IK-02-00617,węzeł agregacyjny/RAN hub kujawsko-pomorskie-zachodni-21-01-00617,IK02,04,K2,Telko Beta S.A. (fikc.),w aktualizacji,23.5,50009
+IK-09-01867,jednostka ratowniczo-gaśnicza PSP warmińsko-mazurskie-południowy-13-05-01867,IK09,28,K2,Urząd Wojewódzki (fikc.),w aktualizacji,58.7,49912
+IK-02-00587,węzeł agregacyjny/RAN hub podkarpackie-miejski-17-03-00587,IK02,18,K2,Telko Beta S.A. (fikc.),,,49892
+IK-06-01111,ujęcie wody opolskie-centralny-10-04-01111,IK06,16,K2,Wodociągi Miejskie (fikc.),brak,6.6,49880
+IK-07-01498,szpital powiatowy warmińsko-mazurskie-zachodni-21-02-01498,IK07,28,K2,Samodzielny Publiczny ZOZ (fikc.),brak,90.5,49725
+IK-01-00112,GPZ 110/SN dolnośląskie-wschodni-14-04-00112,IK01,02,K2,OSD Zachód (fikc.),,,49678
+IK-06-01332,oczyszczalnia ścieków dolnośląskie-południowy-07-01-01332,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),,,49086
+IK-01-00138,GPZ 110/SN łódzkie-centralny-04-07-00138,IK01,10,K2,OSD Zachód (fikc.),brak,29.6,48933
+IK-06-01207,stacja uzdatniania wody dolnośląskie-północny-18-05-01207,IK06,02,K1,Zakład Wodociągowy Gminny (fikc.),brak,56.7,48684
+IK-07-01510,szpital powiatowy dolnośląskie-południowy-13-02-01510,IK07,02,K2,Sieć Medyczna Vita (fikc.),,,48595
+IK-09-01830,jednostka ratowniczo-gaśnicza PSP opolskie-zachodni-03-01-01830,IK09,16,K2,Urząd Wojewódzki (fikc.),brak,68.5,48556
+IK-08-01810,centrum sterowania ruchem podkarpackie-miejski-05-07-01810,IK08,18,K2,Kolej Krajowa S.A. (fikc.),brak,69.8,48546
+IK-06-01319,przepompownia wody opolskie-północny-12-02-01319,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,48505
+IK-09-01842,jednostka ratowniczo-gaśnicza PSP dolnośląskie-miejski-11-07-01842,IK09,02,K2,Komenda Wojewódzka PSP (fikc.),,,48294
+IK-02-00505,węzeł agregacyjny/RAN hub pomorskie-miejski-11-05-00505,IK02,22,K2,Telko Beta S.A. (fikc.),brak,85.0,48044
+IK-08-01638,węzeł kolejowy małopolskie-centralny-04-04-01638,IK08,12,K2,Porty Lotnicze (fikc.),,,48024
+IK-09-01848,jednostka ratowniczo-gaśnicza PSP lubuskie-zachodni-03-07-01848,IK09,08,K2,Urząd Wojewódzki (fikc.),brak,20.5,47713
+IK-02-00521,węzeł agregacyjny/RAN hub podlaskie-centralny-10-01-00521,IK02,20,K2,Telko Alfa S.A. (fikc.),,,47590
+IK-06-01147,ujęcie wody dolnośląskie-północny-24-07-01147,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,7.1,47229
+IK-06-01173,stacja uzdatniania wody wielkopolskie-zachodni-27-05-01173,IK06,30,K2,Wodociągi Miejskie (fikc.),,,46806
+IK-01-00189,GPZ 110/SN świętokrzyskie-wschodni-08-04-00189,IK01,26,K2,OSD Zachód (fikc.),,,46773
+IK-01-00057,GPZ 110/SN opolskie-miejski-11-01-00057,IK01,16,K2,Paliwa Krajowe S.A. (fikc.),,,46759
+IK-11-02068,zakład dużego ryzyka (ZDR) opolskie-wschodni-02-04-02068,IK11,16,K2,Agencja Materiałów Prom. (fikc.),brak,21.7,46542
+IK-06-01138,ujęcie wody dolnośląskie-południowy-01-04-01138,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),brak,11.2,46416
+IK-06-01063,ujęcie wody małopolskie-wschodni-08-02-01063,IK06,12,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,11.3,46360
+IK-01-00102,GPZ 110/SN małopolskie-wschodni-02-03-00102,IK01,12,K1,Paliwa Krajowe S.A. (fikc.),zatwierdzony,52.8,46207
+IK-02-00647,węzeł agregacyjny/RAN hub śląskie-miejski-17-05-00647,IK02,24,K2,Telko Alfa S.A. (fikc.),,,46110
+IK-06-01093,ujęcie wody łódzkie-południowy-19-03-01093,IK06,10,K2,Zakład Wodociągowy Gminny (fikc.),,,46062
+IK-02-00637,węzeł agregacyjny/RAN hub zachodniopomorskie-północny-12-05-00637,IK02,32,K2,Telko Alfa S.A. (fikc.),,,45978
+IK-09-01869,jednostka ratowniczo-gaśnicza PSP małopolskie-zachodni-21-06-01869,IK09,12,K2,Komenda Wojewódzka PSP (fikc.),brak,47.9,45864
+IK-09-01866,jednostka ratowniczo-gaśnicza PSP dolnośląskie-wschodni-02-06-01866,IK09,02,K2,Urząd Wojewódzki (fikc.),,,45623
+IK-07-01502,szpital powiatowy podlaskie-centralny-04-03-01502,IK07,20,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,31.2,45583
+IK-07-01455,szpital powiatowy podkarpackie-wschodni-14-02-01455,IK07,18,K2,Sieć Medyczna Vita (fikc.),brak,3.0,45525
+IK-06-01246,przepompownia wody śląskie-zachodni-21-03-01246,IK06,24,K2,Zakład Wodociągowy Gminny (fikc.),,,44925
+IK-07-01472,szpital powiatowy dolnośląskie-miejski-23-03-01472,IK07,02,K2,Szpital Wojewódzki (fikc.),brak,25.6,44869
+IK-11-02053,zakład dużego ryzyka (ZDR) opolskie-zachodni-03-06-02053,IK11,16,K1,Agencja Materiałów Prom. (fikc.),,,44774
+IK-01-00208,GPZ 110/SN świętokrzyskie-południowy-13-04-00208,IK01,26,K2,Operator Przesyłowy S.A. (fikc.),brak,35.2,44451
+IK-02-00597,węzeł agregacyjny/RAN hub podlaskie-południowy-13-06-00597,IK02,20,K2,Telko Alfa S.A. (fikc.),,,44320
+IK-01-00109,GPZ 110/SN opolskie-zachodni-09-04-00109,IK01,16,K2,OSD Południe (fikc.),,,44287
+IK-06-01139,ujęcie wody zachodniopomorskie-południowy-19-02-01139,IK06,32,K2,Zakład Wodociągowy Gminny (fikc.),,,44023
+IK-08-01685,most/przeprawa krytyczna małopolskie-miejski-17-01-01685,IK08,12,K2,Porty Lotnicze (fikc.),,,43952
+IK-01-00069,GPZ 110/SN dolnośląskie-centralny-22-04-00069,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),,,43724
+IK-01-00378,stacja redukcyjna gazu dolnośląskie-zachodni-27-02-00378,IK01,02,K2,OSD Zachód (fikc.),brak,31.0,43692
+IK-01-00209,GPZ 110/SN pomorskie-południowy-07-03-00209,IK01,22,K1,OSD Południe (fikc.),zatwierdzony,75.8,43668
+IK-06-01363,oczyszczalnia ścieków dolnośląskie-zachodni-03-02-01363,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),brak,52.9,43523
+IK-01-00297,elektrociepłownia zachodniopomorskie-południowy-01-05-00297,IK01,32,K2,OSD Zachód (fikc.),brak,25.6,43411
+IK-06-01214,stacja uzdatniania wody dolnośląskie-wschodni-20-01-01214,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,43.3,43401
+IK-06-01062,ujęcie wody pomorskie-miejski-11-03-01062,IK06,22,K2,Wodociągi Miejskie (fikc.),,,43394
+IK-09-01854,jednostka ratowniczo-gaśnicza PSP pomorskie-południowy-13-02-01854,IK09,22,K2,Komenda Wojewódzka PSP (fikc.),,,43144
+IK-07-01435,szpital powiatowy dolnośląskie-południowy-07-04-01435,IK07,02,K2,Samodzielny Publiczny ZOZ (fikc.),zatwierdzony,38.6,43128
+IK-01-00097,GPZ 110/SN podkarpackie-centralny-04-06-00097,IK01,18,K2,Paliwa Krajowe S.A. (fikc.),brak,38.0,43112
+IK-06-01339,oczyszczalnia ścieków kujawsko-pomorskie-centralny-04-04-01339,IK06,04,K2,Zakład Wodociągowy Gminny (fikc.),brak,22.1,42888
+IK-01-00150,GPZ 110/SN świętokrzyskie-centralny-10-04-00150,IK01,26,K2,Paliwa Krajowe S.A. (fikc.),brak,39.1,42864
+IK-11-02099,obiekt jądrowy/składowisko odpadów prom. warmińsko-mazurskie-wschodni-02-05-02099,IK11,28,K1,Zakłady Chemiczne Wisła (fikc.),brak,72.5,42054
+IK-01-00153,GPZ 110/SN opolskie-zachodni-03-02-00153,IK01,16,K2,Operator Przesyłowy S.A. (fikc.),,,42029
+IK-01-00387,stacja redukcyjna gazu warmińsko-mazurskie-zachodni-09-04-00387,IK01,28,K2,Gazoprzesył S.A. (fikc.),zatwierdzony,23.3,41977
+IK-02-00680,węzeł agregacyjny/RAN hub lubuskie-zachodni-09-06-00680,IK02,08,K2,Telko Gamma S.A. (fikc.),brak,43.0,41521
+IK-01-00075,GPZ 110/SN lubelskie-północny-24-03-00075,IK01,06,K2,Paliwa Krajowe S.A. (fikc.),,,41322
+IK-06-01177,stacja uzdatniania wody opolskie-południowy-01-02-01177,IK06,16,K2,Wodociągi Miejskie (fikc.),brak,46.6,41156
+IK-06-01162,stacja uzdatniania wody mazowieckie-centralny-16-03-01162,IK06,14,K2,Wodociągi Miejskie (fikc.),,,41107
+IK-06-01218,stacja uzdatniania wody podlaskie-północny-06-06-01218,IK06,20,K2,Zakład Wodociągowy Gminny (fikc.),,,40968
+IK-07-01471,szpital powiatowy warmińsko-mazurskie-centralny-04-01-01471,IK07,28,K2,Samodzielny Publiczny ZOZ (fikc.),,,40834
+IK-01-00140,GPZ 110/SN dolnośląskie-zachodni-15-07-00140,IK01,02,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,52.2,40654
+IK-08-01682,most/przeprawa krytyczna dolnośląskie-wschodni-08-06-01682,IK08,02,K1,Porty Lotnicze (fikc.),,,40636
+IK-06-01359,oczyszczalnia ścieków opolskie-północny-06-01-01359,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,40528
+IK-01-00124,GPZ 110/SN zachodniopomorskie-zachodni-21-04-00124,IK01,32,K2,Operator Przesyłowy S.A. (fikc.),brak,22.5,40492
+IK-02-00642,węzeł agregacyjny/RAN hub dolnośląskie-północny-30-06-00642,IK02,02,K2,Telko Gamma S.A. (fikc.),,,40357
+IK-01-00206,GPZ 110/SN łódzkie-miejski-05-01-00206,IK01,10,K2,Paliwa Krajowe S.A. (fikc.),,,40155
+IK-07-01459,szpital powiatowy dolnośląskie-południowy-07-04-01459,IK07,02,K2,Samodzielny Publiczny ZOZ (fikc.),w aktualizacji,4.4,40011
+IK-02-00525,węzeł agregacyjny/RAN hub podkarpackie-północny-06-07-00525,IK02,18,K2,Telko Beta S.A. (fikc.),,,39935
+IK-02-00546,węzeł agregacyjny/RAN hub warmińsko-mazurskie-północny-06-06-00546,IK02,28,K2,Telko Gamma S.A. (fikc.),,,39714
+IK-01-00400,stacja redukcyjna gazu opolskie-południowy-07-02-00400,IK01,16,K2,Gazoprzesył S.A. (fikc.),,,39703
+IK-01-00211,GPZ 110/SN dolnośląskie-miejski-29-07-00211,IK01,02,K2,Gazoprzesył S.A. (fikc.),,,39682
+IK-06-01073,ujęcie wody opolskie-zachodni-03-06-01073,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,37.2,39640
+IK-06-01197,stacja uzdatniania wody podlaskie-centralny-16-01-01197,IK06,20,K2,Zakład Wodociągowy Gminny (fikc.),,,39575
+IK-09-01856,jednostka ratowniczo-gaśnicza PSP łódzkie-centralny-22-06-01856,IK09,10,K2,Urząd Wojewódzki (fikc.),,,39486
+IK-07-01501,szpital powiatowy lubelskie-południowy-01-05-01501,IK07,06,K2,Szpital Wojewódzki (fikc.),,,39058
+IK-01-00106,GPZ 110/SN śląskie-północny-06-01-00106,IK01,24,K2,Paliwa Krajowe S.A. (fikc.),w aktualizacji,26.8,38599
+IK-07-01477,szpital powiatowy pomorskie-zachodni-03-05-01477,IK07,22,K2,Samodzielny Publiczny ZOZ (fikc.),brak,47.0,38528
+IK-02-00561,węzeł agregacyjny/RAN hub pomorskie-wschodni-08-01-00561,IK02,22,K2,Telko Beta S.A. (fikc.),zatwierdzony,82.3,38347
+IK-11-02094,zakład zwiększonego ryzyka (ZZR) opolskie-północny-06-02-02094,IK11,16,K2,Zakłady Chemiczne Wisła (fikc.),,,38221
+IK-08-01728,most/przeprawa krytyczna dolnośląskie-wschodni-08-03-01728,IK08,02,K2,Zarząd Dróg (fikc.),,,38120
+IK-07-01453,szpital powiatowy dolnośląskie-północny-24-05-01453,IK07,02,K1,Szpital Wojewódzki (fikc.),w aktualizacji,56.8,38001
+IK-09-01873,jednostka ratowniczo-gaśnicza PSP mazowieckie-wschodni-14-07-01873,IK09,14,K2,Urząd Wojewódzki (fikc.),brak,22.3,37530
+IK-01-00300,elektrociepłownia pomorskie-zachodni-15-05-00300,IK01,22,K2,OSD Zachód (fikc.),brak,36.6,37437
+IK-06-01085,ujęcie wody opolskie-wschodni-08-04-01085,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,37385
+IK-11-02072,zakład dużego ryzyka (ZDR) łódzkie-centralny-22-01-02072,IK11,10,K1,Zakłady Chemiczne Wisła (fikc.),brak,38.8,37295
+IK-11-02050,zakład dużego ryzyka (ZDR) dolnośląskie-wschodni-08-04-02050,IK11,02,K2,Agencja Materiałów Prom. (fikc.),,,37260
+IK-01-00085,GPZ 110/SN kujawsko-pomorskie-północny-12-03-00085,IK01,04,K2,OSD Zachód (fikc.),brak,44.2,36558
+IK-02-00560,węzeł agregacyjny/RAN hub opolskie-centralny-04-07-00560,IK02,16,K2,Telko Gamma S.A. (fikc.),,,36557
+IK-06-01204,stacja uzdatniania wody wielkopolskie-centralny-22-04-01204,IK06,30,K2,Wodociągi Miejskie (fikc.),brak,86.7,36472
+IK-06-01129,ujęcie wody świętokrzyskie-północny-12-05-01129,IK06,26,K2,Zakład Wodociągowy Gminny (fikc.),brak,29.4,36288
+IK-10-02030,węzeł teleinformatyczny urzędu mazowieckie-północny-12-04-02030,IK10,14,K2,Urząd Gminy (fikc.),brak,55.6,36242
+IK-09-01886,jednostka ratowniczo-gaśnicza PSP mazowieckie-miejski-29-01-01886,IK09,14,K2,Urząd Wojewódzki (fikc.),w aktualizacji,21.2,35858
+IK-01-00058,GPZ 110/SN podlaskie-miejski-17-04-00058,IK01,20,K2,Operator Przesyłowy S.A. (fikc.),brak,39.2,35465
+IK-06-01064,ujęcie wody dolnośląskie-wschodni-02-04-01064,IK06,02,K2,Wodociągi Miejskie (fikc.),brak,10.2,35308
+IK-07-01436,szpital powiatowy podlaskie-zachodni-09-06-01436,IK07,20,K2,Sieć Medyczna Vita (fikc.),,,34533
+IK-02-00557,węzeł agregacyjny/RAN hub opolskie-wschodni-02-02-00557,IK02,16,K2,Telko Gamma S.A. (fikc.),brak,63.4,34410
+IK-02-00605,węzeł agregacyjny/RAN hub dolnośląskie-północny-24-05-00605,IK02,02,K2,Telko Beta S.A. (fikc.),brak,94.0,34003
+IK-02-00582,węzeł agregacyjny/RAN hub łódzkie-południowy-01-07-00582,IK02,10,K2,Telko Beta S.A. (fikc.),brak,9.6,33986
+IK-07-01440,szpital powiatowy opolskie-wschodni-08-04-01440,IK07,16,K2,Samodzielny Publiczny ZOZ (fikc.),,,33455
+IK-01-00222,GPZ 110/SN lubuskie-centralny-10-01-00222,IK01,08,K2,OSD Zachód (fikc.),,,33135
+IK-02-00604,węzeł agregacyjny/RAN hub dolnośląskie-północny-30-01-00604,IK02,02,K2,Telko Gamma S.A. (fikc.),w aktualizacji,25.2,33110
+IK-01-00168,GPZ 110/SN dolnośląskie-miejski-11-02-00168,IK01,02,K2,Gazoprzesył S.A. (fikc.),,,33039
+IK-01-00054,GPZ 110/SN świętokrzyskie-wschodni-08-03-00054,IK01,26,K1,Gazoprzesył S.A. (fikc.),brak,7.0,32809
+IK-01-00104,GPZ 110/SN opolskie-miejski-05-04-00104,IK01,16,K1,Gazoprzesył S.A. (fikc.),zatwierdzony,63.7,32607
+IK-01-00063,GPZ 110/SN zachodniopomorskie-wschodni-14-04-00063,IK01,32,K1,Paliwa Krajowe S.A. (fikc.),brak,56.1,32506
+IK-06-01070,ujęcie wody dolnośląskie-zachodni-09-05-01070,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),brak,36.2,32313
+IK-06-01251,przepompownia wody dolnośląskie-miejski-29-07-01251,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,42.7,32190
+IK-01-00395,stacja redukcyjna gazu świętokrzyskie-miejski-11-05-00395,IK01,26,K2,Paliwa Krajowe S.A. (fikc.),,,32041
+IK-01-00167,GPZ 110/SN mazowieckie-wschodni-14-05-00167,IK01,14,K1,OSD Południe (fikc.),zatwierdzony,32.6,32031
+IK-06-01102,ujęcie wody zachodniopomorskie-zachodni-15-05-01102,IK06,32,K2,Zakład Wodociągowy Gminny (fikc.),brak,29.6,32030
+IK-06-01131,ujęcie wody dolnośląskie-zachodni-21-05-01131,IK06,02,K2,Wodociągi Miejskie (fikc.),brak,22.1,31547
+IK-06-01294,przepompownia wody opolskie-miejski-11-01-01294,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,31322
+IK-01-00401,stacja redukcyjna gazu łódzkie-południowy-13-04-00401,IK01,10,K2,Gazoprzesył S.A. (fikc.),zatwierdzony,31.0,31071
+IK-01-00170,GPZ 110/SN dolnośląskie-miejski-23-04-00170,IK01,02,K2,Paliwa Krajowe S.A. (fikc.),brak,40.5,31005
+IK-09-01883,jednostka ratowniczo-gaśnicza PSP wielkopolskie-centralny-04-04-01883,IK09,30,K2,Komenda Wojewódzka PSP (fikc.),brak,32.6,30552
+IK-11-02076,zakład dużego ryzyka (ZDR) podkarpackie-centralny-22-04-02076,IK11,18,K1,Zakłady Chemiczne Wisła (fikc.),,,30417
+IK-01-00094,GPZ 110/SN zachodniopomorskie-centralny-10-05-00094,IK01,32,K2,Paliwa Krajowe S.A. (fikc.),,,30247
+IK-02-00503,węzeł agregacyjny/RAN hub małopolskie-centralny-22-02-00503,IK02,12,K2,Telko Alfa S.A. (fikc.),brak,8.9,30042
+IK-01-00137,GPZ 110/SN opolskie-miejski-11-05-00137,IK01,16,K2,Operator Przesyłowy S.A. (fikc.),,,29975
+IK-06-01077,ujęcie wody łódzkie-centralny-16-05-01077,IK06,10,K2,Zakład Wodociągowy Gminny (fikc.),zatwierdzony,11.1,29956
+IK-07-01517,szpital powiatowy wielkopolskie-zachodni-27-03-01517,IK07,30,K2,Samodzielny Publiczny ZOZ (fikc.),brak,70.3,29921
+IK-01-00388,stacja redukcyjna gazu dolnośląskie-północny-18-04-00388,IK01,02,K2,Gazoprzesył S.A. (fikc.),w aktualizacji,46.0,29768
+IK-07-01460,szpital powiatowy dolnośląskie-północny-18-06-01460,IK07,02,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,45.1,29333
+IK-01-00050,GPZ 110/SN wielkopolskie-zachodni-15-06-00050,IK01,30,K1,OSD Zachód (fikc.),brak,51.9,29294
+IK-07-01454,szpital powiatowy podlaskie-miejski-05-03-01454,IK07,20,K2,Szpital Wojewódzki (fikc.),,,28910
+IK-09-01862,jednostka ratowniczo-gaśnicza PSP dolnośląskie-zachodni-15-03-01862,IK09,02,K2,Urząd Wojewódzki (fikc.),,,28669
+IK-07-01507,szpital powiatowy wielkopolskie-południowy-31-01-01507,IK07,30,K2,Sieć Medyczna Vita (fikc.),,,28638
+IK-01-00173,GPZ 110/SN zachodniopomorskie-wschodni-02-02-00173,IK01,32,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,38.2,28253
+IK-02-00482,węzeł agregacyjny/RAN hub śląskie-północny-36-02-00482,IK02,24,K2,Telko Alfa S.A. (fikc.),brak,34.0,28202
+IK-06-01199,stacja uzdatniania wody lubelskie-południowy-19-02-01199,IK06,06,K2,Wodociągi Miejskie (fikc.),brak,3.0,27954
+IK-11-02049,zakład dużego ryzyka (ZDR) lubuskie-centralny-04-01-02049,IK11,08,K1,Zakłady Chemiczne Wisła (fikc.),brak,16.1,27674
+IK-02-00603,węzeł agregacyjny/RAN hub łódzkie-miejski-11-07-00603,IK02,10,K2,Telko Gamma S.A. (fikc.),w aktualizacji,24.9,27461
+IK-02-00657,węzeł agregacyjny/RAN hub opolskie-wschodni-02-02-00657,IK02,16,K2,Telko Beta S.A. (fikc.),,,27420
+IK-11-02093,zakład zwiększonego ryzyka (ZZR) opolskie-południowy-07-03-02093,IK11,16,K2,Agencja Materiałów Prom. (fikc.),zatwierdzony,57.9,27252
+IK-07-01509,szpital powiatowy lubelskie-zachodni-15-01-01509,IK07,06,K2,Sieć Medyczna Vita (fikc.),,,27113
+IK-07-01434,szpital powiatowy zachodniopomorskie-wschodni-02-05-01434,IK07,32,K2,Samodzielny Publiczny ZOZ (fikc.),brak,20.8,27035
+IK-06-01146,ujęcie wody dolnośląskie-północny-06-03-01146,IK06,02,K2,Wodociągi Miejskie (fikc.),zatwierdzony,44.7,27017
+IK-06-01249,przepompownia wody lubuskie-wschodni-08-03-01249,IK06,08,K2,Wodociągi Miejskie (fikc.),brak,39.1,26923
+IK-01-00103,GPZ 110/SN warmińsko-mazurskie-miejski-05-05-00103,IK01,28,K2,OSD Południe (fikc.),brak,69.2,26897
+IK-06-01206,stacja uzdatniania wody dolnośląskie-południowy-07-07-01206,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),,,26793
+IK-02-00484,węzeł agregacyjny/RAN hub zachodniopomorskie-centralny-16-02-00484,IK02,32,K2,Telko Gamma S.A. (fikc.),brak,31.3,26413
+IK-11-02081,zakład zwiększonego ryzyka (ZZR) kujawsko-pomorskie-wschodni-20-05-02081,IK11,04,K2,Agencja Materiałów Prom. (fikc.),,,26401
+IK-06-01201,stacja uzdatniania wody dolnośląskie-wschodni-08-07-01201,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),,,26302
+IK-02-00651,węzeł agregacyjny/RAN hub dolnośląskie-północny-30-04-00651,IK02,02,K2,Telko Gamma S.A. (fikc.),brak,5.9,25776
+IK-11-02097,zakład zwiększonego ryzyka (ZZR) mazowieckie-zachodni-27-03-02097,IK11,14,K2,Agencja Materiałów Prom. (fikc.),zatwierdzony,8.6,25203
+IK-01-00068,GPZ 110/SN zachodniopomorskie-zachodni-21-03-00068,IK01,32,K1,Operator Przesyłowy S.A. (fikc.),zatwierdzony,48.5,25132
+IK-06-01212,stacja uzdatniania wody lubelskie-południowy-13-02-01212,IK06,06,K2,Zakład Wodociągowy Gminny (fikc.),,,25071
+IK-01-00108,GPZ 110/SN kujawsko-pomorskie-zachodni-15-05-00108,IK01,04,K2,Operator Przesyłowy S.A. (fikc.),zatwierdzony,54.2,25007
+IK-11-02058,zakład dużego ryzyka (ZDR) podlaskie-miejski-11-05-02058,IK11,20,K2,Zakłady Chemiczne Wisła (fikc.),w aktualizacji,90.6,24905
+IK-01-00110,GPZ 110/SN podlaskie-południowy-07-06-00110,IK01,20,K2,Operator Przesyłowy S.A. (fikc.),w aktualizacji,43.9,24539
+IK-06-01105,ujęcie wody opolskie-północny-06-06-01105,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),brak,60.3,24513
+IK-06-01321,przepompownia wody lubuskie-północny-12-01-01321,IK06,08,K2,Wodociągi Miejskie (fikc.),,,24499
+IK-02-00624,węzeł agregacyjny/RAN hub lubelskie-wschodni-08-01-00624,IK02,06,K2,Telko Beta S.A. (fikc.),zatwierdzony,11.0,24423
+IK-06-01296,przepompownia wody opolskie-centralny-04-03-01296,IK06,16,K2,Zakład Wodociągowy Gminny (fikc.),,,24275
+IK-09-01872,jednostka ratowniczo-gaśnicza PSP opolskie-zachodni-03-02-01872,IK09,16,K2,Komenda Wojewódzka PSP (fikc.),brak,60.2,23875
+IK-01-00129,GPZ 110/SN lubuskie-centralny-10-02-00129,IK01,08,K2,OSD Zachód (fikc.),,,23569
+IK-06-01307,przepompownia wody pomorskie-północny-12-03-01307,IK06,22,K2,Wodociągi Miejskie (fikc.),w aktualizacji,25.5,23307
+IK-11-02063,zakład dużego ryzyka (ZDR) opolskie-zachodni-03-04-02063,IK11,16,K1,Agencja Materiałów Prom. (fikc.),brak,36.1,23299
+IK-02-00676,węzeł agregacyjny/RAN hub podkarpackie-zachodni-09-01-00676,IK02,18,K2,Telko Alfa S.A. (fikc.),w aktualizacji,34.1,23116
+IK-06-01110,ujęcie wody kujawsko-pomorskie-zachodni-21-03-01110,IK06,04,K2,Zakład Wodociągowy Gminny (fikc.),,,22527
+IK-11-02100,obiekt jądrowy/składowisko odpadów prom. dolnośląskie-zachodni-03-02-02100,IK11,02,K1,Agencja Materiałów Prom. (fikc.),w aktualizacji,16.0,22347
+IK-06-01159,stacja uzdatniania wody dolnośląskie-miejski-05-07-01159,IK06,02,K1,Wodociągi Miejskie (fikc.),w aktualizacji,38.2,22316
+IK-11-02086,zakład zwiększonego ryzyka (ZZR) opolskie-północny-06-04-02086,IK11,16,K2,Agencja Materiałów Prom. (fikc.),brak,56.3,22227
+IK-07-01523,szpital powiatowy lubuskie-północny-12-07-01523,IK07,08,K2,Szpital Wojewódzki (fikc.),brak,22.3,22177
+IK-01-00223,GPZ 110/SN pomorskie-centralny-16-06-00223,IK01,22,K2,Operator Przesyłowy S.A. (fikc.),,,22165
+IK-07-01515,szpital powiatowy śląskie-zachodni-03-02-01515,IK07,24,K2,Samodzielny Publiczny ZOZ (fikc.),brak,3.0,21981
+IK-11-02066,zakład dużego ryzyka (ZDR) dolnośląskie-miejski-17-02-02066,IK11,02,K1,Zakłady Chemiczne Wisła (fikc.),zatwierdzony,80.9,21951
+IK-01-00160,GPZ 110/SN wielkopolskie-miejski-35-04-00160,IK01,30,K2,OSD Zachód (fikc.),brak,46.2,21741
+IK-01-00380,stacja redukcyjna gazu opolskie-zachodni-09-07-00380,IK01,16,K2,OSD Południe (fikc.),brak,49.5,21217
+IK-07-01451,szpital powiatowy dolnośląskie-południowy-07-04-01451,IK07,02,K2,Samodzielny Publiczny ZOZ (fikc.),brak,43.3,20803
+IK-07-01429,szpital powiatowy dolnośląskie-centralny-28-05-01429,IK07,02,K1,Szpital Wojewódzki (fikc.),zatwierdzony,71.6,20578
+IK-06-01293,przepompownia wody dolnośląskie-miejski-17-05-01293,IK06,02,K2,Zakład Wodociągowy Gminny (fikc.),w aktualizacji,3.0,19935
+IK-06-01327,przepompownia wody zachodniopomorskie-miejski-17-01-01327,IK06,32,K2,Zakład Wodociągowy Gminny (fikc.),,,19763
+IK-11-02070,zakład dużego ryzyka (ZDR) opolskie-wschodni-08-07-02070,IK11,16,K1,Zakłady Chemiczne Wisła (fikc.),,,19351
+IK-06-01220,stacja uzdatniania wody opolskie-miejski-05-07-01220,IK06,16,K2,Wodociągi Miejskie (fikc.),zatwierdzony,55.0,19264
+IK-06-01067,ujęcie wody małopolskie-południowy-01-05-01067,IK06,12,K2,Zakład Wodociągowy Gminny (fikc.),brak,9.6,18676
+IK-06-01262,przepompownia wody dolnośląskie-północny-12-07-01262,IK06,02,K2,Wodociągi Miejskie (fikc.),,,18626
+IK-06-01317,przepompownia wody łódzkie-południowy-19-04-01317,IK06,10,K2,Wodociągi Miejskie (fikc.),brak,43.8,18431
+IK-07-01506,szpital powiatowy dolnośląskie-miejski-29-07-01506,IK07,02,K2,Szpital Wojewódzki (fikc.),brak,33.1,18250
+IK-01-00377,stacja redukcyjna gazu wielkopolskie-południowy-07-01-00377,IK01,30,K2,OSD Południe (fikc.),w aktualizacji,45.5,18125
+IK-02-00638,węzeł agregacyjny/RAN hub małopolskie-zachodni-03-07-00638,IK02,12,K2,Telko Beta S.A. (fikc.),brak,48.5,17477
+IK-11-02092,zakład zwiększonego ryzyka (ZZR) wielkopolskie-zachodni-15-03-02092,IK11,30,K2,Zakłady Chemiczne Wisła (fikc.),zatwierdzony,17.9,16757
+IK-01-00220,GPZ 110/SN pomorskie-wschodni-20-04-00220,IK01,22,K2,Paliwa Krajowe S.A. (fikc.),zatwierdzony,49.6,16279
+IK-11-02095,zakład zwiększonego ryzyka (ZZR) świętokrzyskie-północny-12-01-02095,IK11,26,K2,Zakłady Chemiczne Wisła (fikc.),zatwierdzony,72.8,16194
+IK-09-01840,jednostka ratowniczo-gaśnicza PSP dolnośląskie-zachodni-15-03-01840,IK09,02,K2,Urząd Wojewódzki (fikc.),,,15917
+IK-01-00041,GPZ 110/SN warmińsko-mazurskie-zachodni-15-05-00041,IK01,28,K2,OSD Zachód (fikc.),,,12928
+IK-11-02061,zakład dużego ryzyka (ZDR) śląskie-zachodni-27-06-02061,IK11,24,K1,Zakłady Chemiczne Wisła (fikc.),brak,100.0,11708
+IK-02-00652,węzeł agregacyjny/RAN hub opolskie-centralny-04-01-00652,IK02,16,K1,Telko Gamma S.A. (fikc.),,,10594
+IK-06-01297,przepompownia wody dolnośląskie-centralny-22-01-01297,IK06,02,K1,Zakład Wodociągowy Gminny (fikc.),brak,45.9,6207
+IK-07-01525,centrum dializ mazowieckie-miejski-17-04-01525,IK07,14,K2,Szpital Wojewódzki (fikc.),,,1667
+IK-07-01530,centrum dializ lubuskie-zachodni-09-05-01530,IK07,08,K2,Sieć Medyczna Vita (fikc.),,,1616
+IK-07-01542,centrum dializ warmińsko-mazurskie-zachodni-21-05-01542,IK07,28,K2,Sieć Medyczna Vita (fikc.),zatwierdzony,76.2,1572
+IK-07-01536,centrum dializ małopolskie-miejski-11-04-01536,IK07,12,K2,Samodzielny Publiczny ZOZ (fikc.),w aktualizacji,18.8,1146
+IK-07-01565,centrum dializ śląskie-wschodni-08-06-01565,IK07,24,K2,Samodzielny Publiczny ZOZ (fikc.),brak,31.6,1095
+IK-07-01560,centrum dializ dolnośląskie-wschodni-26-03-01560,IK07,02,K2,Sieć Medyczna Vita (fikc.),w aktualizacji,24.1,1048
+IK-07-01541,centrum dializ opolskie-południowy-01-03-01541,IK07,16,K2,Szpital Wojewódzki (fikc.),brak,33.2,1006
+IK-07-01555,centrum dializ śląskie-południowy-13-02-01555,IK07,24,K2,Samodzielny Publiczny ZOZ (fikc.),,,940
+IK-07-01550,centrum dializ dolnośląskie-centralny-22-05-01550,IK07,02,K2,Sieć Medyczna Vita (fikc.),w aktualizacji,33.7,889
+IK-07-01527,centrum dializ opolskie-wschodni-08-06-01527,IK07,16,K2,Szpital Wojewódzki (fikc.),,,818
+IK-07-01559,centrum dializ małopolskie-południowy-07-03-01559,IK07,12,K2,Sieć Medyczna Vita (fikc.),,,781
+IK-07-01556,centrum dializ łódzkie-południowy-13-07-01556,IK07,10,K2,Szpital Wojewódzki (fikc.),brak,49.1,768
+IK-07-01562,centrum dializ opolskie-miejski-05-03-01562,IK07,16,K2,Samodzielny Publiczny ZOZ (fikc.),brak,9.8,766
+IK-07-01528,centrum dializ kujawsko-pomorskie-zachodni-03-03-01528,IK07,04,K1,Szpital Wojewódzki (fikc.),brak,73.9,755
+IK-07-01533,centrum dializ śląskie-miejski-35-01-01533,IK07,24,K1,Sieć Medyczna Vita (fikc.),w aktualizacji,3.6,725
+IK-07-01563,centrum dializ kujawsko-pomorskie-północny-12-05-01563,IK07,04,K2,Sieć Medyczna Vita (fikc.),w aktualizacji,31.2,700
+IK-07-01526,centrum dializ śląskie-północny-12-03-01526,IK07,24,K2,Sieć Medyczna Vita (fikc.),,,665
+IK-07-01548,centrum dializ pomorskie-wschodni-14-06-01548,IK07,22,K2,Sieć Medyczna Vita (fikc.),,,624
+IK-07-01552,centrum dializ wielkopolskie-wschodni-20-04-01552,IK07,30,K2,Szpital Wojewódzki (fikc.),,,548
+IK-07-01554,centrum dializ podkarpackie-zachodni-09-05-01554,IK07,18,K2,Szpital Wojewódzki (fikc.),,,490
+IK-07-01569,centrum dializ dolnośląskie-wschodni-20-04-01569,IK07,02,K2,Szpital Wojewódzki (fikc.),,,386
+IK-07-01543,centrum dializ łódzkie-północny-18-03-01543,IK07,10,K2,Szpital Wojewódzki (fikc.),w aktualizacji,35.3,371
+IK-07-01558,centrum dializ małopolskie-wschodni-20-05-01558,IK07,12,K2,Szpital Wojewódzki (fikc.),,,252

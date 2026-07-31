@@ -1,0 +1,9 @@
+{
+  "workspace_name": "OL-Infrastruktura-Krytyczna",
+  "lakehouse_name": "lh_ci_graph",
+  "eventhouse_name": "eh_ci_realtime",
+  "kql_database": "CriticalInfrastructure",
+  "eventstream_name": "es_ci_telemetry",
+  "eventhub_connection_str": "Endpoint=sb://<namespace>.servicebus.windows.net/;SharedAccessKeyName=<key-name>;SharedAccessKey=<key>",
+  "eventhub_name": "ci-node-status"
+}

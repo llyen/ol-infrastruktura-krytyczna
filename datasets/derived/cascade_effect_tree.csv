@@ -1,0 +1,106 @@
+node_id,node_name,parent_node_id,dependency,wave,fail_hour,system_group,node_type,gmina_name,population_served
+IK-01-00026,stacja NN 400/220 kV dolnośląskie-miejski-23-07-00026,,seed,0,0.0,energy,stacja NN 400/220 kV,gmina dolnośląskie-miejski-23-07,786829
+IK-01-00099,GPZ 110/SN dolnośląskie-wschodni-02-05-00099,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-wschodni-02-05,94136
+IK-01-00156,GPZ 110/SN dolnośląskie-zachodni-15-05-00156,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-zachodni-15-05,39271
+IK-01-00192,GPZ 110/SN dolnośląskie-wschodni-26-06-00192,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-wschodni-26-06,32807
+IK-01-00202,GPZ 110/SN dolnośląskie-zachodni-27-02-00202,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-zachodni-27-02,81890
+IK-01-00217,GPZ 110/SN dolnośląskie-wschodni-26-05-00217,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-wschodni-26-05,50263
+IK-01-00225,GPZ 110/SN dolnośląskie-południowy-07-01-00225,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-południowy-07-01,62303
+IK-01-00230,GPZ 110/SN dolnośląskie-wschodni-02-06-00230,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-wschodni-02-06,63563
+IK-01-00235,GPZ 110/SN dolnośląskie-miejski-29-06-00235,IK-01-00026,electricity,1,0.0,energy,GPZ 110/SN,gmina dolnośląskie-miejski-29-06,118111
+IK-01-00360,magazyn/terminal paliw dolnośląskie-południowy-07-02-00360,IK-01-00192,electricity,2,0.0,energy,magazyn/terminal paliw,gmina dolnośląskie-południowy-07-02,1087642
+IK-08-01703,most/przeprawa krytyczna dolnośląskie-wschodni-20-01-01703,IK-01-00202,electricity,2,0.0,transport,most/przeprawa krytyczna,gmina dolnośląskie-wschodni-20-01,23073
+IK-02-00455,węzeł szkieletowy telekom dolnośląskie-miejski-05-01-00455,IK-01-00217,electricity,2,0.0,telecom,węzeł szkieletowy telekom,gmina dolnośląskie-miejski-05-01,240854
+IK-02-00476,węzeł szkieletowy telekom dolnośląskie-centralny-04-06-00476,IK-01-00217,electricity,2,0.0,telecom,węzeł szkieletowy telekom,gmina dolnośląskie-centralny-04-06,1252150
+IK-05-01016,zakład przetwórstwa spożywczego dolnośląskie-centralny-28-04-01016,IK-01-00217,electricity,2,0.0,food,zakład przetwórstwa spożywczego,gmina dolnośląskie-centralny-28-04,322260
+IK-06-01355,oczyszczalnia ścieków dolnośląskie-miejski-05-01-01355,IK-01-00217,electricity,2,0.0,water,oczyszczalnia ścieków,gmina dolnośląskie-miejski-05-01,103081
+IK-10-01986,centrum zarządzania kryzysowego dolnośląskie-północny-30-06-01986,IK-01-00235,electricity,2,0.0,admin,centrum zarządzania kryzysowego,gmina dolnośląskie-północny-30-06,216996
+IK-04-00892,hurtownia wartości/gotówki dolnośląskie-centralny-28-04-00892,IK-02-00455,telecom,3,0.21,finance,hurtownia wartości/gotówki,gmina dolnośląskie-centralny-28-04,451481
+IK-04-00843,centrum rozliczeniowe dolnośląskie-wschodni-20-02-00843,IK-02-00476,telecom,3,0.42,finance,centrum rozliczeniowe,gmina dolnośląskie-wschodni-20-02,1841060
+IK-03-00793,system rejestrów państwowych dolnośląskie-wschodni-26-05-00793,IK-02-00476,telecom,3,0.51,ict,system rejestrów państwowych,gmina dolnośląskie-wschodni-26-05,391671
+IK-03-00763,węzeł sieci rządowej dolnośląskie-wschodni-26-05-00763,IK-02-00476,telecom,3,0.54,ict,węzeł sieci rządowej,gmina dolnośląskie-wschodni-26-05,294527
+IK-04-00837,centrum rozliczeniowe dolnośląskie-miejski-23-05-00837,IK-02-00476,telecom,3,0.55,finance,centrum rozliczeniowe,gmina dolnośląskie-miejski-23-05,1245366
+IK-03-00807,system rejestrów państwowych dolnośląskie-zachodni-15-04-00807,IK-02-00455,telecom,3,0.65,ict,system rejestrów państwowych,gmina dolnośląskie-zachodni-15-04,1548800
+IK-09-01828,jednostka ratowniczo-gaśnicza PSP dolnośląskie-centralny-22-04-01828,IK-02-00476,telecom,3,0.67,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-centralny-22-04,52810
+IK-06-01131,ujęcie wody dolnośląskie-zachodni-21-05-01131,IK-01-00230,electricity,2,0.9,water,ujęcie wody,gmina dolnośląskie-zachodni-21-05,31547
+IK-10-01981,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-04-01981,IK-02-00455,telecom,3,0.91,admin,centrum zarządzania kryzysowego,gmina dolnośląskie-zachodni-15-04,882029
+IK-01-00342,magazyn/terminal paliw dolnośląskie-miejski-23-06-00342,IK-01-00099,electricity,2,1.0,energy,magazyn/terminal paliw,gmina dolnośląskie-miejski-23-06,235806
+IK-02-00594,węzeł agregacyjny/RAN hub dolnośląskie-wschodni-26-05-00594,IK-03-00763,ict,4,1.04,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-wschodni-26-05,116114
+IK-01-00329,tłocznia gazu dolnośląskie-miejski-29-04-00329,IK-01-00235,electricity,2,1.1,energy,tłocznia gazu,gmina dolnośląskie-miejski-29-04,118136
+IK-06-01116,ujęcie wody dolnośląskie-wschodni-26-02-01116,IK-01-00156,electricity,2,1.2,water,ujęcie wody,gmina dolnośląskie-wschodni-26-02,43463
+IK-01-00389,stacja redukcyjna gazu dolnośląskie-wschodni-02-03-00389,IK-01-00156,electricity,2,1.3,energy,stacja redukcyjna gazu,gmina dolnośląskie-wschodni-02-03,34684
+IK-10-01939,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-02-01939,IK-03-00807,ict,4,1.37,admin,centrum zarządzania kryzysowego,gmina dolnośląskie-zachodni-15-02,489465
+IK-01-00399,stacja redukcyjna gazu dolnośląskie-centralny-22-06-00399,IK-01-00202,electricity,2,1.4,energy,stacja redukcyjna gazu,gmina dolnośląskie-centralny-22-06,144633
+IK-01-00349,magazyn/terminal paliw dolnośląskie-południowy-07-07-00349,IK-01-00230,electricity,2,1.4,energy,magazyn/terminal paliw,gmina dolnośląskie-południowy-07-07,141007
+IK-01-00388,stacja redukcyjna gazu dolnośląskie-północny-18-04-00388,IK-01-00230,electricity,2,1.4,energy,stacja redukcyjna gazu,gmina dolnośląskie-północny-18-04,29768
+IK-10-01973,centrum zarządzania kryzysowego dolnośląskie-centralny-22-04-01973,IK-03-00793,ict,4,1.44,admin,centrum zarządzania kryzysowego,gmina dolnośląskie-centralny-22-04,577711
+IK-04-00910,hurtownia wartości/gotówki dolnośląskie-południowy-07-01-00910,IK-03-00793,ict,4,1.48,finance,hurtownia wartości/gotówki,gmina dolnośląskie-południowy-07-01,313765
+IK-07-01604,bank krwi / magazyn farmaceutyczny dolnośląskie-centralny-04-02-01604,IK-02-00476,telecom,3,1.49,health,bank krwi / magazyn farmaceutyczny,gmina dolnośląskie-centralny-04-02,263972
+IK-06-01284,przepompownia wody dolnośląskie-południowy-07-07-01284,IK-01-00156,electricity,2,1.5,water,przepompownia wody,gmina dolnośląskie-południowy-07-07,29199
+IK-01-00370,magazyn/terminal paliw dolnośląskie-północny-18-02-00370,IK-01-00156,electricity,2,1.5,energy,magazyn/terminal paliw,gmina dolnośląskie-północny-18-02,218663
+IK-01-00379,stacja redukcyjna gazu dolnośląskie-miejski-29-04-00379,IK-01-00192,electricity,2,1.5,energy,stacja redukcyjna gazu,gmina dolnośląskie-miejski-29-04,24861
+IK-01-00378,stacja redukcyjna gazu dolnośląskie-zachodni-27-02-00378,IK-01-00202,electricity,2,1.5,energy,stacja redukcyjna gazu,gmina dolnośląskie-zachodni-27-02,43692
+IK-10-01941,centrum zarządzania kryzysowego dolnośląskie-centralny-28-04-01941,IK-03-00793,ict,4,1.56,admin,centrum zarządzania kryzysowego,gmina dolnośląskie-centralny-28-04,163415
+IK-06-01308,przepompownia wody dolnośląskie-północny-18-02-01308,IK-01-00156,electricity,2,1.7,water,przepompownia wody,gmina dolnośląskie-północny-18-02,25872
+IK-07-01589,bank krwi / magazyn farmaceutyczny dolnośląskie-centralny-04-02-01589,IK-02-00594,telecom,5,2.27,health,bank krwi / magazyn farmaceutyczny,gmina dolnośląskie-centralny-04-02,138105
+IK-02-00550,węzeł agregacyjny/RAN hub dolnośląskie-północny-06-05-00550,IK-01-00156,electricity,2,2.3,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-północny-06-05,108712
+IK-07-01466,szpital powiatowy dolnośląskie-centralny-04-05-01466,IK-02-00594,telecom,5,2.39,health,szpital powiatowy,gmina dolnośląskie-centralny-04-05,51674
+IK-11-02096,zakład zwiększonego ryzyka (ZZR) dolnośląskie-centralny-04-06-02096,IK-01-00225,electricity,2,2.4,chemical,zakład zwiększonego ryzyka (ZZR),gmina dolnośląskie-centralny-04-06,36946
+IK-06-01228,stacja uzdatniania wody dolnośląskie-wschodni-20-06-01228,IK-01-00202,electricity,2,2.7,water,stacja uzdatniania wody,gmina dolnośląskie-wschodni-20-06,128523
+IK-06-01332,oczyszczalnia ścieków dolnośląskie-południowy-07-01-01332,IK-01-00225,electricity,2,2.8,water,oczyszczalnia ścieków,gmina dolnośląskie-południowy-07-01,49086
+IK-06-01175,stacja uzdatniania wody dolnośląskie-wschodni-02-05-01175,IK-01-00099,electricity,2,2.9,water,stacja uzdatniania wody,gmina dolnośląskie-wschodni-02-05,59560
+IK-06-01213,stacja uzdatniania wody dolnośląskie-wschodni-02-05-01213,IK-01-00099,electricity,2,3.1,water,stacja uzdatniania wody,gmina dolnośląskie-wschodni-02-05,46766
+IK-01-00363,magazyn/terminal paliw dolnośląskie-zachodni-27-04-00363,IK-01-00202,electricity,2,3.3,energy,magazyn/terminal paliw,gmina dolnośląskie-zachodni-27-04,175983
+IK-06-01206,stacja uzdatniania wody dolnośląskie-południowy-07-07-01206,IK-01-00230,electricity,2,3.5,water,stacja uzdatniania wody,gmina dolnośląskie-południowy-07-07,26793
+IK-08-01785,centrum sterowania ruchem dolnośląskie-zachodni-15-05-01785,IK-01-00156,electricity,2,3.6,transport,centrum sterowania ruchem,gmina dolnośląskie-zachodni-15-05,223403
+IK-10-02044,węzeł teleinformatyczny urzędu dolnośląskie-północny-06-04-02044,IK-01-00099,electricity,2,3.7,admin,węzeł teleinformatyczny urzędu,gmina dolnośląskie-północny-06-04,174201
+IK-07-01516,szpital powiatowy dolnośląskie-zachodni-15-01-01516,IK-02-00550,telecom,3,3.71,health,szpital powiatowy,gmina dolnośląskie-zachodni-15-01,115714
+IK-02-00523,węzeł agregacyjny/RAN hub dolnośląskie-wschodni-14-07-00523,IK-01-00156,electricity,2,3.9,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-wschodni-14-07,62737
+IK-02-00651,węzeł agregacyjny/RAN hub dolnośląskie-północny-30-04-00651,IK-01-00235,electricity,2,4.4,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-północny-30-04,25776
+IK-07-01413,szpital wielospecjalistyczny dolnośląskie-północny-18-02-01413,IK-06-01116,water,3,4.41,health,szpital wielospecjalistyczny,gmina dolnośląskie-północny-18-02,354495
+IK-02-00600,węzeł agregacyjny/RAN hub dolnośląskie-północny-18-03-00600,IK-01-00156,electricity,2,4.5,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-północny-18-03,80574
+IK-02-00662,węzeł agregacyjny/RAN hub dolnośląskie-północny-24-06-00662,IK-01-00156,electricity,2,4.6,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-północny-24-06,81725
+IK-06-01234,stacja uzdatniania wody dolnośląskie-miejski-23-04-01234,IK-01-00217,electricity,2,4.7,water,stacja uzdatniania wody,gmina dolnośląskie-miejski-23-04,98233
+IK-11-02067,zakład dużego ryzyka (ZDR) dolnośląskie-zachodni-27-02-02067,IK-06-01228,water,3,5.01,chemical,zakład dużego ryzyka (ZDR),gmina dolnośląskie-zachodni-27-02,41844
+IK-07-01613,bank krwi / magazyn farmaceutyczny dolnośląskie-północny-18-07-01613,IK-02-00523,telecom,3,5.39,health,bank krwi / magazyn farmaceutyczny,gmina dolnośląskie-północny-18-07,200581
+IK-08-01768,port morski/rzeczny dolnośląskie-centralny-04-05-01768,IK-01-00225,electricity,2,5.6,transport,port morski/rzeczny,gmina dolnośląskie-centralny-04-05,112782
+IK-05-00933,magazyn rezerw strategicznych dolnośląskie-północny-18-01-00933,IK-06-01116,water,3,5.61,food,magazyn rezerw strategicznych,gmina dolnośląskie-północny-18-01,182043
+IK-05-00924,magazyn rezerw strategicznych dolnośląskie-wschodni-26-02-00924,IK-06-01116,water,3,5.78,food,magazyn rezerw strategicznych,gmina dolnośląskie-wschodni-26-02,298469
+IK-07-01456,szpital powiatowy dolnośląskie-północny-30-04-01456,IK-02-00651,telecom,3,5.81,health,szpital powiatowy,gmina dolnośląskie-północny-30-04,143962
+IK-06-01253,przepompownia wody dolnośląskie-zachodni-15-05-01253,IK-02-00523,telecom,3,5.93,water,przepompownia wody,gmina dolnośląskie-zachodni-15-05,17295
+IK-08-01617,węzeł kolejowy dolnośląskie-północny-06-05-01617,IK-02-00662,telecom,3,6.08,transport,węzeł kolejowy,gmina dolnośląskie-północny-06-05,207246
+IK-02-00522,węzeł agregacyjny/RAN hub dolnośląskie-wschodni-20-01-00522,IK-01-00202,electricity,2,6.1,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-wschodni-20-01,63966
+IK-08-01725,most/przeprawa krytyczna dolnośląskie-miejski-23-06-01725,IK-02-00662,telecom,3,6.15,transport,most/przeprawa krytyczna,gmina dolnośląskie-miejski-23-06,48447
+IK-07-01401,szpital wielospecjalistyczny dolnośląskie-centralny-22-05-01401,IK-06-01228,water,3,6.21,health,szpital wielospecjalistyczny,gmina dolnośląskie-centralny-22-05,440628
+IK-07-01550,centrum dializ dolnośląskie-centralny-22-05-01550,IK-01-00202,electricity,2,6.3,health,centrum dializ,gmina dolnośląskie-centralny-22-05,889
+IK-05-00991,chłodnia składowa dolnośląskie-miejski-29-02-00991,IK-01-00235,electricity,2,6.3,food,chłodnia składowa,gmina dolnośląskie-miejski-29-02,108478
+IK-07-01470,szpital powiatowy dolnośląskie-północny-18-06-01470,IK-06-01206,water,3,6.89,health,szpital powiatowy,gmina dolnośląskie-północny-18-06,72138
+IK-05-00929,magazyn rezerw strategicznych dolnośląskie-wschodni-20-06-00929,IK-06-01228,water,3,7.21,food,magazyn rezerw strategicznych,gmina dolnośląskie-wschodni-20-06,642905
+IK-09-01884,jednostka ratowniczo-gaśnicza PSP dolnośląskie-północny-18-02-01884,IK-01-00156,electricity,2,7.4,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-północny-18-02,50479
+IK-08-01681,most/przeprawa krytyczna dolnośląskie-zachodni-27-04-01681,IK-02-00522,telecom,3,7.5,transport,most/przeprawa krytyczna,gmina dolnośląskie-zachodni-27-04,103493
+IK-05-00950,magazyn rezerw strategicznych dolnośląskie-centralny-04-05-00950,IK-01-00217,electricity,2,7.7,food,magazyn rezerw strategicznych,gmina dolnośląskie-centralny-04-05,130763
+IK-09-01817,jednostka ratowniczo-gaśnicza PSP dolnośląskie-wschodni-14-03-01817,IK-01-00099,electricity,2,8.1,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-wschodni-14-03,68076
+IK-04-00895,hurtownia wartości/gotówki dolnośląskie-południowy-07-05-00895,IK-01-00192,electricity,2,8.1,finance,hurtownia wartości/gotówki,gmina dolnośląskie-południowy-07-05,264430
+IK-07-01415,szpital wielospecjalistyczny dolnośląskie-wschodni-26-05-01415,IK-06-01234,water,3,8.26,health,szpital wielospecjalistyczny,gmina dolnośląskie-wschodni-26-05,99465
+IK-02-00438,węzeł szkieletowy telekom dolnośląskie-północny-06-01-00438,IK-01-00156,electricity,2,9.0,telecom,węzeł szkieletowy telekom,gmina dolnośląskie-północny-06-01,592036
+IK-09-01870,jednostka ratowniczo-gaśnicza PSP dolnośląskie-zachodni-27-02-01870,IK-01-00202,electricity,2,9.2,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-zachodni-27-02,31341
+IK-03-00806,system rejestrów państwowych dolnośląskie-zachodni-21-04-00806,IK-02-00438,telecom,3,9.33,ict,system rejestrów państwowych,gmina dolnośląskie-zachodni-21-04,1026218
+IK-03-00790,system rejestrów państwowych dolnośląskie-północny-18-02-00790,IK-02-00438,telecom,3,9.55,ict,system rejestrów państwowych,gmina dolnośląskie-północny-18-02,427252
+IK-03-00717,centrum przetwarzania danych dolnośląskie-północny-24-06-00717,IK-02-00438,telecom,3,9.59,ict,centrum przetwarzania danych,gmina dolnośląskie-północny-24-06,3200000
+IK-04-00847,centrum rozliczeniowe dolnośląskie-północny-18-01-00847,IK-02-00438,telecom,3,9.65,finance,centrum rozliczeniowe,gmina dolnośląskie-północny-18-01,1116994
+IK-10-02008,węzeł teleinformatyczny urzędu dolnośląskie-zachodni-15-05-02008,IK-02-00438,telecom,3,9.75,admin,węzeł teleinformatyczny urzędu,gmina dolnośląskie-zachodni-15-05,217995
+IK-09-01866,jednostka ratowniczo-gaśnicza PSP dolnośląskie-wschodni-02-06-01866,IK-02-00438,telecom,3,9.81,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-wschodni-02-06,45623
+IK-09-01926,baza lotniczego pogotowia dolnośląskie-wschodni-02-01-01926,IK-02-00438,telecom,3,9.84,rescue,baza lotniczego pogotowia,gmina dolnośląskie-wschodni-02-01,661289
+IK-09-01825,jednostka ratowniczo-gaśnicza PSP dolnośląskie-północny-06-02-01825,IK-02-00438,telecom,3,9.88,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-północny-06-02,16109
+IK-02-00551,węzeł agregacyjny/RAN hub dolnośląskie-północny-06-05-00551,IK-03-00806,ict,4,9.93,telecom,węzeł agregacyjny/RAN hub,gmina dolnośląskie-północny-06-05,36677
+IK-02-00445,węzeł szkieletowy telekom dolnośląskie-wschodni-26-02-00445,IK-03-00790,ict,4,10.22,telecom,węzeł szkieletowy telekom,gmina dolnośląskie-wschodni-26-02,275013
+IK-09-01843,jednostka ratowniczo-gaśnicza PSP dolnośląskie-północny-06-07-01843,IK-02-00445,telecom,5,10.89,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-północny-06-07,129530
+IK-07-01396,szpital wielospecjalistyczny dolnośląskie-wschodni-26-02-01396,IK-02-00445,telecom,5,11.63,health,szpital wielospecjalistyczny,gmina dolnośląskie-wschodni-26-02,98504
+IK-08-01797,centrum sterowania ruchem dolnośląskie-północny-06-04-01797,IK-02-00445,telecom,5,11.7,transport,centrum sterowania ruchem,gmina dolnośląskie-północny-06-04,239586
+IK-09-01822,jednostka ratowniczo-gaśnicza PSP dolnośląskie-miejski-29-02-01822,IK-01-00235,electricity,2,16.4,rescue,jednostka ratowniczo-gaśnicza PSP,gmina dolnośląskie-miejski-29-02,58014
+IK-07-01399,szpital wielospecjalistyczny dolnośląskie-północny-06-01-01399,IK-08-01797,transport,6,18.19,health,szpital wielospecjalistyczny,gmina dolnośląskie-północny-06-01,132474
+IK-09-01910,baza lotniczego pogotowia dolnośląskie-północny-06-04-01910,IK-01-00342,fuel,3,31.35,rescue,baza lotniczego pogotowia,gmina dolnośląskie-północny-06-04,582754
+IK-01-00257,elektrownia systemowa dolnośląskie-północny-24-03-00257,IK-01-00388,fuel,3,53.2,energy,elektrownia systemowa,gmina dolnośląskie-północny-24-03,1305087
+IK-01-00262,elektrownia systemowa dolnośląskie-zachodni-15-02-00262,IK-01-00370,fuel,3,59.7,energy,elektrownia systemowa,gmina dolnośląskie-zachodni-15-02,531384
+IK-01-00277,elektrociepłownia dolnośląskie-południowy-07-03-00277,IK-01-00360,fuel,3,60.0,energy,elektrociepłownia,gmina dolnośląskie-południowy-07-03,95968
+IK-01-00286,elektrociepłownia dolnośląskie-miejski-29-06-00286,IK-01-00329,fuel,3,61.7,energy,elektrociepłownia,gmina dolnośląskie-miejski-29-06,206025

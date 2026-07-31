@@ -1,0 +1,21 @@
+hazard_code,hazard_name,probability_label,impact_label,probability_score,impact_score,risk_score
+Z01,Epidemia,możliwe,katastrofalne,3,5,15
+Z02,Powódź,prawdopodobne,duże,4,4,16
+Z03,Zakłócenie funkcjonowania systemów i sieci teleinformatycznych,możliwe,duże,3,4,12
+Z04,Działania hybrydowe,możliwe,duże,3,4,12
+Z05,Susza/upał,prawdopodobne,średnie,4,3,12
+Z06,Epizootia,prawdopodobne,średnie,4,3,12
+Z07,Zakłócenie w systemie energetycznym,prawdopodobne,średnie,4,3,12
+Z08,Silny wiatr,prawdopodobne,średnie,4,3,12
+Z09,Zakłócenie w systemie paliwowym,możliwe,średnie,3,3,9
+Z10,Pożar wielkopowierzchniowy,możliwe,średnie,3,3,9
+Z11,Epifitoza,możliwe,średnie,3,3,9
+Z12,Zakłócenie funkcjonowania systemów i usług telekomunikacyjnych,możliwe,średnie,3,3,9
+Z13,Skażenie chemiczne na lądzie,rzadkie,małe,2,2,4
+Z14,Zakłócenie w systemie gazowym,rzadkie,średnie,2,3,6
+Z15,Katastrofa morska,rzadkie,średnie,2,3,6
+Z16,Zdarzenie o charakterze terrorystycznym,bardzo rzadkie,duże,1,4,4
+Z17,Skażenie promieniotwórcze,bardzo rzadkie,duże,1,4,4
+Z18,Zbiorowe zakłócenie porządku publicznego,prawdopodobne,małe,4,2,8
+Z19,Silny mróz/intensywne opady śniegu,możliwe,małe,3,2,6
+Z20,Dezinformacja,nieujęte,nieujęte,0,0,0

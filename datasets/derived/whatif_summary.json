@@ -1,0 +1,97 @@
+{
+  "baseline": {
+    "nodes_failed_total": 777,
+    "nodes_failed_secondary": 545,
+    "max_wave": 7,
+    "affected_gminas": 200,
+    "affected_population": 2627373,
+    "population_served_sum": 212160733,
+    "nodes_by_system_group": {
+      "energy": 146,
+      "health": 104,
+      "water": 101,
+      "telecom": 91,
+      "transport": 63,
+      "ict": 57,
+      "food": 56,
+      "admin": 54,
+      "finance": 44,
+      "rescue": 39,
+      "chemical": 22
+    },
+    "first_secondary_hour": 0.55,
+    "k1_nodes_failed": 232
+  },
+  "variants": [
+    {
+      "variant": "BAZOWY",
+      "description": "stan obecny",
+      "hardened_nodes": 0,
+      "new_feeds": 0,
+      "nodes_failed_total": 777,
+      "nodes_failed_secondary": 545,
+      "max_wave": 7,
+      "affected_gminas": 200,
+      "affected_population": 2627373,
+      "k1_nodes_failed": 232,
+      "secondary_reduction_pct": 0.0,
+      "population_reduction_pct": 0.0
+    },
+    {
+      "variant": "A_AUTONOMIA",
+      "description": "agregat i paliwo na 72 h w 120 węzłach usługowych K1/K2",
+      "hardened_nodes": 120,
+      "new_feeds": 0,
+      "nodes_failed_total": 646,
+      "nodes_failed_secondary": 414,
+      "max_wave": 7,
+      "affected_gminas": 178,
+      "affected_population": 2375691,
+      "k1_nodes_failed": 173,
+      "secondary_reduction_pct": 24.0,
+      "population_reduction_pct": 9.6
+    },
+    {
+      "variant": "B_REDUNDANCJA",
+      "description": "drugie zasilanie dla 241 węzłów K1",
+      "hardened_nodes": 0,
+      "new_feeds": 241,
+      "nodes_failed_total": 753,
+      "nodes_failed_secondary": 521,
+      "max_wave": 8,
+      "affected_gminas": 199,
+      "affected_population": 2621379,
+      "k1_nodes_failed": 215,
+      "secondary_reduction_pct": 4.4,
+      "population_reduction_pct": 0.2
+    },
+    {
+      "variant": "C_RAZEM",
+      "description": "A + B",
+      "hardened_nodes": 120,
+      "new_feeds": 241,
+      "nodes_failed_total": 628,
+      "nodes_failed_secondary": 396,
+      "max_wave": 7,
+      "affected_gminas": 177,
+      "affected_population": 2367432,
+      "k1_nodes_failed": 159,
+      "secondary_reduction_pct": 27.3,
+      "population_reduction_pct": 9.9
+    }
+  ],
+  "hardened_nodes": 120,
+  "new_redundant_feeds": 241,
+  "first_secondary_hour": {
+    "baseline": 0.55,
+    "A_AUTONOMIA": 0.55,
+    "B_REDUNDANCJA": 0.55,
+    "C_RAZEM": 0.55
+  },
+  "best_single_investment": {
+    "node_id": "IK-02-00424",
+    "node_name": "węzeł szkieletowy telekom dolnośląskie-wschodni-02-04-00424",
+    "nodes_saved": 5,
+    "population_saved": 0
+  }
+}

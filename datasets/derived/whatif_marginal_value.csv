@@ -1,0 +1,41 @@
+node_id,node_name,node_type,system_code,voivodeship_code,operator_name,current_autonomy_h,nodes_saved,population_saved,spo10_agreement
+IK-02-00424,węzeł szkieletowy telekom dolnośląskie-wschodni-02-04-00424,węzeł szkieletowy telekom,IK02,02,Telko Gamma S.A. (fikc.),10.2,5,0,1
+IK-02-00460,węzeł szkieletowy telekom opolskie-zachodni-09-06-00460,węzeł szkieletowy telekom,IK02,16,Telko Beta S.A. (fikc.),8.0,5,0,1
+IK-02-00449,węzeł szkieletowy telekom opolskie-wschodni-08-05-00449,węzeł szkieletowy telekom,IK02,16,Telko Gamma S.A. (fikc.),4.8,4,0,1
+IK-02-00431,węzeł szkieletowy telekom opolskie-północny-12-06-00431,węzeł szkieletowy telekom,IK02,16,Telko Alfa S.A. (fikc.),7.6,4,0,1
+IK-02-00446,węzeł szkieletowy telekom opolskie-wschodni-08-05-00446,węzeł szkieletowy telekom,IK02,16,Telko Gamma S.A. (fikc.),7.7,4,0,1
+IK-02-00476,węzeł szkieletowy telekom dolnośląskie-centralny-04-06-00476,węzeł szkieletowy telekom,IK02,02,Telko Beta S.A. (fikc.),0.0,3,0,0
+IK-02-00469,węzeł szkieletowy telekom dolnośląskie-zachodni-09-02-00469,węzeł szkieletowy telekom,IK02,02,Telko Gamma S.A. (fikc.),6.4,3,0,0
+IK-02-00479,węzeł szkieletowy telekom dolnośląskie-centralny-04-03-00479,węzeł szkieletowy telekom,IK02,02,Telko Gamma S.A. (fikc.),10.0,2,0,1
+IK-09-01911,baza lotniczego pogotowia opolskie-centralny-04-03-01911,baza lotniczego pogotowia,IK09,16,Komenda Wojewódzka PSP (fikc.),20.1,1,0,1
+IK-09-01899,centrum powiadamiania ratunkowego dolnośląskie-północny-12-05-01899,centrum powiadamiania ratunkowego,IK09,02,Urząd Wojewódzki (fikc.),0.0,1,0,0
+IK-10-01980,centrum zarządzania kryzysowego dolnośląskie-wschodni-20-04-01980,centrum zarządzania kryzysowego,IK10,02,Urząd Wojewódzki (fikc.),21.0,1,0,1
+IK-09-01922,baza lotniczego pogotowia opolskie-centralny-10-01-01922,baza lotniczego pogotowia,IK09,16,Komenda Wojewódzka PSP (fikc.),0.0,1,0,1
+IK-09-01892,centrum powiadamiania ratunkowego dolnośląskie-południowy-19-04-01892,centrum powiadamiania ratunkowego,IK09,02,Urząd Wojewódzki (fikc.),0.0,1,0,1
+IK-02-00464,węzeł szkieletowy telekom dolnośląskie-południowy-19-04-00464,węzeł szkieletowy telekom,IK02,02,Telko Beta S.A. (fikc.),10.8,1,0,1
+IK-09-01897,centrum powiadamiania ratunkowego opolskie-południowy-07-02-01897,centrum powiadamiania ratunkowego,IK09,16,Urząd Wojewódzki (fikc.),55.7,1,0,1
+IK-10-01981,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-04-01981,centrum zarządzania kryzysowego,IK10,02,Urząd Wojewódzki (fikc.),35.0,1,0,1
+IK-10-01943,centrum zarządzania kryzysowego zachodniopomorskie-północny-18-01-01943,centrum zarządzania kryzysowego,IK10,32,Starostwo Powiatowe (fikc.),24.7,1,0,1
+IK-10-01958,centrum zarządzania kryzysowego opolskie-północny-06-04-01958,centrum zarządzania kryzysowego,IK10,16,Urząd Wojewódzki (fikc.),27.4,1,0,1
+IK-10-01938,centrum zarządzania kryzysowego dolnośląskie-wschodni-08-05-01938,centrum zarządzania kryzysowego,IK10,02,Urząd Wojewódzki (fikc.),23.7,1,0,1
+IK-02-00462,węzeł szkieletowy telekom dolnośląskie-miejski-23-03-00462,węzeł szkieletowy telekom,IK02,02,Telko Alfa S.A. (fikc.),9.3,1,0,1
+IK-10-01940,centrum zarządzania kryzysowego dolnośląskie-miejski-11-03-01940,centrum zarządzania kryzysowego,IK10,02,Urząd Gminy (fikc.),27.6,1,0,0
+IK-10-01936,centrum zarządzania kryzysowego opolskie-miejski-05-05-01936,centrum zarządzania kryzysowego,IK10,16,Urząd Wojewódzki (fikc.),19.5,1,0,1
+IK-09-01910,baza lotniczego pogotowia dolnośląskie-północny-06-04-01910,baza lotniczego pogotowia,IK09,02,Komenda Wojewódzka PSP (fikc.),19.5,1,0,1
+IK-10-01973,centrum zarządzania kryzysowego dolnośląskie-centralny-22-04-01973,centrum zarządzania kryzysowego,IK10,02,Urząd Gminy (fikc.),18.9,1,0,1
+IK-09-01909,baza lotniczego pogotowia opolskie-południowy-01-07-01909,baza lotniczego pogotowia,IK09,16,Komenda Wojewódzka PSP (fikc.),17.7,1,0,0
+IK-10-01977,centrum zarządzania kryzysowego dolnośląskie-wschodni-08-06-01977,centrum zarządzania kryzysowego,IK10,02,Urząd Wojewódzki (fikc.),13.9,1,0,1
+IK-10-01939,centrum zarządzania kryzysowego dolnośląskie-zachodni-15-02-01939,centrum zarządzania kryzysowego,IK10,02,Starostwo Powiatowe (fikc.),0.0,1,0,1
+IK-10-01954,centrum zarządzania kryzysowego opolskie-północny-12-06-01954,centrum zarządzania kryzysowego,IK10,16,Urząd Gminy (fikc.),0.0,1,0,1
+IK-07-01581,bank krwi / magazyn farmaceutyczny opolskie-północny-06-05-01581,bank krwi / magazyn farmaceutyczny,IK07,16,Samodzielny Publiczny ZOZ (fikc.),16.7,1,0,1
+IK-10-01972,centrum zarządzania kryzysowego opolskie-północny-06-04-01972,centrum zarządzania kryzysowego,IK10,16,Starostwo Powiatowe (fikc.),25.3,1,0,1
+IK-10-01937,centrum zarządzania kryzysowego opolskie-wschodni-08-03-01937,centrum zarządzania kryzysowego,IK10,16,Urząd Wojewódzki (fikc.),30.9,1,0,1
+IK-02-00473,węzeł szkieletowy telekom opolskie-zachodni-09-02-00473,węzeł szkieletowy telekom,IK02,16,Telko Alfa S.A. (fikc.),7.5,1,0,0
+IK-10-01990,węzeł teleinformatyczny urzędu opolskie-centralny-04-04-01990,węzeł teleinformatyczny urzędu,IK10,16,Urząd Wojewódzki (fikc.),6.2,1,0,1
+IK-10-01959,centrum zarządzania kryzysowego dolnośląskie-miejski-05-05-01959,centrum zarządzania kryzysowego,IK10,02,Urząd Gminy (fikc.),15.9,1,0,1
+IK-10-01929,centrum zarządzania kryzysowego dolnośląskie-centralny-10-06-01929,centrum zarządzania kryzysowego,IK10,02,Urząd Gminy (fikc.),21.8,1,0,1
+IK-10-01987,centrum zarządzania kryzysowego śląskie-północny-30-03-01987,centrum zarządzania kryzysowego,IK10,24,Urząd Gminy (fikc.),0.0,1,0,1
+IK-10-02012,węzeł teleinformatyczny urzędu opolskie-miejski-11-04-02012,węzeł teleinformatyczny urzędu,IK10,16,Starostwo Powiatowe (fikc.),7.7,1,0,1
+IK-07-01596,bank krwi / magazyn farmaceutyczny dolnośląskie-wschodni-14-05-01596,bank krwi / magazyn farmaceutyczny,IK07,02,Samodzielny Publiczny ZOZ (fikc.),14.7,1,0,1
+IK-07-01413,szpital wielospecjalistyczny dolnośląskie-północny-18-02-01413,szpital wielospecjalistyczny,IK07,02,Sieć Medyczna Vita (fikc.),77.7,0,0,0
+IK-07-01374,szpital wielospecjalistyczny dolnośląskie-zachodni-03-05-01374,szpital wielospecjalistyczny,IK07,02,Samodzielny Publiczny ZOZ (fikc.),53.3,0,0,1

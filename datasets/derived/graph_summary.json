@@ -1,0 +1,15 @@
+{
+  "nodes": 2106,
+  "edges": 6552,
+  "systems": 11,
+  "cross_voivodeship_edges": 132,
+  "avg_out_degree": 6.15,
+  "max_out_degree": 57,
+  "nodes_without_backup": 376,
+  "single_source_power_nodes": 1025,
+  "k1_nodes": 599,
+  "k1_not_on_register": 54,
+  "spo10_gaps_k1_k2": 827,
+  "hazard_exposure_rows": 8614,
+  "gminas_with_ci_node": 1180
+}

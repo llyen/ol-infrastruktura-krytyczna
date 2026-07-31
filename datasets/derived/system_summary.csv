@@ -1,0 +1,12 @@
+system_code,nodes,k1_nodes,population_served,avg_autonomy_h,no_backup_nodes,single_source_power,on_register_pct,system_name,responsible_department
+IK03,150,105,127066723,12.9,29,41,85.3,Sieci teleinformatyczne,X Informatyzacja
+IK01,420,149,99096531,0.7,24,0,77.1,"Zaopatrzenie w energię, surowce energetyczne i paliwa",IV Energia
+IK04,90,15,62798098,12.7,11,32,56.7,Systemy finansowe,V Finanse publiczne
+IK09,110,34,51369398,16.4,20,43,78.2,Systemy ratownicze,XIX Sprawy wewnętrzne
+IK02,260,42,48359551,4.5,27,181,60.4,Łączność,XIII Łączność
+IK08,202,36,46532232,3.5,88,108,70.3,Systemy transportowe,XXII Transport
+IK10,120,55,39758694,12.9,17,63,74.2,Ciągłość działania administracji publicznej,I Administracja publiczna
+IK07,250,80,37386370,22.3,31,171,73.6,Ochrona zdrowia,IX Zdrowie
+IK05,140,18,22777144,4.0,78,117,49.3,Zaopatrzenie w żywność,XVII Rolnictwo
+IK06,304,38,17944103,2.3,43,235,62.8,Zaopatrzenie w wodę,VIII Gospodarka wodna
+IK11,60,27,2287916,13.7,8,34,70.0,"Produkcja, składowanie i stosowanie substancji chemicznych i promieniotwórczych",XXI Środowisko

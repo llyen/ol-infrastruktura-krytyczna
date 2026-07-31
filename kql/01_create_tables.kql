@@ -1,0 +1,177 @@
+// =====================================================================
+// 01 — Schematy tabel Eventhouse / KQL Database: CriticalInfrastructure
+// Demo "Infrastruktura Krytyczna — efekt domina". Dane w 100% syntetyczne.
+// =====================================================================
+
+// ---------------------------------------------------------------------
+// Telemetria stanu wezlow IK (strumien z Eventstream)
+// ---------------------------------------------------------------------
+.create-merge table CiNodeStatus (
+    event_time: datetime,
+    node_id: string,
+    system_code: string,
+    gmina_code: string,
+    powiat_code: string,
+    voivodeship_code: string,
+    status: string,                    // operational | degraded | down
+    load_pct: real,
+    on_backup_power: bool,
+    backup_fuel_hours_left: real,
+    water_level_margin_m: real,
+    population_served: long
+)
+
+.alter-merge table CiNodeStatus policy retention softdelete = 90d
+
+// bufor surowy dla update policy
+.create-merge table CiNodeStatusRaw (payload: dynamic)
+
+// ---------------------------------------------------------------------
+// Meldunki operatorow IK (tryb SPO-10)
+// ---------------------------------------------------------------------
+.create-merge table CiOperatorReport (
+    event_time: datetime,
+    report_id: string,
+    node_id: string,
+    system_code: string,
+    voivodeship_code: string,
+    powiat_code: string,
+    operator_name: string,
+    report_kind: string,
+    severity: string,                  // info | warning | critical
+    eta_restore_hours: real,
+    support_requested: bool,
+    channel: string
+)
+
+.create-merge table CiOperatorReportRaw (payload: dynamic)
+
+// ---------------------------------------------------------------------
+// Hydrologia (zdarzenie inicjujace osi POWODZ WRZESIEN)
+// ---------------------------------------------------------------------
+.create-merge table HydroReading (
+    event_time: datetime,
+    gauge_id: string,
+    voivodeship_code: string,
+    powiat_code: string,
+    gmina_code: string,
+    water_level_cm: real,
+    warning_level_cm: int,
+    alarm_level_cm: int,
+    state: string                      // normalny | ostrzegawczy | alarm
+)
+
+.create-merge table HydroReadingRaw (payload: dynamic)
+
+// ---------------------------------------------------------------------
+// Wymiary i wyniki analiz (shortcut / OneLake z Lakehouse lub import)
+// ---------------------------------------------------------------------
+.create-merge table CiNode (
+    node_id: string,
+    node_name: string,
+    system_code: string,
+    system_group: string,
+    node_type: string,
+    gmina_code: string,
+    powiat_code: string,
+    voivodeship_code: string,
+    lat: real,
+    lon: real,
+    elevation_m: real,
+    operator_name: string,
+    ownership: string,
+    criticality_class: string,
+    criticality_score: real,
+    population_served: long,
+    backup_type: string,
+    autonomy_hours: real,
+    fuel_reserve_hours: real,
+    in_flood_zone: bool,
+    restore_hours: real,
+    on_ci_register: bool,
+    spo10_agreement: bool,
+    last_exercise_date: datetime
+)
+
+.create-merge table CiDependency (
+    edge_id: string,
+    source_node_id: string,
+    target_node_id: string,
+    source_system: string,
+    target_system: string,
+    dependency_type: string,
+    impact_share: real,
+    lag_hours: real,
+    redundancy_level: string,
+    cross_voivodeship: bool,
+    contract_sla_hours: real,
+    verified_in_exercise: bool
+)
+
+.create-merge table CascadeCentrality (
+    node_id: string,
+    node_name: string,
+    system_code: string,
+    system_group: string,
+    node_type: string,
+    voivodeship_code: string,
+    gmina_code: string,
+    criticality_class: string,
+    cascade_nodes: long,
+    cascade_max_wave: int,
+    cascade_systems: int,
+    cascade_population: long,
+    cascade_gminas: int,
+    cascade_k1_nodes: int,
+    first_secondary_hour: real,
+    cascade_index: real,
+    cascade_tier: string
+)
+
+// ---------------------------------------------------------------------
+// Mapowanie z Eventstream (JSON) — uzywane przez update policies
+// ---------------------------------------------------------------------
+.create-or-alter table CiNodeStatus ingestion json mapping "CiNodeStatusMapping"
+```[
+  {"column":"event_time","Properties":{"Path":"$.event_time"}},
+  {"column":"node_id","Properties":{"Path":"$.node_id"}},
+  {"column":"system_code","Properties":{"Path":"$.system_code"}},
+  {"column":"gmina_code","Properties":{"Path":"$.gmina_code"}},
+  {"column":"powiat_code","Properties":{"Path":"$.powiat_code"}},
+  {"column":"voivodeship_code","Properties":{"Path":"$.voivodeship_code"}},
+  {"column":"status","Properties":{"Path":"$.status"}},
+  {"column":"load_pct","Properties":{"Path":"$.load_pct"}},
+  {"column":"on_backup_power","Properties":{"Path":"$.on_backup_power"}},
+  {"column":"backup_fuel_hours_left","Properties":{"Path":"$.backup_fuel_hours_left"}},
+  {"column":"water_level_margin_m","Properties":{"Path":"$.water_level_margin_m"}},
+  {"column":"population_served","Properties":{"Path":"$.population_served"}}
+]```
+
+.create-or-alter table CiOperatorReport ingestion json mapping "CiOperatorReportMapping"
+```[
+  {"column":"event_time","Properties":{"Path":"$.event_time"}},
+  {"column":"report_id","Properties":{"Path":"$.report_id"}},
+  {"column":"node_id","Properties":{"Path":"$.node_id"}},
+  {"column":"system_code","Properties":{"Path":"$.system_code"}},
+  {"column":"voivodeship_code","Properties":{"Path":"$.voivodeship_code"}},
+  {"column":"powiat_code","Properties":{"Path":"$.powiat_code"}},
+  {"column":"operator_name","Properties":{"Path":"$.operator_name"}},
+  {"column":"report_kind","Properties":{"Path":"$.report_kind"}},
+  {"column":"severity","Properties":{"Path":"$.severity"}},
+  {"column":"eta_restore_hours","Properties":{"Path":"$.eta_restore_hours"}},
+  {"column":"support_requested","Properties":{"Path":"$.support_requested"}},
+  {"column":"channel","Properties":{"Path":"$.channel"}}
+]```
+
+.create-or-alter table HydroReading ingestion json mapping "HydroReadingMapping"
+```[
+  {"column":"event_time","Properties":{"Path":"$.event_time"}},
+  {"column":"gauge_id","Properties":{"Path":"$.gauge_id"}},
+  {"column":"voivodeship_code","Properties":{"Path":"$.voivodeship_code"}},
+  {"column":"powiat_code","Properties":{"Path":"$.powiat_code"}},
+  {"column":"gmina_code","Properties":{"Path":"$.gmina_code"}},
+  {"column":"water_level_cm","Properties":{"Path":"$.water_level_cm"}},
+  {"column":"warning_level_cm","Properties":{"Path":"$.warning_level_cm"}},
+  {"column":"alarm_level_cm","Properties":{"Path":"$.alarm_level_cm"}},
+  {"column":"state","Properties":{"Path":"$.state"}}
+]```

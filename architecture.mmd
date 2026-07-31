@@ -1,0 +1,35 @@
+flowchart LR
+  subgraph SRC["Zrodla (syntetyczne)"]
+    REG[Rejestr IK: 2106 obiektow<br/>11 systemow ustawowych]
+    DEP[Graf zaleznosci: 6552 krawedzi]
+    TEL[Telemetria obiektow IK]
+    OPS[Meldunki operatorow SPO-10]
+    HYD[Hydrologia: 120 wodowskazow]
+  end
+
+  REG --> LH[Fabric Lakehouse<br/>lh_ci_graph]
+  DEP --> LH
+  TEL --> ES[Eventstream<br/>es_ci_telemetry]
+  OPS --> ES
+  HYD --> ES
+  ES --> EH[Eventhouse / KQL DB<br/>CriticalInfrastructure]
+
+  LH --> NB[Notebooki:<br/>kaskada, SPOF, what-if]
+  EH --> NB
+  NB --> DER[Tabele wynikowe:<br/>centralnosc, os czasu,<br/>drzewo skutkow, warianty]
+
+  EH --> RTD[Real-Time Dashboard<br/>obraz operacyjny]
+  DER --> PBI[Model semantyczny<br/>+ raport 'Efekt domina']
+  LH --> PBI
+  EH --> ACT[Data Activator<br/>R1-R7: detekcja kaskady]
+  DER --> ACT
+  DER --> APP[Fabric App<br/>Symulator kaskad]
+  EH --> APP
+  APP -->|write-back| LH
+  EH --> AGENT[Data Agent]
+  DER --> AGENT
+
+  PBI --> COP[ol-cop24<br/>wspolny obraz sytuacji]
+  ACT --> SIA[ol-siatka-bezpieczenstwa<br/>moduly zadaniowe]
+  ACT --> ZAS[ol-zasoby-logistyka<br/>paliwo i pompy]
+  ACT --> BLK[ol-blackout-wrazliwi<br/>ludnosc wrazliwa]

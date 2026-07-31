@@ -1,0 +1,14 @@
+{
+  "nodes_simulated": 2106,
+  "spof_nodes": 217,
+  "critical_tier_nodes": 29,
+  "top_node_id": "IK-01-00181",
+  "top_node_name": "GPZ 110/SN pomorskie-zachodni-09-02-00181",
+  "top_cascade_population": 642162,
+  "top_cascade_nodes": 114,
+  "spof_without_backup": 3,
+  "spof_outside_register": 46,
+  "spof_without_spo10": 67,
+  "spof_in_flood_zone": 46,
+  "median_cascade_nodes": 0.0
+}

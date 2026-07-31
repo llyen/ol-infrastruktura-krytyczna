@@ -1,0 +1,101 @@
+node_id,node_name,system_code,system_group,node_type,voivodeship_code,gmina_code,criticality_class,cascade_nodes,cascade_max_wave,cascade_systems,cascade_population,cascade_gminas,cascade_k1_nodes,first_secondary_hour,cascade_index,cascade_tier
+IK-01-00181,GPZ 110/SN pomorskie-zachodni-09-02-00181,IK01,energy,GPZ 110/SN,22,2209002,K2,114,9,11,642162,45,30,1.1,90.63,krytyczny
+IK-01-00332,magazyn/terminal paliw dolnośląskie-centralny-10-06-00332,IK01,energy,magazyn/terminal paliw,02,0210006,K2,130,8,11,522795,43,41,46.1,90.41,krytyczny
+IK-01-00193,GPZ 110/SN dolnośląskie-zachodni-21-06-00193,IK01,energy,GPZ 110/SN,02,0221006,K2,130,8,11,522795,43,41,0.0,90.41,krytyczny
+IK-01-00013,stacja NN 400/220 kV dolnośląskie-zachodni-15-06-00013,IK01,energy,stacja NN 400/220 kV,02,0215006,K1,130,6,11,522795,43,40,0.0,90.08,krytyczny
+IK-01-00331,magazyn/terminal paliw dolnośląskie-południowy-25-06-00331,IK01,energy,magazyn/terminal paliw,02,0225006,K2,136,7,11,432434,38,45,32.5,87.59,krytyczny
+IK-01-00198,GPZ 110/SN dolnośląskie-zachodni-09-04-00198,IK01,energy,GPZ 110/SN,02,0209004,K3,136,8,11,432434,38,45,0.0,87.59,krytyczny
+IK-01-00006,stacja NN 400/220 kV dolnośląskie-miejski-05-07-00006,IK01,energy,stacja NN 400/220 kV,02,0205007,K1,136,5,11,432434,38,44,0.0,87.26,krytyczny
+IK-01-00026,stacja NN 400/220 kV dolnośląskie-miejski-23-07-00026,IK01,energy,stacja NN 400/220 kV,02,0223007,K1,104,6,11,538453,34,29,0.0,82.18,krytyczny
+IK-01-00376,stacja redukcyjna gazu pomorskie-zachodni-09-05-00376,IK01,energy,stacja redukcyjna gazu,22,2209005,K2,101,8,11,542568,38,27,42.1,81.16,krytyczny
+IK-01-00173,GPZ 110/SN zachodniopomorskie-wschodni-02-02-00173,IK01,energy,GPZ 110/SN,32,3202002,K2,75,8,11,507922,32,23,1.7,72.61,krytyczny
+IK-01-00009,stacja NN 400/220 kV opolskie-północny-06-07-00009,IK01,energy,stacja NN 400/220 kV,16,1606007,K1,118,7,11,291258,25,31,0.0,71.0,krytyczny
+IK-01-00020,stacja NN 400/220 kV mazowieckie-południowy-37-02-00020,IK01,energy,stacja NN 400/220 kV,14,1437002,K1,83,5,11,478174,31,15,0.0,69.77,krytyczny
+IK-01-00060,GPZ 110/SN mazowieckie-miejski-29-05-00060,IK01,energy,GPZ 110/SN,14,1429005,K1,56,4,11,604847,23,8,0.0,69.58,krytyczny
+IK-01-00096,GPZ 110/SN małopolskie-wschodni-14-04-00096,IK01,energy,GPZ 110/SN,12,1214004,K2,69,7,10,472338,31,21,0.0,66.83,krytyczny
+IK-01-00361,magazyn/terminal paliw małopolskie-miejski-11-06-00361,IK01,energy,magazyn/terminal paliw,12,1211006,K2,69,6,10,472338,31,21,24.3,66.83,krytyczny
+IK-01-00028,stacja NN 400/220 kV małopolskie-miejski-17-01-00028,IK01,energy,stacja NN 400/220 kV,12,1217001,K1,69,8,10,472338,31,20,0.0,66.5,krytyczny
+IK-01-00011,stacja NN 400/220 kV podkarpackie-miejski-17-05-00011,IK01,energy,stacja NN 400/220 kV,18,1817005,K1,86,6,10,364783,27,25,0.0,65.17,krytyczny
+IK-01-00037,stacja NN 400/220 kV dolnośląskie-północny-18-04-00037,IK01,energy,stacja NN 400/220 kV,02,0218004,K1,81,5,11,343851,24,22,0.0,63.76,krytyczny
+IK-01-00408,stacja redukcyjna gazu świętokrzyskie-wschodni-14-04-00408,IK01,energy,stacja redukcyjna gazu,26,2614004,K3,74,11,11,327259,33,25,39.1,62.39,krytyczny
+IK-01-00234,GPZ 110/SN świętokrzyskie-zachodni-03-01-00234,IK01,energy,GPZ 110/SN,26,2603001,K2,74,8,11,327259,33,25,0.0,62.39,krytyczny
+IK-01-00019,stacja NN 400/220 kV świętokrzyskie-miejski-05-04-00019,IK01,energy,stacja NN 400/220 kV,26,2605004,K1,74,9,11,327259,33,24,0.0,62.06,krytyczny
+IK-01-00010,stacja NN 400/220 kV świętokrzyskie-miejski-11-03-00010,IK01,energy,stacja NN 400/220 kV,26,2611003,K1,74,8,11,327259,33,24,0.0,62.06,krytyczny
+IK-01-00012,stacja NN 400/220 kV wielkopolskie-centralny-04-02-00012,IK01,energy,stacja NN 400/220 kV,30,3004002,K1,63,6,11,380220,26,18,0.0,61.01,krytyczny
+IK-01-00334,magazyn/terminal paliw zachodniopomorskie-wschodni-20-03-00334,IK01,energy,magazyn/terminal paliw,32,3220003,K1,52,6,10,397418,26,12,21.8,56.02,krytyczny
+IK-01-00008,stacja NN 400/220 kV łódzkie-centralny-10-01-00008,IK01,energy,stacja NN 400/220 kV,10,1010001,K1,59,4,11,267515,30,21,0.0,54.54,krytyczny
+IK-01-00030,stacja NN 400/220 kV łódzkie-północny-24-06-00030,IK01,energy,stacja NN 400/220 kV,10,1024006,K1,39,3,10,336055,21,7,0.0,48.14,krytyczny
+IK-01-00001,stacja NN 400/220 kV mazowieckie-miejski-05-03-00001,IK01,energy,stacja NN 400/220 kV,14,1405003,K1,47,4,11,245109,18,9,0.0,46.84,krytyczny
+IK-01-00024,stacja NN 400/220 kV zachodniopomorskie-miejski-17-05-00024,IK01,energy,stacja NN 400/220 kV,32,3217005,K1,39,4,10,303195,17,5,0.0,45.53,krytyczny
+IK-01-00218,GPZ 110/SN dolnośląskie-zachodni-15-03-00218,IK01,energy,GPZ 110/SN,02,0215003,K2,48,3,11,194316,14,13,0.0,45.36,krytyczny
+IK-01-00033,stacja NN 400/220 kV opolskie-południowy-07-06-00033,IK01,energy,stacja NN 400/220 kV,16,1607006,K1,55,5,10,188255,18,13,0.0,44.57,wysoki
+IK-01-00036,stacja NN 400/220 kV lubuskie-południowy-01-01-00036,IK01,energy,stacja NN 400/220 kV,08,0801001,K1,38,3,9,286924,22,5,0.0,42.55,wysoki
+IK-01-00119,GPZ 110/SN dolnośląskie-południowy-13-02-00119,IK01,energy,GPZ 110/SN,02,0213002,K2,49,4,11,96027,9,17,0.0,41.08,wysoki
+IK-01-00043,GPZ 110/SN opolskie-wschodni-08-01-00043,IK01,energy,GPZ 110/SN,16,1608001,K3,51,7,11,127971,11,10,1.5,41.03,wysoki
+IK-01-00073,GPZ 110/SN podlaskie-wschodni-14-03-00073,IK01,energy,GPZ 110/SN,20,2014003,K1,37,4,11,143678,8,10,0.0,39.18,wysoki
+IK-01-00023,stacja NN 400/220 kV opolskie-zachodni-03-03-00023,IK01,energy,stacja NN 400/220 kV,16,1603003,K1,40,4,10,152989,11,7,0.0,37.51,wysoki
+IK-01-00215,GPZ 110/SN świętokrzyskie-południowy-07-04-00215,IK01,energy,GPZ 110/SN,26,2607004,K2,34,4,9,171876,14,11,0.0,36.95,wysoki
+IK-01-00156,GPZ 110/SN dolnośląskie-zachodni-15-05-00156,IK01,energy,GPZ 110/SN,02,0215005,K2,30,4,10,169196,8,8,1.2,36.82,wysoki
+IK-01-00034,stacja NN 400/220 kV kujawsko-pomorskie-zachodni-15-04-00034,IK01,energy,stacja NN 400/220 kV,04,0415004,K1,30,4,9,162058,13,8,0.0,34.58,wysoki
+IK-01-00161,GPZ 110/SN lubelskie-południowy-13-01-00161,IK01,energy,GPZ 110/SN,06,0613001,K2,26,3,10,105838,11,14,0.0,34.27,wysoki
+IK-01-00015,stacja NN 400/220 kV zachodniopomorskie-południowy-07-06-00015,IK01,energy,stacja NN 400/220 kV,32,3207006,K1,22,3,8,229666,12,3,0.0,33.5,wysoki
+IK-01-00002,stacja NN 400/220 kV śląskie-miejski-23-05-00002,IK01,energy,stacja NN 400/220 kV,24,2423005,K1,19,3,9,208813,10,3,0.0,33.49,wysoki
+IK-01-00038,stacja NN 400/220 kV łódzkie-centralny-22-05-00038,IK01,energy,stacja NN 400/220 kV,10,1022005,K1,26,4,8,202780,14,5,0.0,33.37,wysoki
+IK-01-00160,GPZ 110/SN wielkopolskie-miejski-35-04-00160,IK01,energy,GPZ 110/SN,30,3035004,K2,29,4,10,100606,11,8,0.0,32.56,wysoki
+IK-01-00102,GPZ 110/SN małopolskie-wschodni-02-03-00102,IK01,energy,GPZ 110/SN,12,1202003,K1,22,4,9,153009,9,8,0.0,32.45,wysoki
+IK-01-00035,stacja NN 400/220 kV opolskie-wschodni-08-06-00035,IK01,energy,stacja NN 400/220 kV,16,1608006,K1,38,4,9,99988,8,7,0.0,32.16,wysoki
+IK-01-00232,GPZ 110/SN małopolskie-centralny-16-01-00232,IK01,energy,GPZ 110/SN,12,1216001,K2,26,3,9,118144,12,9,0.0,31.52,wysoki
+IK-01-00022,stacja NN 400/220 kV pomorskie-północny-12-05-00022,IK01,energy,stacja NN 400/220 kV,22,2212005,K1,21,3,9,156274,12,5,0.0,31.45,wysoki
+IK-01-00041,GPZ 110/SN warmińsko-mazurskie-zachodni-15-05-00041,IK01,energy,GPZ 110/SN,28,2815005,K2,19,2,9,135299,10,5,0.0,29.81,wysoki
+IK-01-00168,GPZ 110/SN dolnośląskie-miejski-11-02-00168,IK01,energy,GPZ 110/SN,02,0211002,K2,21,3,9,105800,5,9,0.0,29.79,wysoki
+IK-01-00128,GPZ 110/SN wielkopolskie-wschodni-32-06-00128,IK01,energy,GPZ 110/SN,30,3032006,K2,15,2,10,121622,7,4,0.0,29.69,wysoki
+IK-01-00087,GPZ 110/SN dolnośląskie-północny-06-07-00087,IK01,energy,GPZ 110/SN,02,0206007,K2,15,2,7,190113,10,7,0.0,29.29,wysoki
+IK-01-00204,GPZ 110/SN opolskie-wschodni-02-01-00204,IK01,energy,GPZ 110/SN,16,1602001,K1,23,3,10,72129,3,6,0.0,29.02,wysoki
+IK-01-00113,GPZ 110/SN podlaskie-południowy-13-01-00113,IK01,energy,GPZ 110/SN,20,2013001,K2,26,3,10,69993,7,4,0.0,28.82,wysoki
+IK-01-00016,stacja NN 400/220 kV opolskie-południowy-01-01-00016,IK01,energy,stacja NN 400/220 kV,16,1601001,K1,29,3,8,93082,11,9,0.0,28.81,wysoki
+IK-01-00129,GPZ 110/SN lubuskie-centralny-10-02-00129,IK01,energy,GPZ 110/SN,08,0810002,K2,19,3,8,167740,11,1,0.0,28.58,wysoki
+IK-01-00207,GPZ 110/SN śląskie-centralny-04-01-00207,IK01,energy,GPZ 110/SN,24,2404001,K2,12,2,8,158432,5,1,0.0,26.64,wysoki
+IK-01-00092,GPZ 110/SN podkarpackie-centralny-22-03-00092,IK01,energy,GPZ 110/SN,18,1822003,K2,16,2,8,111788,8,6,0.0,26.34,wysoki
+IK-01-00135,GPZ 110/SN wielkopolskie-północny-12-04-00135,IK01,energy,GPZ 110/SN,30,3012004,K2,16,3,9,86062,5,5,0.0,26.3,wysoki
+IK-01-00097,GPZ 110/SN podkarpackie-centralny-04-06-00097,IK01,energy,GPZ 110/SN,18,1804006,K2,17,2,9,74654,6,6,0.0,26.16,wysoki
+IK-01-00217,GPZ 110/SN dolnośląskie-wschodni-26-05-00217,IK01,energy,GPZ 110/SN,02,0226005,K2,22,4,9,31117,5,9,0.0,25.57,wysoki
+IK-01-00061,GPZ 110/SN kujawsko-pomorskie-zachodni-09-06-00061,IK01,energy,GPZ 110/SN,04,0409006,K2,24,3,9,31681,5,6,1.9,25.0,wysoki
+IK-01-00078,GPZ 110/SN dolnośląskie-południowy-19-05-00078,IK01,energy,GPZ 110/SN,02,0219005,K3,20,4,8,53176,4,10,3.9,25.0,wysoki
+IK-01-00027,stacja NN 400/220 kV opolskie-południowy-01-03-00027,IK01,energy,stacja NN 400/220 kV,16,1601003,K2,21,3,7,102181,9,6,0.0,24.94,wysoki
+IK-01-00044,GPZ 110/SN lubuskie-wschodni-02-07-00044,IK01,energy,GPZ 110/SN,08,0802007,K2,16,2,7,130060,12,3,0.0,24.6,wysoki
+IK-01-00213,GPZ 110/SN opolskie-północny-12-02-00213,IK01,energy,GPZ 110/SN,16,1612002,K2,24,3,8,48119,4,2,0.0,22.82,wysoki
+IK-01-00062,GPZ 110/SN świętokrzyskie-zachodni-03-03-00062,IK01,energy,GPZ 110/SN,26,2603003,K2,14,2,7,98704,9,4,0.0,22.68,wysoki
+IK-01-00079,GPZ 110/SN łódzkie-wschodni-20-05-00079,IK01,energy,GPZ 110/SN,10,1020005,K1,13,2,8,81188,7,2,1.0,22.6,wysoki
+IK-01-00203,GPZ 110/SN dolnośląskie-północny-30-03-00203,IK01,energy,GPZ 110/SN,02,0230003,K1,14,3,8,87592,7,0,0.0,22.51,wysoki
+IK-01-00162,GPZ 110/SN dolnośląskie-wschodni-02-04-00162,IK01,energy,GPZ 110/SN,02,0202004,K2,16,3,9,32852,3,3,0.0,22.48,wysoki
+IK-01-00117,GPZ 110/SN warmińsko-mazurskie-południowy-01-04-00117,IK01,energy,GPZ 110/SN,28,2801004,K2,16,2,8,59249,3,3,0.0,22.23,wysoki
+IK-01-00167,GPZ 110/SN mazowieckie-wschodni-14-05-00167,IK01,energy,GPZ 110/SN,14,1414005,K1,9,2,7,120409,4,0,0.0,21.64,wysoki
+IK-01-00151,GPZ 110/SN opolskie-wschodni-02-06-00151,IK01,energy,GPZ 110/SN,16,1602006,K2,14,3,7,70812,6,5,0.0,21.36,wysoki
+IK-01-00005,stacja NN 400/220 kV podkarpackie-zachodni-21-06-00005,IK01,energy,stacja NN 400/220 kV,18,1821006,K1,15,3,6,114807,8,2,0.0,21.35,wysoki
+IK-01-00202,GPZ 110/SN dolnośląskie-zachodni-27-02-00202,IK01,energy,GPZ 110/SN,02,0227002,K2,12,2,8,62515,5,2,0.0,21.29,wysoki
+IK-01-00082,GPZ 110/SN dolnośląskie-zachodni-27-05-00082,IK01,energy,GPZ 110/SN,02,0227005,K2,13,2,9,28077,5,2,0.0,21.27,wysoki
+IK-01-00210,GPZ 110/SN łódzkie-północny-06-06-00210,IK01,energy,GPZ 110/SN,10,1006006,K2,12,2,8,54693,4,3,0.0,21.16,wysoki
+IK-01-00103,GPZ 110/SN warmińsko-mazurskie-miejski-05-05-00103,IK01,energy,GPZ 110/SN,28,2805005,K2,13,2,6,105901,9,4,0.0,21.09,wysoki
+IK-01-00105,GPZ 110/SN pomorskie-północny-06-05-00105,IK01,energy,GPZ 110/SN,22,2206005,K2,15,2,7,55789,6,6,0.0,21.01,wysoki
+IK-01-00109,GPZ 110/SN opolskie-zachodni-09-04-00109,IK01,energy,GPZ 110/SN,16,1609004,K2,20,6,7,31362,3,7,6.3,20.89,wysoki
+IK-01-00158,GPZ 110/SN podkarpackie-zachodni-03-06-00158,IK01,energy,GPZ 110/SN,18,1803006,K2,14,2,6,110185,7,2,0.0,20.88,wysoki
+IK-01-00025,stacja NN 400/220 kV kujawsko-pomorskie-wschodni-02-05-00025,IK01,energy,stacja NN 400/220 kV,04,0402005,K1,15,3,6,98022,11,3,0.0,20.69,wysoki
+IK-01-00118,GPZ 110/SN opolskie-centralny-10-07-00118,IK01,energy,GPZ 110/SN,16,1610007,K2,14,2,7,58861,6,4,0.0,20.32,wysoki
+IK-01-00047,GPZ 110/SN dolnośląskie-północny-24-04-00047,IK01,energy,GPZ 110/SN,02,0224004,K3,12,4,8,29067,3,5,1.9,20.31,wysoki
+IK-01-00049,GPZ 110/SN dolnośląskie-miejski-23-03-00049,IK01,energy,GPZ 110/SN,02,0223003,K3,14,2,7,69943,5,2,0.0,20.31,wysoki
+IK-01-00071,GPZ 110/SN dolnośląskie-wschodni-08-07-00071,IK01,energy,GPZ 110/SN,02,0208007,K1,11,2,6,105175,6,2,0.0,19.98,istotny
+IK-01-00057,GPZ 110/SN opolskie-miejski-11-01-00057,IK01,energy,GPZ 110/SN,16,1611001,K2,18,3,8,20033,2,2,0.0,19.97,istotny
+IK-01-00122,GPZ 110/SN lubuskie-centralny-04-06-00122,IK01,energy,GPZ 110/SN,08,0804006,K2,15,2,6,79819,7,4,0.0,19.94,istotny
+IK-01-00110,GPZ 110/SN podlaskie-południowy-07-06-00110,IK01,energy,GPZ 110/SN,20,2007006,K2,17,2,6,66587,3,5,0.0,19.89,istotny
+IK-01-00042,GPZ 110/SN dolnośląskie-północny-18-04-00042,IK01,energy,GPZ 110/SN,02,0218004,K2,11,2,7,71135,4,2,0.0,19.79,istotny
+IK-01-00127,GPZ 110/SN warmińsko-mazurskie-zachodni-15-06-00127,IK01,energy,GPZ 110/SN,28,2815006,K1,12,3,8,31355,4,3,2.9,19.78,istotny
+IK-01-00125,GPZ 110/SN łódzkie-miejski-11-02-00125,IK01,energy,GPZ 110/SN,10,1011002,K2,13,2,6,80768,8,4,2.0,19.6,istotny
+IK-01-00055,GPZ 110/SN pomorskie-miejski-17-06-00055,IK01,energy,GPZ 110/SN,22,2217006,K1,7,2,7,84018,3,1,0.0,19.42,istotny
+IK-01-00231,GPZ 110/SN opolskie-zachodni-09-01-00231,IK01,energy,GPZ 110/SN,16,1609001,K2,12,3,7,65870,4,1,0.0,19.34,istotny
+IK-01-00069,GPZ 110/SN dolnośląskie-centralny-22-04-00069,IK01,energy,GPZ 110/SN,02,0222004,K2,12,2,7,53577,5,3,2.5,19.28,istotny
+IK-01-00194,GPZ 110/SN łódzkie-zachodni-21-05-00194,IK01,energy,GPZ 110/SN,10,1021005,K2,12,3,7,48942,5,3,0.0,19.01,istotny
+IK-01-00166,GPZ 110/SN warmińsko-mazurskie-centralny-04-05-00166,IK01,energy,GPZ 110/SN,28,2804005,K3,11,2,6,82327,6,3,0.0,18.96,istotny
+IK-01-00101,GPZ 110/SN śląskie-miejski-17-03-00101,IK01,energy,GPZ 110/SN,24,2417003,K2,11,2,6,79811,7,3,0.0,18.82,istotny
+IK-01-00221,GPZ 110/SN opolskie-miejski-05-01-00221,IK01,energy,GPZ 110/SN,16,1605001,K2,14,3,6,63668,4,4,0.0,18.79,istotny
+IK-01-00059,GPZ 110/SN podlaskie-miejski-05-03-00059,IK01,energy,GPZ 110/SN,20,2005003,K2,11,2,7,59769,5,1,0.0,18.78,istotny
+IK-01-00039,stacja NN 400/220 kV wielkopolskie-południowy-01-03-00039,IK01,energy,stacja NN 400/220 kV,30,3001003,K1,12,4,7,39140,4,4,0.0,18.76,istotny

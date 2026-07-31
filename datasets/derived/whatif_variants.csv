@@ -1,0 +1,5 @@
+variant,description,hardened_nodes,new_feeds,nodes_failed_total,nodes_failed_secondary,max_wave,affected_gminas,affected_population,k1_nodes_failed,secondary_reduction_pct,population_reduction_pct
+BAZOWY,stan obecny,0,0,777,545,7,200,2627373,232,0.0,0.0
+A_AUTONOMIA,agregat i paliwo na 72 h w 120 węzłach usługowych K1/K2,120,0,646,414,7,178,2375691,173,24.0,9.6
+B_REDUNDANCJA,drugie zasilanie dla 241 węzłów K1,0,241,753,521,8,199,2621379,215,4.4,0.2
+C_RAZEM,A + B,120,241,628,396,7,177,2367432,159,27.3,9.9

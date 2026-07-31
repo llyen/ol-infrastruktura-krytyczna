@@ -1,0 +1,123 @@
+// =====================================================================
+// 04 — Detekcja kaskady i korelacje miedzysystemowe
+// Pytanie: czy to jest zbior niezaleznych awarii, czy jeden efekt domina?
+// =====================================================================
+
+// ---------------------------------------------------------------------
+// 1. Wykrycie kaskady: awaria w systemie A, po niej awarie u jej odbiorcow
+//    w zdefiniowanym oknie czasowym. To jest sygnal "domino", nie "awaria".
+// ---------------------------------------------------------------------
+.create-or-alter function DetectCascade(lookback: timespan = 6h, min_children: int = 3) {
+    let downs =
+        CiNodeStatus
+        | where event_time > ago(lookback)
+        | where status == "down"
+        | summarize down_at = min(event_time) by node_id;
+    CiDependency
+    | join kind=inner (downs | project source_node_id = node_id, source_down_at = down_at) on source_node_id
+    | join kind=inner (downs | project target_node_id = node_id, target_down_at = down_at) on target_node_id
+    | where target_down_at >= source_down_at            // kolejnosc przyczynowa
+    | extend delay_hours = round((target_down_at - source_down_at) / 1h, 2)
+    | where delay_hours <= lag_hours + 12               // skutek w spodziewanym oknie
+    | summarize children = dcount(target_node_id),
+                systems_hit = dcount(target_system),
+                avg_delay_h = round(avg(delay_hours), 2),
+                first_child = min(target_down_at),
+                last_child = max(target_down_at)
+      by source_node_id, source_down_at
+    | where children >= min_children
+    | join kind=leftouter (CiNode | project source_node_id = node_id, node_name, node_type,
+                                            system_code, voivodeship_code, operator_name,
+                                            criticality_class)
+      on source_node_id
+    | extend cascade_signature = strcat(node_type, " -> ", tostring(systems_hit), " systemów / ",
+                                        tostring(children), " obiektów")
+    | order by children desc
+}
+
+// ---------------------------------------------------------------------
+// 2. Korelacja: awaria energetyczna a utrata wody w tej samej gminie
+//    Klasyczny efekt drugiego rzedu, ktory umyka sluzbom energetycznym.
+// ---------------------------------------------------------------------
+.create-or-alter function PowerToWaterCorrelation(window: timespan = 24h) {
+    let power_down =
+        CiNodeStatus
+        | where event_time > ago(window) and status == "down"
+        | join kind=inner (CiNode | where system_group == "energy" | project node_id) on node_id
+        | summarize power_down_at = min(event_time) by gmina_code;
+    let water_down =
+        CiNodeStatus
+        | where event_time > ago(window) and status == "down"
+        | join kind=inner (CiNode | where system_group == "water" | project node_id) on node_id
+        | summarize water_down_at = min(event_time), water_nodes = dcount(node_id) by gmina_code;
+    power_down
+    | join kind=inner water_down on gmina_code
+    | extend hours_between = round((water_down_at - power_down_at) / 1h, 2)
+    | where hours_between between (0.0 .. 12.0)
+    | project gmina_code, power_down_at, water_down_at, hours_between, water_nodes
+    | order by hours_between asc
+}
+
+// ---------------------------------------------------------------------
+// 3. Anomalia: nagly przyrost awarii ponad normalny szum
+// ---------------------------------------------------------------------
+.create-or-alter function OutageAnomaly(bin_size: timespan = 1h) {
+    CiNodeStatus
+    | where status == "down"
+    | summarize nodes_down = dcount(node_id) by bin(event_time, bin_size), system_code
+    | make-series series = sum(nodes_down) default = 0
+        on event_time from ago(14d) to now() step bin_size by system_code
+    | extend (anomalies, score, baseline) = series_decompose_anomalies(series, 2.0, -1, "linefit")
+    | mv-expand event_time to typeof(datetime), series to typeof(long),
+                anomalies to typeof(int), score to typeof(real), baseline to typeof(real)
+    | where anomalies != 0
+    | project event_time, system_code, nodes_down = series,
+              baseline = round(baseline, 1), anomaly_score = round(score, 2)
+    | order by event_time desc
+}
+
+// ---------------------------------------------------------------------
+// 4. Sciezka przyczynowa do wskazanego wezla ("dlaczego to padlo?")
+//    Odpowiedz dla Data Agent i dla ekranu drill-down w aplikacji.
+// ---------------------------------------------------------------------
+.create-or-alter function CascadePath(target: string, lookback: timespan = 7d) {
+    let downs =
+        CiNodeStatus
+        | where event_time > ago(lookback) and status == "down"
+        | summarize down_at = min(event_time) by node_id;
+    let target_time = toscalar(downs | where node_id == target | project down_at);
+    CiDependency
+    | where target_node_id == target
+    | join kind=inner (downs | project source_node_id = node_id, source_down_at = down_at) on source_node_id
+    | where source_down_at <= target_time
+    | join kind=leftouter (CiNode | project source_node_id = node_id, source_name = node_name,
+                                            source_type = node_type, source_system = system_code,
+                                            operator_name)
+      on source_node_id
+    | project source_node_id, source_name, source_type, source_system, operator_name,
+              dependency_type, impact_share, lag_hours, redundancy_level,
+              source_down_at, target_down_at = target_time,
+              delay_hours = round((target_time - source_down_at) / 1h, 2)
+    | order by impact_share desc
+}
+
+// ---------------------------------------------------------------------
+// 5. Zasieg terytorialny kaskady — co powiedziec wojewodzie
+// ---------------------------------------------------------------------
+.create-or-alter function CascadeFootprint() {
+    CiNodeCurrent
+    | where status in ("down", "degraded")
+    | join kind=inner CiNode on node_id
+    | summarize nodes_affected = count(),
+                systems_affected = dcount(system_code),
+                k1_affected = countif(criticality_class == "K1"),
+                population_served = sum(population_served),
+                operators = dcount(operator_name)
+      by voivodeship_code
+    | extend escalation_hint = case(
+        systems_affected >= 6 and k1_affected >= 5, "przesłanka do RZZK (SPO-1)",
+        systems_affected >= 4, "poziom wojewody",
+        systems_affected >= 2, "poziom powiatu",
+        "poziom gminy")
+    | order by systems_affected desc, k1_affected desc
+}

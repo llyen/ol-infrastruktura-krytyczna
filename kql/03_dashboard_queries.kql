@@ -1,0 +1,101 @@
+// =====================================================================
+// 03 — Zapytania Real-Time Dashboard "Efekt domina — obraz operacyjny"
+// Kazde zapytanie odpowiada jednemu kaflowi. Parametry dashboardu:
+//   _startTime, _endTime, _voivodeship (multi-select), _system (multi-select)
+// =====================================================================
+
+// --- KAFEL 1: stan systemow IK w jednej liczbie -----------------------
+CiNodeCurrent
+| join kind=leftouter CiNode on node_id
+| where isempty('_voivodeship') or voivodeship_code in ('_voivodeship')
+| summarize nodes = count(),
+            down = countif(status == "down"),
+            degraded = countif(status == "degraded"),
+            on_backup = countif(on_backup_power == true),
+            k1_down = countif(status == "down" and criticality_class == "K1")
+| extend availability_pct = round(100.0 * (nodes - down) / nodes, 1)
+
+// --- KAFEL 2: awarie wg systemu IK (11 systemow ustawowych) -----------
+CiNodeCurrent
+| join kind=inner CiNode on node_id
+| where isempty('_voivodeship') or voivodeship_code in ('_voivodeship')
+| summarize nodes = count(),
+            down = countif(status == "down"),
+            degraded = countif(status == "degraded")
+  by system_code
+| extend down_pct = round(100.0 * down / nodes, 1)
+| order by down_pct desc
+
+// --- KAFEL 3: mapa wezlow niedzialajacych -----------------------------
+CiNodeCurrent
+| where status in ("down", "degraded")
+| join kind=inner CiNode on node_id
+| project node_name, node_type, system_code, criticality_class, status,
+          lat, lon, population_served, operator_name, on_backup_power
+| order by population_served desc
+
+// --- KAFEL 4: przebieg kaskady w czasie (fale skutkow) ----------------
+CiNodeStatus
+| where event_time between (_startTime .. _endTime)
+| where status == "down"
+| summarize first_down = min(event_time) by node_id, system_code
+| summarize nodes_down = count() by bin(first_down, 1h), system_code
+| order by first_down asc
+
+// --- KAFEL 5: kolejka dowozu paliwa do agregatow ----------------------
+FuelRunout(8.0)
+| project node_name, node_type, system_code, criticality_class,
+          voivodeship_code, operator_name,
+          hours_left = backup_fuel_hours_left, population_served
+| take 50
+
+// --- KAFEL 6: prognoza kaskady na najblizsze 24 h ---------------------
+// "Kto padnie nastepny i kiedy" — najwazniejszy kafel dla dyzurnego.
+CascadeForecast(24.0)
+| project target_node_id, any_target_name, any_target_type, any_target_system,
+          any_criticality, earliest_impact,
+          hours_left = round((earliest_impact - now()) / 1h, 1),
+          impact_share_lost = round(impact_share_lost, 2),
+          any_population
+| take 40
+
+// --- KAFEL 7: presja powodziowa (zdarzenie inicjujace) ----------------
+FloodPressure()
+
+// --- KAFEL 8: meldunki operatorow IK wymagajace decyzji ---------------
+CiOperatorReport
+| where event_time between (_startTime .. _endTime)
+| where severity == "critical" or support_requested == true
+| join kind=leftouter CiNode on node_id
+| project event_time, operator_name, node_name, node_type, report_kind,
+          severity, eta_restore_hours, support_requested, channel, spo10_agreement
+| order by event_time desc
+| take 60
+
+// --- KAFEL 9: obiekty krytyczne bez umowy SPO-10 ----------------------
+// Governance na zywo: gdzie w kryzysie nie mamy z kim rozmawiac.
+CiNodeCurrent
+| where status in ("down", "degraded")
+| join kind=inner CiNode on node_id
+| where spo10_agreement == false and criticality_class in ("K1", "K2")
+| summarize nodes = count(), population = sum(population_served) by operator_name, system_code
+| order by population desc
+
+// --- KAFEL 10: ranking kaskadowy — gdzie awaria zaboli najbardziej ----
+CascadeCentrality
+| where isempty('_voivodeship') or voivodeship_code in ('_voivodeship')
+| where cascade_tier in ("krytyczny", "wysoki")
+| join kind=leftouter (CiNodeCurrent | project node_id, status) on node_id
+| project node_name, node_type, system_code, voivodeship_code, cascade_index,
+          cascade_nodes, cascade_systems, cascade_population, status
+| order by cascade_index desc
+| take 25
+
+// --- KAFEL 11: wezly bez zasilania rezerwowego, ktore juz sa w awarii -
+CiNodeCurrent
+| where status == "down"
+| join kind=inner CiNode on node_id
+| where backup_type == "none"
+| project node_name, node_type, system_code, criticality_class,
+          voivodeship_code, operator_name, population_served, event_time
+| order by population_served desc

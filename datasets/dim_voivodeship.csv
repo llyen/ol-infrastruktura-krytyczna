@@ -1,0 +1,17 @@
+voivodeship_code,voivodeship_name,lat,lon,scenario_axis
+02,dolnośląskie,51.1,16.9,POWODZ_WRZESIEN
+04,kujawsko-pomorskie,53.0,18.5,national_context
+06,lubelskie,51.2,22.6,national_context
+08,lubuskie,52.2,15.5,context
+10,łódzkie,51.8,19.5,national_context
+12,małopolskie,50.1,19.9,national_context
+14,mazowieckie,52.2,21.0,national_context
+16,opolskie,50.7,17.9,POWODZ_WRZESIEN
+18,podkarpackie,50.0,22.0,national_context
+20,podlaskie,53.1,23.2,national_context
+22,pomorskie,54.4,18.6,national_context
+24,śląskie,50.3,19.0,context
+26,świętokrzyskie,50.9,20.6,national_context
+28,warmińsko-mazurskie,53.8,20.5,national_context
+30,wielkopolskie,52.4,16.9,national_context
+32,zachodniopomorskie,53.4,14.6,context

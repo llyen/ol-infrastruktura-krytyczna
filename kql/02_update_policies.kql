@@ -1,0 +1,143 @@
+// =====================================================================
+// 02 — Update policies i tabele materializowane
+// Cel: dyzurny ma odpowiedz w sekundach, bez przeliczania calego strumienia.
+// =====================================================================
+
+// ---------------------------------------------------------------------
+// Rozpakowanie surowego JSON z Eventstream
+// ---------------------------------------------------------------------
+.create-or-alter function ParseCiNodeStatus() {
+    CiNodeStatusRaw
+    | extend
+        event_time = todatetime(payload.event_time),
+        node_id = tostring(payload.node_id),
+        system_code = tostring(payload.system_code),
+        gmina_code = tostring(payload.gmina_code),
+        powiat_code = tostring(payload.powiat_code),
+        voivodeship_code = tostring(payload.voivodeship_code),
+        status = tostring(payload.status),
+        load_pct = toreal(payload.load_pct),
+        on_backup_power = tobool(payload.on_backup_power),
+        backup_fuel_hours_left = toreal(payload.backup_fuel_hours_left),
+        water_level_margin_m = toreal(payload.water_level_margin_m),
+        population_served = tolong(payload.population_served)
+    | project event_time, node_id, system_code, gmina_code, powiat_code, voivodeship_code,
+              status, load_pct, on_backup_power, backup_fuel_hours_left,
+              water_level_margin_m, population_served
+}
+
+.alter table CiNodeStatus policy update
+```[{"IsEnabled": true, "Source": "CiNodeStatusRaw", "Query": "ParseCiNodeStatus()", "IsTransactional": true}]```
+
+.create-or-alter function ParseCiOperatorReport() {
+    CiOperatorReportRaw
+    | extend
+        event_time = todatetime(payload.event_time),
+        report_id = tostring(payload.report_id),
+        node_id = tostring(payload.node_id),
+        system_code = tostring(payload.system_code),
+        voivodeship_code = tostring(payload.voivodeship_code),
+        powiat_code = tostring(payload.powiat_code),
+        operator_name = tostring(payload.operator_name),
+        report_kind = tostring(payload.report_kind),
+        severity = tostring(payload.severity),
+        eta_restore_hours = toreal(payload.eta_restore_hours),
+        support_requested = tobool(payload.support_requested),
+        channel = tostring(payload.channel)
+    | project event_time, report_id, node_id, system_code, voivodeship_code, powiat_code,
+              operator_name, report_kind, severity, eta_restore_hours, support_requested, channel
+}
+
+.alter table CiOperatorReport policy update
+```[{"IsEnabled": true, "Source": "CiOperatorReportRaw", "Query": "ParseCiOperatorReport()", "IsTransactional": true}]```
+
+// ---------------------------------------------------------------------
+// Aktualny stan kazdego wezla IK — podstawa wszystkich kafli operacyjnych
+// ---------------------------------------------------------------------
+.create-or-alter materialized-view CiNodeCurrent on table CiNodeStatus {
+    CiNodeStatus
+    | summarize arg_max(event_time, status, load_pct, on_backup_power,
+                        backup_fuel_hours_left, water_level_margin_m,
+                        population_served, voivodeship_code, powiat_code,
+                        gmina_code, system_code)
+      by node_id
+}
+
+// ---------------------------------------------------------------------
+// Godzinowy profil awarii per system — trend, nie tylko punkt w czasie
+// ---------------------------------------------------------------------
+.create-or-alter materialized-view CiOutageHourly on table CiNodeStatus {
+    CiNodeStatus
+    | where status != "operational"
+    | summarize nodes_affected = dcount(node_id),
+                nodes_down = dcountif(node_id, status == "down"),
+                population_served = sum(population_served)
+      by bin(event_time, 1h), system_code, voivodeship_code
+}
+
+// ---------------------------------------------------------------------
+// Funkcje operacyjne
+// ---------------------------------------------------------------------
+
+// Wezly, ktorym konczy sie paliwo w agregacie — kolejka dowozu paliwa
+.create-or-alter function FuelRunout(threshold_hours: real = 6.0) {
+    CiNodeCurrent
+    | where on_backup_power == true and backup_fuel_hours_left <= threshold_hours
+    | join kind=leftouter CiNode on node_id
+    | project node_id, node_name, node_type, system_code, criticality_class,
+              voivodeship_code, powiat_code, operator_name,
+              backup_fuel_hours_left, population_served, event_time
+    | order by backup_fuel_hours_left asc
+}
+
+// Wezly krytyczne, ktore przestaly dzialac — wejscie do reguly Activatora
+.create-or-alter function CriticalNodesDown() {
+    CiNodeCurrent
+    | where status == "down"
+    | join kind=inner CiNode on node_id
+    | where criticality_class == "K1"
+    | project node_id, node_name, node_type, system_code, voivodeship_code,
+              operator_name, spo10_agreement, population_served, event_time
+    | order by population_served desc
+}
+
+// Prognoza kaskady: kto zalezy od wezlow, ktore wlasnie padly, i kiedy to odczuje
+.create-or-alter function CascadeForecast(horizon_hours: real = 24.0) {
+    let down_now = CiNodeCurrent | where status == "down" | project source_node_id = node_id, down_since = event_time;
+    CiDependency
+    | join kind=inner down_now on source_node_id
+    | join kind=leftouter (CiNode | project target_node_id = node_id, target_name = node_name,
+                                            target_type = node_type, target_system = system_code,
+                                            autonomy_hours, backup_type, criticality_class,
+                                            target_population = population_served)
+      on target_node_id
+    | extend buffer_hours = iff(dependency_type in ("electricity", "generation"), autonomy_hours,
+                           iff(dependency_type == "fuel", autonomy_hours, 0.0))
+    | extend expected_impact_time = down_since + totimespan((lag_hours + buffer_hours) * 1h)
+    | extend hours_to_impact = (expected_impact_time - now()) / 1h
+    | where hours_to_impact <= horizon_hours
+    | summarize impact_share_lost = sum(impact_share),
+                earliest_impact = min(expected_impact_time),
+                sources_down = dcount(source_node_id),
+                any_target_name = any(target_name),
+                any_target_type = any(target_type),
+                any_target_system = any(target_system),
+                any_criticality = any(criticality_class),
+                any_population = any(target_population)
+      by target_node_id
+    | where impact_share_lost >= 0.5
+    | order by earliest_impact asc
+}
+
+// Stan zagrozenia powodziowego per wojewodztwo (zdarzenie inicjujace)
+.create-or-alter function FloodPressure() {
+    HydroReading
+    | summarize arg_max(event_time, water_level_cm, alarm_level_cm, state) by gauge_id, voivodeship_code
+    | summarize gauges = count(),
+                gauges_alarm = countif(state == "alarm"),
+                gauges_warning = countif(state == "ostrzegawczy"),
+                max_exceedance_cm = max(water_level_cm - alarm_level_cm)
+      by voivodeship_code
+    | extend alarm_pct = round(100.0 * gauges_alarm / gauges, 1)
+    | order by gauges_alarm desc
+}
