@@ -193,3 +193,14 @@
   {"column":"alarm_level_cm","Properties":{"Path":"$.alarm_level_cm"}},
   {"column":"state","Properties":{"Path":"$.state"}}
 ]```
+
+// Mapowania buforow surowych: caly dokument JSON trafia do kolumny payload,
+// a update policy rozpakowuje go do tabeli docelowej. Tego uzywa Eventstream.
+.create-or-alter table CiNodeStatusRaw ingestion json mapping "CiNodeStatusRawMapping"
+```[{"column":"payload","Properties":{"Path":"$"}}]```
+
+.create-or-alter table CiOperatorReportRaw ingestion json mapping "CiOperatorReportRawMapping"
+```[{"column":"payload","Properties":{"Path":"$"}}]```
+
+.create-or-alter table HydroReadingRaw ingestion json mapping "HydroReadingRawMapping"
+```[{"column":"payload","Properties":{"Path":"$"}}]```

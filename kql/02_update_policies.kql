@@ -51,6 +51,25 @@
 .alter table CiOperatorReport policy update
 ```[{"IsEnabled": true, "Source": "CiOperatorReportRaw", "Query": "ParseCiOperatorReport()", "IsTransactional": true}]```
 
+.create-or-alter function ParseHydroReading() {
+    HydroReadingRaw
+    | extend
+        event_time = todatetime(payload.event_time),
+        gauge_id = tostring(payload.gauge_id),
+        voivodeship_code = tostring(payload.voivodeship_code),
+        powiat_code = tostring(payload.powiat_code),
+        gmina_code = tostring(payload.gmina_code),
+        water_level_cm = toreal(payload.water_level_cm),
+        warning_level_cm = toint(payload.warning_level_cm),
+        alarm_level_cm = toint(payload.alarm_level_cm),
+        state = tostring(payload.state)
+    | project event_time, gauge_id, voivodeship_code, powiat_code, gmina_code,
+              water_level_cm, warning_level_cm, alarm_level_cm, state
+}
+
+.alter table HydroReading policy update
+```[{"IsEnabled": true, "Source": "HydroReadingRaw", "Query": "ParseHydroReading()", "IsTransactional": true}]```
+
 // ---------------------------------------------------------------------
 // Aktualny stan kazdego wezla IK — podstawa wszystkich kafli operacyjnych
 // ---------------------------------------------------------------------

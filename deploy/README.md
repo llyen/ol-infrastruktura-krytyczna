@@ -38,6 +38,8 @@ python deploy\08_verify_kql.py           # 16 zapytań Real-Time (kafle + detekc
 python deploy\09_realtime_dashboard.py   # Real-Time Dashboard (2 strony, 11 kafli, 3 parametry)
 python deploy\10_report.py               # raport Power BI PBIR (6 stron, 72 wizualizacje)
 python deploy\11_verify_report.py        # kontrola odwolań raportu do modelu (77 pól)
+python deploy\12_eventstream.py          # Eventstream: endpoint -> 3 filtry -> 3 tabele KQL
+python deploy\13_verify_eventstream.py   # test dymny: 15 zdarzeń przez filtry do tabel
 ```
 
 Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie telemetrii ok. 3 minuty.
@@ -57,6 +59,8 @@ Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie te
 | `09_realtime_dashboard.py` | Buduje Real-Time Dashboard z pliku `kql\03_dashboard_queries.kql` (nagłówek `// --- KAFEL n:` wyznacza kafel). Przed wdrożeniem sprawdza unikalność UUID, referencje zapytań i to, czy kolumny wskazane w wizualizacjach istnieją w wyniku zapytania. |
 | `10_report.py` | Generuje raport Power BI w formacie PBIR wprost z JSON-a (bez Power BI Desktop) wg `report\REPORT_SPEC.md` i wdraża go przez REST API. Przed wysyłką sprawdza nazwy wizualizacji, położenie na kanwie 1280×720 oraz każde odwołanie do tabeli, kolumny i miary. `--dry-run` = sama walidacja, `--save DIR` = zapis definicji na dysk, `--no-theme` = bez ciemnego motywu. |
 | `11_verify_report.py` | Pobiera definicję raportu z Fabric, wyciąga wszystkie odwołania do modelu i sprawdza zapytaniem DAX, że każde z nich się rozwiązuje. |
+| `12_eventstream.py` | Tworzy Eventstream `es_ci_telemetry`: custom endpoint → strumień → trzy filtry po polu `stream` → trzy destynacje Eventhouse. `--keys` wypisuje connection string dla `simulate_realtime.py`, `--dry-run` drukuje topologię. |
+| `13_verify_eventstream.py` | Test dymny całej ścieżki: czeka na stan `Running`, wysyła po 5 zdarzeń z każdego strumienia, sprawdza, że trafiły do właściwej tabeli (i tylko do niej), po czym je usuwa. `--keep` zostawia dane. |
 
 ## Zegar scenariusza
 
@@ -74,11 +78,38 @@ Kafle dashboardu używają `CiNodeAt(_endTime)`, dzięki czemu suwak czasu przew
 ## Elementy wymagające konfiguracji ręcznej
 
 Fabric nie udostępnia jeszcze stabilnego API dla poniższych elementów — instrukcje w
-[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 4 i 8–10:
+[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 8–10:
 
-- Eventstream `es_ci_telemetry` (w wdrożeniu skryptowym telemetria ładowana jest wsadowo)
 - Data Activator (7 reguł, `activator\RULES.md`)
 - Data Agent i Fabric App
+
+## Format definicji Eventstreamu
+
+Definicja składa się z trzech części: `eventstream.json` (`sources`, `streams`,
+`operators`, `destinations`, `compatibilityLevel: "1.1"`), `eventstreamProperties.json`
+(retencja, przepustowość) i `.platform`. Pułapki, które kosztowały najwięcej czasu:
+
+- **Nazwy węzłów: tylko litery, cyfry i `_`**, powyżej 3 i do 64 znaków. Myślniki są odrzucane.
+- **`dataType` w warunku filtra to indeks enuma, nie nazwa.** Nazwy (`String`, `Nvarchar`, …)
+  są odrzucane. `0` = `BigInt`, `1` = `Float`, **`2` = `Nvarchar(max)`**, `3` = `DateTime`.
+  Ustawienie `0` dla kolumny tekstowej nie powoduje żadnego błędu — filtr po prostu
+  nigdy nie dopasowuje i wszystkie zdarzenia znikają.
+- **`itemId` destynacji Eventhouse to ID bazy KQL**, nie ID Eventhouse'u (inaczej
+  „Unable to extract cluster URL…").
+- **`dataIngestionMode: "ProcessedIngestion"` mapuje pola JSON na kolumny po nazwach.**
+  Skierowanie na tabelę `*Raw` z jedną kolumną `payload: dynamic` przełącza destynację
+  w stan `Warning` i gubi zdarzenia bez śladu w błędach ingestii. Dlatego destynacje
+  wskazują tabele typowane (`CiNodeStatus`, `CiOperatorReport`, `HydroReading`);
+  nadmiarowe pole `stream` jest po prostu ignorowane.
+- Po `updateDefinition` węzły przechodzą przez stan `Creating`/`Updating` (60–80 s).
+  **Zdarzenia wysłane w tym czasie przepadają**, a kolejny `updateDefinition` zostaje
+  odrzucony — dlatego skrypt najpierw czeka na stabilizację (`wait_stable`).
+- Od wysyłki do widoczności w tabeli docelowej mija ok. 40 s.
+- Endpoint pobiera się z `GET .../eventstreams/{id}/sources/{srcId}/connection`; odpowiedź
+  jest płaska: `fullyQualifiedNamespace`, `eventHubName`, `accessKeys.primaryConnectionString`.
+
+Rozgałęzienie opiera się na polu `stream` doklejanym do każdego zdarzenia przez
+`simulate_realtime.py` — to jedyny dyskryminator, po którym filtry rozdzielają ruch.
 
 ## Format definicji Real-Time Dashboard
 

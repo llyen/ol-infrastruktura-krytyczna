@@ -21,6 +21,7 @@ Referencyjne wdrożenie tego repozytorium:
 | Model semantyczny | `sm_ci_cascade` (DirectLake, 19 tabel, 41 miar) |
 | Real-Time Dashboard | `Efekt domina — obraz operacyjny` (2 strony, 11 kafli) |
 | Raport Power BI | `rpt_efekt_domina` (6 stron, 72 wizualizacje) |
+| Eventstream | `es_ci_telemetry` (endpoint → 3 filtry → 3 tabele KQL) |
 
 Identyfikatory zapisane są w `.fabric\deployment.json` po pierwszym uruchomieniu skryptów.
 
@@ -74,7 +75,7 @@ i 659 178 zdarzeń telemetrii.
 | Plik | Co tworzy |
 |---|---|
 | `kql\01_create_tables.kql` | tabele `CiNodeStatus`, `CiOperatorReport`, `HydroReading` (+ bufory `*Raw`), tabele referencyjne `CiNode`, `CiDependency`, `CascadeCentrality`, mapowania JSON, retencja 90 dni |
-| `kql\02_update_policies.kql` | funkcje `ParseCiNodeStatus` / `ParseCiOperatorReport`, update policies, widoki materializowane `CiNodeCurrent` i `CiOutageHourly`, zegar scenariusza (`ScenarioNow`, `ScenarioPeak`, `CiNodeAt`), funkcje `FuelRunout`, `CriticalNodesDown`, `CascadeForecast`, `FloodPressure` |
+| `kql\02_update_policies.kql` | funkcje `ParseCiNodeStatus` / `ParseCiOperatorReport` / `ParseHydroReading`, update policies, widoki materializowane `CiNodeCurrent` i `CiOutageHourly`, zegar scenariusza (`ScenarioNow`, `ScenarioPeak`, `CiNodeAt`), funkcje `FuelRunout`, `CriticalNodesDown`, `CascadeForecast`, `FloodPressure` |
 | `kql\03_dashboard_queries.kql` | zapytania kafli Real-Time Dashboard |
 | `kql\04_cascade_detection.kql` | detekcja kaskady, korelacja czasowa między systemami, wejścia dla Activatora |
 
@@ -88,19 +89,30 @@ Kontrola: `CiNodeCurrent | count` po pierwszych danych; `CiNode | count` → 210
 
 ## Krok 4 — Eventstream
 
-1. Utwórz Eventstream **`es_ci_telemetry`**.
-2. Źródło: **Custom endpoint / Event Hub**. Skopiuj connection string.
-3. Trzy destynacje do bazy `CriticalInfrastructure`:
+Krok jest zautomatyzowany:
 
-| Strumień | Tabela docelowa | Mapowanie |
+```powershell
+python deploy\12_eventstream.py          # topologia
+python deploy\13_verify_eventstream.py   # test dymny end-to-end
+```
+
+Powstaje Eventstream **`es_ci_telemetry`**: custom endpoint → strumień
+`stream_ci_telemetry` → trzy filtry po polu `stream` → trzy destynacje Eventhouse
+w bazie `CriticalInfrastructure`:
+
+| Wartość pola `stream` | Filtr | Tabela docelowa |
 |---|---|---|
-| `ci_node_status` | `CiNodeStatusRaw` | `CiNodeStatusMapping` |
-| `ci_operator_reports` | `CiOperatorReportRaw` | `CiOperatorReportMapping` |
-| `hydro_readings` | `HydroReadingRaw` | `HydroReadingMapping` |
+| `ci_node_status` | `filter_node_status` | `CiNodeStatus` |
+| `ci_operator_reports` | `filter_operator_reports` | `CiOperatorReport` |
+| `hydro_readings` | `filter_hydro_readings` | `HydroReading` |
 
-Update policy przenosi dane z tabel `*Raw` do tabel docelowych automatycznie.
+Destynacje pracują w trybie `ProcessedIngestion`, który mapuje pola JSON na kolumny
+po nazwach, więc kierują wprost do tabel typowanych — tabele `*Raw` i update policy
+zostają jako ścieżka zapasowa dla ingestu wsadowego.
 
-4. Uruchom symulator:
+Connection string dla symulatora: `python deploy\12_eventstream.py --keys`.
+
+Uruchom symulator:
 
 ```powershell
 $env:EVENTHUB_CONNECTION_STR = "<connection string>"

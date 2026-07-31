@@ -39,6 +39,9 @@ def iter_events(streams, start=None, end=None):
                     continue
                 if end and ts > end:
                     continue
+                # dyskryminator strumienia: Eventstream rozgalezia po nim ruch
+                # na trzy tabele docelowe (patrz deploy/12_eventstream.py)
+                event["stream"] = stream
                 event["_stream"] = stream
                 event["_event_ts"] = ts
                 yield event
