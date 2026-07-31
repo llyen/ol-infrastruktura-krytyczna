@@ -36,6 +36,8 @@ python deploy\06_semantic_model.py       # model semantyczny DirectLake + odświ
 python deploy\07_verify_model.py         # 13 kontroli DAX wobec wartości referencyjnych
 python deploy\08_verify_kql.py           # 16 zapytań Real-Time (kafle + detekcja kaskad)
 python deploy\09_realtime_dashboard.py   # Real-Time Dashboard (2 strony, 11 kafli, 3 parametry)
+python deploy\10_report.py               # raport Power BI PBIR (6 stron, 72 wizualizacje)
+python deploy\11_verify_report.py        # kontrola odwolań raportu do modelu (77 pól)
 ```
 
 Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie telemetrii ok. 3 minuty.
@@ -53,6 +55,8 @@ Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie te
 | `07_verify_model.py` | Wykonuje zapytania DAX przez `executeQueries` i porównuje wyniki z wartościami referencyjnymi z `datasets\derived\*.json`. |
 | `08_verify_kql.py` | Test dymny warstwy Real-Time: podstawia parametry dashboardu i wywołuje wszystkie funkcje detekcji kaskad. |
 | `09_realtime_dashboard.py` | Buduje Real-Time Dashboard z pliku `kql\03_dashboard_queries.kql` (nagłówek `// --- KAFEL n:` wyznacza kafel). Przed wdrożeniem sprawdza unikalność UUID, referencje zapytań i to, czy kolumny wskazane w wizualizacjach istnieją w wyniku zapytania. |
+| `10_report.py` | Generuje raport Power BI w formacie PBIR wprost z JSON-a (bez Power BI Desktop) wg `report\REPORT_SPEC.md` i wdraża go przez REST API. Przed wysyłką sprawdza nazwy wizualizacji, położenie na kanwie 1280×720 oraz każde odwołanie do tabeli, kolumny i miary. `--dry-run` = sama walidacja, `--save DIR` = zapis definicji na dysk, `--no-theme` = bez ciemnego motywu. |
+| `11_verify_report.py` | Pobiera definicję raportu z Fabric, wyciąga wszystkie odwołania do modelu i sprawdza zapytaniem DAX, że każde z nich się rozwiązuje. |
 
 ## Zegar scenariusza
 
@@ -73,7 +77,6 @@ Fabric nie udostępnia jeszcze stabilnego API dla poniższych elementów — ins
 [`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 4 i 8–10:
 
 - Eventstream `es_ci_telemetry` (w wdrożeniu skryptowym telemetria ładowana jest wsadowo)
-- Raport Power BI (6 stron, `report\REPORT_SPEC.md`)
 - Data Activator (7 reguł, `activator\RULES.md`)
 - Data Agent i Fabric App
 
@@ -93,6 +96,46 @@ które kosztowały najwięcej czasu:
 - Źródło danych Fabric to `kind: "kusto-trident"`, `scopeId: "kusto-trident"` plus pole `workspace`.
 - Fabric **nie waliduje definicji przy zapisie** — błąd ujawnia się dopiero, gdy ktoś otworzy
   dashboard. Dlatego skrypt sam sprawdza referencje i istnienie kolumn przed wysłaniem.
+
+## Format definicji raportu Power BI (PBIR)
+
+Skrypt `10` generuje raport w formacie **PBIR** — po jednym pliku JSON na wizualizację. Struktura
+części wysyłanych do API:
+
+```text
+definition.pbir                                    # wiązanie z modelem semantycznym
+definition/version.json
+definition/report.json                             # motyw, ustawienia raportu
+definition/pages/pages.json                        # kolejność stron
+definition/pages/{strona}/page.json
+definition/pages/{strona}/visuals/{wizual}/visual.json
+StaticResources/RegisteredResources/OL-ZK-Dark.json  # motyw niestandardowy
+.platform
+```
+
+Pułapki, które kosztowały trzy nieudane importy:
+
+- `definition/version.json` — pole `version` musi pasować do wzorca `^[1-9][0-9]*\.(0|[1-9][0-9]*)\.0$`,
+  czyli np. `2.0.0`. Wartość `1.0` jest odrzucana.
+- `themeCollection.customTheme` wymaga pola `reportVersionAtImport` — bez niego import się nie powiedzie.
+- Wiązanie z istniejącym modelem: `datasetReference.byConnection` z `pbiModelDatabaseName` ustawionym
+  na **identyfikator obiektu** modelu semantycznego (nie nazwę), `pbiModelVirtualServerName =
+  "sobe_wowvirtualserver"`, `connectionType = "pbiServiceXmlaStyleLive"`.
+- Nazwy stron i wizualizacji: `[A-Za-z0-9_-]`, do 50 znaków; nie muszą być GUID-ami, ale muszą być
+  unikalne w obrębie strony.
+- Nazwy typów wizualizacji odbiegają od nazw z interfejsu: tabela to `tableEx`, macierz to
+  `pivotTable`, mapa to `azureMap`, drzewo dekompozycji to `decompositionTreeVisual`.
+- Odwołanie do miary i do kolumny mają różny kształt (`Measure` vs `Column`), a kolumna użyta jako
+  wartość liczbowa musi być opakowana w `Aggregation` z polem `Function`
+  (`0` = suma, `1` = średnia, `2` = zliczanie unikalnych, `3` = minimum, `4` = maksimum, `5` = zliczanie).
+- Nazwy ról w `queryState` zależą od typu wizualizacji: `Values` (karta, tabela, fragmentator),
+  `Category`/`Series`/`Y` (wykresy), `Rows`/`Columns`/`Values` (macierz), `Analyze`/`ExplainBy`
+  (drzewo dekompozycji), `Latitude`/`Longitude`/`Size` (mapa).
+- Tekst statyczny to `visualType: "textbox"` z nietypową strukturą
+  `objects.general[0].properties.paragraphs[].textRuns[]`.
+- Fabric **waliduje strukturę** PBIR przy zapisie (`Report_Import_FailedToImportReport` z dokładnym
+  komunikatem), ale **nie sprawdza, czy pole istnieje w modelu**. Dlatego `10` waliduje odwołania
+  lokalnie przed wysyłką, a `11` weryfikuje je zapytaniem DAX po wdrożeniu.
 
 ## Ponowne uruchomienie
 

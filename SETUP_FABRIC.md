@@ -4,10 +4,11 @@ Instrukcja krok po kroku. Cały przebieg zajmuje ok. 90 minut, z czego większo�
 przetworzenie notatników. Wymagana pojemność Fabric F2 lub wyższa (F4+ zalecane ze względu na
 symulację 2106 przebiegów w notatniku 03).
 
-> **Szybka ścieżka.** Kroki 0–6 są w całości zautomatyzowane skryptami w katalogu `deploy\`.
-> Jeśli nie chcesz klikać w portalu, przejdź od razu do [`deploy/README.md`](deploy/README.md)
-> i wróć tutaj do kroków 7–10 (Real-Time Dashboard, Data Activator, Data Agent, Fabric App),
-> których Fabric nie udostępnia jeszcze przez publiczne API.
+> **Szybka ścieżka.** Kroki 0–6 są w całości zautomatyzowane skryptami w katalogu `deploy\`,
+> podobnie jak Real-Time Dashboard i raport Power BI. Jeśli nie chcesz klikać w portalu,
+> przejdź od razu do [`deploy/README.md`](deploy/README.md) i wróć tutaj do kroków 8–10
+> (Data Activator, Data Agent, Fabric App), których Fabric nie udostępnia jeszcze
+> przez publiczne API.
 
 Referencyjne wdrożenie tego repozytorium:
 
@@ -18,6 +19,8 @@ Referencyjne wdrożenie tego repozytorium:
 | Lakehouse | `lh_ci_graph` (30 tabel Delta) |
 | Eventhouse / baza KQL | `eh_ci_realtime` / `CriticalInfrastructure` |
 | Model semantyczny | `sm_ci_cascade` (DirectLake, 19 tabel, 41 miar) |
+| Real-Time Dashboard | `Efekt domina — obraz operacyjny` (2 strony, 11 kafli) |
+| Raport Power BI | `rpt_efekt_domina` (6 stron, 72 wizualizacje) |
 
 Identyfikatory zapisane są w `.fabric\deployment.json` po pierwszym uruchomieniu skryptów.
 
@@ -150,7 +153,10 @@ Zaplanuj notatniki 01 i 03 na cykl dobowy, 02 i 04 uruchamiaj na żądanie.
    aktywnej po `source_node_id` i **nieaktywnej** po `target_node_id`.
 3. Dodaj miary DAX z `semantic-model\MEASURES.md`.
 4. Zbuduj raport wg `report\REPORT_SPEC.md` — 6 stron:
-   Przegląd • Kaskada powodziowa • Symulacja awarii • Punkty krytyczne • Warianty wzmocnienia • Governance SPO-10.
+   Mapa zależności • Wyłącz ten węzeł • Pojedyncze punkty awarii • Powódź wrzesień • Co warto wzmocnić • Gotowość SPO-10.
+   Skrypt `deploy\10_report.py` generuje ten raport automatycznie w formacie PBIR i wdraża go
+   przez REST API — ręczne budowanie w Power BI Desktop jest potrzebne tylko wtedy, gdy chcesz
+   zmienić układ poza tym, co opisuje `TILE`/`PAGE_BUILDERS` w skrypcie.
 5. Kafle stanu bieżącego podepnij w trybie DirectQuery do bazy KQL, resztę zostaw w imporcie.
 
 ---

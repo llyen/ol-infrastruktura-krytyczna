@@ -54,7 +54,7 @@ Pokaż kolejno:
 
 ## Część 2 — Wow moment: jedno kliknięcie (5 min)
 
-**Raport Power BI, strona „Symulacja awarii".** Wybierz obiekt
+**Raport Power BI, strona „2. Wyłącz ten węzeł".** Wybierz obiekt
 **stacja NN 400/220 kV, województwo dolnośląskie** (`IK-01-00026`).
 
 Zanim klikniesz — zapytaj salę:
