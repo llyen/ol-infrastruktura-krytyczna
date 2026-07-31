@@ -5,8 +5,10 @@ Kazde zapytanie wykonywane jest realnie na Eventhouse. Kafle z pliku
 (_startTime, _endTime, _voivodeship, _system), a funkcje z `kql/04` sa
 wywolywane z domyslnymi argumentami.
 
-Zegar scenariusza: dane demo sa datowane na wrzesien 2026, wiec kotwica czasu
-to `ScenarioPeak()` — godzina szczytu kryzysu — a nie `now()`.
+Zegar scenariusza: dane demo sa datowane na wrzesien 2026, wiec `now()`
+niczego by nie zwrocil. Test celowo podstawia domyslne okno dashboardu
+(ostatnia godzina), zeby sprawdzic, ze funkcje WindowStart / WindowEnd
+przelaczaja kafle na szczyt kryzysu zamiast pokazywac pustke.
 """
 from __future__ import annotations
 
@@ -24,8 +26,8 @@ CLUSTER = STATE["kustoQueryUri"]
 DB = "CriticalInfrastructure"
 
 # Parametry dashboardu podstawiane przed kazdym kaflem z pliku 03.
-DASHBOARD_PARAMS = """let _endTime = toscalar(ScenarioPeak());
-let _startTime = _endTime - 3d;
+DASHBOARD_PARAMS = """let _endTime = now();
+let _startTime = now() - 1h;
 let _voivodeship = dynamic([]);
 let _system = dynamic([]);
 """

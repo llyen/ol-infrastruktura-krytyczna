@@ -104,6 +104,8 @@ def main() -> None:
     print("== Tabele referencyjne")
     for table, remote in [
         ("CiNode", "raw/dimensions/dim_ci_node.csv"),
+        ("CiSystem", "raw/dimensions/dim_ci_system.csv"),
+        ("CiVoivodeship", "raw/dimensions/dim_voivodeship.csv"),
         ("CiDependency", "raw/dimensions/fact_ci_dependency.csv"),
         ("CascadeCentrality", "raw/derived/cascade_centrality.csv"),
     ]:
@@ -120,7 +122,7 @@ def main() -> None:
         ingest(table, remote, "multijson", mapping)
 
     print("== Kontrola liczebnosci")
-    for t in ("CiNode", "CiDependency", "CascadeCentrality",
+    for t in ("CiNode", "CiSystem", "CiVoivodeship", "CiDependency", "CascadeCentrality",
               "CiNodeStatus", "CiOperatorReport", "HydroReading"):
         n = kusto_query(f"{t} | count")[0][0]
         print(f"   {t:<20} {n:>9}")

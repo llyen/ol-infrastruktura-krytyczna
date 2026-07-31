@@ -93,6 +93,24 @@
     last_exercise_date: datetime
 )
 
+// Slownik 11 systemow infrastruktury krytycznej wg ustawy o zarzadzaniu kryzysowym
+.create-merge table CiSystem (
+    system_code: string,
+    system_name: string,
+    responsible_department: string,
+    system_group: string,
+    spo_reference: string
+)
+
+// Slownik wojewodztw — czytelne nazwy dla filtrow dashboardu
+.create-merge table CiVoivodeship (
+    voivodeship_code: string,
+    voivodeship_name: string,
+    lat: real,
+    lon: real,
+    scenario_axis: string
+)
+
 .create-merge table CiDependency (
     edge_id: string,
     source_node_id: string,

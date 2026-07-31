@@ -137,7 +137,13 @@ def ensure_queryset(db_id: str) -> None:
     ex = next((i for i in items["value"]
                if i["displayName"] == body["displayName"] and i["type"] == "KQLQueryset"), None)
     if ex:
-        print("   queryset istnieje")
+        r = requests.post(f"{API}/workspaces/{WS}/items/{ex['id']}/updateDefinition",
+                          headers=fab_headers(), json={"definition": body["definition"]}, timeout=300)
+        if r.status_code in (200, 202):
+            wait(r)
+            print("   queryset zaktualizowany")
+        else:
+            print(f"   aktualizacja querysetu pominieta (HTTP {r.status_code})")
         return
     r = requests.post(f"{API}/workspaces/{WS}/kqlQerysets", headers=fab_headers(), json=body, timeout=300)
     if r.status_code == 404:

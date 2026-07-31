@@ -91,6 +91,11 @@
     toscalar(CiNodeCurrent | summarize max_event_time = max(event_time))
 }
 
+// Poczatek okna danych — granica dolna scenariusza
+.create-or-alter function ScenarioStart() {
+    toscalar(CiNodeStatus | summarize min_event_time = min(event_time))
+}
+
 // Szczyt kryzysu — domyslna kotwica dla dashboardu demo
 .create-or-alter function ScenarioPeak() {
     toscalar(
@@ -111,6 +116,23 @@
                         population_served, voivodeship_code, powiat_code,
                         gmina_code, system_code)
       by node_id
+}
+
+// ---------------------------------------------------------------------
+// Okno dashboardu. Suwak czasu Real-Time Dashboard domyslnie pokazuje
+// ostatnia godzine, a dane scenariusza leza we wrzesniu 2026 — kafle byly
+// by puste przy pierwszym otwarciu. Jesli wybrany zakres nie pokrywa sie
+// z danymi, kafle przelaczaja sie na szczyt kryzysu; wybor wlasnego okna
+// z danymi jest respektowany.
+// ---------------------------------------------------------------------
+
+.create-or-alter function WindowEnd(from_time: datetime, to_time: datetime) {
+    iff(to_time < ScenarioStart() or from_time > ScenarioNow(), ScenarioPeak() + 6h, to_time)
+}
+
+.create-or-alter function WindowStart(from_time: datetime, to_time: datetime) {
+    iff(to_time < ScenarioStart() or from_time > ScenarioNow(),
+        ScenarioPeak() + 6h - (to_time - from_time), from_time)
 }
 
 // Wezly, ktorym konczy sie paliwo w agregacie — kolejka dowozu paliwa

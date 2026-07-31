@@ -7,5 +7,6 @@
   "kqlDatabaseId": "609cd47b-33f1-4b12-9c56-57c801ef40df",
   "kustoQueryUri": "https://trd-v4rjfp64fhh4r7bu9g.z3.kusto.fabric.microsoft.com",
   "kustoIngestUri": "https://ingest-trd-v4rjfp64fhh4r7bu9g.z3.kusto.fabric.microsoft.com",
-  "semanticModelId": "7666aa21-0659-499b-ab05-d600080b218a"
+  "semanticModelId": "7666aa21-0659-499b-ab05-d600080b218a",
+  "realtimeDashboardId": "aa5e0ad3-3962-4aa1-9fbf-b6165994cae2"
 }

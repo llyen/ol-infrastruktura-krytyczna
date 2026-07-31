@@ -35,6 +35,7 @@ python deploy\05_load_eventhouse.py      # telemetria (186 MB) -> Eventhouse
 python deploy\06_semantic_model.py       # model semantyczny DirectLake + odświeżenie
 python deploy\07_verify_model.py         # 13 kontroli DAX wobec wartości referencyjnych
 python deploy\08_verify_kql.py           # 16 zapytań Real-Time (kafle + detekcja kaskad)
+python deploy\09_realtime_dashboard.py   # Real-Time Dashboard (2 strony, 11 kafli, 3 parametry)
 ```
 
 Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie telemetrii ok. 3 minuty.
@@ -51,6 +52,7 @@ Czas całości: ok. 25 minut, z czego notatnik ingestu ok. 6 minut, a wgranie te
 | `06_semantic_model.py` | Generuje TMSL modelu DirectLake (19 tabel, 16 relacji, 41 miar) na podstawie schematów Delta wyeksportowanych przez notatnik ingestu, wdraża go i wymusza `refresh` (bez tego DAX zwraca „Failed to resolve name"). |
 | `07_verify_model.py` | Wykonuje zapytania DAX przez `executeQueries` i porównuje wyniki z wartościami referencyjnymi z `datasets\derived\*.json`. |
 | `08_verify_kql.py` | Test dymny warstwy Real-Time: podstawia parametry dashboardu i wywołuje wszystkie funkcje detekcji kaskad. |
+| `09_realtime_dashboard.py` | Buduje Real-Time Dashboard z pliku `kql\03_dashboard_queries.kql` (nagłówek `// --- KAFEL n:` wyznacza kafel). Przed wdrożeniem sprawdza unikalność UUID, referencje zapytań i to, czy kolumny wskazane w wizualizacjach istnieją w wyniku zapytania. |
 
 ## Zegar scenariusza
 
@@ -68,13 +70,29 @@ Kafle dashboardu używają `CiNodeAt(_endTime)`, dzięki czemu suwak czasu przew
 ## Elementy wymagające konfiguracji ręcznej
 
 Fabric nie udostępnia jeszcze stabilnego API dla poniższych elementów — instrukcje w
-[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 4 i 7–10:
+[`../SETUP_FABRIC.md`](../SETUP_FABRIC.md), kroki 4 i 8–10:
 
 - Eventstream `es_ci_telemetry` (w wdrożeniu skryptowym telemetria ładowana jest wsadowo)
-- Real-Time Dashboard „Efekt domina — obraz operacyjny"
 - Raport Power BI (6 stron, `report\REPORT_SPEC.md`)
 - Data Activator (7 reguł, `activator\RULES.md`)
 - Data Agent i Fabric App
+
+## Format definicji Real-Time Dashboard
+
+Skrypt `09` generuje plik `RealTimeDashboard.json` w wersji `schema_version: "52"`. Kilka pułapek,
+które kosztowały najwięcej czasu:
+
+- Każdy `id` (kafla, zapytania, strony, parametru, źródła danych) musi być **UUID wg RFC 4122** —
+  czytelne identyfikatory z myślnikami są odrzucane przy ładowaniu.
+- Każdy `queryId` może być użyty **dokładnie raz** — łącznie w `tiles`, `baseQueries`
+  i `parameters[].dataSource.queryRef`.
+- Typy wizualizacji to `bar`, `column`, `timechart`, `map`, `multistat`, `table` — nie `barchart`
+  ani `columnchart`.
+- Nazwy kolumn w wizualizacjach mają prefiksy: `map__latitudeColumn`, `map__longitudeColumn`,
+  `multiStat__labelColumn`, `multiStat__valueColumn`.
+- Źródło danych Fabric to `kind: "kusto-trident"`, `scopeId: "kusto-trident"` plus pole `workspace`.
+- Fabric **nie waliduje definicji przy zapisie** — błąd ujawnia się dopiero, gdy ktoś otworzy
+  dashboard. Dlatego skrypt sam sprawdza referencje i istnienie kolumn przed wysłaniem.
 
 ## Ponowne uruchomienie
 
