@@ -248,6 +248,15 @@ gotowego promptu z `fabric-app\RAYFIN_PROMPT.md`.
 Aplikacja obsługuje dwa write-backi: meldunek operatora IK oraz zatwierdzenie pozycji planu
 wzmocnień (z uzasadnieniem i datą — ślad audytowy).
 
+Aplikacja jest już zbudowana i wdrożona — kod w `fabric-app\pulpit-kaskad`, adres i
+identyfikatory w `DEPLOYMENT_STATUS.md`. Ponowne wdrożenie:
+
+```powershell
+.\deploy\ensure_capacity.ps1
+cd fabric-app\pulpit-kaskad
+npx rayfin up -y --workspace-id 8eed174a-6298-4867-929c-bc12e129cff7
+```
+
 ---
 
 ## Lista kontrolna przed demonstracją
